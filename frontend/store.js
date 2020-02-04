@@ -12,6 +12,7 @@ const state = {
 			value: null,
 		},
 	},
+	counters: null,
 	defaultBounds: null,
 }
 
@@ -20,10 +21,14 @@ const getters = {
 	mapFilterCenter: state => state.mapFilters.center,
 	mapFilterBounds: state => state.mapFilters.bounds,
 	mapFilterValue: state => state.mapFilters.filter,
+	counters: state => state.counters,
 	defaultBounds: state => state.defaultBounds,
 }
 
 const mutations = {
+	setCounters(state, counters) {
+		state.counters = counters
+	},
 	setMapDefaultExtremes(state, extremes) {
 		state.defaultBounds = [
 			[extremes.west, extremes.south],

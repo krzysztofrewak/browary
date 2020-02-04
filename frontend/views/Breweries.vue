@@ -1,13 +1,14 @@
 <template>
 	<div>
-		<page-header title="Odwiedzone browary" :subtitle="subtitle"></page-header>
-		<breweries :breweries="Object.values(breweries)"></breweries>
+		<page-header :subtitle="subtitle" title="Odwiedzone browary"></page-header>
+		<breweries :breweries="breweries"></breweries>
 	</div>
 </template>
 
 <script>
 	import Breweries from "../components/Breweries"
 	import PageHeader from "../components/PageHeader"
+	import api from "../callers/Breweries"
 
 	export default {
 		components: { PageHeader, Breweries },
@@ -17,15 +18,16 @@
 			}
 		},
 		computed: {
-			breweriesCount() {
-				return Object.keys(this.breweries).length
-			},
 			subtitle() {
-				return "198 browarów w 19 państwach"
+				if(this.$store.getters.counters) {
+					let breweries = this.$store.getters.counters.breweries
+					let countries = this.$store.getters.counters.countries
+					return this.inflectBrewery(breweries) + " w " + countries + " państwach"
+				}
 			},
 		},
 		mounted() {
-			fetch("/api/breweries.json").then(response => response.json()).then(result => {
+			api.assign(result => {
 				this.breweries = result
 			})
 		},
