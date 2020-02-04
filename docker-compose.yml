@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+
+  builder:
+    image: php:7.4
+    working_dir: /application/backend
+    command: php index.php
+    volumes:
+      - .:/application
+
+  composer:
+    image: composer:1.9.1
+    working_dir: /application
+    command: composer install
+    volumes:
+      - .:/application
