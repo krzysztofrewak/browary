@@ -47,14 +47,14 @@ const mutations = {
 		state.mapFilters.filter.key = null
 		state.mapFilters.filter.value = null
 	},
-	selectCountry(state, country) {
+	setFilter(state, payload) {
 		state.mapFilters.center = null
 		state.mapFilters.bounds = [
-			[country.extremes.west, country.extremes.south],
-			[country.extremes.east, country.extremes.north],
+			[payload.item.extremes.west, payload.item.extremes.south],
+			[payload.item.extremes.east, payload.item.extremes.north],
 		]
-		state.mapFilters.filter.key = "country"
-		state.mapFilters.filter.value = country.slug
+		state.mapFilters.filter.key = payload.type
+		state.mapFilters.filter.value = payload.item.slug
 	},
 }
 

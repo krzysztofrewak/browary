@@ -93,7 +93,7 @@
 		watch: {
 			"$store.getters.mapFilters": {
 				deep: true,
-				handler(filters) {
+				handler() {
 					let bounds = this.$store.getters.mapFilterBounds
 					let center = this.$store.getters.mapFilterCenter
 					let filter = this.$store.getters.mapFilterValue
@@ -112,6 +112,7 @@
 						this.map.fitBounds(bounds, { padding: 64, duration: 0 })
 						return
 					}
+
 					if(center) {
 						this.map.jumpTo({
 							center: center,

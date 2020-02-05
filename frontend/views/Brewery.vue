@@ -4,7 +4,7 @@
 		<hr>
 
 		<p class="my-6 mx-2" v-if="brewery.note">{{ brewery.note }}</p>
-		<p class="my-6 mx-2 text-gray-600"  v-else>Nie zapisano żadnej notatki o tym browarze.</p>
+		<p class="my-6 mx-2 text-gray-600" v-else>Nie zapisano żadnej notatki o tym browarze.</p>
 		<hr>
 
 		<div class="my-10 w-full flex">
@@ -16,7 +16,8 @@
 					<i class="big clock outline icon"></i>
 				</div>
 				<div>
-					{{ brewery.date }},<br>
+					{{ brewery.date }},
+					<br>
 					<router-link :to="{ name: 'trip', params: { slug: brewery.trip.slug } }">
 						{{ brewery.trip.name}}
 					</router-link>
@@ -56,6 +57,7 @@
 
 <script>
 	import PageHeader from "../components/PageHeader"
+	import api from "../resources/Brewery"
 
 	export default {
 		components: {
@@ -73,17 +75,17 @@
 				link += ", "
 				link += this.brewery.location.coordinates[0]
 				return link
-			}
+			},
 		},
 		mounted() {
 			this.initializeView()
 		},
 		methods: {
 			initializeView() {
-				fetch("/api/breweries/" + this.$route.params.slug + ".json").then(response => response.json()).then(result => {
+				api.assign(this.$route.params.slug, result => {
 					this.brewery = result
 					this.$store.commit("selectBrewery", this.brewery)
-				})
+				}, this.$router)
 			},
 		},
 		watch: {

@@ -30,7 +30,7 @@
 			return {
 				ops: {
 					bar: {
-						background: "#2a4365",
+						background: "#a0aec0",
 					},
 					rail: {
 						gutterOfSide: "4px",

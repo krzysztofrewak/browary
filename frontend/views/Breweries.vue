@@ -8,7 +8,7 @@
 <script>
 	import Breweries from "../components/Breweries"
 	import PageHeader from "../components/PageHeader"
-	import api from "../callers/Breweries"
+	import api from "../resources/Breweries"
 
 	export default {
 		components: { PageHeader, Breweries },
@@ -28,7 +28,7 @@
 		},
 		mounted() {
 			api.assign(result => {
-				this.breweries = result
+				this.breweries = Object.values(result)
 			})
 		},
 	}

@@ -20,6 +20,7 @@ final class MonthDetailed implements JsonSerializable
         return [
             "label" => $this->item->getLabel(),
             "slug" => $this->item->getSlug(),
+            "extremes" => [],
             "breweries" => $this->item->getBreweries()->reverse()->values()->all(),
         ];
     }

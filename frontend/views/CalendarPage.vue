@@ -31,6 +31,7 @@
 				fetch(url).then(response => response.json()).then(result => {
 					this.title = result.label
 					this.breweries = result.breweries
+					this.$store.commit("setFilter", { type: "year", item: { slug: this.$route.params.year } })
 				})
 			},
 		},

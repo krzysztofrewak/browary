@@ -21,6 +21,7 @@ use Brewmap\Services\BreweryIndexer;
 use Brewmap\Services\BreweryToCountryAssigner;
 use Brewmap\Services\CalendarBuilder;
 use Brewmap\Services\GeneralDataBuilder;
+use Brewmap\Services\BoundsService;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable("../");
@@ -41,11 +42,10 @@ $breweries = Breweries::buildFromTrips($trips);
 $generalData = GeneralDataBuilder::build($breweries, $countries);
 $calendar = CalendarBuilder::build($breweries);
 
-BreweryToCountryAssigner::assign($breweries);
 BreweryIndexer::index($breweries);
-
-$countryBoundsService = new CountryBoundsService();
-$countryBoundsService->findBounds($countries->getAll());
+BreweryToCountryAssigner::assign($breweries);
+CountryBoundsService::setBounds($countries);
+BoundsService::setBounds($trips->getAll());
 
 File::save($calendar, "calendar.json");
 File::save(new GeoJson($breweries), "map.json");

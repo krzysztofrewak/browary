@@ -31,7 +31,7 @@
 			initializeView() {
 				fetch("/api/countries/" + this.$route.params.slug + ".json").then(response => response.json()).then(result => {
 					this.country = result
-					this.$store.commit("selectCountry", this.country)
+					this.$store.commit("setFilter", { type: "country", item: this.country })
 				})
 			},
 		},

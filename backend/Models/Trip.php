@@ -4,17 +4,19 @@ declare(strict_types=1);
 
 namespace Brewmap\Models;
 
+use Brewmap\Interfaces\Boundable;
 use Brewmap\Interfaces\Sluggable;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JsonSerializable;
 
-final class Trip implements JsonSerializable, Sluggable
+final class Trip implements JsonSerializable, Sluggable, Boundable
 {
     private string $name;
     private string $slug;
     private Collection $breweries;
     private Collection $countries;
+    private ?Extremes $extremes = null;
 
     public function __construct(string $name)
     {
@@ -28,6 +30,12 @@ final class Trip implements JsonSerializable, Sluggable
     {
         $data = json_decode($jsonFile, true);
         return new self($data["name"]);
+    }
+
+    public function setExtremes(Extremes $extremes): Boundable
+    {
+        $this->extremes = $extremes;
+        return $this;
     }
 
     public function getName(): string
@@ -47,6 +55,7 @@ final class Trip implements JsonSerializable, Sluggable
         return $this;
     }
 
+    /** @return Collection|Brewery[] */
     public function getBreweries(): Collection
     {
         return $this->breweries;
@@ -55,6 +64,11 @@ final class Trip implements JsonSerializable, Sluggable
     public function getCountries(): Collection
     {
         return $this->countries;
+    }
+
+    public function getExtremes(): ?Extremes
+    {
+        return $this->extremes;
     }
 
     public function jsonSerialize(): array

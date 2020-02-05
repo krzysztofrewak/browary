@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Brewmap\Models\Mappers;
 
 use Brewmap\Models\Trip;
-use Brewmap\Services\ExtremesBuilder;
 use JsonSerializable;
 
 final class TripDetailed implements JsonSerializable
@@ -22,6 +21,7 @@ final class TripDetailed implements JsonSerializable
         return [
             "name" => $this->trip->getName(),
             "slug" => $this->trip->getSlug(),
+            "extremes" => $this->trip->getExtremes(),
             "breweries" => $this->trip->getBreweries()->reverse(),
             "countries" => $this->trip->getCountries(),
         ];

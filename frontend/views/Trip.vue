@@ -34,6 +34,7 @@
 			initializeView() {
 				fetch("/api/trips/" + this.$route.params.slug + ".json").then(response => response.json()).then(result => {
 					this.trip = result
+					this.$store.commit("setFilter", { type: "trip", item: this.trip })
 				})
 			},
 		},

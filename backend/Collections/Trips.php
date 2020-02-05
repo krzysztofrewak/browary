@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Brewmap\Collections;
 
 use Brewmap\Interfaces\HavingAll;
-use Brewmap\Models\Brewery;
 use Brewmap\Models\Trip;
 use Illuminate\Support\Collection;
 use JsonSerializable;
