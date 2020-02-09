@@ -4,15 +4,18 @@ declare(strict_types=1);
 
 namespace Brewmap\Models\Calendar;
 
+use Brewmap\Interfaces\Boundable;
 use Brewmap\Interfaces\HavingAll;
 use Brewmap\Interfaces\Sluggable;
+use Brewmap\Models\Extremes;
 use Illuminate\Support\Collection;
 use JsonSerializable;
 
-final class Group implements JsonSerializable, Sluggable, HavingAll
+final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
 {
     private string $label;
     private Collection $items;
+    private ?Extremes $extremes;
 
     public function __construct(string $label)
     {
@@ -49,6 +52,22 @@ final class Group implements JsonSerializable, Sluggable, HavingAll
         }
 
         return $max;
+    }
+
+    public function setExtremes(Extremes $extremes): Boundable
+    {
+        $this->extremes = $extremes;
+        return $this;
+    }
+
+    public function getExtremes(): ?Extremes
+    {
+        return $this->extremes;
+    }
+
+    public function getBreweries(): Collection
+    {
+        return $this->getAll()->map(fn(Item $item): Collection => $item->getBreweries()->reverse())->collapse();
     }
 
     public function jsonSerialize(): array

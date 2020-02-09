@@ -12,6 +12,7 @@ use Brewmap\Filesystem\Directory;
 use Brewmap\Filesystem\File;
 use Brewmap\Filesystem\Files;
 use Brewmap\Mapbox\CountryBoundsService;
+use Brewmap\Models\Calendar\Group;
 use Brewmap\Models\Calendar\MonthDetailed;
 use Brewmap\Models\Calendar\YearDetailed;
 use Brewmap\Models\Mappers\BreweryDetailed;
@@ -45,7 +46,10 @@ $calendar = CalendarBuilder::build($breweries);
 BreweryIndexer::index($breweries);
 BreweryToCountryAssigner::assign($breweries);
 CountryBoundsService::setBounds($countries);
+
 BoundsService::setBounds($trips->getAll());
+BoundsService::setBounds($calendar->getAll());
+$calendar->getAll()->each(fn(Group $group) => BoundsService::setBounds($group->getAll()));
 
 File::save($calendar, "calendar.json");
 File::save(new GeoJson($breweries), "map.json");

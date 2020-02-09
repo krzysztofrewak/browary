@@ -109,7 +109,16 @@
 					}
 
 					if(bounds) {
-						this.map.fitBounds(bounds, { padding: 64, duration: 0 })
+						if(bounds[0][0] === bounds[1][0] && bounds[0][1] === bounds[1][1]) {
+							this.map.jumpTo({
+								center: bounds[0],
+								zoom: 12,
+								essential: true,
+							})
+							return
+						}
+
+						this.map.fitBounds(bounds, { padding: 100, duration: 0 })
 						return
 					}
 

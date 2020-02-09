@@ -4,15 +4,18 @@ declare(strict_types=1);
 
 namespace Brewmap\Models\Calendar;
 
+use Brewmap\Interfaces\Boundable;
 use Brewmap\Interfaces\Sluggable;
 use Brewmap\Models\Brewery;
+use Brewmap\Models\Extremes;
 use Illuminate\Support\Collection;
 
-final class Item implements Sluggable
+final class Item implements Sluggable, Boundable
 {
     private string $label;
     private string $slug;
     private Collection $breweries;
+    private ?Extremes $extremes;
 
     public function __construct(string $label, string $slug)
     {
@@ -46,6 +49,17 @@ final class Item implements Sluggable
     public function getLabel(): string
     {
         return $this->label;
+    }
+
+    public function setExtremes(Extremes $extremes): Boundable
+    {
+        $this->extremes = $extremes;
+        return $this;
+    }
+
+    public function getExtremes(): ?Extremes
+    {
+        return $this->extremes;
     }
 
     public function jsonSerialize(): array

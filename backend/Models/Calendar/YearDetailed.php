@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Brewmap\Models\Calendar;
 
-use Illuminate\Support\Collection;
 use JsonSerializable;
 
 final class YearDetailed implements JsonSerializable
@@ -20,9 +19,9 @@ final class YearDetailed implements JsonSerializable
     {
         return [
             "label" => $this->group->getSlug(),
-            "breweries" => $this->group->getAll()
-                ->map(fn(Item $item): Collection => $item->getBreweries()->reverse())
-                ->collapse(),
+            "slug" => $this->group->getSlug(),
+            "extremes" => $this->group->getExtremes(),
+            "breweries" => $this->group->getBreweries(),
         ];
     }
 }
