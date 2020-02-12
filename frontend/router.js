@@ -16,7 +16,9 @@ const routes = [
 	{ path: "/wycieczki", name: "trips", component: () => import("./views/Trips.vue") },
 	{ path: "/wycieczki/:slug", name: "trip", component: () => import("./views/Trip.vue") },
 	{ path: "/statystyki", name: "statistics", component: () => import("./views/Statistics.vue"), meta: { resetMap: true } },
-	{ path: "/404", name: "404", component: () => import("./views/404.vue"), meta: { resetMap: true } },
+
+	{ path: "/404", name: "404", redirect: { name: "none" } },
+	{ path: "/*", name: "none", component: () => import("./views/404.vue"), meta: { resetMap: true } },
 ]
 
 const router = new VueRouter({

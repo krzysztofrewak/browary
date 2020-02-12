@@ -35,6 +35,6 @@ final class Trips implements JsonSerializable, HavingAll
 
     public function jsonSerialize(): array
     {
-        return $this->trips->toArray();
+        return $this->trips->filter(fn(Trip $trip): bool => $trip->getBreweries()->count() > 1)->toArray();
     }
 }

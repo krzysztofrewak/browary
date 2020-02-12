@@ -2,7 +2,7 @@ import Resource from "./Resource"
 
 class Breweries extends Resource {
 	static assign(resource) {
-		this.fetchFrom("/api/breweries.json", result => {
+		return this.fetchFrom("/api/breweries.json", result => {
 			resource(result)
 		})
 	}
