@@ -2,7 +2,7 @@
 	<div>
 		<div class="mb-8">
 			<h1 class="text-2xl text-blue-900 font-semibold leading-none">Wycieczki</h1>
-			<h2 class="text-gray-600">Wszystkie wycieczki, chronologicznie</h2>
+			<h2 class="text-gray-600">Wszystkie wycieczki z więcej niż jednym browarem, chronologicznie</h2>
 		</div>
 
 		<div class="text-sm">

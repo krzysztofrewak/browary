@@ -17,7 +17,7 @@
 			<router-link class="block lg:inline-block ml-4" :to="{ name: 'trips' }">wycieczki</router-link>
 			<router-link class="block lg:inline-block ml-4" :to="{ name: 'countries' }">państwa</router-link>
 			<a class="block lg:inline-block ml-4" href="#">miasta</a>
-			<a class="block lg:inline-block ml-4" href="#">notatki</a>
+			<router-link class="block lg:inline-block ml-4" :to="{ name: 'notes' }">notatki</router-link>
 			<router-link class="block lg:inline-block ml-4" :to="{ name: 'statistics' }">statystyki</router-link>
 		</div>
 	</nav>

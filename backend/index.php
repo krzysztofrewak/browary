@@ -6,6 +6,7 @@ require "../vendor/autoload.php";
 
 use Brewmap\Collections\Builders\Breweries;
 use Brewmap\Collections\Builders\Countries;
+use Brewmap\Collections\Builders\Notes;
 use Brewmap\Collections\Builders\Trips;
 use Brewmap\Collections\GeoJson;
 use Brewmap\Filesystem\Directory;
@@ -40,6 +41,8 @@ $tripsData = collect(glob("../resources/trips/*.json"))->map(fn(string $filename
 $countries = Countries::buildFromJson($countriesData);
 $trips = Trips::buildFromFiles($tripsData, $countries);
 $breweries = Breweries::buildFromTrips($trips);
+$notes = Notes::buildFromBreweries($breweries);
+
 $generalData = GeneralDataBuilder::build($breweries, $countries);
 $calendar = CalendarBuilder::build($breweries);
 
@@ -57,6 +60,7 @@ File::save($generalData, "general.json");
 File::save($countries, "countries.json");
 File::save($trips, "trips.json");
 File::save($breweries, "breweries.json");
+File::save($notes, "notes.json");
 
 Files::save($countries, "countries", CountryDetailed::class);
 Files::save($breweries, "breweries", BreweryDetailed::class);

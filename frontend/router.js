@@ -15,6 +15,7 @@ const routes = [
 	{ path: "/panstwa/:slug", name: "country", component: () => import("./views/Country.vue") },
 	{ path: "/wycieczki", name: "trips", component: () => import("./views/Trips.vue") },
 	{ path: "/wycieczki/:slug", name: "trip", component: () => import("./views/Trip.vue") },
+	{ path: "/notatki", name: "notes", component: () => import("./views/Notes.vue"), meta: { resetMap: true } },
 	{ path: "/statystyki", name: "statistics", component: () => import("./views/Statistics.vue"), meta: { resetMap: true } },
 
 	{ path: "/404", name: "404", redirect: { name: "none" } },
