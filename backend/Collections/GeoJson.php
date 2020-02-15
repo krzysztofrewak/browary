@@ -40,6 +40,7 @@ final class GeoJson implements JsonSerializable
                 "label" => $brewery->getLabel(),
                 "slug" => $brewery->getSlug(),
                 "country" => $brewery->getCountry()->getSlug(),
+                "symbol" => $brewery->getCountry()->getSymbol(),
                 "year" => $brewery->getDate()->format("Y"),
                 "month" => $brewery->getDate()->format("Y-m"),
                 "trip" => $brewery->getTrip()->getSlug(),
