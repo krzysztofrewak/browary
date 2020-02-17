@@ -1,17 +1,27 @@
 version: "3.7"
 
 services:
+  server:
+    image: nginx:alpine
+    working_dir: /application
+    restart: unless-stopped
+    tty: true
+    volumes:
+      - .:/application
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "8334:80"
 
-  builder:
-    image: php:7.4
-    working_dir: /application/backend
-    command: php index.php
+  gui:
+    image: node:13.8.0
+    working_dir: /application
+    command: npm run build
     volumes:
       - .:/application
 
-  composer:
+  api:
     image: composer:1.9.1
     working_dir: /application
-    command: composer install
+    command: composer build
     volumes:
       - .:/application

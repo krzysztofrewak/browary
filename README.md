@@ -1,5 +1,11 @@
-Install backend dependencies:
-`docker-compose run composer`
+*Brewmap* is a simple way to build an interactive map with visited breweries. It uses custom static API generator written in PHP to deliver a blazing fast backend. 
 
-Build static API endpoints:
-`docker-compose run builder`
+## Usage
+Install frontend dependencies and build application:
+`docker-compose run gui`
+
+Install backend dependencies and rebuild static API endpoints:
+`docker-compose run api`
+
+Serve built frontend:
+`docker-compose up -d server`
