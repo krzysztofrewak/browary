@@ -9,13 +9,7 @@ export default {
 			let center = this.$store.getters.mapFilterCenter
 			let filter = this.$store.getters.mapFilterValue
 
-			if(filter.key && filter.value) {
-				this.map.setFilter("breweries", [
-					"==", filter.key, filter.value,
-				])
-			} else {
-				this.map.setFilter("breweries", null)
-			}
+			this.setFilters(filter)
 
 			if(bounds) {
 				if(areBoundsPoint(bounds)) {
@@ -28,7 +22,21 @@ export default {
 			}
 
 			if(center) {
+				this.setFilters({ key: "slug", value: this.$route.params.slug })
 				this.jumpToPoint(center)
+			}
+		},
+		setFilters(filter) {
+			if(filter && filter.key && filter.value) {
+				this.map.setFilter("breweries", [
+					"==", filter.key, filter.value,
+				])
+				this.map.setFilter("ghosts", [
+					"!=", filter.key, filter.value,
+				])
+			} else {
+				this.map.setFilter("breweries", null)
+				this.map.setFilter("ghosts", ["==", "key", "value"])
 			}
 		},
 		jumpToPoint(point) {
@@ -43,7 +51,9 @@ export default {
 		"$store.getters.mapFilters": {
 			deep: true,
 			handler() {
-				this.adjustMap()
+				if(this.map.isStyleLoaded()) {
+					this.adjustMap()
+				}
 			},
 		},
 	},

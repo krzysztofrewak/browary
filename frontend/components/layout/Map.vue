@@ -1,5 +1,12 @@
 <template>
-	<div class="w-full h-full" id="map"></div>
+	<div class="w-full h-full">
+		<div class="flex justify-center items-center w-full h-full bg-gray-300 text-gray-400" v-if="loading">
+			<div>
+				<i class="huge notched circle loading icon"></i>
+			</div>
+		</div>
+		<div class="w-full h-full" id="map"></div>
+	</div>
 </template>
 
 <script>
@@ -22,6 +29,7 @@
 		},
 		data() {
 			return {
+				loading: true,
 				map: null,
 				filtered: [],
 			}

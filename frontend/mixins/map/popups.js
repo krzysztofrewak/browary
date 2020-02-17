@@ -2,7 +2,7 @@ import mapbox from "mapbox-gl"
 
 export default {
 	methods: {
-		buildPopups() {
+		buildPopups(layer) {
 			let popup = new mapbox.Popup({
 				closeButton: false,
 				closeOnClick: false,
@@ -12,7 +12,7 @@ export default {
 				className: "map-marker-popup text-gray-700",
 			})
 
-			this.map.on("mousemove", "breweries", event => {
+			this.map.on("mousemove", layer, event => {
 				let label = event.features[0].properties.label
 				let flag = "<i class='flat " + event.features[0].properties.symbol + " flag'></i>"
 				let coordinates = event.features[0].geometry.coordinates.slice()
@@ -24,7 +24,7 @@ export default {
 				popup.setLngLat(coordinates).setHTML(flag + " " + label).addTo(this.map)
 			})
 
-			this.map.on("mouseleave", "breweries", () => {
+			this.map.on("mouseleave", layer, () => {
 				popup.remove()
 			})
 		},

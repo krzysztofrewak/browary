@@ -5,6 +5,7 @@ declare(strict_types=1);
 require "../vendor/autoload.php";
 
 use Brewmap\Collections\Builders\Breweries;
+use Brewmap\Collections\Builders\Cities;
 use Brewmap\Collections\Builders\Countries;
 use Brewmap\Collections\Builders\Notes;
 use Brewmap\Collections\Builders\Trips;
@@ -19,11 +20,11 @@ use Brewmap\Models\Calendar\YearDetailed;
 use Brewmap\Models\Mappers\BreweryDetailed;
 use Brewmap\Models\Mappers\CountryDetailed;
 use Brewmap\Models\Mappers\TripDetailed;
+use Brewmap\Services\BoundsService;
 use Brewmap\Services\BreweryIndexer;
 use Brewmap\Services\BreweryToCountryAssigner;
 use Brewmap\Services\CalendarBuilder;
 use Brewmap\Services\GeneralDataBuilder;
-use Brewmap\Services\BoundsService;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable("../");
@@ -41,6 +42,7 @@ $tripsData = collect(glob("../resources/trips/*.json"))->map(fn(string $filename
 $countries = Countries::buildFromJson($countriesData);
 $trips = Trips::buildFromFiles($tripsData, $countries);
 $breweries = Breweries::buildFromTrips($trips);
+$cities = Cities::buildFromBreweries($breweries);
 $notes = Notes::buildFromBreweries($breweries);
 
 $generalData = GeneralDataBuilder::build($breweries, $countries);
@@ -60,6 +62,7 @@ File::save($generalData, "general.json");
 File::save($countries, "countries.json");
 File::save($trips, "trips.json");
 File::save($breweries, "breweries.json");
+File::save($cities, "cities.json");
 File::save($notes, "notes.json");
 
 Files::save($countries, "countries", CountryDetailed::class);
