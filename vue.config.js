@@ -27,4 +27,7 @@ module.exports = {
 	css: {
 		sourceMap: !(process.env.NODE_ENV === "production"),
 	},
+	devServer: {
+		public: "0.0.0.0:8080"
+	}
 }

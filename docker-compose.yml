@@ -12,6 +12,13 @@ services:
     ports:
       - "8334:80"
 
+  api:
+    image: composer:1.9.1
+    working_dir: /application
+    command: composer build
+    volumes:
+      - .:/application
+
   gui:
     image: node:13.8.0
     working_dir: /application
@@ -19,9 +26,11 @@ services:
     volumes:
       - .:/application
 
-  api:
-    image: composer:1.9.1
+  gui-dev:
+    image: node:13.8.0
     working_dir: /application
-    command: composer build
+    command: npm run serve
     volumes:
       - .:/application
+    ports:
+      - "8335:8080"
