@@ -31,6 +31,11 @@ services:
     working_dir: /application
     command: npm run serve
     volumes:
-      - .:/application
+      - .:/application:cached
+      - ~/.composer-docker/cache:/root/.composer/cache:delegated
+    tty: true
+    environment:
+      - HOST=0.0.0.0
+      - CHOKIDAR_USEPOLLING=true
     ports:
-      - "8335:8080"
+      - "8335:8335"

@@ -6,6 +6,10 @@ function resolveSrc(_path) {
 }
 
 module.exports = {
+	devServer: {
+		public: "0.0.0.0:8335",
+		port: "8335",
+	},
 	outputDir: path.resolve(__dirname, "./public"),
 	configureWebpack: {
 		entry: {
@@ -27,7 +31,4 @@ module.exports = {
 	css: {
 		sourceMap: !(process.env.NODE_ENV === "production"),
 	},
-	devServer: {
-		public: "0.0.0.0:8080"
-	}
 }
