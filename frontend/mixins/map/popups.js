@@ -8,11 +8,11 @@ export default {
 				closeOnClick: false,
 				anchor: "left",
 				maxWidth: "none",
-				offset: [12, -16],
+				offset: layer.offset,
 				className: "map-marker-popup text-gray-700",
 			})
 
-			this.map.on("mousemove", layer, event => {
+			this.map.on("mousemove", layer.name, event => {
 				let label = event.features[0].properties.label
 				let flag = "<i class='flat " + event.features[0].properties.symbol + " flag'></i>"
 				let coordinates = event.features[0].geometry.coordinates.slice()
@@ -24,7 +24,7 @@ export default {
 				popup.setLngLat(coordinates).setHTML(flag + " " + label).addTo(this.map)
 			})
 
-			this.map.on("mouseleave", layer, () => {
+			this.map.on("mouseleave", layer.name, () => {
 				popup.remove()
 			})
 		},

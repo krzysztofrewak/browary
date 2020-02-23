@@ -9,3 +9,7 @@ Install backend dependencies and rebuild static API endpoints:
 
 Serve built frontend:
 `docker-compose up -d server`
+
+### Development
+Run frontend in development mode:
+`docker-compose up gui-dev`

@@ -15,21 +15,26 @@ function buildLayer(result, layer, image) {
 	}
 }
 
+var layers = [
+	{ name: "breweries", icon: "marker", offset: [12, -16] },
+	{ name: "ghosts", icon: "ghost", offset: [8, -8] },
+]
+
 export default {
 	methods: {
 		buildMarkers() {
 			this.map.on("load", async() => {
-				await this.map.loadImage(require("@/assets/ghost.png"), (error, image) => {
-					this.map.addImage("ghost", image)
-				})
 				await this.map.loadImage(require("@/assets/marker.png"), (error, image) => {
 					this.map.addImage("marker", image)
 				})
+				await this.map.loadImage(require("@/assets/ghost.png"), (error, image) => {
+					this.map.addImage("ghost", image)
+				})
 
 				await fetch("/api/map.json").then(response => response.json()).then(result => {
-					for(let layer of [{ name: "ghosts", icon: "ghost" }, { name: "breweries", icon: "marker" }]) {
+					for(let layer of layers) {
 						this.map.addLayer(buildLayer(result, layer.name, layer.icon))
-						this.buildPopups(layer.name)
+						this.buildPopups(layer)
 						this.linkMarkers(layer.name)
 					}
 					this.adjustMap()
