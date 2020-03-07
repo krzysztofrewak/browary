@@ -32,7 +32,7 @@ export default {
 					this.map.setFilter("breweries", [
 						"has", "tag_" + filter.value
 					])
-					this.map.setFilter("breweries", [
+					this.map.setFilter("ghosts", [
 						"!has", "tag_" + filter.value
 					])
 				} else {
