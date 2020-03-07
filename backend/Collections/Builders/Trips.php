@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Brewmap\Collections\Builders;
 
 use Brewmap\Collections\Countries;
+use Brewmap\Collections\Tags;
 use Brewmap\Collections\Trips as TripsCollection;
 use Brewmap\Models\Brewery;
 use Brewmap\Models\Coordinates;
@@ -15,11 +16,11 @@ use Illuminate\Support\Collection;
 
 final class Trips
 {
-    public static function buildFromFiles(Collection $tripsData, Countries $countries): TripsCollection
+    public static function buildFromFiles(Collection $tripsData, Countries $countries, Tags $tags): TripsCollection
     {
         $trips = new TripsCollection();
 
-        $tripsData->reverse()->each(function (string $jsonFile) use ($trips, $countries): void {
+        $tripsData->reverse()->each(function (string $jsonFile) use ($trips, $countries, $tags): void {
             $data = json_decode($jsonFile, true);
             $trip = new Trip($data["name"]);
 
@@ -36,7 +37,14 @@ final class Trips
                 $date = Carbon::parse($breweryData["visited"]);
                 $note = $breweryData["note"] ?? "";
 
-                $trip->addBrewery(new Brewery($breweryData["name"], $location, $date, $trip, $note));
+                $brewery = new Brewery($breweryData["name"], $location, $date, $trip, $note);
+
+                foreach ($breweryData["tags"] as $tag) {
+                    $tag = $tags->firstOrCreate($tag);
+                    $brewery->addTag($tag);
+                }
+
+                $trip->addBrewery($brewery);
             }
 
             $trips->addTrip($trip);

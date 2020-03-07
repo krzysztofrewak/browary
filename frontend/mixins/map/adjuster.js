@@ -28,12 +28,21 @@ export default {
 		},
 		setFilters(filter) {
 			if(filter && filter.key && filter.value) {
-				this.map.setFilter("breweries", [
-					"==", filter.key, filter.value,
-				])
-				this.map.setFilter("ghosts", [
-					"!=", filter.key, filter.value,
-				])
+				if(filter.key === "tag") {
+					this.map.setFilter("breweries", [
+						"has", "tag_" + filter.value
+					])
+					this.map.setFilter("breweries", [
+						"!has", "tag_" + filter.value
+					])
+				} else {
+					this.map.setFilter("breweries", [
+						"==", filter.key, filter.value,
+					])
+					this.map.setFilter("ghosts", [
+						"!=", filter.key, filter.value,
+					])
+				}
 			} else {
 				this.map.setFilter("breweries", null)
 				this.map.setFilter("ghosts", ["==", "key", "value"])

@@ -6,6 +6,7 @@ namespace Brewmap\Models;
 
 use Brewmap\Interfaces\Sluggable;
 use Carbon\Carbon;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JsonSerializable;
 
@@ -18,6 +19,8 @@ final class Brewery implements JsonSerializable, Sluggable
     private Carbon $date;
     private Trip $trip;
     private string $note;
+    /** @var Collection|Tag[] */
+    private Collection $tags;
 
     public function __construct(string $name, Location $location, Carbon $date, Trip $trip, string $note = "")
     {
@@ -27,6 +30,7 @@ final class Brewery implements JsonSerializable, Sluggable
         $this->date = $date;
         $this->trip = $trip;
         $this->note = $note;
+        $this->tags = new Collection();
     }
 
     public function getName(): string
@@ -47,6 +51,11 @@ final class Brewery implements JsonSerializable, Sluggable
     public function setId(int $id): void
     {
         $this->id = $id;
+    }
+
+    public function addTag(Tag $tag): void
+    {
+        $this->tags->put($tag->getSlug(), $tag);
     }
 
     public function getCountry(): Country
@@ -97,6 +106,12 @@ final class Brewery implements JsonSerializable, Sluggable
     public function getLocation(): Location
     {
         return $this->location;
+    }
+
+    /** @return Tag[]|Collection */
+    public function getTags(): Collection
+    {
+        return $this->tags->sort(fn(Tag $a, Tag $b): int => $a->getName() <=> $b->getName());
     }
 
     public function jsonSerialize(): array

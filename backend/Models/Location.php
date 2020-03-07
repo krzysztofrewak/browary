@@ -32,6 +32,11 @@ final class Location implements JsonSerializable
         return $this->city;
     }
 
+    public function getAddress(): string
+    {
+        return $this->address;
+    }
+
     public function getCoordinates(): Coordinates
     {
         return $this->coordinates;

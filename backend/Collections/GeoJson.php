@@ -30,7 +30,7 @@ final class GeoJson implements JsonSerializable
 
     private function mapBrewery(Brewery $brewery): array
     {
-        return [
+        $map = [
             "type" => "Feature",
             "geometry" => [
                 "type" => "Point",
@@ -46,5 +46,11 @@ final class GeoJson implements JsonSerializable
                 "trip" => $brewery->getTrip()->getSlug(),
             ],
         ];
+
+        foreach ($brewery->getTags() as $tag) {
+            $map["properties"]["tag_" . $tag->getSlug()] = true;
+        }
+
+        return $map;
     }
 }

@@ -48,8 +48,14 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	.map-marker-popup > div:not(:first-child) {
 		padding: 4px 8px;
+	}
+
+	#map-controls {
+		i {
+			margin: auto;
+		}
 	}
 </style>

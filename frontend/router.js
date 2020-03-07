@@ -6,6 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
 	{ path: "/", name: "home", redirect: { name: "breweries" } },
+	{ path: "/o", name: "about", component: () => import("./views/About.vue"), meta: { resetMap: true } },
 	{ path: "/browary", name: "breweries", component: () => import("./views/Breweries.vue"), meta: { resetMap: true } },
 	{ path: "/browary/:slug", name: "brewery", component: () => import("./views/Brewery.vue") },
 	{ path: "/kalendarz", name: "calendar", component: () => import("./views/Calendar.vue"), meta: { resetMap: true } },
@@ -15,6 +16,8 @@ const routes = [
 	{ path: "/panstwa/:slug", name: "country", component: () => import("./views/Country.vue") },
 	{ path: "/wycieczki", name: "trips", component: () => import("./views/Trips.vue") },
 	{ path: "/wycieczki/:slug", name: "trip", component: () => import("./views/Trip.vue") },
+	{ path: "/tagi", name: "tags", component: () => import("./views/Tags.vue") },
+	{ path: "/tagi/:slug", name: "tag", component: () => import("./views/Tag.vue") },
 	{ path: "/notatki", name: "notes", component: () => import("./views/Notes.vue"), meta: { resetMap: true } },
 	{ path: "/statystyki", name: "statistics", component: () => import("./views/Statistics.vue"), meta: { resetMap: true } },
 

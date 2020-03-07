@@ -2,65 +2,26 @@
 	<div v-if="brewery">
 		<page-header :country="brewery.location.country" :subtitle="brewery.location.city" :title="brewery.name"></page-header>
 		<hr>
-
-		<p class="my-6 mx-2" v-if="brewery.note">{{ brewery.note }}</p>
-		<p class="my-6 mx-2 text-gray-600" v-else>Nie zapisano żadnej notatki o tym browarze.</p>
+		<infobox :brewery="brewery"></infobox>
 		<hr>
-
-		<div class="my-10 w-full flex">
-			<div class="w-full text-center flex-1">
-				<div class="text-gray-600 uppercase text-sm">
-					wizyta
-				</div>
-				<div class="my-3 text-gray-600">
-					<i class="big clock outline icon"></i>
-				</div>
-				<div>
-					{{ brewery.date }},
-					<br>
-					<router-link :to="{ name: 'trip', params: { slug: brewery.trip.slug } }">
-						{{ brewery.trip.name}}
-					</router-link>
-				</div>
-			</div>
-			<div class="w-full text-center flex-1">
-				<div class="text-gray-600 uppercase text-sm">
-					adres
-				</div>
-				<div class="my-3 text-gray-600">
-					<i class="big map signs icon"></i>
-				</div>
-				<div>
-					{{ brewery.location.address }},
-					<br>
-					{{ brewery.location.city }}
-				</div>
-			</div>
-			<div class="w-full text-center flex-1">
-				<div class="text-gray-600 uppercase text-sm">
-					koordynaty
-				</div>
-				<div class="my-3 text-gray-600">
-					<a :href="mapsLink" target="_blank">
-						<i class="big map marker alternate icon"></i>
-					</a>
-				</div>
-				<div>
-					{{ brewery.location.coordinates[1] }},
-					<br>
-					{{ brewery.location.coordinates[0] }}
-				</div>
-			</div>
-		</div>
+		<description :note="brewery.note"></description>
+		<hr>
+		<tags :tags="brewery.tags"></tags>
 	</div>
 </template>
 
 <script>
-	import PageHeader from "../components/PageHeader"
 	import api from "../resources/Brewery"
+	import PageHeader from "../components/PageHeader"
+	import Description from "../components/views/brewery/Description"
+	import Infobox from "../components/views/brewery/Infobox"
+	import Tags from "../components/views/brewery/Tags"
 
 	export default {
 		components: {
+			Tags,
+			Infobox,
+			Description,
 			PageHeader,
 		},
 		data() {
@@ -68,20 +29,11 @@
 				brewery: null,
 			}
 		},
-		computed: {
-			mapsLink() {
-				let link = "https://www.google.com/maps/place/"
-				link += this.brewery.location.coordinates[1]
-				link += ", "
-				link += this.brewery.location.coordinates[0]
-				return link
-			},
-		},
 		mounted() {
-			this.initializeView()
+			this.buildView()
 		},
 		methods: {
-			initializeView() {
+			buildView() {
 				api.assign(this.$route.params.slug, result => {
 					this.brewery = result
 					this.$store.commit("selectBrewery", this.brewery)
@@ -90,7 +42,7 @@
 		},
 		watch: {
 			"$route.params.slug"() {
-				this.initializeView()
+				this.buildView()
 			},
 		},
 	}

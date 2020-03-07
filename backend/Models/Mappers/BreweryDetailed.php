@@ -25,6 +25,7 @@ final class BreweryDetailed implements JsonSerializable
             "location" => $this->brewery->getLocation(),
             "date" => $this->brewery->getFullDate(),
             "trip" => new GeneralTrip($this->brewery->getTrip()),
+            "tags" => $this->brewery->getTags()->toArray(),
         ];
     }
 }

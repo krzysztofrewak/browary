@@ -16,8 +16,8 @@ function buildLayer(result, layer, image) {
 }
 
 var layers = [
-	{ name: "breweries", icon: "marker", offset: [12, -16] },
 	{ name: "ghosts", icon: "ghost", offset: [8, -8] },
+	{ name: "breweries", icon: "marker", offset: [12, -16] },
 ]
 
 export default {
