@@ -5,6 +5,7 @@ Vue.use(Vuex)
 
 const state = {
 	mapFilters: {
+		id: null,
 		center: null,
 		bounds: null,
 		filter: {
@@ -12,6 +13,7 @@ const state = {
 			value: null,
 		},
 	},
+	ghosts: true,
 	counters: null,
 	defaultBounds: null,
 }
@@ -22,6 +24,7 @@ const getters = {
 	mapFilterBounds: state => state.mapFilters.bounds,
 	mapFilterValue: state => state.mapFilters.filter,
 	counters: state => state.counters,
+	ghosts: state => state.ghosts,
 	defaultBounds: state => state.defaultBounds,
 }
 
@@ -36,6 +39,7 @@ const mutations = {
 		]
 	},
 	resetMap(state) {
+		state.mapFilters.id = Math.random()
 		state.mapFilters.center = null
 		state.mapFilters.bounds = state.defaultBounds
 		state.mapFilters.filter.key = null
@@ -55,6 +59,9 @@ const mutations = {
 		]
 		state.mapFilters.filter.key = payload.type
 		state.mapFilters.filter.value = payload.item.slug
+	},
+	toggleGhosts(state) {
+		state.ghosts = !state.ghosts
 	},
 }
 

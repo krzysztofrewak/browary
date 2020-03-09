@@ -36,6 +36,7 @@
 			buildView() {
 				api.assign(this.$route.params.slug, result => {
 					this.brewery = result
+					this.brewery.tags = Object.values(this.brewery.tags)
 					this.$store.commit("selectBrewery", this.brewery)
 				}, this.$router)
 			},

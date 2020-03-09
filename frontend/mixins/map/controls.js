@@ -50,6 +50,7 @@ export default {
 						title: "Przełącz markery",
 						icon: "marker icon",
 						eventHandler: () => {
+							this.$store.commit("toggleGhosts")
 						},
 					},
 				],
