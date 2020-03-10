@@ -3,7 +3,7 @@
 		<navigation></navigation>
 
 		<div class="flex flex-row h-full w-full bg-gray-200 overflow-y-hidden">
-			<div class="w-2/5 bg-gray-200 overflow-x-hidden overflow-y-hidden">
+			<div class="w-0 sm:w-1/2 xl:w-1/3 bg-gray-200 overflow-x-hidden overflow-y-hidden">
 				<scroll :ops="ops">
 					<div class="p-8">
 						<router-view></router-view>
