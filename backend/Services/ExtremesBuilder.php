@@ -20,6 +20,6 @@ final class ExtremesBuilder
             ->map(fn(Coordinates $coordinates): string => (string)$coordinates->getLongitude());
 
         $extremes = new Extremes();
-        return $extremes->set($latitude->first(), $longitude->last(), $latitude->last(), $longitude->first());;
+        return $extremes->set($latitude->first(), $longitude->last(), $latitude->last(), $longitude->first());
     }
 }

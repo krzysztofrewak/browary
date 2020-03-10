@@ -76,6 +76,7 @@ final class Trip implements JsonSerializable, Sluggable, Boundable
         return [
             "name" => $this->name,
             "slug" => $this->slug,
+            "date" => (int)$this->breweries->first()->getDate()->format("Ymd"),
             "breweries" => $this->breweries->count(),
             "countries" => $this->countries->toArray(),
         ];

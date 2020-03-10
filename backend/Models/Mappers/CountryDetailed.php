@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Brewmap\Models\Mappers;
 
 use Brewmap\Models\Country;
-use Brewmap\Services\ExtremesBuilder;
 use JsonSerializable;
 
 final class CountryDetailed implements JsonSerializable

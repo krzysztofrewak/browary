@@ -6,7 +6,7 @@ namespace Brewmap\Services;
 
 final class RomanMonthTranslator
 {
-    private const ROMAN = [
+    public const ROMAN = [
         "I",
         "II",
         "III",
