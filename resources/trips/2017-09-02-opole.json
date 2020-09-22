@@ -1,0 +1,23 @@
+{
+  "name": "Opole, wrzesień 2017",
+  "breweries": [
+    {
+      "name": "Browar Słociak",
+      "visited": "2017-09-02",
+      "location": {
+        "country": "pl",
+        "city": "Opole",
+        "address": "Księżycowa 2A",
+        "coordinates": {
+          "lat": 50.69762,
+          "lng": 17.877319
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

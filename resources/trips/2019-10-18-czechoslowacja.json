@@ -1,0 +1,326 @@
+{
+  "name": "Czechy, Austria i Słowacja, październik 2019",
+  "breweries": [
+    {
+      "name": "Vesnický Pivovar Ohrada",
+      "visited": "2019-10-18",
+      "location": {
+        "country": "cz",
+        "city": "Vísky",
+        "address": "Vísky 100",
+        "coordinates": {
+          "lat": 49.53336,
+          "lng": 16.625266
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Charlie's Square",
+      "visited": "2019-10-18",
+      "location": {
+        "country": "cz",
+        "city": "Brno",
+        "address": "Františkánská 498\/7",
+        "coordinates": {
+          "lat": 49.192723,
+          "lng": 16.611327
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Minipivovar Pegas",
+      "visited": "2019-10-18",
+      "location": {
+        "country": "cz",
+        "city": "Brno",
+        "address": "Jakubská 120\/4",
+        "coordinates": {
+          "lat": 49.196222,
+          "lng": 16.607166
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "U Tomana",
+      "visited": "2019-10-18",
+      "location": {
+        "country": "cz",
+        "city": "Brno",
+        "address": "Svobody 22",
+        "coordinates": {
+          "lat": 49.195189,
+          "lng": 16.607101
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Dürnsteiner Privatbrauerei",
+      "visited": "2019-10-19",
+      "location": {
+        "country": "at",
+        "city": "Bad Deutsch-Altenburg",
+        "address": "Eumigstraße 1",
+        "coordinates": {
+          "lat": 48.123018,
+          "lng": 16.906429
+        }
+      },
+      "tags": [
+        "przybrowarniany sklep",
+        "piwo spróbowane na wynos",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Bratislavský Meštiansky Pivovar (Dunajská)",
+      "visited": "2019-10-19",
+      "location": {
+        "country": "sk",
+        "city": "Bratislava",
+        "address": "Dunajská 21",
+        "coordinates": {
+          "lat": 48.14583,
+          "lng": 17.11786
+        }
+      },
+      "alternativeNames": {
+        "city": "Bratysława"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "sieć Bratislavský Meštiansky Pivovar"
+      ]
+    },
+    {
+      "name": "Mestský pivovar Alžbetka",
+      "visited": "2019-10-19",
+      "location": {
+        "country": "sk",
+        "city": "Bratislava",
+        "address": "Mickiewiczova 2242\/1",
+        "coordinates": {
+          "lat": 48.149447,
+          "lng": 17.114082
+        }
+      },
+      "alternativeNames": {
+        "city": "Bratysława"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Starosloviensky pivovar",
+      "visited": "2019-10-19",
+      "location": {
+        "country": "sk",
+        "city": "Bratislava",
+        "address": "Vysoká 4260\/15",
+        "coordinates": {
+          "lat": 48.148954,
+          "lng": 17.110637
+        }
+      },
+      "alternativeNames": {
+        "city": "Bratysława"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Fabrika, the beer pub",
+      "visited": "2019-10-19",
+      "location": {
+        "country": "sk",
+        "city": "Bratislava",
+        "address": "Štefánikova 864\/4",
+        "coordinates": {
+          "lat": 48.151809,
+          "lng": 17.10718
+        }
+      },
+      "alternativeNames": {
+        "city": "Bratysława"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Bratislavský Meštiansky Pivovar (Drevena)",
+      "visited": "2019-10-19",
+      "location": {
+        "country": "sk",
+        "city": "Bratislava",
+        "address": "Drevena 8",
+        "coordinates": {
+          "lat": 48.14697,
+          "lng": 17.108149
+        }
+      },
+      "alternativeNames": {
+        "city": "Bratysława"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "sieć Bratislavský Meštiansky Pivovar"
+      ]
+    },
+    {
+      "name": "Kláštorný pivovar",
+      "visited": "2019-10-19",
+      "location": {
+        "country": "sk",
+        "city": "Bratislava",
+        "address": "Námestie SNP 469\/8",
+        "coordinates": {
+          "lat": 48.146218,
+          "lng": 17.110072
+        }
+      },
+      "alternativeNames": {
+        "city": "Bratysława"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Dunajský Pivovar",
+      "visited": "2019-10-19",
+      "location": {
+        "country": "sk",
+        "city": "Bratislava",
+        "address": "Tyršovo nábrežie",
+        "coordinates": {
+          "lat": 48.137207,
+          "lng": 17.112638
+        }
+      },
+      "alternativeNames": {
+        "city": "Bratysława"
+      },
+      "note": "Browar umiejscowiony na (tak, na!) Dunaju, a dokładniej na statku przycumowanym do zachodniego brzegu rzeki, zaraz obok ładnego parku ze świetnym widokiem na bratysławski zamek. Na miejscu jasna i ciemna jedenastka oraz domowy radler. Warzelnia widoczna od razu przy wejściu. Warto odwiedzić!",
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar na wodzie"
+      ]
+    },
+    {
+      "name": "Pivovar HOPS",
+      "visited": "2019-10-19",
+      "location": {
+        "country": "sk",
+        "city": "Bratislava",
+        "address": "Vilová 2995\/4",
+        "coordinates": {
+          "lat": 48.123973,
+          "lng": 17.096923
+        }
+      },
+      "alternativeNames": {
+        "city": "Bratysława"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Pivovar u Tří králů",
+      "visited": "2019-10-21",
+      "location": {
+        "country": "cz",
+        "city": "Prostějov",
+        "address": "Finská 8",
+        "coordinates": {
+          "lat": 49.471997,
+          "lng": 17.088442
+        }
+      },
+      "alternativeNames": {
+        "city": "Prościejów"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "U krále Ječmínka",
+      "visited": "2019-10-21",
+      "location": {
+        "country": "cz",
+        "city": "Prostějov",
+        "address": "Újezd 4a",
+        "coordinates": {
+          "lat": 49.472261,
+          "lng": 17.116604
+        }
+      },
+      "alternativeNames": {
+        "city": "Prościejów"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Pivovar u Císařské cesty",
+      "visited": "2019-10-21",
+      "location": {
+        "country": "cz",
+        "city": "Držovice",
+        "address": "Olomoucká 275\/262",
+        "coordinates": {
+          "lat": 49.492819,
+          "lng": 17.131276
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Wrocław i okolice, październik 2016",
+  "breweries": [
+    {
+      "name": "CTKiR Browar Probus",
+      "visited": "2016-10-23",
+      "location": {
+        "country": "pl",
+        "city": "Oława",
+        "address": "Młyńska 16",
+        "coordinates": {
+          "lat": 50.941937,
+          "lng": 17.301456
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Browar Prost",
+      "visited": "2016-10-23",
+      "location": {
+        "country": "pl",
+        "city": "Wrocław",
+        "address": "Paprotna 4",
+        "coordinates": {
+          "lat": 51.150793,
+          "lng": 17.022977
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Browar Złoty Pies",
+      "visited": "2016-10-23",
+      "location": {
+        "country": "pl",
+        "city": "Wrocław",
+        "address": "Rynek 41",
+        "coordinates": {
+          "lat": 51.110382,
+          "lng": 17.033595
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

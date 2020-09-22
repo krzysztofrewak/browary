@@ -1,0 +1,124 @@
+{
+  "name": "Apulia i Malta, czerwiec 2019",
+  "breweries": [
+    {
+      "name": "Birrbante",
+      "visited": "2019-06-18",
+      "location": {
+        "country": "it",
+        "city": "Bari",
+        "address": "Via Marco Partipilo 62",
+        "coordinates": {
+          "lat": 41.10029,
+          "lng": 16.844995
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Birrificio Bilabì",
+      "visited": "2019-06-19",
+      "location": {
+        "country": "it",
+        "city": "Bari",
+        "address": "Via Adolfo Omodeo 12",
+        "coordinates": {
+          "lat": 41.105738,
+          "lng": 16.880071
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Birra del Console",
+      "visited": "2019-06-20",
+      "location": {
+        "country": "it",
+        "city": "Monopoli",
+        "address": "Via Trieste 24",
+        "coordinates": {
+          "lat": 40.956784,
+          "lng": 17.291384
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep",
+        "spotkanie z piwowarem",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "The Brew",
+      "visited": "2019-06-21",
+      "location": {
+        "country": "mt",
+        "city": "Tas-Sliema",
+        "address": "The Strand 74",
+        "coordinates": {
+          "lat": 35.908412,
+          "lng": 14.501739
+        }
+      },
+      "alternativeNames": {
+        "city": "Sliema"
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Brauerei Montekristo",
+      "visited": "2019-06-22",
+      "location": {
+        "country": "mt",
+        "city": "Ħal Luqa",
+        "address": "Triq Ħal Farruġ",
+        "coordinates": {
+          "lat": 35.85439,
+          "lng": 14.461659
+        }
+      },
+      "alternativeNames": {
+        "city": "Luqa"
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Lord Chambray",
+      "visited": "2019-06-24",
+      "location": {
+        "country": "mt",
+        "city": "Ix-Xewkija",
+        "address": "Mgarr Road",
+        "coordinates": {
+          "lat": 36.035978,
+          "lng": 14.261515
+        }
+      },
+      "alternativeNames": {
+        "city": "Xewkija"
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep",
+        "spotkanie z piwowarem"
+      ]
+    }
+  ]
+}

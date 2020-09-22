@@ -1,0 +1,23 @@
+{
+  "name": "Sieradz, sierpień 2018",
+  "breweries": [
+    {
+      "name": "Sieradzki Browar Restauracyjny Pompa",
+      "visited": "2018-08-25",
+      "location": {
+        "country": "pl",
+        "city": "Sieradz",
+        "address": "Rynek 17",
+        "coordinates": {
+          "lat": 51.594687,
+          "lng": 18.737615
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

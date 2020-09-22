@@ -1,0 +1,24 @@
+{
+  "name": "Nowa Wieś, sierpień 2020",
+  "breweries": [
+    {
+      "name": "Browar Regionalny EDI",
+      "visited": "2020-08-12",
+      "location": {
+        "country": "pl",
+        "city": "Nowa Wieś",
+        "address": "Nowa Wieś 5e",
+        "coordinates": {
+          "lat": 51.831689,
+          "lng": 16.290251
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar regionalny",
+        "przybrowarniany sklep",
+        "spotkanie z piwowarem"
+      ]
+    }
+  ]
+}

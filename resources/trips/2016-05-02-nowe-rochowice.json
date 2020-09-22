@@ -1,0 +1,25 @@
+{
+  "name": "Nowe Rochowice, majówka 2016",
+  "breweries": [
+    {
+      "name": "Browar Roch",
+      "visited": "2016-05-02",
+      "location": {
+        "country": "pl",
+        "city": "Nowe Rochowice",
+        "address": "Nowe Rochowice 22",
+        "coordinates": {
+          "lat": 50.94076,
+          "lng": 16.039856
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "spotkanie z piwowarem"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Turek, lipiec 2017",
+  "breweries": [
+    {
+      "name": "Browar Turek",
+      "visited": "2017-07-15",
+      "location": {
+        "country": "pl",
+        "city": "Turek",
+        "address": "aleja NSZZ Solidarność 37",
+        "coordinates": {
+          "lat": 52.014492,
+          "lng": 18.5259
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

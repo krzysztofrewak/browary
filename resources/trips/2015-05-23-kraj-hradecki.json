@@ -1,0 +1,97 @@
+{
+  "name": "kraj hradecki, maj 2015",
+  "breweries": [
+    {
+      "name": "Pivovar Krakonoš",
+      "visited": "2015-05-23",
+      "location": {
+        "country": "cz",
+        "city": "Trutnov",
+        "address": "Křižíkova 486",
+        "coordinates": {
+          "lat": 50.561473,
+          "lng": 15.90855
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "przybrowarniany sklep",
+        "browar regionalny"
+      ]
+    },
+    {
+      "name": "Pivovarská Bašta",
+      "visited": "2015-05-23",
+      "location": {
+        "country": "cz",
+        "city": "Vrchlabí",
+        "address": "Horská 198",
+        "coordinates": {
+          "lat": 50.642908,
+          "lng": 15.608565
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Pivovar Hendrych",
+      "visited": "2015-05-23",
+      "location": {
+        "country": "cz",
+        "city": "Vrchlabí",
+        "address": "Horská 192",
+        "coordinates": {
+          "lat": 50.654901,
+          "lng": 15.603281
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Minipivovar Friesovy Boudy",
+      "visited": "2015-05-23",
+      "location": {
+        "country": "cz",
+        "city": "Strážné",
+        "address": "Strážné 96",
+        "coordinates": {
+          "lat": 50.700016,
+          "lng": 15.651431
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Browar Miedzianka",
+      "visited": "2015-05-23",
+      "location": {
+        "country": "pl",
+        "city": "Miedzianka",
+        "address": "Miedzianka 57b",
+        "coordinates": {
+          "lat": 50.877754,
+          "lng": 15.939254
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

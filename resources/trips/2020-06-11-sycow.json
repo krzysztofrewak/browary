@@ -1,0 +1,25 @@
+{
+  "name": "Syców, czerwiec 2020",
+  "breweries": [
+    {
+      "name": "Anders Browar",
+      "visited": "2020-06-11",
+      "location": {
+        "country": "pl",
+        "city": "Syców",
+        "address": "Broniewskiego 33",
+        "coordinates": {
+          "lat": 51.304494,
+          "lng": 17.704686
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep"
+      ]
+    }
+  ]
+}

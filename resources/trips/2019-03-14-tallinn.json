@@ -1,0 +1,23 @@
+{
+  "name": "Tallinn, marzec 2019",
+  "breweries": [
+    {
+      "name": "Põhjala Brewery",
+      "visited": "2019-02-16",
+      "location": {
+        "country": "ee",
+        "city": "Tallinn",
+        "address": "Peetri 5",
+        "coordinates": {
+          "lat": 59.450336,
+          "lng": 24.72703
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "mikrobrowar"
+      ]
+    }
+  ]
+}

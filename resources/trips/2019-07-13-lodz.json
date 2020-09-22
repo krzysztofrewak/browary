@@ -1,0 +1,40 @@
+{
+  "name": "Łódź i okolice, lipiec 2019",
+  "breweries": [
+    {
+      "name": "Salio Browar & Restauracja",
+      "visited": "2019-07-13",
+      "location": {
+        "country": "pl",
+        "city": "Besiekierz Rudny",
+        "address": "Besiekierz Rudny 50",
+        "coordinates": {
+          "lat": 51.952939,
+          "lng": 19.511639
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Klubopiwiarnia Warkot",
+      "visited": "2019-07-13",
+      "location": {
+        "country": "pl",
+        "city": "Łódź",
+        "address": "Narutowicza 7\/9",
+        "coordinates": {
+          "lat": 51.770301,
+          "lng": 19.458399
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

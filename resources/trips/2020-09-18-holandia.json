@@ -1,0 +1,401 @@
+{
+  "name": "południowa Holandia, wrzesień 2020",
+  "breweries": [
+    {
+      "name": "Stadsbrouwerij Eindhoven",
+      "visited": "2020-09-18",
+      "location": {
+        "country": "nl",
+        "city": "Eindhoven",
+        "address": "Bleekweg 1",
+        "coordinates": {
+          "lat": 51.435934,
+          "lng": 5.484798
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Brouwerij het Veem",
+      "visited": "2020-09-18",
+      "location": {
+        "country": "nl",
+        "city": "Eindhoven",
+        "address": "Torenallee 86",
+        "coordinates": {
+          "lat": 51.448113,
+          "lng": 5.453412
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Bierbrouwerij De Koningshoeven",
+      "visited": "2020-09-18",
+      "location": {
+        "country": "nl",
+        "city": "Berkel-Enschot",
+        "address": "Eindhovenseweg 3",
+        "coordinates": {
+          "lat": 51.543575,
+          "lng": 5.128748
+        }
+      },
+      "tags": [
+        "browar trapistów",
+        "piwo spróbowane na miejscu",
+        "browar regionalny"
+      ]
+    },
+    {
+      "name": "LOC Brewery",
+      "visited": "2020-09-18",
+      "location": {
+        "country": "nl",
+        "city": "Tilburg",
+        "address": "Burgemeester Brokxlaan 8-84",
+        "coordinates": {
+          "lat": 51.561119,
+          "lng": 5.088301
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Stadsbrouwerij Tilburg",
+      "visited": "2020-09-18",
+      "location": {
+        "country": "nl",
+        "city": "Tilburg",
+        "address": "Noordhoekring 75",
+        "coordinates": {
+          "lat": 51.557958,
+          "lng": 5.077193
+        }
+      },
+      "tags": [
+        "piwo spróbowane na wynos",
+        "spotkanie z piwowarem",
+        "zorganizowana wycieczka",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Stadsbrouwerij Torens Tilburg",
+      "visited": "2020-09-18",
+      "location": {
+        "country": "nl",
+        "city": "Tilburg",
+        "address": "Piushaven 22",
+        "coordinates": {
+          "lat": 51.552748,
+          "lng": 5.094080
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Stadsbrouwerij 013",
+      "visited": "2020-09-18",
+      "location": {
+        "country": "nl",
+        "city": "Tilburg",
+        "address": "Piushaven 1",
+        "coordinates": {
+          "lat": 51.552886,
+          "lng": 5.097878
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Brouwerij De Beyerd",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Breda",
+        "address": "Boschstraat 26",
+        "coordinates": {
+          "lat": 51.589822,
+          "lng": 4.781521
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Brouwerij Sint Joris",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Breda",
+        "address": "Grote Markt 19",
+        "coordinates": {
+          "lat": 51.587985,
+          "lng": 4.776171
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Brouwerij Noordt",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Rotterdam",
+        "address": "Zaagmolenkade 46",
+        "coordinates": {
+          "lat": 51.933412,
+          "lng": 4.486656
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "De Gele Kanarie",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Rotterdam",
+        "address": "Goudsesingel 284",
+        "coordinates": {
+          "lat": 51.924151,
+          "lng": 4.489479
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "BrewDog Rotterdam Outpost",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Rotterdam",
+        "address": "Halvemaanpassage 1",
+        "coordinates": {
+          "lat": 51.922840,
+          "lng": 4.481001
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "BrewDog Outpost"
+      ]
+    },
+    {
+      "name": "Stadsbrouwerij De Pelgrim",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Rotterdam",
+        "address": "Aelbrechtskolk 12",
+        "coordinates": {
+          "lat": 51.908807,
+          "lng": 4.448888
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "De Kaapse Brouwers",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Rotterdam",
+        "address": "Nico Koomanskade 1025",
+        "coordinates": {
+          "lat": 51.902090,
+          "lng": 4.486642
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Bierbarry",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Den Haag",
+        "address": "Torenstraat 49",
+        "coordinates": {
+          "lat": 52.078457,
+          "lng": 4.304995
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Brouwerij Van Kinsbergen",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Den Haag",
+        "address": "Prins Hendrikplein 15",
+        "coordinates": {
+          "lat": 52.081999,
+          "lng": 4.294341
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Animal Army Brewery",
+      "visited": "2020-09-19",
+      "location": {
+        "country": "nl",
+        "city": "Den Haag",
+        "address": "Riviervismarkt 1",
+        "coordinates": {
+          "lat": 52.076981,
+          "lng": 4.307611
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Kompaan Brouwerij",
+      "visited": "2020-09-20",
+      "location": {
+        "country": "nl",
+        "city": "Den Haag",
+        "address": "Saturnusstraat 55",
+        "coordinates": {
+          "lat": 52.06702,
+          "lng": 4.346533
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Brouwerij De Prael (Den Haag)",
+      "visited": "2020-09-20",
+      "location": {
+        "country": "nl",
+        "city": "Den Haag",
+        "address": "Esperantoplein 20",
+        "coordinates": {
+          "lat": 52.075236,
+          "lng": 4.292620
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Brewpub De Kromme Haring",
+      "visited": "2020-09-20",
+      "location": {
+        "country": "nl",
+        "city": "Utrecht",
+        "address": "Europalaan 2C",
+        "coordinates": {
+          "lat": 52.075630,
+          "lng": 5.107641
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane na wynos",
+        "mikrobrowar",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Oproer Brouwerij",
+      "visited": "2020-09-20",
+      "location": {
+        "country": "nl",
+        "city": "Utrecht",
+        "address": "CAB-Rondom 90A",
+        "coordinates": {
+          "lat": 52.102090,
+          "lng": 5.089427
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Stadskasteel Oudaen",
+      "visited": "2020-09-20",
+      "location": {
+        "country": "nl",
+        "city": "Utrecht",
+        "address": "Oudegracht 99",
+        "coordinates": {
+          "lat": 52.092862,
+          "lng": 5.116690
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos"
+      ]
+    }
+  ]
+}

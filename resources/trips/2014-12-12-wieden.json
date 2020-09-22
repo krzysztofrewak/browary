@@ -1,0 +1,48 @@
+{
+  "name": "Wiedeń, grudzień 2014",
+  "breweries": [
+    {
+      "name": "1516 Brewing Company",
+      "visited": "2014-12-12",
+      "location": {
+        "country": "at",
+        "city": "Wien",
+        "address": "Schwarzenbergstraße 2",
+        "coordinates": {
+          "lat": 48.203395,
+          "lng": 16.373066
+        }
+      },
+      "alternativeNames": {
+        "city": "Wiedeń"
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Lichtenthaler Bräu",
+      "visited": "2014-12-13",
+      "location": {
+        "country": "at",
+        "city": "Wien",
+        "address": "Liechtensteinstraße 108",
+        "coordinates": {
+          "lat": 48.230206,
+          "lng": 16.35655
+        }
+      },
+      "alternativeNames": {
+        "city": "Wiedeń"
+      },
+      "tags": [
+        "obecnie zamknięty",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

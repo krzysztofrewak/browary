@@ -1,0 +1,314 @@
+{
+  "name": "wyjazd do Szwajcarii, sierpień 2019",
+  "breweries": [
+    {
+      "name": "Brauhaus Hartmannsdorf",
+      "visited": "2019-08-14",
+      "location": {
+        "country": "de",
+        "city": "Hartmannsdorf",
+        "address": "Chemnitzer Str. 5",
+        "coordinates": {
+          "lat": 50.8869,
+          "lng": 12.802835
+        }
+      },
+      "tags": [
+        "przybrowarniany sklep",
+        "browar regionalny",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Brauerei Fässla",
+      "visited": "2019-08-14",
+      "location": {
+        "country": "de",
+        "city": "Bamberg",
+        "address": "Obere Königstraße 19-21",
+        "coordinates": {
+          "lat": 49.897242,
+          "lng": 10.892787
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Brauerei Spezial",
+      "visited": "2019-08-14",
+      "location": {
+        "country": "de",
+        "city": "Bamberg",
+        "address": "Obere Königstraße 10",
+        "coordinates": {
+          "lat": 49.896867,
+          "lng": 10.892811
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Schlenkerla, die historische Rauchbierbrauerei",
+      "visited": "2019-08-14",
+      "location": {
+        "country": "de",
+        "city": "Bamberg",
+        "address": "Dominikanerstraße 6",
+        "coordinates": {
+          "lat": 49.891714,
+          "lng": 10.884921
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Ambräusianum",
+      "visited": "2019-08-14",
+      "location": {
+        "country": "de",
+        "city": "Bamberg",
+        "address": "Dominikanerstraße 10",
+        "coordinates": {
+          "lat": 49.891779,
+          "lng": 10.884596
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Klosterbräu Bamberg",
+      "visited": "2019-08-14",
+      "location": {
+        "country": "de",
+        "city": "Bamberg",
+        "address": "Obere Mühlbrücke 1-3",
+        "coordinates": {
+          "lat": 49.889262,
+          "lng": 10.887195
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Brauerei zum Rossknecht",
+      "visited": "2019-08-15",
+      "location": {
+        "country": "de",
+        "city": "Ludwigsburg",
+        "address": "Reithauspl. 21",
+        "coordinates": {
+          "lat": 48.899164,
+          "lng": 9.188823
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Wichtel",
+      "visited": "2019-08-15",
+      "location": {
+        "country": "de",
+        "city": "Böblingen",
+        "address": "Wolfgang-Brumme-Allee 55",
+        "coordinates": {
+          "lat": 48.690027,
+          "lng": 9.003468
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "ÔBrasseur",
+      "visited": "2019-08-16",
+      "location": {
+        "country": "fr",
+        "city": "Saint-Genis-Pouilly",
+        "address": "45 Rue de Genève",
+        "coordinates": {
+          "lat": 46.240913,
+          "lng": 6.029901
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Brasserie du Molard",
+      "visited": "2019-08-16",
+      "location": {
+        "country": "ch",
+        "city": "Genève",
+        "address": "Place du Molard 9",
+        "coordinates": {
+          "lat": 46.203216,
+          "lng": 6.148065
+        }
+      },
+      "alternativeNames": {
+        "city": "Genewa"
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "BIERlab",
+      "visited": "2019-08-16",
+      "location": {
+        "country": "ch",
+        "city": "Zürich",
+        "address": "Grüngasse 7",
+        "coordinates": {
+          "lat": 47.37252,
+          "lng": 8.526086
+        }
+      },
+      "alternativeNames": {
+        "city": "Zurych"
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Liechtensteiner Brauhaus",
+      "visited": "2019-08-17",
+      "location": {
+        "country": "li",
+        "city": "Schaan",
+        "address": "Im Rösle 8",
+        "coordinates": {
+          "lat": 47.169226,
+          "lng": 9.503731
+        }
+      },
+      "tags": [
+        "przybrowarniany sklep",
+        "piwo spróbowane na wynos",
+        "obejrzany sprzęt",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Beer Factory",
+      "visited": "2019-08-17",
+      "location": {
+        "country": "cz",
+        "city": "Plzeň",
+        "address": "Dominikánská 8",
+        "coordinates": {
+          "lat": 49.748889,
+          "lng": 13.377382
+        }
+      },
+      "alternativeNames": {
+        "city": "Pilzno"
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Plzeňský Prazdroj (experimental microbrewery)",
+      "visited": "2019-08-18",
+      "location": {
+        "country": "cz",
+        "city": "Plzeň",
+        "address": "U Prazdroje 113",
+        "coordinates": {
+          "lat": 49.747613,
+          "lng": 13.387387
+        }
+      },
+      "alternativeNames": {
+        "city": "Pilzno"
+      },
+      "tags": [
+        "koncern Asahi",
+        "obejrzany sprzęt",
+        "zorganizowana wycieczka",
+        "browar koncernowy"
+      ]
+    },
+    {
+      "name": "Plzeňský Prazdroj",
+      "visited": "2019-08-18",
+      "location": {
+        "country": "cz",
+        "city": "Plzeň",
+        "address": "U Prazdroje 113",
+        "coordinates": {
+          "lat": 49.749235,
+          "lng": 13.38864
+        }
+      },
+      "alternativeNames": {
+        "city": "Pilzno"
+      },
+      "tags": [
+        "koncern Asahi",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "zorganizowana wycieczka",
+        "piwo spróbowane z tanka",
+        "muzeum",
+        "browar koncernowy"
+      ]
+    },
+    {
+      "name": "1. Roudenský pivovar",
+      "visited": "2019-08-18",
+      "location": {
+        "country": "cz",
+        "city": "Plzeň",
+        "address": "Na Roudné 387\/17",
+        "coordinates": {
+          "lat": 49.753201,
+          "lng": 13.379986
+        }
+      },
+      "alternativeNames": {
+        "city": "Pilzno"
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

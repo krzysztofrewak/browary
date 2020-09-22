@@ -1,0 +1,26 @@
+{
+  "name": "Legnica, czerwiec 2017",
+  "breweries": [
+    {
+      "name": "Legnicki Browar Książecy",
+      "visited": "2017-06-30",
+      "location": {
+        "country": "pl",
+        "city": "Legnica",
+        "address": "Dworcowa 9",
+        "coordinates": {
+          "lat": 51.21225,
+          "lng": 16.168097
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane z tanka",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "spotkanie z piwowarem"
+      ]
+    }
+  ]
+}

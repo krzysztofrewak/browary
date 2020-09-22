@@ -1,0 +1,40 @@
+{
+  "name": "wyjazd nad Bałtyk, Boże Ciało 2018",
+  "breweries": [
+    {
+      "name": "Pałacyk Łąkomin",
+      "visited": "2018-05-31",
+      "location": {
+        "country": "pl",
+        "city": "Lubiszyn",
+        "address": "Łąkomin 1",
+        "coordinates": {
+          "lat": 52.765263,
+          "lng": 14.859883
+        }
+      },
+      "tags": [
+        "przybrowarniany sklep",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Browar Miedziowy 44",
+      "visited": "2018-06-02",
+      "location": {
+        "country": "pl",
+        "city": "Świnoujście",
+        "address": "Uzdrowiskowa 15",
+        "coordinates": {
+          "lat": 53.917795,
+          "lng": 14.263898
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

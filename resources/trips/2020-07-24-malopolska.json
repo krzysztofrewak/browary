@@ -1,0 +1,60 @@
+{
+  "name": "Małopolska i Śląsk, lipiec 2020",
+  "breweries": [
+    {
+      "name": "Browar Extract",
+      "visited": "2020-07-24",
+      "location": {
+        "country": "pl",
+        "city": "Kraków",
+        "address": "Promowa 10",
+        "coordinates": {
+          "lat": 50.021129,
+          "lng": 19.804003
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Browar Zadyma",
+      "visited": "2020-07-25",
+      "location": {
+        "country": "pl",
+        "city": "Szaflary",
+        "address": "Zakopianka 1",
+        "coordinates": {
+          "lat": 49.446059,
+          "lng": 20.021332
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Browar Rzemieślniczy Dziedzice",
+      "visited": "2020-07-26",
+      "location": {
+        "country": "pl",
+        "city": "Czechowice-Dziedzice",
+        "address": "Legionów 83A",
+        "coordinates": {
+          "lat": 49.911325,
+          "lng": 18.997105
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar w galerii handlowej"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Wrocław, wakacje 2011",
+  "breweries": [
+    {
+      "name": "Spiż Wrocław",
+      "visited": "2011-09-21",
+      "location": {
+        "country": "pl",
+        "city": "Wrocław",
+        "address": "Ratusz 2",
+        "coordinates": {
+          "lat": 51.109934,
+          "lng": 17.031211
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

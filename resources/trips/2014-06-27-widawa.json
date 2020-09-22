@@ -1,0 +1,24 @@
+{
+  "name": "Chrząstawa Mała, czerwiec 2014",
+  "breweries": [
+    {
+      "name": "Browar Widawa",
+      "visited": "2014-06-27",
+      "location": {
+        "country": "pl",
+        "city": "Chrząstawa Mała",
+        "address": "Wrocławska 97",
+        "coordinates": {
+          "lat": 51.083917,
+          "lng": 17.284356
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

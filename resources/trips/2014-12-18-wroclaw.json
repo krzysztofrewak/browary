@@ -1,0 +1,24 @@
+{
+  "name": "Wrocław, grudzień 2014",
+  "breweries": [
+    {
+      "name": "Browar Stu Mostów",
+      "visited": "2014-12-18",
+      "location": {
+        "country": "pl",
+        "city": "Wrocław",
+        "address": "Jana Długosza 2",
+        "coordinates": {
+          "lat": 51.13172,
+          "lng": 17.059509
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

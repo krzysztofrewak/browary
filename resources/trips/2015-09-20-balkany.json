@@ -1,0 +1,45 @@
+{
+  "name": "Bałkany, wakacje 2015",
+  "breweries": [
+    {
+      "name": "Tirana Bräuhaus",
+      "visited": "2015-09-20",
+      "location": {
+        "country": "al",
+        "city": "Tirana",
+        "address": "Reshit Çollaku 38",
+        "coordinates": {
+          "lat": 41.323776,
+          "lng": 19.816784
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivara Oldbridž",
+      "visited": "2015-09-25",
+      "location": {
+        "country": "ba",
+        "city": "Mostar",
+        "address": "Južni logor",
+        "coordinates": {
+          "lat": 43.321743,
+          "lng": 17.826497
+        }
+      },
+      "note": "Perełka ukryta na bośniackiej prowincji. Rodzinny mikrobrowar warzący wszystko od imperialnych stoutów począwszy, a na grodziskim (!) skończywszy. W budynku nie ma pubu, ale można się umówić na obejrzenie warzelni i fermentowni, kupno butelek oraz przede wszystkim wspólną degustację. Świetne piwa i zdecydowanie miejsce warte odwiedzenia.",
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane z tanka",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep",
+        "spotkanie z piwowarem",
+        "mikrobrowar"
+      ]
+    }
+  ]
+}

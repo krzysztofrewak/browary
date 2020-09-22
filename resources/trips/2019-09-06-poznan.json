@@ -1,0 +1,25 @@
+{
+  "name": "PHPers Summit 2019",
+  "breweries": [
+    {
+      "name": "Bierhalle Posnania",
+      "visited": "2019-09-06",
+      "location": {
+        "country": "pl",
+        "city": "Poznań",
+        "address": "Pleszewska 1",
+        "coordinates": {
+          "lat": 52.397957,
+          "lng": 16.954274
+        }
+      },
+      "tags": [
+        "sieć Bierhalle",
+        "browar w galerii handlowej",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

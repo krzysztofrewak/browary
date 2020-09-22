@@ -1,0 +1,24 @@
+{
+  "name": "Jedlina-Zdrój, majówka 2018",
+  "breweries": [
+    {
+      "name": "Browar Jedlinka",
+      "visited": "2018-05-05",
+      "location": {
+        "country": "pl",
+        "city": "Jedlina-Zdrój",
+        "address": "Zamkowa 3",
+        "coordinates": {
+          "lat": 50.713068,
+          "lng": 16.358363
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

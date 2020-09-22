@@ -1,0 +1,77 @@
+{
+  "name": "kraje pardubicki i ołomuniecki, lipiec 2018",
+  "breweries": [
+    {
+      "name": "U Černého Medvěda",
+      "visited": "2018-07-14",
+      "location": {
+        "country": "cz",
+        "city": "Jablonné nad Orlicí",
+        "address": "5. května 24",
+        "coordinates": {
+          "lat": 50.030091,
+          "lng": 16.600025
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Minipivovar U Jirsáka",
+      "visited": "2018-07-14",
+      "location": {
+        "country": "cz",
+        "city": "Vikýřovice",
+        "address": "Šumperská 128",
+        "coordinates": {
+          "lat": 49.967264,
+          "lng": 17.001775
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Minipivovar Zlosin",
+      "visited": "2018-07-14",
+      "location": {
+        "country": "cz",
+        "city": "Velké Losiny",
+        "address": "Žárovská 10",
+        "coordinates": {
+          "lat": 50.033608,
+          "lng": 17.027992
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivovar Holba",
+      "visited": "2018-07-14",
+      "location": {
+        "country": "cz",
+        "city": "Hanušovice",
+        "address": "Pivovarská 261",
+        "coordinates": {
+          "lat": 50.06987,
+          "lng": 16.927799
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "grupa PMS",
+        "browar regionalny"
+      ]
+    }
+  ]
+}
