@@ -35,12 +35,6 @@ final class Tag implements JsonSerializable, Sluggable
         return $this;
     }
 
-    public function setExtremes(Extremes $extremes): self
-    {
-        $this->extremes = $extremes;
-        return $this;
-    }
-
     public function getName(): string
     {
         return $this->name;
@@ -51,14 +45,15 @@ final class Tag implements JsonSerializable, Sluggable
         return $this->slug;
     }
 
-    public function getBreweries(): Collection
-    {
-        return $this->breweries;
-    }
-
     public function getExtremes(): Extremes
     {
         return $this->extremes;
+    }
+
+    public function setExtremes(Extremes $extremes): self
+    {
+        $this->extremes = $extremes;
+        return $this;
     }
 
     public function jsonSerialize(): array
@@ -68,5 +63,10 @@ final class Tag implements JsonSerializable, Sluggable
             "slug" => $this->slug,
             "breweries" => $this->getBreweries()->count(),
         ];
+    }
+
+    public function getBreweries(): Collection
+    {
+        return $this->breweries;
     }
 }

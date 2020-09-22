@@ -32,12 +32,6 @@ final class Trip implements JsonSerializable, Sluggable, Boundable
         return new self($data["name"]);
     }
 
-    public function setExtremes(Extremes $extremes): Boundable
-    {
-        $this->extremes = $extremes;
-        return $this;
-    }
-
     public function getName(): string
     {
         return $this->name;
@@ -69,6 +63,12 @@ final class Trip implements JsonSerializable, Sluggable, Boundable
     public function getExtremes(): ?Extremes
     {
         return $this->extremes;
+    }
+
+    public function setExtremes(Extremes $extremes): Boundable
+    {
+        $this->extremes = $extremes;
+        return $this;
     }
 
     public function jsonSerialize(): array

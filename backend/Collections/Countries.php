@@ -41,7 +41,10 @@ final class Countries implements JsonSerializable, HavingAll
 
     public function jsonSerialize(): Collection
     {
-        return $this->countries->sort(fn(Country $a, Country $b): int => $a->getBreweriesCount() === $b->getBreweriesCount() ? $a->getName() <=> $b->getName() : $b->getBreweriesCount() <=> $a->getBreweriesCount())
+        return $this->countries->sort(
+            fn(Country $a, Country $b): int => $a->getBreweriesCount() === $b->getBreweriesCount() ? $a->getName(
+                ) <=> $b->getName() : $b->getBreweriesCount() <=> $a->getBreweriesCount()
+        )
             ->filter(fn(Country $country): bool => $country->getBreweriesCount() > 0)
             ->mapInto(GeneralCountry::class);
     }

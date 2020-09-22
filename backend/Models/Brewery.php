@@ -83,11 +83,6 @@ final class Brewery implements JsonSerializable, Sluggable
         return $this->date;
     }
 
-    public function getMonthYearDate(): string
-    {
-        return "{$this->date->locale("pl")->monthName} {$this->date->locale("pl")->year}";
-    }
-
     public function getFullDate(): string
     {
         return $this->date->locale("pl")->translatedFormat("j F Y");
@@ -123,5 +118,10 @@ final class Brewery implements JsonSerializable, Sluggable
             "location" => $this->location,
             "date" => $this->getMonthYearDate(),
         ];
+    }
+
+    public function getMonthYearDate(): string
+    {
+        return "{$this->date->locale("pl")->monthName} {$this->date->locale("pl")->year}";
     }
 }

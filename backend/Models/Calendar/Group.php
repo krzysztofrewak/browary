@@ -30,12 +30,6 @@ final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
         return $item;
     }
 
-    /** @return Collection|Item[] */
-    public function getAll(): Collection
-    {
-        return $this->items;
-    }
-
     public function getSlug(): string
     {
         return $this->label;
@@ -54,20 +48,26 @@ final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
         return $max;
     }
 
+    public function getExtremes(): ?Extremes
+    {
+        return $this->extremes;
+    }
+
     public function setExtremes(Extremes $extremes): Boundable
     {
         $this->extremes = $extremes;
         return $this;
     }
 
-    public function getExtremes(): ?Extremes
-    {
-        return $this->extremes;
-    }
-
     public function getBreweries(): Collection
     {
         return $this->getAll()->map(fn(Item $item): Collection => $item->getBreweries()->reverse())->collapse();
+    }
+
+    /** @return Collection|Item[] */
+    public function getAll(): Collection
+    {
+        return $this->items;
     }
 
     public function jsonSerialize(): array

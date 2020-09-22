@@ -20,35 +20,37 @@ final class Trips
     {
         $trips = new TripsCollection();
 
-        $tripsData->reverse()->each(function (string $jsonFile) use ($trips, $countries, $tags): void {
-            $data = json_decode($jsonFile, true);
-            $trip = new Trip($data["name"]);
+        $tripsData->reverse()->each(
+            function (string $jsonFile) use ($trips, $countries, $tags): void {
+                $data = json_decode($jsonFile, true);
+                $trip = new Trip($data["name"]);
 
-            foreach (collect($data["breweries"])->reverse() as $breweryData) {
-                $latitude = $breweryData["location"]["coordinates"]["lat"];
-                $longitude = $breweryData["location"]["coordinates"]["lng"];
-                $coordinates = new Coordinates($latitude, $longitude);
+                foreach (collect($data["breweries"])->reverse() as $breweryData) {
+                    $latitude = $breweryData["location"]["coordinates"]["lat"];
+                    $longitude = $breweryData["location"]["coordinates"]["lng"];
+                    $coordinates = new Coordinates($latitude, $longitude);
 
-                $country = $countries->getCountryBySymbol($breweryData["location"]["country"]);
-                $city = $breweryData["location"]["city"];
-                $address = $breweryData["location"]["address"];
-                $location = new Location($coordinates, $country, $city, $address);
+                    $country = $countries->getCountryBySymbol($breweryData["location"]["country"]);
+                    $city = $breweryData["location"]["city"];
+                    $address = $breweryData["location"]["address"];
+                    $location = new Location($coordinates, $country, $city, $address);
 
-                $date = Carbon::parse($breweryData["visited"]);
-                $note = $breweryData["note"] ?? "";
+                    $date = Carbon::parse($breweryData["visited"]);
+                    $note = $breweryData["note"] ?? "";
 
-                $brewery = new Brewery($breweryData["name"], $location, $date, $trip, $note);
+                    $brewery = new Brewery($breweryData["name"], $location, $date, $trip, $note);
 
-                foreach ($breweryData["tags"] as $tag) {
-                    $tag = $tags->firstOrCreate($tag);
-                    $brewery->addTag($tag);
+                    foreach ($breweryData["tags"] as $tag) {
+                        $tag = $tags->firstOrCreate($tag);
+                        $brewery->addTag($tag);
+                    }
+
+                    $trip->addBrewery($brewery);
                 }
 
-                $trip->addBrewery($brewery);
+                $trips->addTrip($trip);
             }
-
-            $trips->addTrip($trip);
-        });
+        );
 
         return $trips;
     }

@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Brewmap\Models\Mappers;
 
-use Brewmap\Models\Country;
 use Brewmap\Models\Trip;
 use JsonSerializable;
 

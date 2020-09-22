@@ -45,7 +45,9 @@ Directory::create("tags");
 Directory::create("trips");
 
 $countriesData = file_get_contents("../resources/countries.json");
-$tripsData = collect(glob("../resources/trips/*.json"))->map(fn(string $filename): string => file_get_contents($filename));
+$tripsData = collect(glob("../resources/trips/*.json"))->map(
+    fn(string $filename): string => file_get_contents($filename)
+);
 
 $tags = new Tags();
 $countries = Countries::buildFromJson($countriesData);

@@ -14,16 +14,16 @@ Vue.mixin(inflections)
 Vue.use(Vuex)
 
 let application = new Vue({
-	router,
-	store,
-	render: h => h(App),
+    router,
+    store,
+    render: h => h(App),
 })
 
 document.getElementById("favicon").href = require("@/assets/marker.png")
 
 fetch("/api/general.json").then(response => response.json()).then(result => {
-	application.$mount("#app")
-	application.$store.commit("setCounters", result.counters)
-	application.$store.commit("setMapDefaultExtremes", result.extremes)
-	application.$store.commit("resetMap")
+    application.$mount("#app")
+    application.$store.commit("setCounters", result.counters)
+    application.$store.commit("setMapDefaultExtremes", result.extremes)
+    application.$store.commit("resetMap")
 })

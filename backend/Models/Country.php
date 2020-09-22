@@ -32,12 +32,6 @@ final class Country implements JsonSerializable, Sluggable
         return $this;
     }
 
-    public function setExtremes(Extremes $extremes): self
-    {
-        $this->extremes = $extremes;
-        return $this;
-    }
-
     public function getName(): string
     {
         return $this->name;
@@ -58,14 +52,15 @@ final class Country implements JsonSerializable, Sluggable
         return $this->breweries;
     }
 
-    public function getBreweriesCount(): int
-    {
-        return $this->breweries->count();
-    }
-
     public function getExtremes(): Extremes
     {
         return $this->extremes;
+    }
+
+    public function setExtremes(Extremes $extremes): self
+    {
+        $this->extremes = $extremes;
+        return $this;
     }
 
     public function jsonSerialize(): array
@@ -76,5 +71,10 @@ final class Country implements JsonSerializable, Sluggable
             "slug" => $this->slug,
             "breweriesCount" => $this->getBreweriesCount(),
         ];
+    }
+
+    public function getBreweriesCount(): int
+    {
+        return $this->breweries->count();
     }
 }

@@ -30,11 +30,6 @@ final class Item implements Sluggable, Boundable
         return $this;
     }
 
-    public function getValue(): int
-    {
-        return $this->breweries->count();
-    }
-
     /** @return Collection|Brewery[] */
     public function getBreweries(): Collection
     {
@@ -51,15 +46,15 @@ final class Item implements Sluggable, Boundable
         return $this->label;
     }
 
+    public function getExtremes(): ?Extremes
+    {
+        return $this->extremes;
+    }
+
     public function setExtremes(Extremes $extremes): Boundable
     {
         $this->extremes = $extremes;
         return $this;
-    }
-
-    public function getExtremes(): ?Extremes
-    {
-        return $this->extremes;
     }
 
     public function jsonSerialize(): array
@@ -69,5 +64,10 @@ final class Item implements Sluggable, Boundable
             "label" => $this->label,
             "value" => $this->getValue(),
         ];
+    }
+
+    public function getValue(): int
+    {
+        return $this->breweries->count();
     }
 }

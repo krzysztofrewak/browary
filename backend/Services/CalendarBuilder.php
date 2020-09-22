@@ -36,7 +36,7 @@ final class CalendarBuilder
 
             $iterator->addMonth();
 
-            if($iterator->isNextYear() && $iterator->month === 1) {
+            if ($iterator->isNextYear() && $iterator->month === 1) {
                 break;
             }
         }
