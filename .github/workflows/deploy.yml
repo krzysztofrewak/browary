@@ -34,6 +34,10 @@ jobs:
           php index.php
         working-directory: backend
 
+      - name: Handle 404
+        run: cp index.html 404.html
+        working-directory: public
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
