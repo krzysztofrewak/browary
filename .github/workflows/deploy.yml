@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Set up envirnoment
         uses: SpicyPizza/create-envfile@v1
-        env:
+        with:
           envkey_VUE_APP_MAPBOX_TOKEN: "${{ VUE_APP_MAPBOX_STYLE_URL }}"
           envkey_VUE_APP_MAPBOX_STYLE_URL: "${{ VUE_APP_MAPBOX_STYLE_URL }}"
 
