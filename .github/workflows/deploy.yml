@@ -9,27 +9,24 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up envirnoment
-        uses: SpicyPizza/create-envfile@v1
-        with:
-          envkey_VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
-          envkey_VUE_APP_MAPBOX_STYLE_URL: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
-
       - name: Checkout
         uses: actions/checkout@v2.3.1
         with:
           persist-credentials: false
 
       - name: Install and build
+        env:
+          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
+          VUE_APP_MAPBOX_STYLE_URL: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
         run: |
-          composer build
           npm install
           npm build
+          composer build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: public
-          FOLDER: .
+          FOLDER: public
           CLEAN: true
