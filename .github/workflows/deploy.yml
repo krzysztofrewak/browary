@@ -22,11 +22,16 @@ jobs:
           npm install
           npm build
 
-      - name: Install and build API
+      - name: Install PHP dependencies
         env:
           VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
         run: |
           composer install
+
+      - name: Build API
+        env:
+          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
+        run: |
           php index.php
         working-directory: backend
 
