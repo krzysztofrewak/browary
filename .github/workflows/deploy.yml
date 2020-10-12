@@ -20,12 +20,12 @@ jobs:
           VUE_APP_MAPBOX_STYLE_URL: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
         run: |
           npm install
-          npm build
+          npm run-script build
 
       - name: Install PHP dependencies
         run: |
           composer install
-          echo "test123" > .env
+          touch .env
 
       - name: Build API
         env:
