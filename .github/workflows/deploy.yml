@@ -16,19 +16,19 @@ jobs:
 
       - name: Install and build frontend
         env:
-          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
+          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
           VUE_APP_MAPBOX_STYLE_URL: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
         run: |
           npm install
           npm build
 
       - name: Install and build API
-        working_directory: backend
         env:
-          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
+          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
         run: |
           composer install
           php index.php
+        working_directory: backend
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
