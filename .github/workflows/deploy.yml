@@ -12,8 +12,8 @@ jobs:
       - name: Set up envirnoment
         uses: SpicyPizza/create-envfile@v1
         with:
-          envkey_VUE_APP_MAPBOX_TOKEN: "${{ VUE_APP_MAPBOX_STYLE_URL }}"
-          envkey_VUE_APP_MAPBOX_STYLE_URL: "${{ VUE_APP_MAPBOX_STYLE_URL }}"
+          envkey_VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
+          envkey_VUE_APP_MAPBOX_STYLE_URL: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
 
       - name: Checkout
         uses: actions/checkout@v2.3.1
