@@ -28,7 +28,7 @@ jobs:
         run: |
           composer install
           php index.php
-        working_directory: backend
+        working-directory: backend
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
