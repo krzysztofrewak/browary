@@ -5,13 +5,12 @@ on:
     branches:
       - master
 
-env:
-  VUE_APP_MAPBOX_TOKEN: "${{ VUE_APP_MAPBOX_STYLE_URL }}"
-  VUE_APP_MAPBOX_STYLE_URL: "${{ VUE_APP_MAPBOX_STYLE_URL }}"
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      VUE_APP_MAPBOX_TOKEN: "${{ VUE_APP_MAPBOX_STYLE_URL }}"
+      VUE_APP_MAPBOX_STYLE_URL: "${{ VUE_APP_MAPBOX_STYLE_URL }}"
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.1
