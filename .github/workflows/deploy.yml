@@ -23,7 +23,9 @@ jobs:
           npm build
 
       - name: Install PHP dependencies
-        run: composer install
+        run: |
+          composer install
+          echo "test123" > .env
 
       - name: Build API
         env:
