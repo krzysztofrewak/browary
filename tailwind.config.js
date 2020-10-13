@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: true,
-    content: ['./frontend/**/*.blade.vue'],
+    content: ['./frontend/**/*.vue'],
   },
   theme: {
     extend: {
