@@ -14,6 +14,14 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Install and build frontend
+        env:
+          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
+          VUE_APP_MAPBOX_STYLE_URL: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
+        run: |
+          npm install
+          npm run-script build
+
       - name: Install PHP dependencies
         run: |
           composer install
@@ -25,14 +33,6 @@ jobs:
           echo 'VUE_APP_MAPBOX_TOKEN="${{ secrets.VUE_APP_MAPBOX_TOKEN }}"' > ../.env
           php index.php
         working-directory: backend
-
-      - name: Install and build frontend
-        env:
-          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
-          VUE_APP_MAPBOX_STYLE_URL: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
-        run: |
-          npm install
-          npm run-script build
 
       - name: Handle 404
         run: cp index.html 404.html
