@@ -17,12 +17,12 @@ jobs:
       - name: Install PHP dependencies
         run: |
           composer install
-          echo 'VUE_APP_MAPBOX_TOKEN="${{ secrets.VUE_APP_MAPBOX_TOKEN }}"' > .env
 
       - name: Build API
         env:
           VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
         run: |
+          echo 'VUE_APP_MAPBOX_TOKEN="${{ secrets.VUE_APP_MAPBOX_TOKEN }}"' > ../.env
           php index.php
         working-directory: backend
 
