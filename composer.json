@@ -16,10 +16,9 @@
 	"require": {
 		"php": "^7.4",
 		"ext-json": "*",
-		"illuminate/support": "^6.10",
-		"guzzlehttp/guzzle": "^6.5",
-		"vlucas/phpdotenv": "^4.1",
-		"google/apiclient": "^2.0"
+		"illuminate/support": "^8.9.0",
+		"guzzlehttp/guzzle": "^7.2.0",
+		"vlucas/phpdotenv": "^5.2.0"
 	},
 	"scripts": {
 		"build": [

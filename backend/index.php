@@ -34,7 +34,7 @@ use Brewmap\Services\Statistics\MonthsCounter;
 use Brewmap\Services\Statistics\WeekdaysCounter;
 use Dotenv\Dotenv;
 
-$dotenv = Dotenv::createImmutable("../");
+$dotenv = Dotenv::createImmutable(realpath(__DIR__ . "/../"));
 $dotenv->load();
 
 Directory::create("breweries");
