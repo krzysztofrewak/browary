@@ -8,7 +8,8 @@
     <div class="flex w-full flex-col">
       <div class="flex w-full justify-content items-center" v-for="year in years">
         <div class="flex items-center">
-          <router-link :to="{ name: 'calendar.year', params: { year: year.label } }" class="flex-1 h-full p-2">
+          <router-link :to="{ name: 'calendar.year', params: { year: year.label } }" class="flex-1 h-full p-2"
+                       :title="year.count">
             {{ year.label }}
           </router-link>
         </div>
@@ -24,36 +25,36 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       maxValue: 0,
       years: [],
     }
   },
-  mounted() {
-    fetch("api/calendar.json").then(response => response.json()).then(result => {
+  mounted () {
+    fetch('api/calendar.json').then(response => response.json()).then(result => {
       this.maxValue = result.maxValue
       this.years = result.groups.reverse()
     })
   },
   methods: {
-    getHeatMap(value) {
+    getHeatMap (value) {
       if (value >= this.maxValue) {
-        return "bg-gray-900"
+        return 'bg-gray-900'
       }
       if (value > this.maxValue * .5) {
-        return "bg-gray-800"
+        return 'bg-gray-800'
       }
       if (value > this.maxValue * .33) {
-        return "bg-gray-700"
+        return 'bg-gray-700'
       }
       if (value > this.maxValue * .1) {
-        return "bg-gray-600"
+        return 'bg-gray-600'
       }
       if (value > 0) {
-        return "bg-gray-500"
+        return 'bg-gray-500'
       }
-      return "bg-gray-300"
+      return 'bg-gray-300'
     },
   },
 }

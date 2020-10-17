@@ -1,8 +1,6 @@
 import Vue from "vue"
 import Vuex from "vuex"
 
-import "semantic-ui-css/components/icon.min.css"
-
 import App from "@/App.vue"
 import "@/assets/tailwind.css"
 import "@/registerServiceWorker"
