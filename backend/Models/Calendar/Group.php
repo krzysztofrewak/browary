@@ -75,6 +75,7 @@ final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
         return [
             "label" => $this->label,
             "items" => $this->items,
+            "count" => $this->getBreweries()->count(),
         ];
     }
 }
