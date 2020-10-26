@@ -13,7 +13,7 @@ services:
       - "8334:80"
 
   api:
-    image: composer:1.9.1
+    image: composer:2.0
     working_dir: /application
     command: composer build
     volumes:

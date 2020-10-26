@@ -25,9 +25,7 @@ final class Notes implements JsonSerializable, HavingAll
         return $this;
     }
 
-    /**
-     * @return Collection|Note[]
-     */
+    /** @return Collection|Note[] */
     public function getAll(): Collection
     {
         return $this->notes;

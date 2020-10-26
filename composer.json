@@ -16,7 +16,7 @@
 	"require": {
 		"php": "^7.4",
 		"ext-json": "*",
-		"illuminate/support": "^8.9.0",
+		"illuminate/support": "^8.11.2",
 		"guzzlehttp/guzzle": "^7.2.0",
 		"vlucas/phpdotenv": "^5.2.0"
 	},
@@ -25,6 +25,11 @@
 			"composer install",
 			"rm -rf ./public/api",
 			"sh -c 'cd backend && php index.php'"
-		]
+		],
+		"ecs": "./vendor/bin/ecs check"
+	},
+	"require-dev": {
+		"symplify/easy-coding-standard": "^8.3",
+		"krzysztofrewak/php-cs-double-quote-fixer": "^1.0"
 	}
 }

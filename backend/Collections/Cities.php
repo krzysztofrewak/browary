@@ -25,9 +25,7 @@ final class Cities implements JsonSerializable, HavingAll
         return $this;
     }
 
-    /**
-     * @return Collection|City[]
-     */
+    /** @return Collection|City[] */
     public function getAll(): Collection
     {
         return $this->cities;

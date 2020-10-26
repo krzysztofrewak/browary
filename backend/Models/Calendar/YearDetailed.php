@@ -8,7 +8,7 @@ use JsonSerializable;
 
 final class YearDetailed implements JsonSerializable
 {
-    protected Group $group;
+    private Group $group;
 
     public function __construct(Group $group)
     {

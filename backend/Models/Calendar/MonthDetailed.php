@@ -8,7 +8,7 @@ use JsonSerializable;
 
 final class MonthDetailed implements JsonSerializable
 {
-    protected Item $item;
+    private Item $item;
 
     public function __construct(Item $item)
     {

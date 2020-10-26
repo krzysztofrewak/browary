@@ -12,12 +12,12 @@ final class ExtremesFinder
     public static function find(Collection $breweries): array
     {
         $latitude = $breweries->sort(
-            fn(Brewery $a, Brewery $b): int => $b->getCoordinates()
-                    ->getLatitude() <=> $a->getCoordinates()->getLatitude()
+            fn (Brewery $a, Brewery $b): int => $b->getCoordinates()
+                ->getLatitude() <=> $a->getCoordinates()->getLatitude()
         );
         $longitude = $breweries->sort(
-            fn(Brewery $a, Brewery $b): int => $b->getCoordinates()
-                    ->getLongitude() <=> $a->getCoordinates()->getLongitude()
+            fn (Brewery $a, Brewery $b): int => $b->getCoordinates()
+                ->getLongitude() <=> $a->getCoordinates()->getLongitude()
         );
 
         return [

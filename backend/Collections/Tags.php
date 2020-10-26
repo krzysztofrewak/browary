@@ -32,9 +32,7 @@ final class Tags implements JsonSerializable, HavingAll
         return $tag;
     }
 
-    /**
-     * @return Collection|Tag[]
-     */
+    /** @return Collection|Tag[] */
     public function getAll(): Collection
     {
         return $this->tags->sortBy("name");
@@ -42,6 +40,6 @@ final class Tags implements JsonSerializable, HavingAll
 
     public function jsonSerialize(): array
     {
-        return $this->tags->sort(fn(Tag $a, Tag $b): int => $a->getName() <=> $b->getName())->toArray();
+        return $this->tags->sort(fn (Tag $a, Tag $b): int => $a->getName() <=> $b->getName())->toArray();
     }
 }

@@ -10,6 +10,6 @@ final class File
 {
     public static function save(JsonSerializable $resource, string $filename): void
     {
-        file_put_contents("../public/api/$filename", json_encode($resource, JSON_UNESCAPED_UNICODE));
+        file_put_contents("../public/api/${filename}", json_encode($resource, JSON_UNESCAPED_UNICODE));
     }
 }

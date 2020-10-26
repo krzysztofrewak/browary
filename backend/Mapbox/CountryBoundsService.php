@@ -20,7 +20,7 @@ final class CountryBoundsService
         foreach ($countries->getAll() as $country) {
             $name = $country->getName();
             $response = $api->get(
-                "https://api.mapbox.com/geocoding/v5/mapbox.places/$name.json?access_token=$token&types=country"
+                "https://api.mapbox.com/geocoding/v5/mapbox.places/${name}.json?access_token=${token}&types=country"
             );
             $bounds = json_decode($response->getBody()->getContents(), true)["features"][0]["bbox"];
 

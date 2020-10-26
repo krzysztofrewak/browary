@@ -10,7 +10,7 @@ use Illuminate\Support\Collection;
 
 interface Boundable
 {
-    public function setExtremes(Extremes $extremes): Boundable;
+    public function setExtremes(Extremes $extremes): self;
 
     public function getExtremes(): ?Extremes;
 
