@@ -30,7 +30,7 @@ final class CalendarBuilder
 
             $label = "{$iterator->locale("pl")->monthName} {$iterator->year}";
             $item = $year->addItem($label, $iterator->format("m"));
-            $monthBreweries = $breweries->getAll()
+            $breweries->getAll()
                 ->filter(fn(Brewery $brewery): bool => self::isSameMonth($brewery, $iterator))
                 ->each(fn(Brewery $brewery): Item => $item->addBrewery($brewery));
 
