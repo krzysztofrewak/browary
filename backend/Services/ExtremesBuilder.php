@@ -13,15 +13,15 @@ final class ExtremesBuilder
 {
     public static function build(Collection $breweries): Extremes
     {
-        $coordinates = $breweries->map(fn(Brewery $brewery): Coordinates => $brewery->getCoordinates());
+        $coordinates = $breweries->map(fn (Brewery $brewery): Coordinates => $brewery->getCoordinates());
         $latitude = $coordinates->sort(
-            fn(Coordinates $a, Coordinates $b): int => $a->getLatitude() <=> $b->getLatitude()
+            fn (Coordinates $a, Coordinates $b): int => $a->getLatitude() <=> $b->getLatitude()
         )
-            ->map(fn(Coordinates $coordinates): string => (string)$coordinates->getLatitude());
+            ->map(fn (Coordinates $coordinates): string => (string)$coordinates->getLatitude());
         $longitude = $coordinates->sort(
-            fn(Coordinates $a, Coordinates $b): int => $a->getLongitude() <=> $b->getLongitude()
+            fn (Coordinates $a, Coordinates $b): int => $a->getLongitude() <=> $b->getLongitude()
         )
-            ->map(fn(Coordinates $coordinates): string => (string)$coordinates->getLongitude());
+            ->map(fn (Coordinates $coordinates): string => (string)$coordinates->getLongitude());
 
         $extremes = new Extremes();
         return $extremes->set($latitude->first(), $longitude->last(), $latitude->last(), $longitude->first());

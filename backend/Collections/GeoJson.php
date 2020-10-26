@@ -24,7 +24,7 @@ final class GeoJson implements JsonSerializable
             "type" => self::TYPE,
             "features" => $this->breweries->getAll()
                 ->values()
-                ->map(fn(Brewery $brewery): array => $this->mapBrewery($brewery)),
+                ->map(fn (Brewery $brewery): array => $this->mapBrewery($brewery)),
         ];
     }
 

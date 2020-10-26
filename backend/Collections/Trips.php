@@ -25,9 +25,7 @@ final class Trips implements JsonSerializable, HavingAll
         return $this;
     }
 
-    /**
-     * @return Collection|Trip[]
-     */
+    /** @return Collection|Trip[] */
     public function getAll(): Collection
     {
         return $this->trips;
@@ -35,6 +33,6 @@ final class Trips implements JsonSerializable, HavingAll
 
     public function jsonSerialize(): array
     {
-        return $this->trips->filter(fn(Trip $trip): bool => $trip->getBreweries()->count() > 1)->toArray();
+        return $this->trips->filter(fn (Trip $trip): bool => $trip->getBreweries()->count() > 1)->toArray();
     }
 }

@@ -45,7 +45,7 @@ final class Brewery implements JsonSerializable, Sluggable
 
     public function updateSlug(int $index): void
     {
-        $this->slug .= "-$index";
+        $this->slug .= "-${index}";
     }
 
     public function setId(int $id): void
@@ -106,7 +106,7 @@ final class Brewery implements JsonSerializable, Sluggable
     /** @return Tag[]|Collection */
     public function getTags(): Collection
     {
-        return $this->tags->sort(fn(Tag $a, Tag $b): int => $a->getName() <=> $b->getName());
+        return $this->tags->sort(fn (Tag $a, Tag $b): int => $a->getName() <=> $b->getName());
     }
 
     public function jsonSerialize(): array

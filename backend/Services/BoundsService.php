@@ -23,19 +23,19 @@ final class BoundsService
                 $latitude = $brewery->getCoordinates()->getLatitude();
                 $longitude = $brewery->getCoordinates()->getLongitude();
 
-                if (is_null($north) || $latitude > $north) {
+                if ($north === null || $latitude > $north) {
                     $north = $latitude;
                 }
 
-                if (is_null($south) || $latitude < $south) {
+                if ($south === null || $latitude < $south) {
                     $south = $latitude;
                 }
 
-                if (is_null($west) || $longitude > $west) {
+                if ($west === null || $longitude > $west) {
                     $west = $longitude;
                 }
 
-                if (is_null($east) || $longitude < $east) {
+                if ($east === null || $longitude < $east) {
                     $east = $longitude;
                 }
             }

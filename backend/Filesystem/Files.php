@@ -13,7 +13,7 @@ final class Files
     public static function save(HavingAll $resource, string $directory, string $mapper = ""): void
     {
         $all = $resource->getAll();
-        $all->each(fn(Sluggable $item) => File::save(self::get($mapper, $item), self::filename($item, $directory)));
+        $all->each(fn (Sluggable $item) => File::save(self::get($mapper, $item), self::filename($item, $directory)));
     }
 
     private static function get(string $mapper, Sluggable $item): JsonSerializable
@@ -23,6 +23,6 @@ final class Files
 
     private static function filename(Sluggable $item, string $directory): string
     {
-        return "$directory/{$item->getSlug()}.json";
+        return "${directory}/{$item->getSlug()}.json";
     }
 }
