@@ -1,0 +1,62 @@
+{
+  "name": "Dolina Baryczy, październik 2020",
+  "breweries": [
+    {
+      "name": "Browar Cztery Ściany",
+      "visited": "2020-10-27",
+      "location": {
+        "country": "pl",
+        "city": "Trzebnica",
+        "address": "Milicka 32",
+        "coordinates": {
+          "lat": 51.322647,
+          "lng": 17.072219
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "dolnośląski browar",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Browar Nepomucen",
+      "visited": "2020-10-27",
+      "location": {
+        "country": "pl",
+        "city": "Szkaradowo",
+        "address": "Szkaradowo 115",
+        "coordinates": {
+          "lat": 51.585578,
+          "lng": 17.148843
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Browar Milicz",
+      "visited": "2020-10-27",
+      "location": {
+        "country": "pl",
+        "city": "Milicz",
+        "address": "Zielona 5",
+        "coordinates": {
+          "lat": 51.522857,
+          "lng": 17.284440
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep"
+      ]
+    }
+  ]
+}
