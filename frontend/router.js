@@ -5,10 +5,9 @@ import store from "@/store"
 Vue.use(VueRouter)
 
 const routes = [
-    {path: "/", name: "home", redirect: {name: "breweries"}},
-    {path: "/o", name: "about", component: () => import("./views/About.vue"), meta: {resetMap: true}},
-    {path: "/browary", name: "breweries", component: () => import("./views/Breweries.vue"), meta: {resetMap: true}},
+    {path: "/", name: "breweries", component: () => import("./views/Breweries.vue"), meta: {resetMap: true}},
     {path: "/browary/:slug", name: "brewery", component: () => import("./views/Brewery.vue")},
+    {path: "/o", name: "about", component: () => import("./views/About.vue"), meta: {resetMap: true}},
     {path: "/kalendarz", name: "calendar", component: () => import("./views/Calendar.vue"), meta: {resetMap: true}},
     {path: "/kalendarz/:year", name: "calendar.year", component: () => import("./views/CalendarPage.vue"),},
     {path: "/kalendarz/:year/:month", name: "calendar.month", component: () => import("./views/CalendarPage.vue"),},
@@ -19,13 +18,7 @@ const routes = [
     {path: "/tagi", name: "tags", component: () => import("./views/Tags.vue")},
     {path: "/tagi/:slug", name: "tag", component: () => import("./views/Tag.vue")},
     {path: "/notatki", name: "notes", component: () => import("./views/Notes.vue"), meta: {resetMap: true}},
-    {
-        path: "/statystyki",
-        name: "statistics",
-        component: () => import("./views/Statistics.vue"),
-        meta: {resetMap: true}
-    },
-
+    {path: "/statystyki", name: "statistics", component: () => import("./views/Statistics.vue"), meta: {resetMap: true}},
     {path: "/404", name: "404", redirect: {name: "none"}},
     {path: "/*", name: "none", component: () => import("./views/404.vue"), meta: {resetMap: true}},
 ]

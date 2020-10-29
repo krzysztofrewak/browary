@@ -1,6 +1,6 @@
 class Resource {
     static fetchFrom(url, callback) {
-        return fetch(url).then(response => response.json()).then(result => {
+        return fetch(url  + "?cache=" + (new Date().getTime())).then(response => response.json()).then(result => {
             callback(result)
         })
     }

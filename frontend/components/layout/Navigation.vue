@@ -1,7 +1,7 @@
 <template>
   <nav class="flex items-center justify-between flex-wrap content-end bg-blue-900 text-white p-3">
     <div class="flex-shrink-0 mb-1">
-      <router-link :to="{ name: 'home' }" class="flex text-xl items-end">
+      <router-link :to="{ name: 'breweries' }" class="flex text-xl items-end">
         <span class="font-semibold ">Odwiedzone browary</span>
         <span class="ml-2">Krzysztofa i Joanny</span>
       </router-link>
