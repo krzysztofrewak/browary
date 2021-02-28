@@ -2,49 +2,20 @@
 
 declare(strict_types=1);
 
-use KrzysztofRewak\PhpCsFixer\DoubleQuoteFixer\DoubleQuoteFixer;
-use PhpCsFixer\Fixer\CastNotation\CastSpacesFixer;
-use PhpCsFixer\Fixer\ClassNotation\ClassAttributesSeparationFixer;
-use PhpCsFixer\Fixer\Operator\NotOperatorWithSuccessorSpaceFixer;
+use Blumilk\Codestyle\Config;
+use Blumilk\Codestyle\Configuration\Defaults\CommonAdditionalRules;
+use Blumilk\Codestyle\Configuration\Defaults\Paths;
+use Blumilk\Codestyle\Configuration\Utils\Rule;
 use PhpCsFixer\Fixer\Phpdoc\PhpdocLineSpanFixer;
-use PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer;
-use PhpCsFixer\Fixer\StringNotation\SingleQuoteFixer;
-use Symfony\Component\DependencyInjection\Loader\Configurator\ContainerConfigurator;
-use Symplify\EasyCodingStandard\ValueObject\Option;
-use Symplify\EasyCodingStandard\ValueObject\Set\SetList;
 
-$sets = [
-    SetList::CLEAN_CODE,
-    SetList::PSR_12,
-    SetList::PHP_71,
-    SetList::COMMON,
-];
+$forceOneLineDocBlocks = new Rule(PhpdocLineSpanFixer::class,
+    ["const" => "single", "property" => "single", "method" => "single"]);
 
-$skipped = [
-    SingleQuoteFixer::class => null,
-    ClassAttributesSeparationFixer::class => null,
-    NotOperatorWithSuccessorSpaceFixer::class => null,
-];
+$rules = new CommonAdditionalRules();
 
-$rules = [
-    DeclareStrictTypesFixer::class => null,
-    CastSpacesFixer::class => ["space" => "none"],
-    DoubleQuoteFixer::class => null,
-    PhpdocLineSpanFixer::class => ["const" => "single", "property" => "single", "method" => "single"],
-];
+$config = new Config(
+    paths: new Paths("backend"),
+    rules: $rules->add($forceOneLineDocBlocks),
+);
 
-return static function (ContainerConfigurator $containerConfigurator) use ($sets, $skipped, $rules): void {
-    $parameters = $containerConfigurator->parameters();
-    $parameters->set(Option::SETS, $sets);
-    $parameters->set(Option::SKIP, $skipped);
-
-    $parameters->set(Option::PATHS, ["backend"]);
-
-    $services = $containerConfigurator->services();
-    foreach ($rules as $rule => $configuration) {
-        $service = $services->set($rule);
-        if ($configuration) {
-            $service->call("configure", [$configuration]);
-        }
-    }
-};
+return $config->config();

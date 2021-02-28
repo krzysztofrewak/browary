@@ -14,11 +14,14 @@
 		}
 	},
 	"require": {
-		"php": "^7.4",
+		"php": "^8.0.0",
 		"ext-json": "*",
-		"illuminate/support": "^8.11.2",
+		"illuminate/support": "^8.29",
 		"guzzlehttp/guzzle": "^7.2.0",
 		"vlucas/phpdotenv": "^5.2.0"
+	},
+	"require-dev": {
+		"blumilksoftware/codestyle": "^0.1.1"
 	},
 	"scripts": {
 		"build": [
@@ -27,9 +30,5 @@
 			"sh -c 'cd backend && php index.php'"
 		],
 		"ecs": "./vendor/bin/ecs check"
-	},
-	"require-dev": {
-		"symplify/easy-coding-standard": "^8.3",
-		"krzysztofrewak/php-cs-double-quote-fixer": "^1.0"
 	}
 }

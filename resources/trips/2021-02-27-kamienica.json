@@ -1,0 +1,23 @@
+{
+  "name": "Kamienica, luty 2021",
+  "breweries": [
+    {
+      "name": "Browar Kamienica",
+      "visited": "2021-02-27",
+      "location": {
+        "country": "pl",
+        "city": "Kamienica",
+        "address": "Kamienica 1a",
+        "coordinates": {
+          "lat": 50.251585,
+          "lng": 16.886815
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "dolnośląski browar"
+      ]
+    }
+  ]
+}
