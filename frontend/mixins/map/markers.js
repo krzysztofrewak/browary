@@ -31,7 +31,7 @@ export default {
                     this.map.addImage("ghost", image)
                 })
 
-                await fetch("/api/map.json").then(response => response.json()).then(result => {
+                await fetch("/api/map.json" + "?cache=" + (new Date().getTime())).then(response => response.json()).then(result => {
                     for (let layer of layers) {
                         this.map.addLayer(buildLayer(result, layer.name, layer.icon))
                         this.buildPopups(layer)
