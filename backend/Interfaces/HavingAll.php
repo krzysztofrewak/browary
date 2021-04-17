@@ -8,6 +8,8 @@ use Illuminate\Support\Collection;
 
 interface HavingAll
 {
-    /** @return Collection|Sluggable[] */
+    /**
+     * @return Collection|Sluggable[]
+     */
     public function getAll(): Collection;
 }

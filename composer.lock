@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eff975dbe3b28d933948a1c80309999d",
+    "content-hash": "51f5b700d8224ca31931ef59003b151f",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -1502,21 +1502,21 @@
     "packages-dev": [
         {
             "name": "blumilksoftware/codestyle",
-            "version": "0.1.1",
+            "version": "0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/blumilksoftware/codestyle.git",
-                "reference": "57206c9bf769c54431ef7a78fce576b99fd42cdf"
+                "reference": "618360583e2dc6d2e2eafb8b42ba5164b7225fea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/blumilksoftware/codestyle/zipball/57206c9bf769c54431ef7a78fce576b99fd42cdf",
-                "reference": "57206c9bf769c54431ef7a78fce576b99fd42cdf",
+                "url": "https://api.github.com/repos/blumilksoftware/codestyle/zipball/618360583e2dc6d2e2eafb8b42ba5164b7225fea",
+                "reference": "618360583e2dc6d2e2eafb8b42ba5164b7225fea",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.0",
-                "symplify/easy-coding-standard": "^9.1"
+                "symplify/easy-coding-standard": "^9.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.5"
@@ -1540,9 +1540,9 @@
             "description": "Blumilk codestyle configurator",
             "support": {
                 "issues": "https://github.com/blumilksoftware/codestyle/issues",
-                "source": "https://github.com/blumilksoftware/codestyle/tree/0.1.1"
+                "source": "https://github.com/blumilksoftware/codestyle/tree/0.3.0"
             },
-            "time": "2021-02-24T16:37:25+00:00"
+            "time": "2021-04-12T09:10:46+00:00"
         },
         {
             "name": "composer/package-versions-deprecated",

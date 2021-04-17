@@ -1,8 +1,8 @@
 import Resource from './Resource'
 
-class Brewery extends Resource {
+class Trip extends Resource {
   static assign (slug, callback, router) {
-    return this.fetchFrom('/api/breweries/' + slug + '.json', result => {
+    return this.fetchFrom('/api/trips/' + slug + '.json', result => {
       callback(result)
     }).catch(() => {
       router.push({ name: '404' })
@@ -10,4 +10,4 @@ class Brewery extends Resource {
   }
 }
 
-export default Brewery
+export default Trip

@@ -1,7 +1,7 @@
 <template>
   <section class="w-full my-6">
     <section-header subtitle="Ekstremalne współrzędne dla każdego kierunku"
-                    title="Najdalej wysunięte browary"></section-header>
+        title="Najdalej wysunięte browary"></section-header>
 
     <div class="flex flex-col w-full items-center text-center">
       <compass-row>
@@ -26,9 +26,9 @@
 </template>
 
 <script>
-import CompassCountry from "./CompassCountry"
-import CompassRow from "./CompassRow"
-import SectionHeader from "../../SectionHeader"
+import CompassCountry from './CompassCountry'
+import CompassRow from './CompassRow'
+import SectionHeader from '../../SectionHeader'
 
 export default {
   components: {

@@ -16,8 +16,8 @@ final class Notes
         $notes = new NotesCollection();
 
         $breweries->getAll()
-            ->filter(fn (Brewery $brewery): bool => !empty($brewery->getNote()))
-            ->each(fn (Brewery $brewery): NotesCollection => $notes->addNote(new Note($brewery)));
+            ->filter(fn(Brewery $brewery): bool => !empty($brewery->getNote()))
+            ->each(fn(Brewery $brewery): NotesCollection => $notes->addNote(new Note($brewery)));
 
         return $notes;
     }

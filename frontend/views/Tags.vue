@@ -4,10 +4,10 @@
 
     <div class="text-sm">
       <div class="flex text-gray-600 py-2 px-2 border-b items-center">
-        <div @click="sortBy('symbol')" class="cursor-pointer flex-grow">nazwa</div>
-        <div @click="sortBy('breweries')" class="cursor-pointer text-right">odwiedzone browary</div>
+        <div class="cursor-pointer flex-grow" @click="sortBy('symbol')">nazwa</div>
+        <div class="cursor-pointer text-right" @click="sortBy('breweries')">odwiedzone browary</div>
       </div>
-      <div class="flex py-1 px-2 border-b items-center hover:bg-gray-300" v-for="tag in tags">
+      <div v-for="tag in tags" class="flex py-1 px-2 border-b items-center hover:bg-gray-300">
         <div class="flex-grow mt-1 mr-3">
           <router-link :to="{ name: 'tag', params: { slug: tag.slug } }">
             <i class="text-gray-600 fitted hashtag icon"></i>
@@ -23,23 +23,24 @@
 </template>
 
 <script>
-import PageHeader from "../components/PageHeader"
+import api from '../resources/Tags'
+import PageHeader from '../components/PageHeader'
 
 export default {
-  components: {PageHeader},
-  data() {
+  components: { PageHeader },
+  data () {
     return {
       tags: [],
       sortKey: null,
     }
   },
-  mounted() {
-    fetch("/api/tags.json").then(response => response.json()).then(result => {
+  mounted () {
+    api.assign(result => {
       this.tags = Object.values(result)
     })
   },
   methods: {
-    sortBy(key) {
+    sortBy (key) {
       this.tags = this.tags.sort((a, b) => Number.isInteger(a[key]) ? a[key] < b[key] : a[key] > b[key])
     },
   },

@@ -14,6 +14,8 @@ interface Boundable
 
     public function getExtremes(): ?Extremes;
 
-    /** @return Collection|Brewery[] */
+    /**
+     * @return Collection|Brewery[]
+     */
     public function getBreweries(): Collection;
 }

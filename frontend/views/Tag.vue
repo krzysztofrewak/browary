@@ -6,37 +6,38 @@
 </template>
 
 <script>
-import Breweries from "../components/Breweries"
-import PageHeader from "../components/PageHeader"
+import api from '../resources/Tag'
+import Breweries from '../components/Breweries'
+import PageHeader from '../components/PageHeader'
 
 export default {
   components: {
     Breweries,
     PageHeader,
   },
-  data() {
+  data () {
     return {
       tag: null,
     }
   },
   computed: {
-    subtitle() {
-      return "Odwiedzone browary z tagiem (" + this.tag.breweriesCount + ")"
+    subtitle () {
+      return 'Odwiedzone browary z tagiem (' + this.tag.breweriesCount + ')'
     },
   },
-  mounted() {
+  mounted () {
     this.initializeView()
   },
   methods: {
-    initializeView() {
-      fetch("/api/tags/" + this.$route.params.slug + ".json").then(response => response.json()).then(result => {
+    initializeView () {
+      api.assign(this.$route.params.slug, result => {
         this.tag = result
-        this.$store.commit("setFilter", {type: "tag", item: this.tag})
-      })
+        this.$store.commit('setFilter', { type: 'tag', item: this.tag })
+      }, this.router)
     },
   },
   watch: {
-    "$route.params.slug"() {
+    '$route.params.slug' () {
       this.initializeView()
     },
   },

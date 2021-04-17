@@ -25,10 +25,10 @@
 </template>
 
 <script>
-import InfoboxEntry from "./InfoboxEntry"
+import InfoboxEntry from './InfoboxEntry'
 
 export default {
-  components: {InfoboxEntry},
+  components: { InfoboxEntry },
   props: {
     brewery: {
       type: Object,
@@ -36,10 +36,10 @@ export default {
     },
   },
   computed: {
-    mapsLink() {
-      let link = "https://www.google.com/maps/place/"
+    mapsLink () {
+      let link = 'https://www.google.com/maps/place/'
       link += this.brewery.location.coordinates[1]
-      link += ", "
+      link += ', '
       link += this.brewery.location.coordinates[0]
       return link
     },

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex text-sm p-2 border-b items-center hover:bg-gray-300" v-for="brewery in breweries">
+    <div v-for="brewery in breweries" class="flex text-sm p-2 border-b items-center hover:bg-gray-300">
       <div class="mt-1 mr-3">
         <router-link :to="{ name: 'country', params: { slug: brewery.location.country.slug } }">
           <i :class="brewery.location.country.symbol" class="large flat flag"></i>

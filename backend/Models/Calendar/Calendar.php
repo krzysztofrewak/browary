@@ -25,7 +25,9 @@ final class Calendar implements JsonSerializable, HavingAll
         return $group;
     }
 
-    /** @return Collection|Group[] */
+    /**
+     * @return Collection|Group[]
+     */
     public function getAll(): Collection
     {
         return $this->groups;

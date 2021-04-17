@@ -6,7 +6,7 @@
     </div>
 
     <div>
-      <div class="bg-gray-100 shadow my-6 p-6 text-gray-800" v-for="note in notes">
+      <div v-for="note in notes" class="bg-gray-100 shadow my-6 p-6 text-gray-800">
         <div class="flex mb-4">
           <router-link :to="{ name: 'country', params: { slug: note.brewery.country.slug } }">
             <i :class="note.brewery.country.symbol" class="large flat flag"></i>
@@ -23,15 +23,15 @@
 </template>
 
 <script>
-import api from "../resources/Notes"
+import api from '../resources/Notes'
 
 export default {
-  data() {
+  data () {
     return {
       notes: [],
     }
   },
-  mounted() {
+  mounted () {
     api.assign(result => {
       this.notes = Object.values(result)
     })

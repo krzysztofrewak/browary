@@ -1,7 +1,7 @@
 <template>
   <div v-if="brewery">
     <page-header :country="brewery.location.country" :subtitle="brewery.location.city"
-                 :title="brewery.name"></page-header>
+        :title="brewery.name"></page-header>
     <hr>
     <infobox :brewery="brewery"></infobox>
     <hr>
@@ -12,11 +12,11 @@
 </template>
 
 <script>
-import api from "../resources/Brewery"
-import PageHeader from "../components/PageHeader"
-import Description from "../components/views/brewery/Description"
-import Infobox from "../components/views/brewery/Infobox"
-import Tags from "../components/views/brewery/Tags"
+import api from '../resources/Brewery'
+import PageHeader from '../components/PageHeader'
+import Description from '../components/views/brewery/Description'
+import Infobox from '../components/views/brewery/Infobox'
+import Tags from '../components/views/brewery/Tags'
 
 export default {
   components: {
@@ -25,25 +25,25 @@ export default {
     Description,
     PageHeader,
   },
-  data() {
+  data () {
     return {
       brewery: null,
     }
   },
-  mounted() {
+  mounted () {
     this.buildView()
   },
   methods: {
-    buildView() {
+    buildView () {
       api.assign(this.$route.params.slug, result => {
         this.brewery = result
         this.brewery.tags = Object.values(this.brewery.tags)
-        this.$store.commit("selectBrewery", this.brewery)
+        this.$store.commit('selectBrewery', this.brewery)
       }, this.$router)
     },
   },
   watch: {
-    "$route.params.slug"() {
+    '$route.params.slug' () {
       this.buildView()
     },
   },

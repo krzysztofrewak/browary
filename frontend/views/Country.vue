@@ -6,37 +6,38 @@
 </template>
 
 <script>
-import Breweries from "../components/Breweries"
-import PageHeader from "../components/PageHeader"
+import api from '../resources/Country'
+import Breweries from '../components/Breweries'
+import PageHeader from '../components/PageHeader'
 
 export default {
   components: {
     Breweries,
     PageHeader,
   },
-  data() {
+  data () {
     return {
       country: null,
     }
   },
   computed: {
-    subtitle() {
-      return "Wszystkie zwiedzone browary (" + this.country.breweriesCount + ")"
+    subtitle () {
+      return 'Wszystkie zwiedzone browary (' + this.country.breweriesCount + ')'
     },
   },
-  mounted() {
+  mounted () {
     this.initializeView()
   },
   methods: {
-    initializeView() {
-      fetch("/api/countries/" + this.$route.params.slug + ".json").then(response => response.json()).then(result => {
+    initializeView () {
+      api.assign(this.$route.params.slug, result => {
         this.country = result
-        this.$store.commit("setFilter", {type: "country", item: this.country})
-      })
+        this.$store.commit('setFilter', { type: 'country', item: this.country })
+      }, this.router)
     },
   },
   watch: {
-    "$route.params.slug"() {
+    '$route.params.slug' () {
       this.initializeView()
     },
   },

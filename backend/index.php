@@ -46,7 +46,7 @@ Directory::create("trips");
 
 $countriesData = file_get_contents("../resources/countries.json");
 $tripsData = collect(glob("../resources/trips/*.json"))->map(
-    fn (string $filename): string => file_get_contents($filename)
+    fn(string $filename): string => file_get_contents($filename)
 );
 
 $tags = new Tags();
@@ -67,7 +67,7 @@ CountryBoundsService::setBounds($countries);
 BoundsService::setBounds($trips->getAll());
 BoundsService::setBounds($tags->getAll());
 BoundsService::setBounds($calendar->getAll());
-$calendar->getAll()->each(fn (Group $group) => BoundsService::setBounds($group->getAll()));
+$calendar->getAll()->each(fn(Group $group) => BoundsService::setBounds($group->getAll()));
 
 $statistics = new Statistics();
 $statistics->setExtremes(ExtremesFinder::find($breweries->getAll()));

@@ -6,46 +6,46 @@
 </template>
 
 <script>
-import Breweries from "../components/Breweries"
-import PageHeader from "../components/PageHeader"
+import Breweries from '../components/Breweries'
+import PageHeader from '../components/PageHeader'
 
 export default {
-  components: {PageHeader, Breweries},
-  data() {
+  components: { PageHeader, Breweries },
+  data () {
     return {
-      title: "~",
+      title: '~',
       breweries: [],
     }
   },
-  mounted() {
+  mounted () {
     this.initializeView()
   },
   methods: {
-    initializeView() {
-      let url = "/api/calendar/" + this.$route.params.year
+    initializeView () {
+      let url = '/api/calendar/' + this.$route.params.year
       if (this.$route.params.month) {
-        url += "/" + this.$route.params.month
+        url += '/' + this.$route.params.month
       }
-      url += ".json"
+      url += '.json' + '?cache=' + (new Date().getTime())
 
       fetch(url).then(response => response.json()).then(result => {
         this.title = result.label
         this.breweries = result.breweries
 
         if (this.$route.params.month) {
-          result.slug = this.$route.params.year + "-" + this.$route.params.month
-          this.$store.commit("setFilter", {type: "month", item: result})
+          result.slug = this.$route.params.year + '-' + this.$route.params.month
+          this.$store.commit('setFilter', { type: 'month', item: result })
         } else {
-          this.$store.commit("setFilter", {type: "year", item: result})
+          this.$store.commit('setFilter', { type: 'year', item: result })
         }
       })
     },
   },
   watch: {
-    "$route.params.year"() {
+    '$route.params.year' () {
       this.initializeView()
     },
-    "$route.params.month"() {
+    '$route.params.month' () {
       this.initializeView()
     },
   },

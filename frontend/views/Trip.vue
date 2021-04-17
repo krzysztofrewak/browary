@@ -9,37 +9,38 @@
 </template>
 
 <script>
-import Breweries from "../components/Breweries"
-import PageHeader from "../components/PageHeader"
+import api from '../resources/Trip'
+import Breweries from '../components/Breweries'
+import PageHeader from '../components/PageHeader'
 
 export default {
   components: {
     Breweries,
     PageHeader,
   },
-  data() {
+  data () {
     return {
       trip: null,
     }
   },
   computed: {
-    subtitle() {
-      return "Wszystkie zwiedzone browary"
+    subtitle () {
+      return 'Wszystkie zwiedzone browary'
     },
   },
-  mounted() {
+  mounted () {
     this.initializeView()
   },
   methods: {
-    initializeView() {
-      fetch("/api/trips/" + this.$route.params.slug + ".json").then(response => response.json()).then(result => {
+    initializeView () {
+      api.assign(this.$route.params.slug, result => {
         this.trip = result
-        this.$store.commit("setFilter", {type: "trip", item: this.trip})
-      })
+        this.$store.commit('setFilter', { type: 'trip', item: this.trip })
+      }, this.router)
     },
   },
   watch: {
-    "$route.params.slug"() {
+    '$route.params.slug' () {
       this.initializeView()
     },
   },
