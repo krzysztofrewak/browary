@@ -6,17 +6,17 @@
     </div>
 
     <div class="flex w-full flex-col">
-      <div class="flex w-full justify-content items-center" v-for="year in years">
+      <div v-for="year in years" class="flex w-full justify-content items-center">
         <div class="flex items-center">
-          <router-link :to="{ name: 'calendar.year', params: { year: year.label } }" class="flex-1 h-full p-2"
-                       :title="year.count">
+          <router-link :title="year.count" :to="{ name: 'calendar.year', params: { year: year.label } }"
+              class="flex-1 h-full p-2">
             {{ year.label }}
           </router-link>
         </div>
         <div class="mx-1 flex items-center flex-grow">
-          <router-link :class="getHeatMap(item.value)" :title="item.value"
-                       :to="{ name: 'calendar.month', params: { year: year.label, month: item.slug } }"
-                       class="flex-1 border m-1 p-3" v-for="item in year.items"></router-link>
+          <router-link v-for="item in year.items" :class="getHeatMap(item.value)"
+              :title="item.value"
+              :to="{ name: 'calendar.month', params: { year: year.label, month: item.slug } }" class="flex-1 border m-1 p-3"></router-link>
         </div>
       </div>
     </div>
@@ -24,6 +24,8 @@
 </template>
 
 <script>
+import api from '../resources/Calendar'
+
 export default {
   data () {
     return {
@@ -32,7 +34,7 @@ export default {
     }
   },
   mounted () {
-    fetch('api/calendar.json').then(response => response.json()).then(result => {
+    api.assign(result => {
       this.maxValue = result.maxValue
       this.years = result.groups.reverse()
     })

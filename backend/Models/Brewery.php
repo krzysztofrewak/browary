@@ -103,10 +103,12 @@ final class Brewery implements JsonSerializable, Sluggable
         return $this->location;
     }
 
-    /** @return Tag[]|Collection */
+    /**
+     * @return Tag[]|Collection
+     */
     public function getTags(): Collection
     {
-        return $this->tags->sort(fn (Tag $a, Tag $b): int => $a->getName() <=> $b->getName());
+        return $this->tags->sort(fn(Tag $a, Tag $b): int => $a->getName() <=> $b->getName());
     }
 
     public function jsonSerialize(): array

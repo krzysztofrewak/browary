@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full flex flex-col items-stretch" id="app">
+  <div id="app" class="h-full flex flex-col items-stretch">
     <navigation></navigation>
 
     <div class="flex flex-row h-full w-full bg-gray-200 overflow-y-hidden">
@@ -16,25 +16,25 @@
 </template>
 
 <script>
-import Map from "@/components/layout/Map"
-import Navigation from "@/components/layout/Navigation"
-import Scroll from "vuescroll"
+import Map from '@/components/layout/Map'
+import Navigation from '@/components/layout/Navigation'
+import Scroll from 'vuescroll'
 
 export default {
   components: {
-    "map-panel": Map,
+    'map-panel': Map,
     Navigation,
     Scroll,
   },
-  data() {
+  data () {
     return {
       ops: {
         bar: {
-          background: "#a0aec0",
+          background: '#a0aec0',
         },
         rail: {
-          gutterOfSide: "4px",
-          gutterOfEnds: "8px",
+          gutterOfSide: '4px',
+          gutterOfEnds: '8px',
         },
       },
     }

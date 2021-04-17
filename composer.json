@@ -21,7 +21,7 @@
 		"vlucas/phpdotenv": "^5.2.0"
 	},
 	"require-dev": {
-		"blumilksoftware/codestyle": "^0.1.1"
+		"blumilksoftware/codestyle": "^0.3"
 	},
 	"scripts": {
 		"build": [
@@ -29,6 +29,7 @@
 			"rm -rf ./public/api",
 			"sh -c 'cd backend && php index.php'"
 		],
-		"ecs": "./vendor/bin/ecs check"
+		"ecs": "./vendor/bin/ecs check",
+		"ecsf": "./vendor/bin/ecs check --fix"
 	}
 }

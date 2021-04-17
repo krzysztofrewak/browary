@@ -30,7 +30,9 @@ final class Item implements Sluggable, Boundable
         return $this;
     }
 
-    /** @return Collection|Brewery[] */
+    /**
+     * @return Collection|Brewery[]
+     */
     public function getBreweries(): Collection
     {
         return $this->breweries;

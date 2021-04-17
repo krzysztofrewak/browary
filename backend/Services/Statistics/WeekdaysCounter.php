@@ -12,8 +12,8 @@ final class WeekdaysCounter
     public static function count(Collection $breweries): array
     {
         $weekdays = ["pn", "wt", "śr", "cz", "pt", "sb", "nd"];
-        return $breweries->countBy(fn (Brewery $brewery): int => $brewery->getDate()->isoWeekday())
-            ->map(fn (int $value, int $key): array => [
+        return $breweries->countBy(fn(Brewery $brewery): int => $brewery->getDate()->isoWeekday())
+            ->map(fn(int $value, int $key): array => [
                 "label" => $weekdays[$key - 1],
                 "value" => $value,
             ])

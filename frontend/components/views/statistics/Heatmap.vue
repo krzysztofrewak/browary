@@ -1,15 +1,15 @@
 <template>
-  <section class="w-full mb-6" v-if="entries.length">
+  <section v-if="entries.length" class="w-full mb-6">
     <section-header :subtitle="subtitle" :title="title"></section-header>
     <div class="flex w-full text-center">
-      <heatmap-entry :label="entry.label" :max="max" :value="entry.value" v-for="entry in entries"></heatmap-entry>
+      <heatmap-entry v-for="entry in entries" :label="entry.label" :max="max" :value="entry.value"></heatmap-entry>
     </div>
   </section>
 </template>
 
 <script>
-import HeatmapEntry from "./HeatmapEntry"
-import SectionHeader from "../../SectionHeader"
+import HeatmapEntry from './HeatmapEntry'
+import SectionHeader from '../../SectionHeader'
 
 export default {
   components: {
@@ -17,7 +17,7 @@ export default {
     SectionHeader,
   },
   computed: {
-    max() {
+    max () {
       return Math.max(...this.entries.map(value => value.value))
     },
   },

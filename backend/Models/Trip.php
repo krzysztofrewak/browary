@@ -49,7 +49,9 @@ final class Trip implements JsonSerializable, Sluggable, Boundable
         return $this;
     }
 
-    /** @return Collection|Brewery[] */
+    /**
+     * @return Collection|Brewery[]
+     */
     public function getBreweries(): Collection
     {
         return $this->breweries;

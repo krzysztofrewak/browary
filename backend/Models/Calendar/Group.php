@@ -61,10 +61,12 @@ final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
 
     public function getBreweries(): Collection
     {
-        return $this->getAll()->map(fn (Item $item): Collection => $item->getBreweries()->reverse())->collapse();
+        return $this->getAll()->map(fn(Item $item): Collection => $item->getBreweries()->reverse())->collapse();
     }
 
-    /** @return Collection|Item[] */
+    /**
+     * @return Collection|Item[]
+     */
     public function getAll(): Collection
     {
         return $this->items;

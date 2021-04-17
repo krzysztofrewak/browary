@@ -10,7 +10,9 @@ use Illuminate\Support\Collection;
 
 final class BoundsService
 {
-    /** @param Collection|Boundable[] $collection */
+    /**
+     * @param Collection|Boundable[] $collection
+     */
     public static function setBounds(Collection $collection): void
     {
         foreach ($collection as $item) {
