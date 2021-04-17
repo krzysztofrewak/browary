@@ -1,0 +1,43 @@
+{
+  "name": "nadodrzańskie browary, kwiecień 2021",
+  "breweries": [
+    {
+      "name": "Browar Cześć Brat!",
+      "visited": "2021-04-17",
+      "location": {
+        "country": "pl",
+        "city": "Jelcz-Laskowice",
+        "address": "Polna 38",
+        "coordinates": {
+          "lat": 51.038900,
+          "lng": 17.350279
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "dolnośląski browar",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Browar Brzeg",
+      "visited": "2021-04-17",
+      "location": {
+        "country": "pl",
+        "city": "Brzeg",
+        "address": "Wrocławska 5",
+        "coordinates": {
+          "lat": 50.863125,
+          "lng": 17.464393
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu"
+      ]
+    }
+  ]
+}
