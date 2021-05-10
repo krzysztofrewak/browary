@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.021175d49526e7da1928e46cf0c219a0.js"
+  "/precache-manifest.71fbd6db6812241551041abd75a998d1.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "brewmap"});
