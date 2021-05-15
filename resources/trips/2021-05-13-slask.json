@@ -1,0 +1,103 @@
+{
+  "name": "Śląsk (i trochę dalej), maj 2021",
+  "breweries": [
+    {
+      "name": "Minibrowar Majer",
+      "visited": "2021-05-13",
+      "location": {
+        "country": "pl",
+        "city": "Gliwice",
+        "address": "Studzienna 8",
+        "coordinates": {
+          "lat": 50.295963,
+          "lng": 18.668052
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Browar Śląski Alternatywa",
+      "visited": "2021-05-13",
+      "location": {
+        "country": "pl",
+        "city": "Ruda Śląska",
+        "address": "Tylna 17",
+        "coordinates": {
+          "lat": 50.310659,
+          "lng": 18.882784
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Browar Podgórz",
+      "visited": "2021-05-14",
+      "location": {
+        "country": "pl",
+        "city": "Bielanka",
+        "address": "Bielanka 41b",
+        "coordinates": {
+          "lat": 49.520641,
+          "lng": 19.891312
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Browar Przystań",
+      "visited": "2021-05-15",
+      "location": {
+        "country": "pl",
+        "city": "Chorzów",
+        "address": "al. Klonowa 4",
+        "coordinates": {
+          "lat": 50.289690,
+          "lng": 18.979057
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Minibrowar Reden",
+      "visited": "2021-05-15",
+      "location": {
+        "country": "pl",
+        "city": "Chorzów",
+        "address": "ul. Jana III Sobieskiego 17",
+        "coordinates": {
+          "lat": 50.294233,
+          "lng": 18.953022
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos"
+      ]
+    }
+  ]
+}
