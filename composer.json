@@ -21,11 +21,10 @@
 		"vlucas/phpdotenv": "^5.2.0"
 	},
 	"require-dev": {
-		"blumilksoftware/codestyle": "^0.3"
+		"blumilksoftware/codestyle": "^0.4"
 	},
 	"scripts": {
 		"build": [
-			"composer install",
 			"rm -rf ./public/api",
 			"sh -c 'cd backend && php index.php'"
 		],

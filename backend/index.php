@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-require "../vendor/autoload.php";
+require __DIR__ . "/../vendor/autoload.php";
 
 use Brewmap\Collections\Builders\Breweries;
 use Brewmap\Collections\Builders\Cities;
@@ -34,7 +34,7 @@ use Brewmap\Services\Statistics\MonthsCounter;
 use Brewmap\Services\Statistics\WeekdaysCounter;
 use Dotenv\Dotenv;
 
-$dotenv = Dotenv::createImmutable("../");
+$dotenv = Dotenv::createImmutable(__DIR__ . "/../");
 $dotenv->load();
 
 Directory::create("breweries");
@@ -44,8 +44,8 @@ Directory::create("countries");
 Directory::create("tags");
 Directory::create("trips");
 
-$countriesData = file_get_contents("../resources/countries.json");
-$tripsData = collect(glob("../resources/trips/*.json"))->map(
+$countriesData = file_get_contents(__DIR__ . "/../resources/countries.json");
+$tripsData = collect(glob(__DIR__ . "/../resources/trips/*.json"))->map(
     fn(string $filename): string => file_get_contents($filename)
 );
 

@@ -1,6 +1,9 @@
 .idea
+.composer
 node_modules
 vendor
+
 public/*
 !public/.gitkeep
+
 .env
