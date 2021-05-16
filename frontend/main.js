@@ -1,27 +1,8 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import './tailwind.css'
 
-import App from '@/App.vue'
-import '@/assets/tailwind.css'
-import '@/registerServiceWorker'
-import inflections from '@/mixins/inflections'
-import router from '@/router'
-import store from '@/store'
+import { createApp } from 'vue'
+import router from './router.js'
+import store from './store.js'
+import App from './App.vue'
 
-Vue.mixin(inflections)
-Vue.use(Vuex)
-
-let application = new Vue({
-  router,
-  store,
-  render: h => h(App),
-})
-
-document.getElementById('favicon').href = require('@/assets/marker.png')
-
-fetch('/api/general.json').then(response => response.json()).then(result => {
-  application.$mount('#app')
-  application.$store.commit('setCounters', result.counters)
-  application.$store.commit('setMapDefaultExtremes', result.extremes)
-  application.$store.commit('resetMap')
-})
+createApp(App).use(store).use(router).mount('#app')
