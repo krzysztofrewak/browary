@@ -37,6 +37,8 @@ use Dotenv\Dotenv;
 $dotenv = Dotenv::createImmutable(__DIR__ . "/../");
 $dotenv->load();
 
+Directory::purge();
+
 Directory::create("breweries");
 Directory::create("calendar");
 Directory::create("cities");

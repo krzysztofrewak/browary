@@ -25,6 +25,12 @@ services:
     image: node:15.5.1-alpine3.10
     container_name: browary-node
     working_dir: /application
+    user: ${CURRENT_UID}
     volumes:
       - .:/application
-    restart: unless-stopped
+    tty: true
+    environment:
+      - HOST=0.0.0.0
+      - CHOKIDAR_USEPOLLING=true
+    ports:
+      - "${DEVELOPMENT_NODE_PORT}:${DEVELOPMENT_NODE_PORT}"
