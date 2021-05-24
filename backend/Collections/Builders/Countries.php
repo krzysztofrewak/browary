@@ -15,7 +15,7 @@ final class Countries
 
         $data = json_decode($jsonFile, true);
         foreach ($data["countries"] as $countryData) {
-            $countries->addCountry(new Country($countryData["name"], $countryData["symbol"]));
+            $countries->addCountry(new Country($countryData["name"], $countryData["original"], $countryData["symbol"]));
         }
 
         return $countries;

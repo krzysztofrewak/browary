@@ -4,13 +4,23 @@ import Home from './views/Home.vue'
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
+    path: '/informacje',
+    name: 'about',
     component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+  },
+  {
+    path: '/panstwa',
+    name: 'countries',
+    component: () => import(/* webpackChunkName: "about" */ './views/Countries.vue')
+  },
+  {
+    path: '/panstwa/:slug',
+    name: 'country',
+    component: () => import(/* webpackChunkName: "about" */ './views/Country.vue')
   }
 ]
 

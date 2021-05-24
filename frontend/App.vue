@@ -15,35 +15,16 @@
                 </button>
               </div>
             </TransitionChild>
+
             <div class="pt-5 pb-4">
-              <div class="flex-shrink-0 flex items-center px-4">
-                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600" alt="Workflow"/>
-              </div>
-              <nav aria-label="Sidebar" class="mt-5">
+              <nav aria-label="Sidebar">
                 <div class="px-2 space-y-1">
-                  <a v-for="item in navigation" :key="item.name" :href="item.href" class="group p-2 rounded-md flex items-center text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900">
+                  <router-link v-for="item in navigation" :key="item.route" :to="{ name: item.route }" class="group p-2 rounded-md flex items-center text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900">
                     <component :is="item.icon" class="mr-4 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true"/>
                     {{ item.name }}
-                  </a>
+                  </router-link>
                 </div>
               </nav>
-            </div>
-            <div class="flex-shrink-0 flex border-t border-gray-200 p-4">
-              <a href="#" class="flex-shrink-0 group block">
-                <div class="flex items-center">
-                  <div>
-                    <img class="inline-block h-10 w-10 rounded-full" :src="user.imageUrl" alt=""/>
-                  </div>
-                  <div class="ml-3">
-                    <p class="text-base font-medium text-gray-700 group-hover:text-gray-900">
-                      {{ user.name }}
-                    </p>
-                    <p class="text-sm font-medium text-gray-500 group-hover:text-gray-700">
-                      Account Settings
-                    </p>
-                  </div>
-                </div>
-              </a>
             </div>
           </div>
         </TransitionChild>
@@ -56,20 +37,17 @@
     <!-- Static sidebar for desktop -->
     <div class="hidden lg:flex lg:flex-shrink-0">
       <div class="flex flex-col w-20">
-        <div class="flex flex-col h-0 flex-1 overflow-y-auto bg-indigo-600">
+        <div class="flex flex-col h-0 flex-1 overflow-y-auto bg-gradient-to-r from-black to-gray-900">
           <div class="flex-1 flex flex-col">
-            <div class="flex-shrink-0 bg-indigo-700 py-4 flex items-center justify-center">
-              <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white" alt="Workflow"/>
-            </div>
             <nav aria-label="Sidebar" class="py-6 flex flex-col items-center space-y-3">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" class="flex items-center p-4 rounded-lg text-indigo-200 hover:bg-indigo-700">
+              <router-link v-for="item in navigation" :key="item.route" :to="{ name: item.route }" class="flex items-center p-4 rounded-lg text-yellow-100 hover:bg-yellow-600" :title="item.name">
                 <component :is="item.icon" class="h-6 w-6" aria-hidden="true"/>
                 <span class="sr-only">{{ item.name }}</span>
-              </a>
+              </router-link>
             </nav>
           </div>
           <div class="flex-shrink-0 flex pb-3 text-white flex flex-col items-center">
-            <a href="https://github.com/krzysztofrewak/browary" class="flex items-center p-4 rounded-lg text-indigo-200 hover:bg-indigo-700">
+            <a href="https://github.com/krzysztofrewak/browary" class="flex items-center p-4 rounded-lg text-yellow-100 hover:bg-yellow-600" title="Kod źródłowy" target="_blank">
               <CodeIcon class="h-6 w-6" aria-hidden="true"/>
             </a>
           </div>
@@ -80,12 +58,12 @@
     <div class="flex-1 min-w-0 flex flex-col overflow-hidden">
       <!-- Mobile top navigation -->
       <div class="lg:hidden">
-        <div class="bg-indigo-600 py-2 px-4 flex items-center justify-between sm:px-6 lg:px-8">
+        <div class="bg-yellow-600 py-2 px-4 flex items-center justify-between sm:px-6 lg:px-8">
           <div>
             <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=white" alt="Workflow"/>
           </div>
           <div>
-            <button type="button" class="-mr-3 h-12 w-12 inline-flex items-center justify-center bg-indigo-600 rounded-md text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" @click="mobileMenuOpen = true">
+            <button type="button" class="-mr-3 h-12 w-12 inline-flex items-center justify-center bg-yellow-600 rounded-md text-white hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" @click="mobileMenuOpen = true">
               <span class="sr-only">Open sidebar</span>
               <MenuIcon class="h-6 w-6" aria-hidden="true"/>
             </button>
@@ -94,17 +72,14 @@
       </div>
 
       <main class="flex-1 flex overflow-hidden">
-        <div class="flex-1 flex xl:overflow-hidden">
-          <!-- Primary column -->
-          <section aria-labelledby="primary-heading" class="min-w-0 flex-1 h-full flex flex-col overflow-hidden lg:order-last">
-            <h1 id="primary-heading" class="sr-only">Account</h1>
-            <!-- Your content -->
-          </section>
+        <div class="flex-1 flex flex-row-reverse xl:overflow-hidden">
+          <Map></Map>
 
           <!-- Secondary column (hidden on smaller screens) -->
-          <aside class="hidden lg:block lg:flex-shrink-0 lg:order-first">
-            <div class="h-full relative flex flex-col w-96 border-r border-gray-200 bg-white">
-              <!-- Your content -->
+          <aside class="hidden lg:block lg:flex-shrink-0 lg:order-first z-10 shadow-lg">
+            <div class="h-full relative flex flex-col w-120 bg-white overflow-y-auto">
+              <router-view></router-view>
+              <div class="w-full">&nbsp;</div>
             </div>
           </aside>
         </div>
@@ -117,31 +92,32 @@
 import { ref } from 'vue'
 import { Dialog, DialogOverlay, TransitionChild, TransitionRoot } from '@headlessui/vue'
 import {
-  BookmarkAltIcon,
+  CalendarIcon,
   CodeIcon,
-  FireIcon,
+  GlobeIcon,
   HomeIcon,
-  InboxIcon,
   MenuIcon,
-  UserIcon,
+  PresentationChartLineIcon,
+  QuestionMarkCircleIcon,
+  TagIcon,
+  TicketIcon,
   XIcon
 } from '@heroicons/vue/outline'
+import Map from './Map'
 
-const user = {
-  name: 'Emily Selman',
-  imageUrl:
-      'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
-}
 const navigation = [
-  { name: 'Home', href: '#', icon: HomeIcon },
-  { name: 'Trending', href: '#', icon: FireIcon },
-  { name: 'Bookmarks', href: '#', icon: BookmarkAltIcon },
-  { name: 'Messages', href: '#', icon: InboxIcon },
-  { name: 'Profile', href: '#', icon: UserIcon }
+  { name: 'Str. główna', route: 'home', icon: HomeIcon },
+  { name: 'Kalendarz', route: 'home', icon: CalendarIcon },
+  { name: 'Odwiedzone państwa', route: 'countries', icon: GlobeIcon },
+  { name: 'Wycieczki', route: 'home', icon: TicketIcon },
+  { name: 'Tagi browarów', route: 'home', icon: TagIcon },
+  { name: 'O nas', route: 'about', icon: QuestionMarkCircleIcon },
+  { name: 'Statystyki', route: 'home', icon: PresentationChartLineIcon }
 ]
 
 export default {
   components: {
+    Map,
     Dialog,
     DialogOverlay,
     TransitionChild,
@@ -154,7 +130,6 @@ export default {
     const mobileMenuOpen = ref(false)
 
     return {
-      user,
       navigation,
       mobileMenuOpen
     }

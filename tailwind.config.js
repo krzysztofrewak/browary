@@ -4,7 +4,11 @@ module.exports = {
   },
   darkMode: false,
   theme: {
-    extend: {}
+    extend: {
+      width: {
+        '120': '30rem'
+      }
+    }
   },
   variants: {
     extend: {}

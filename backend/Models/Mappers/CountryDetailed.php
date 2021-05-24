@@ -20,11 +20,16 @@ final class CountryDetailed implements JsonSerializable
     {
         return [
             "name" => $this->country->getName(),
+            "original" => $this->country->getOriginalName(),
             "symbol" => $this->country->getSymbol(),
             "slug" => $this->country->getSlug(),
             "extremes" => $this->country->getExtremes(),
             "breweries" => $this->country->getBreweries(),
-            "breweriesCount" => $this->country->getBreweriesCount(),
+            "stats" => [
+                "breweries" => $this->country->getBreweriesCount(),
+                "trips" => $this->country->getTripsCount(),
+                "cities" => $this->country->getCitiesCount(),
+            ],
         ];
     }
 }

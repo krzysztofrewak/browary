@@ -12,15 +12,17 @@ use JsonSerializable;
 final class Country implements JsonSerializable, Sluggable
 {
     private string $name;
+    private string $original;
     private string $symbol;
     private string $slug;
     /** @var Collection|Brewery[] */
     private Collection $breweries;
     private ?Extremes $extremes = null;
 
-    public function __construct(string $name, string $symbol)
+    public function __construct(string $name, string $original, string $symbol)
     {
         $this->name = $name;
+        $this->original = $original;
         $this->symbol = $symbol;
         $this->slug = Str::slug($this->name);
         $this->breweries = new Collection();
@@ -35,6 +37,11 @@ final class Country implements JsonSerializable, Sluggable
     public function getName(): string
     {
         return $this->name;
+    }
+
+    public function getOriginalName(): string
+    {
+        return $this->original;
     }
 
     public function getSymbol(): string
@@ -76,5 +83,15 @@ final class Country implements JsonSerializable, Sluggable
     public function getBreweriesCount(): int
     {
         return $this->breweries->count();
+    }
+
+    public function getTripsCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getTrip()->getSlug())->count();
+    }
+
+    public function getCitiesCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity())->count();
     }
 }
