@@ -7,8 +7,10 @@
 
 <script>
 import { onMounted, ref } from 'vue'
-import Breweries from '../components/Breweries'
+import { useRouter } from 'vue-router'
+import Breweries from '../components/Lists/Breweries'
 import PageHeader from '../components/PageHeader'
+import api from '../api'
 
 export default {
   components: { Breweries, PageHeader },
@@ -18,13 +20,14 @@ export default {
     }
   },
   setup () {
+    const router = useRouter()
     const breweries = ref([])
 
-    onMounted(() => [
-      fetch('/api/breweries.json').then(response => response.json()).then(data => {
+    onMounted(() => {
+      api.fetch(router, 'breweries', (data) => {
         breweries.value = Object.values(data)
       })
-    ])
+    })
 
     return {
       breweries

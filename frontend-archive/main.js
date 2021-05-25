@@ -19,7 +19,7 @@ let application = new Vue({
 
 document.getElementById('favicon').href = require('@/assets/marker.png')
 
-fetch('/api/general.json').then(response => response.json()).then(result => {
+fetch('/api/general.json?' +  + Date.now()).then(response => response.json()).then(result => {
   application.$mount('#app')
   application.$store.commit('setCounters', result.counters)
   application.$store.commit('setMapDefaultExtremes', result.extremes)

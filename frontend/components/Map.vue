@@ -1,11 +1,10 @@
 <template>
   <div class="flex-grow h-full">
     <div v-if="loading" class="flex justify-center items-center w-full h-full bg-gray-300 text-gray-400">
-      <div>
-        <i class="huge notched circle loading icon"></i>
-      </div>
+        <LocationMarkerIcon class="h-36 w-36 animate-pulse" aria-hidden="true"/>
     </div>
-    <div id="map" class="w-full h-full"></div>
+    <div id="map" class="w-full h-full">
+    </div>
   </div>
 </template>
 
@@ -15,8 +14,12 @@ import adjuster from '@/mixins/map/adjuster'
 import controls from '@/mixins/map/controls'
 import markers from '@/mixins/map/markers'
 import popups from '@/mixins/map/popups'
+import { LocationMarkerIcon } from '@heroicons/vue/outline'
 
 export default {
+  components: {
+    LocationMarkerIcon
+  },
   mixins: [
     adjuster,
     controls,

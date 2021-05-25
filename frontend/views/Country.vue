@@ -20,7 +20,8 @@ import { useStore } from 'vuex'
 import PageHeader from '../components/PageHeader'
 import Statistic from '../components/Statistic'
 import Statistics from '../components/Statistics'
-import Breweries from '../components/Breweries'
+import Breweries from '../components/Lists/Breweries'
+import api from '../api'
 
 export default {
   components: { Breweries, Statistics, Statistic, PageHeader },
@@ -30,14 +31,12 @@ export default {
     const store = useStore()
     const country = ref({})
 
-    onMounted(() => [
-      fetch('/api/countries/' + route.params.slug + '.json?' + Date.now()).then(response => response.json()).then(data => {
-        country.value = data
+    onMounted(() => {
+      api.fetch(router, 'countries/' + route.params.slug, (data) => {
         store.commit('setFilter', { type: 'country', item: data })
-      }).catch(() => {
-        router.push({ name: 'home' })
+        country.value = data
       })
-    ])
+    })
 
     return {
       country
