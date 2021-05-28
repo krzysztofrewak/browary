@@ -107,7 +107,7 @@ import Map from './Map'
 
 const navigation = [
   { name: 'Str. główna', route: 'home', icon: HomeIcon },
-  { name: 'Kalendarz', route: 'home', icon: CalendarIcon },
+  { name: 'Kalendarz', route: 'calendar', icon: CalendarIcon },
   { name: 'Odwiedzone państwa', route: 'countries', icon: GlobeIcon },
   { name: 'Wycieczki', route: 'home', icon: TicketIcon },
   { name: 'Tagi browarów', route: 'home', icon: TagIcon },

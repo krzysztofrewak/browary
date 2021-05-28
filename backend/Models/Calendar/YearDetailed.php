@@ -20,8 +20,16 @@ final class YearDetailed implements JsonSerializable
         return [
             "label" => $this->group->getSlug(),
             "slug" => $this->group->getSlug(),
+            "stats" => [
+                "breweries" => $this->group->getBreweriesCount(),
+                "countries" => $this->group->getCountriesCount(),
+                "trips" => $this->group->getTripsCount(),
+                "cities" => $this->group->getCitiesCount(),
+            ],
             "extremes" => $this->group->getExtremes(),
             "breweries" => $this->group->getBreweries(),
+            "maxValue" => $this->group->findMaxValue(),
+            "months" => $this->group->getAll(),
         ];
     }
 }

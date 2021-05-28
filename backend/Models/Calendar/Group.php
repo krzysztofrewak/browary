@@ -7,6 +7,7 @@ namespace Brewmap\Models\Calendar;
 use Brewmap\Interfaces\Boundable;
 use Brewmap\Interfaces\HavingAll;
 use Brewmap\Interfaces\Sluggable;
+use Brewmap\Models\Brewery;
 use Brewmap\Models\Extremes;
 use Illuminate\Support\Collection;
 use JsonSerializable;
@@ -23,7 +24,7 @@ final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
         $this->items = new Collection();
     }
 
-    public function addItem(string $label, string $slug)
+    public function addItem(string $label, string $slug): Item
     {
         $item = new Item($label, $slug);
         $this->items->add($item);
@@ -62,6 +63,26 @@ final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
     public function getBreweries(): Collection
     {
         return $this->getAll()->map(fn(Item $item): Collection => $item->getBreweries()->reverse())->collapse();
+    }
+
+    public function getBreweriesCount(): int
+    {
+        return $this->getBreweries()->count();
+    }
+
+    public function getCountriesCount(): int
+    {
+        return $this->getBreweries()->groupBy(fn(Brewery $brewery): string => $brewery->getCountry()->getSlug())->count();
+    }
+
+    public function getTripsCount(): int
+    {
+        return $this->getBreweries()->groupBy(fn(Brewery $brewery): string => $brewery->getTrip()->getSlug())->count();
+    }
+
+    public function getCitiesCount(): int
+    {
+        return $this->getBreweries()->groupBy(fn(Brewery $brewery): string => $brewery->getCity())->count();
     }
 
     /**

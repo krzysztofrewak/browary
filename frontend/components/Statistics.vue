@@ -1,5 +1,5 @@
 <template>
-  <div class="px-6 my-4 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
+  <div class="px-4 my-4 text-center flex items-center justify-center">
     <slot></slot>
   </div>
 </template>
