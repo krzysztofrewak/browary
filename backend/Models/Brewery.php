@@ -33,6 +33,11 @@ final class Brewery implements JsonSerializable, Sluggable
         $this->tags = new Collection();
     }
 
+    public function getId(): string
+    {
+        return (string)$this->id;
+    }
+
     public function getName(): string
     {
         return $this->name;

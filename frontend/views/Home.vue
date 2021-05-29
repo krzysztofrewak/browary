@@ -17,7 +17,13 @@ export default {
   components: { Breweries, PageHeader },
   computed: {
     subtitle () {
-      return 'Odwiedziliśmy do tej pory'
+      if (this.$store.getters.counters) {
+        const breweries = this.$store.getters.counters.breweries
+        const countries = this.$store.getters.counters.countries
+        return this.inflectBrewery(breweries) + ' w ' + this.inflectCountries(countries)
+      }
+
+      return '...'
     }
   },
   setup () {
@@ -25,12 +31,14 @@ export default {
     const store = useStore()
     const breweries = ref([])
 
-    onMounted(() => {
-      api.fetch(router, 'breweries', (data) => {
+    const fetchBreweries = async () => {
+      await api.fetch(router, 'breweries', (data) => {
         store.commit('resetMap')
         breweries.value = Object.values(data)
       })
-    })
+    }
+
+    onMounted(() => fetchBreweries())
 
     return {
       breweries

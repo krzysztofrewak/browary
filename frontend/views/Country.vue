@@ -3,9 +3,9 @@
     <PageHeader :title="country.name" :header="country.original"></PageHeader>
 
     <Statistics v-if="country.stats">
-      <Statistic label="odwiedzonych browarów" :value="country.stats.breweries"></Statistic>
-      <Statistic label="odbytych wycieczek" :value="country.stats.trips"></Statistic>
-      <Statistic label="zwiedzonych miast" :value="country.stats.cities"></Statistic>
+      <Statistic :label="inflectVisitedBreweries(country.stats.breweries, false)" :value="country.stats.breweries"></Statistic>
+      <Statistic :label="inflectVisitedTrips(country.stats.trips, false)" :value="country.stats.trips"></Statistic>
+      <Statistic :label="inflectVisitedCities(country.stats.cities, false)" :value="country.stats.cities"></Statistic>
     </Statistics>
     <hr class="my-4">
 

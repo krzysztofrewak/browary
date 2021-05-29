@@ -1,6 +1,12 @@
 <template>
   <div class="year">
-    <page-header :title="title" header="Im ciemniej, tym więcej"></page-header>
+    <page-header :title="title" header="Odwiedzone browary"></page-header>
+
+    <div class="px-4">
+      <YearRow :row="year.months" :max-value="maxValue" :year="year.label" :show-months="true"></YearRow>
+    </div>
+
+    <hr class="my-4">
 
     <Statistics v-if="year.stats">
       <Statistic label="odwiedzonych browarów" :value="year.stats.breweries"></Statistic>
@@ -8,17 +14,6 @@
       <Statistic label="zwiedzonych państw" :value="year.stats.countries"></Statistic>
       <Statistic label="zwiedzonych miast" :value="year.stats.cities"></Statistic>
     </Statistics>
-
-    <div class="px-4">
-      <div class="flex items-center justify-between p-1">
-        <div class="w-6 h-6 border text-xs flex items-center justify-center" v-for="month in year.months"
-            :key="month.slug"
-            :class="calculateBackgroundColor(month.value, month.slug)"
-            :title="month.value">
-          <span class="opacity-50" v-if="month.value">{{ month.value }}</span>
-        </div>
-      </div>
-    </div>
 
     <hr class="my-4">
 
@@ -35,9 +30,10 @@ import Breweries from '../components/Lists/Breweries'
 import Statistic from '../components/Statistic'
 import Statistics from '../components/Statistics'
 import api from '../api'
+import YearRow from '../components/Calendar/YearRow'
 
 export default {
-  components: { Breweries, PageHeader, Statistic, Statistics },
+  components: { YearRow, Breweries, PageHeader, Statistic, Statistics },
   setup () {
     const route = useRoute()
     const router = useRouter()
@@ -60,33 +56,6 @@ export default {
       year,
       title,
       maxValue
-    }
-  },
-  methods: {
-    calculateBackgroundColor (value) {
-      if (value === this.maxValue) {
-        return 'bg-gray-900 text-white'
-      }
-
-      const thresholds = [
-        { threshold: 0.85, class: 'bg-gray-800 text-white' },
-        { threshold: 0.66, class: 'bg-gray-700 text-white' },
-        { threshold: 0.5, class: 'bg-gray-600 text-white' },
-        { threshold: 0.33, class: 'bg-gray-500' },
-        { threshold: 0.15, class: 'bg-gray-400' }
-      ]
-
-      for (const t of thresholds) {
-        if (value >= this.maxValue * t.threshold) {
-          return t.class
-        }
-      }
-
-      if (value >= 1) {
-        return 'bg-gray-300'
-      }
-
-      return 'bg-gray-100'
     }
   }
 }

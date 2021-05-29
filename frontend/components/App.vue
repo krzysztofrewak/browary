@@ -40,7 +40,7 @@
         <div class="flex flex-col h-0 flex-1 overflow-y-auto bg-gradient-to-r from-black to-gray-900">
           <div class="flex-1 flex flex-col">
             <nav aria-label="Sidebar" class="py-6 flex flex-col items-center space-y-3">
-              <router-link v-for="item in navigation" :key="item.route" :to="{ name: item.route }" class="flex items-center p-4 rounded-lg text-yellow-100 hover:bg-yellow-600" :title="item.name">
+              <router-link v-for="item in navigation" :key="item.route" :to="{ name: item.route }" class="flex items-center p-4 rounded-lg text-yellow-100 hover:bg-gray-700" :class="{ 'bg-gray-800': $route.meta.section === item.section }" :title="item.name">
                 <component :is="item.icon" class="h-6 w-6" aria-hidden="true"/>
                 <span class="sr-only">{{ item.name }}</span>
               </router-link>
@@ -72,7 +72,7 @@
       </div>
 
       <main class="flex-1 flex overflow-hidden">
-        <div class="flex-1 flex flex-row-reverse xl:overflow-hidden">
+        <div class="flex-1 flex xl:overflow-hidden">
           <Map></Map>
 
           <!-- Secondary column (hidden on smaller screens) -->
@@ -106,13 +106,13 @@ import {
 import Map from './Map'
 
 const navigation = [
-  { name: 'Str. główna', route: 'home', icon: HomeIcon },
-  { name: 'Kalendarz', route: 'calendar', icon: CalendarIcon },
-  { name: 'Odwiedzone państwa', route: 'countries', icon: GlobeIcon },
-  { name: 'Wycieczki', route: 'home', icon: TicketIcon },
-  { name: 'Tagi browarów', route: 'home', icon: TagIcon },
-  { name: 'O nas', route: 'about', icon: QuestionMarkCircleIcon },
-  { name: 'Statystyki', route: 'home', icon: PresentationChartLineIcon }
+  { name: 'Str. główna', route: 'home', icon: HomeIcon, section: 'home' },
+  { name: 'Kalendarz', route: 'calendar', icon: CalendarIcon, section: 'calendar' },
+  { name: 'Odwiedzone państwa', route: 'countries', icon: GlobeIcon, section: 'countries' },
+  { name: 'Wycieczki', route: 'home', icon: TicketIcon, section: 'trips' },
+  { name: 'Tagi browarów', route: 'home', icon: TagIcon, section: 'tags' },
+  { name: 'O nas', route: 'about', icon: QuestionMarkCircleIcon, section: 'about' },
+  { name: 'Statystyki', route: 'home', icon: PresentationChartLineIcon, section: 'statistics' }
 ]
 
 export default {

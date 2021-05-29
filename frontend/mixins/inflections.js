@@ -1,4 +1,4 @@
-function inflect (number, nouns) {
+function inflect (number, nouns, withNumber = true) {
   let noun = nouns[0]
   if (number === 1) {
     noun = nouns[1]
@@ -8,16 +8,32 @@ function inflect (number, nouns) {
     noun = nouns[3]
   }
 
+  if (!withNumber) {
+    return noun
+  }
+
   return number + ' ' + noun
 }
 
 export default {
   methods: {
-    inflectBrewery (number) {
-      return inflect(number, ['browarów', 'browar', 'browarów', 'browary'])
+    inflectBrewery (number, withNumber = true) {
+      return inflect(number, ['browarów', 'browar', 'browarów', 'browary'], withNumber)
     },
-    inflectCountry (number) {
-      return inflect(number, ['państw', 'państwo', 'państw', 'państwa'])
+    inflectCountry (number, withNumber = true) {
+      return inflect(number, ['państw', 'państwo', 'państw', 'państwa'], withNumber)
+    },
+    inflectCountries (number, withNumber = true) {
+      return inflect(number, ['państwach', 'państwie', 'państwach', 'państwach'], withNumber)
+    },
+    inflectVisitedBreweries (number, withNumber = true) {
+      return inflect(number, ['odwiedzonych browarów', 'odwiedzony browar', 'odwiedzonych browarów', 'odwiedzone browary'], withNumber)
+    },
+    inflectVisitedTrips (number, withNumber = true) {
+      return inflect(number, ['odbytych wycieczek', 'odbyta wycieczka', 'odbytych wycieczek', 'odbyte wycieczki'], withNumber)
+    },
+    inflectVisitedCities (number, withNumber = true) {
+      return inflect(number, ['zwiedzonych miast', 'zwiedzone miasto', 'zwiedzonych miast', 'zwiedzone miasta'], withNumber)
     }
   }
 }

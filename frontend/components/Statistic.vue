@@ -1,10 +1,11 @@
 <template>
-  <div class="flex flex-col p-2">
-    <div class="py-1 order-2 text-sm lowercase leading-tight text-gray-500">
-      {{ label }}
+  <div class="flex-1 flex flex-col p-2">
+    <div class="text-3xl">
+      <span v-if="value">{{ value }}</span>
+      <slot v-else></slot>
     </div>
-    <div class="order-1 text-3xl">
-      {{ value }}
+    <div class="py-1 text-sm lowercase leading-tight text-gray-500">
+      {{ label }}
     </div>
   </div>
 </template>
