@@ -7,13 +7,13 @@ namespace Brewmap\Models\Mappers;
 use Brewmap\Models\Country;
 use JsonSerializable;
 
-final class GeneralCountry implements JsonSerializable
+class GeneralCountry implements JsonSerializable
 {
-    private string $name;
-    private string $original;
-    private string $symbol;
-    private string $slug;
-    private int $breweries;
+    protected string $name;
+    protected string $original;
+    protected string $symbol;
+    protected string $slug;
+    protected int $breweries;
 
     public function __construct(Country $country)
     {

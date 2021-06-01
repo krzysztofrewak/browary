@@ -94,6 +94,16 @@
       "symbol": "sk",
       "name": "Słowacja",
       "original": "Slovensko"
+    },
+    {
+      "symbol": "es",
+      "name": "Hiszpania",
+      "original": "España"
+    },
+    {
+      "symbol": "fi",
+      "name": "Finlandia",
+      "original": "Suomi"
     }
   ]
 }

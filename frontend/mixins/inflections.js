@@ -34,6 +34,9 @@ export default {
     },
     inflectVisitedCities (number, withNumber = true) {
       return inflect(number, ['zwiedzonych miast', 'zwiedzone miasto', 'zwiedzonych miast', 'zwiedzone miasta'], withNumber)
+    },
+    inflectVisitedCountries (number, withNumber = true) {
+      return inflect(number, ['odwiedzonych państw', 'odwiedzone państwo', 'odwiedzonych państw', 'odwiedzone państwa'], withNumber)
     }
   }
 }

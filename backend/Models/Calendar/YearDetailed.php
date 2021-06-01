@@ -6,9 +6,9 @@ namespace Brewmap\Models\Calendar;
 
 use JsonSerializable;
 
-final class YearDetailed implements JsonSerializable
+class YearDetailed implements JsonSerializable
 {
-    private Group $group;
+    protected Group $group;
 
     public function __construct(Group $group)
     {

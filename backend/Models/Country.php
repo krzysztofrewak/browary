@@ -9,15 +9,14 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JsonSerializable;
 
-final class Country implements JsonSerializable, Sluggable
+class Country implements JsonSerializable, Sluggable
 {
-    private string $name;
-    private string $original;
-    private string $symbol;
-    private string $slug;
-    /** @var Collection|Brewery[] */
-    private Collection $breweries;
-    private ?Extremes $extremes = null;
+    protected string $name;
+    protected string $original;
+    protected string $symbol;
+    protected string $slug;
+    protected Collection $breweries;
+    protected ?Extremes $extremes = null;
 
     public function __construct(string $name, string $original, string $symbol)
     {
@@ -28,7 +27,7 @@ final class Country implements JsonSerializable, Sluggable
         $this->breweries = new Collection();
     }
 
-    public function addBrewery(Brewery $brewery): self
+    public function addBrewery(Brewery $brewery): static
     {
         $this->breweries->add($brewery);
         return $this;
@@ -64,20 +63,10 @@ final class Country implements JsonSerializable, Sluggable
         return $this->extremes;
     }
 
-    public function setExtremes(Extremes $extremes): self
+    public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
         return $this;
-    }
-
-    public function jsonSerialize(): array
-    {
-        return [
-            "name" => $this->name,
-            "symbol" => $this->symbol,
-            "slug" => $this->slug,
-            "breweriesCount" => $this->getBreweriesCount(),
-        ];
     }
 
     public function getBreweriesCount(): int
@@ -93,5 +82,15 @@ final class Country implements JsonSerializable, Sluggable
     public function getCitiesCount(): int
     {
         return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity())->count();
+    }
+
+    public function jsonSerialize(): array
+    {
+        return [
+            "name" => $this->name,
+            "symbol" => $this->symbol,
+            "slug" => $this->slug,
+            "breweriesCount" => $this->getBreweriesCount(),
+        ];
     }
 }

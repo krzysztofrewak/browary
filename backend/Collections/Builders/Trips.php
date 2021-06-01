@@ -14,7 +14,7 @@ use Brewmap\Models\Trip;
 use Carbon\Carbon;
 use Illuminate\Support\Collection;
 
-final class Trips
+class Trips
 {
     public static function buildFromFiles(Collection $tripsData, Countries $countries, Tags $tags): TripsCollection
     {

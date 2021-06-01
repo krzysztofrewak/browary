@@ -6,7 +6,7 @@ namespace Brewmap\Services;
 
 use Brewmap\Collections\Breweries;
 
-final class BreweryIndexer
+class BreweryIndexer
 {
     public static function index(Breweries $breweries): void
     {

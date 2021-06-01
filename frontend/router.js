@@ -51,9 +51,15 @@ const routes = [
     meta: { section: 'countries' }
   },
   {
+    path: '/wycieczki',
+    name: 'trips',
+    component: () => import(/* webpackChunkName: "trips" */ './views/Trips.vue'),
+    meta: { section: 'trips' }
+  },
+  {
     path: '/wycieczki/:slug',
     name: 'trip',
-    component: () => import(/* webpackChunkName: "trip" */ './views/Home.vue'),
+    component: () => import(/* webpackChunkName: "trip" */ './views/Trip.vue'),
     meta: { section: 'trips' }
   },
   {

@@ -3,21 +3,21 @@
     <page-header :title="title" header="Odwiedzone browary"></page-header>
 
     <div class="px-4">
-      <YearRow :row="year.months" :max-value="maxValue" :year="year.label" :show-months="true"></YearRow>
+      <year-row :row="year.months" :max-value="maxValue" :year="year.label" :show-months="true"></year-row>
     </div>
 
     <hr class="my-4">
 
-    <Statistics v-if="year.stats">
-      <Statistic label="odwiedzonych browarów" :value="year.stats.breweries"></Statistic>
-      <Statistic label="odbytych wycieczek" :value="year.stats.trips"></Statistic>
-      <Statistic label="zwiedzonych państw" :value="year.stats.countries"></Statistic>
-      <Statistic label="zwiedzonych miast" :value="year.stats.cities"></Statistic>
-    </Statistics>
+    <statistics v-if="year.stats">
+      <statistic label="odwiedzonych browarów" :value="year.stats.breweries"></statistic>
+      <statistic label="odbytych wycieczek" :value="year.stats.trips"></statistic>
+      <statistic label="zwiedzonych państw" :value="year.stats.countries"></statistic>
+      <statistic label="zwiedzonych miast" :value="year.stats.cities"></statistic>
+    </statistics>
 
     <hr class="my-4">
 
-    <Breweries :breweries="year.breweries"></Breweries>
+    <breweries :breweries="year.breweries"></breweries>
   </div>
 </template>
 

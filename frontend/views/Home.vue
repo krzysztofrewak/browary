@@ -1,7 +1,7 @@
 <template>
   <div>
-    <PageHeader title="Odwiedzone browary" header="243 browary w 19 państwach"></PageHeader>
-    <Breweries :breweries="breweries"></Breweries>
+    <page-header title="Odwiedzone browary" :header="subtitle"></page-header>
+    <breweries :breweries="breweries"></breweries>
   </div>
 </template>
 

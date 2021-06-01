@@ -6,15 +6,27 @@ namespace Brewmap\Models;
 
 use JsonSerializable;
 
-final class Statistics implements JsonSerializable
+class Statistics implements JsonSerializable
 {
-    private array $extremes;
-    private array $weekdays;
-    private array $months;
+    protected array $extremes;
+    protected array $weekdays;
+    protected array $months;
 
-    public function setExtremes(array $extremes): self
+    public function setExtremes(array $extremes): static
     {
         $this->extremes = $extremes;
+        return $this;
+    }
+
+    public function setWeekdays(array $weekdays): static
+    {
+        $this->weekdays = $weekdays;
+        return $this;
+    }
+
+    public function setMonths(array $months): static
+    {
+        $this->months = $months;
         return $this;
     }
 
@@ -25,17 +37,5 @@ final class Statistics implements JsonSerializable
             "weekdays" => $this->weekdays,
             "months" => $this->months,
         ];
-    }
-
-    public function setWeekdays(array $weekdays): self
-    {
-        $this->weekdays = $weekdays;
-        return $this;
-    }
-
-    public function setMonths(array $months): self
-    {
-        $this->months = $months;
-        return $this;
     }
 }

@@ -10,17 +10,16 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JsonSerializable;
 
-final class Brewery implements JsonSerializable, Sluggable
+class Brewery implements JsonSerializable, Sluggable
 {
-    private int $id;
-    private string $name;
-    private string $slug;
-    private Location $location;
-    private Carbon $date;
-    private Trip $trip;
-    private string $note;
-    /** @var Collection|Tag[] */
-    private Collection $tags;
+    protected int $id;
+    protected string $name;
+    protected string $slug;
+    protected Location $location;
+    protected Carbon $date;
+    protected Trip $trip;
+    protected string $note;
+    protected Collection $tags;
 
     public function __construct(string $name, Location $location, Carbon $date, Trip $trip, string $note = "")
     {
@@ -108,12 +107,14 @@ final class Brewery implements JsonSerializable, Sluggable
         return $this->location;
     }
 
-    /**
-     * @return Tag[]|Collection
-     */
     public function getTags(): Collection
     {
         return $this->tags->sort(fn(Tag $a, Tag $b): int => $a->getName() <=> $b->getName());
+    }
+
+    public function getMonthYearDate(): string
+    {
+        return "{$this->date->locale("pl")->monthName} {$this->date->locale("pl")->year}";
     }
 
     public function jsonSerialize(): array
@@ -125,10 +126,5 @@ final class Brewery implements JsonSerializable, Sluggable
             "location" => $this->location,
             "date" => $this->getMonthYearDate(),
         ];
-    }
-
-    public function getMonthYearDate(): string
-    {
-        return "{$this->date->locale("pl")->monthName} {$this->date->locale("pl")->year}";
     }
 }

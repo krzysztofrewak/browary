@@ -11,7 +11,7 @@ use Brewmap\Models\Calendar\Group;
 use Brewmap\Models\Calendar\Item;
 use Carbon\Carbon;
 
-final class CalendarBuilder
+class CalendarBuilder
 {
     public static function build(Breweries $breweries): Calendar
     {
@@ -31,7 +31,7 @@ final class CalendarBuilder
             $label = "{$iterator->locale("pl")->monthName} {$iterator->year}";
             $item = $year->addItem($label, $iterator->format("m"));
             $breweries->getAll()
-                ->filter(fn(Brewery $brewery): bool => self::isSameMonth($brewery, $iterator))
+                ->filter(fn(Brewery $brewery): bool => static::isSameMonth($brewery, $iterator))
                 ->each(fn(Brewery $brewery): Item => $item->addBrewery($brewery));
 
             $iterator->addMonth();
@@ -44,7 +44,7 @@ final class CalendarBuilder
         return $calendar;
     }
 
-    private static function isSameMonth(Brewery $brewery, Carbon $iterator): bool
+    protected static function isSameMonth(Brewery $brewery, Carbon $iterator): bool
     {
         return $brewery->getDate()->year === $iterator->year && $brewery->getDate()->month === $iterator->month;
     }

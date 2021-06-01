@@ -7,11 +7,11 @@ namespace Brewmap\Collections;
 use Brewmap\Models\Brewery;
 use JsonSerializable;
 
-final class GeoJson implements JsonSerializable
+class GeoJson implements JsonSerializable
 {
-    private const TYPE = "FeatureCollection";
+    protected const TYPE = "FeatureCollection";
 
-    private Breweries $breweries;
+    protected Breweries $breweries;
 
     public function __construct(Breweries $breweries)
     {
@@ -21,14 +21,14 @@ final class GeoJson implements JsonSerializable
     public function jsonSerialize(): array
     {
         return [
-            "type" => self::TYPE,
+            "type" => static::TYPE,
             "features" => $this->breweries->getAll()
                 ->values()
                 ->map(fn(Brewery $brewery): array => $this->mapBrewery($brewery)),
         ];
     }
 
-    private function mapBrewery(Brewery $brewery): array
+    protected function mapBrewery(Brewery $brewery): array
     {
         $map = [
             "type" => "Feature",

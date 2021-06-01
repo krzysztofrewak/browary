@@ -7,7 +7,7 @@ namespace Brewmap\Services\Statistics;
 use Brewmap\Models\Brewery;
 use Illuminate\Support\Collection;
 
-final class WeekdaysCounter
+class WeekdaysCounter
 {
     public static function count(Collection $breweries): array
     {

@@ -9,13 +9,12 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JsonSerializable;
 
-final class City implements JsonSerializable, Sluggable
+class City implements JsonSerializable, Sluggable
 {
-    private string $name;
-    private string $slug;
-    /** @var Collection|Brewery[] */
-    private Collection $breweries;
-    private ?Extremes $extremes = null;
+    protected string $name;
+    protected string $slug;
+    protected Collection $breweries;
+    protected ?Extremes $extremes = null;
 
     public function __construct(string $name)
     {
@@ -24,7 +23,7 @@ final class City implements JsonSerializable, Sluggable
         $this->breweries = new Collection();
     }
 
-    public function addBrewery(Brewery $brewery): self
+    public function addBrewery(Brewery $brewery): static
     {
         $this->breweries->add($brewery);
         return $this;
@@ -45,10 +44,15 @@ final class City implements JsonSerializable, Sluggable
         return $this->extremes;
     }
 
-    public function setExtremes(Extremes $extremes): self
+    public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
         return $this;
+    }
+
+    public function getBreweries(): Collection
+    {
+        return $this->breweries;
     }
 
     public function jsonSerialize(): array
@@ -58,10 +62,5 @@ final class City implements JsonSerializable, Sluggable
             "slug" => $this->slug,
             "breweriesCount" => $this->getBreweries()->count(),
         ];
-    }
-
-    public function getBreweries(): Collection
-    {
-        return $this->breweries;
     }
 }

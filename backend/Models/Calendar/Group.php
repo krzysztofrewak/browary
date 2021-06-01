@@ -12,11 +12,11 @@ use Brewmap\Models\Extremes;
 use Illuminate\Support\Collection;
 use JsonSerializable;
 
-final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
+class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
 {
-    private string $label;
-    private Collection $items;
-    private ?Extremes $extremes;
+    protected string $label;
+    protected Collection $items;
+    protected ?Extremes $extremes;
 
     public function __construct(string $label)
     {
@@ -54,7 +54,7 @@ final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
         return $this->extremes;
     }
 
-    public function setExtremes(Extremes $extremes): Boundable
+    public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
         return $this;
@@ -72,7 +72,8 @@ final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
 
     public function getCountriesCount(): int
     {
-        return $this->getBreweries()->groupBy(fn(Brewery $brewery): string => $brewery->getCountry()->getSlug())->count();
+        return $this->getBreweries()->groupBy(fn(Brewery $brewery): string => $brewery->getCountry()->getSlug())->count(
+        );
     }
 
     public function getTripsCount(): int
@@ -85,9 +86,6 @@ final class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
         return $this->getBreweries()->groupBy(fn(Brewery $brewery): string => $brewery->getCity())->count();
     }
 
-    /**
-     * @return Collection|Item[]
-     */
     public function getAll(): Collection
     {
         return $this->items;

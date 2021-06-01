@@ -7,12 +7,12 @@ namespace Brewmap\Models;
 use Brewmap\Models\Mappers\BreweryCountry;
 use JsonSerializable;
 
-final class Location implements JsonSerializable
+class Location implements JsonSerializable
 {
-    private Coordinates $coordinates;
-    private Country $country;
-    private string $city;
-    private string $address;
+    protected Coordinates $coordinates;
+    protected Country $country;
+    protected string $city;
+    protected string $address;
 
     public function __construct(Coordinates $coordinates, Country $country, string $city, string $address)
     {

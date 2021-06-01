@@ -10,13 +10,13 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JsonSerializable;
 
-final class Trip implements JsonSerializable, Sluggable, Boundable
+class Trip implements JsonSerializable, Sluggable, Boundable
 {
-    private string $name;
-    private string $slug;
-    private Collection $breweries;
-    private Collection $countries;
-    private ?Extremes $extremes = null;
+    protected string $name;
+    protected string $slug;
+    protected Collection $breweries;
+    protected Collection $countries;
+    protected ?Extremes $extremes = null;
 
     public function __construct(string $name)
     {
@@ -26,10 +26,10 @@ final class Trip implements JsonSerializable, Sluggable, Boundable
         $this->countries = new Collection();
     }
 
-    public static function buildFromJson(string $jsonFile): self
+    public static function buildFromJson(string $jsonFile): static
     {
         $data = json_decode($jsonFile, true);
-        return new self($data["name"]);
+        return new static($data["name"]);
     }
 
     public function getName(): string
@@ -42,7 +42,7 @@ final class Trip implements JsonSerializable, Sluggable, Boundable
         return $this->slug;
     }
 
-    public function addBrewery(Brewery $brewery): self
+    public function addBrewery(Brewery $brewery): static
     {
         $this->breweries->put($brewery->getSlug(), $brewery);
         $this->countries->prepend($brewery->getCountry(), $brewery->getCountry()->getSlug());
@@ -57,9 +57,24 @@ final class Trip implements JsonSerializable, Sluggable, Boundable
         return $this->breweries;
     }
 
+    public function getBreweriesCount(): int
+    {
+        return $this->breweries->count();
+    }
+
     public function getCountries(): Collection
     {
         return $this->countries;
+    }
+
+    public function getCountriesCount(): int
+    {
+        return $this->countries->count();
+    }
+
+    public function getCitiesCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity())->count();
     }
 
     public function getExtremes(): ?Extremes
@@ -67,7 +82,7 @@ final class Trip implements JsonSerializable, Sluggable, Boundable
         return $this->extremes;
     }
 
-    public function setExtremes(Extremes $extremes): Boundable
+    public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
         return $this;

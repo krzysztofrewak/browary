@@ -9,7 +9,7 @@ use Brewmap\Models\Coordinates;
 use Brewmap\Models\Extremes;
 use Illuminate\Support\Collection;
 
-final class ExtremesBuilder
+class ExtremesBuilder
 {
     public static function build(Collection $breweries): Extremes
     {

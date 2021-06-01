@@ -11,7 +11,7 @@ const application = createApp(App)
   .use(router)
   .mixin(inflections)
 
-fetch('/api/general.json').then(response => response.json()).then(result => {
+fetch('/api/general.json?' + Date.now()).then(response => response.json()).then(result => {
   application.mount('#app')
   store.commit('setCounters', result.counters)
   store.commit('setMapDefaultExtremes', result.extremes)

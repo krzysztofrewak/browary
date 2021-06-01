@@ -7,7 +7,7 @@ namespace Brewmap\Filesystem;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 
-final class Directory
+class Directory
 {
     public static function create(string $directory): void
     {

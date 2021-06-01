@@ -7,9 +7,9 @@ namespace Brewmap\Models\Mappers;
 use Brewmap\Models\Country;
 use JsonSerializable;
 
-final class CountryDetailed implements JsonSerializable
+class CountryDetailed implements JsonSerializable
 {
-    private Country $country;
+    protected Country $country;
 
     public function __construct(Country $country)
     {

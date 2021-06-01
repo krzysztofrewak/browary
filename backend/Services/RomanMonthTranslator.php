@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Brewmap\Services;
 
-final class RomanMonthTranslator
+class RomanMonthTranslator
 {
     public const ROMAN = [
         "I",
@@ -27,6 +27,6 @@ final class RomanMonthTranslator
             return "";
         }
 
-        return self::ROMAN[$month - 1];
+        return static::ROMAN[$month - 1];
     }
 }

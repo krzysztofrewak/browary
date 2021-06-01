@@ -1,15 +1,15 @@
 <template>
   <div>
-    <PageHeader :title="country.name" :header="country.original"></PageHeader>
+    <page-header :title="country.name" :header="country.original"></page-header>
 
-    <Statistics v-if="country.stats">
-      <Statistic :label="inflectVisitedBreweries(country.stats.breweries, false)" :value="country.stats.breweries"></Statistic>
-      <Statistic :label="inflectVisitedTrips(country.stats.trips, false)" :value="country.stats.trips"></Statistic>
-      <Statistic :label="inflectVisitedCities(country.stats.cities, false)" :value="country.stats.cities"></Statistic>
-    </Statistics>
+    <statistics v-if="country.stats">
+      <statistic :label="inflectVisitedBreweries(country.stats.breweries, false)" :value="country.stats.breweries"></statistic>
+      <statistic :label="inflectVisitedTrips(country.stats.trips, false)" :value="country.stats.trips"></statistic>
+      <statistic :label="inflectVisitedCities(country.stats.cities, false)" :value="country.stats.cities"></statistic>
+    </statistics>
     <hr class="my-4">
 
-    <Breweries :breweries="country.breweries"></Breweries>
+    <breweries :breweries="country.breweries"></breweries>
   </div>
 </template>
 

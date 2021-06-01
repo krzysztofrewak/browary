@@ -8,7 +8,7 @@ use Brewmap\Models\Brewery;
 use Brewmap\Services\RomanMonthTranslator;
 use Illuminate\Support\Collection;
 
-final class MonthsCounter
+class MonthsCounter
 {
     public static function count(Collection $breweries): array
     {

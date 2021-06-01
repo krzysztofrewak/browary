@@ -7,7 +7,7 @@ namespace Brewmap\Collections\Builders;
 use Brewmap\Collections\Breweries as BreweriesCollection;
 use Brewmap\Collections\Trips;
 
-final class Breweries
+class Breweries
 {
     public static function buildFromTrips(Trips $trips): BreweriesCollection
     {

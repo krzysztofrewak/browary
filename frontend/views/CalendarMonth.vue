@@ -1,8 +1,7 @@
 <template>
   <div class="month">
     <page-header :title="title" header="Odwiedzone browary"></page-header>
-
-    <Breweries :breweries="month.breweries"></Breweries>
+    <breweries :breweries="month.breweries"></breweries>
   </div>
 </template>
 

@@ -8,10 +8,9 @@ use Brewmap\Interfaces\HavingAll;
 use Illuminate\Support\Collection;
 use JsonSerializable;
 
-final class Calendar implements JsonSerializable, HavingAll
+class Calendar implements JsonSerializable, HavingAll
 {
-    /** @var Collection|Group[] */
-    private Collection $groups;
+    protected Collection $groups;
 
     public function __construct()
     {
@@ -25,9 +24,6 @@ final class Calendar implements JsonSerializable, HavingAll
         return $group;
     }
 
-    /**
-     * @return Collection|Group[]
-     */
     public function getAll(): Collection
     {
         return $this->groups;
@@ -41,7 +37,7 @@ final class Calendar implements JsonSerializable, HavingAll
         ];
     }
 
-    private function findMaxValue(): int
+    protected function findMaxValue(): int
     {
         $max = 0;
         foreach ($this->groups as $group) {

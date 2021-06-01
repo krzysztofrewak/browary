@@ -8,7 +8,7 @@ use Brewmap\Collections\Breweries;
 use Brewmap\Collections\Countries;
 use Brewmap\Models\GeneralData;
 
-final class GeneralDataBuilder
+class GeneralDataBuilder
 {
     public static function build(Breweries $breweries, Countries $countries): GeneralData
     {

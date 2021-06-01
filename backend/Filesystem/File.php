@@ -6,7 +6,7 @@ namespace Brewmap\Filesystem;
 
 use JsonSerializable;
 
-final class File
+class File
 {
     public static function save(JsonSerializable $resource, string $filename): void
     {

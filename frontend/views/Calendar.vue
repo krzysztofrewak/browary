@@ -7,7 +7,7 @@
         <router-link :to="{ name: 'calendar.year', params: { year: year.label } }" class="pr-3 text-gray-500 text-xs">
           {{ year.label }}
         </router-link>
-        <YearRow :row="year.items" :max-value="maxValue" :year="year.label"></YearRow>
+        <year-row :row="year.items" :max-value="maxValue" :year="year.label"></year-row>
       </div>
     </div>
   </div>

@@ -9,7 +9,7 @@ use Brewmap\Models\Country;
 use Brewmap\Models\Extremes;
 use GuzzleHttp\Client;
 
-final class CountryBoundsService
+class CountryBoundsService
 {
     public static function setBounds(Countries $countries): void
     {

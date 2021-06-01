@@ -109,7 +109,7 @@ const navigation = [
   { name: 'Str. główna', route: 'home', icon: HomeIcon, section: 'home' },
   { name: 'Kalendarz', route: 'calendar', icon: CalendarIcon, section: 'calendar' },
   { name: 'Odwiedzone państwa', route: 'countries', icon: GlobeIcon, section: 'countries' },
-  { name: 'Wycieczki', route: 'home', icon: TicketIcon, section: 'trips' },
+  { name: 'Wycieczki', route: 'trips', icon: TicketIcon, section: 'trips' },
   { name: 'Tagi browarów', route: 'home', icon: TagIcon, section: 'tags' },
   { name: 'O nas', route: 'about', icon: QuestionMarkCircleIcon, section: 'about' },
   { name: 'Statystyki', route: 'home', icon: PresentationChartLineIcon, section: 'statistics' }

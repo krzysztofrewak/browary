@@ -6,7 +6,7 @@ namespace Brewmap\Services;
 
 use Brewmap\Collections\Breweries;
 
-final class BreweryToTagAssigner
+class BreweryToTagAssigner
 {
     public static function assign(Breweries $breweries): void
     {

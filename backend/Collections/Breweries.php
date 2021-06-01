@@ -10,11 +10,10 @@ use Brewmap\Services\BreweriesUniqueSlugService;
 use Illuminate\Support\Collection;
 use JsonSerializable;
 
-final class Breweries implements JsonSerializable, HavingAll
+class Breweries implements JsonSerializable, HavingAll
 {
-    /** @var Collection|Brewery[] */
-    private Collection $breweries;
-    private BreweriesUniqueSlugService $slugService;
+    protected Collection $breweries;
+    protected BreweriesUniqueSlugService $slugService;
 
     public function __construct()
     {
@@ -22,16 +21,13 @@ final class Breweries implements JsonSerializable, HavingAll
         $this->slugService = new BreweriesUniqueSlugService();
     }
 
-    public function addBrewery(Brewery $brewery): self
+    public function addBrewery(Brewery $brewery): static
     {
         $this->slugService->process($brewery);
         $this->breweries->put($brewery->getSlug(), $brewery);
         return $this;
     }
 
-    /**
-     * @return Collection|Brewery[]
-     */
     public function getAll(): Collection
     {
         return $this->breweries;

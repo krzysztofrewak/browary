@@ -8,7 +8,7 @@ use Brewmap\Collections\Breweries;
 use Brewmap\Collections\Cities as CitiesCollection;
 use Brewmap\Models\City;
 
-final class Cities
+class Cities
 {
     public static function buildFromBreweries(Breweries $breweries): CitiesCollection
     {

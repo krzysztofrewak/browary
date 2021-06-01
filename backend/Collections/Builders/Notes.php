@@ -9,7 +9,7 @@ use Brewmap\Collections\Notes as NotesCollection;
 use Brewmap\Models\Brewery;
 use Brewmap\Models\Note;
 
-final class Notes
+class Notes
 {
     public static function buildFromBreweries(Breweries $breweries): NotesCollection
     {

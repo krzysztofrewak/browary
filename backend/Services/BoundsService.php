@@ -8,7 +8,7 @@ use Brewmap\Interfaces\Boundable;
 use Brewmap\Models\Extremes;
 use Illuminate\Support\Collection;
 
-final class BoundsService
+class BoundsService
 {
     /**
      * @param Collection|Boundable[] $collection
