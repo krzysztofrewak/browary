@@ -76,8 +76,10 @@ $statistics->setExtremes(ExtremesFinder::find($breweries->getAll()));
 $statistics->setWeekdays(WeekdaysCounter::count($breweries->getAll()));
 $statistics->setMonths(MonthsCounter::count($breweries->getAll()));
 
+$map = new GeoJson($breweries);
+
 File::save($calendar, "calendar.json");
-File::save(new GeoJson($breweries), "map.json");
+File::save($map, "map.json");
 File::save($generalData, "general.json");
 File::save($countries, "countries.json");
 File::save($trips, "trips.json");

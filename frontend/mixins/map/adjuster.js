@@ -8,6 +8,7 @@ export default {
       const bounds = this.$store.getters.mapFilterBounds
       const center = this.$store.getters.mapFilterCenter
       const filter = this.$store.getters.mapFilterValue
+      const padding = window.innerWidth > 1024 ? 100 : 15
 
       this.setFilters(filter)
 
@@ -17,7 +18,7 @@ export default {
           return
         }
 
-        this.map.fitBounds(bounds, { padding: 100, duration: 0 })
+        this.map.fitBounds(bounds, { padding: padding, duration: 0 })
         return
       }
 

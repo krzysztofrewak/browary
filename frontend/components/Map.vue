@@ -1,10 +1,9 @@
 <template>
-  <div class="flex-grow h-full">
+  <div>
     <div v-if="loading" class="flex justify-center items-center w-full h-full bg-gray-300 text-gray-400">
         <LocationMarkerIcon class="h-36 w-36 animate-pulse" aria-hidden="true"/>
     </div>
-    <div id="map" class="w-full h-full">
-    </div>
+    <div id="map" class="w-full h-full"></div>
   </div>
 </template>
 
