@@ -81,7 +81,7 @@ class Country implements JsonSerializable, Sluggable
 
     public function getCitiesCount(): int
     {
-        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity())->count();
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity()->getSlug())->count();
     }
 
     public function jsonSerialize(): array

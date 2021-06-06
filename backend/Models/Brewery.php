@@ -67,7 +67,7 @@ class Brewery implements JsonSerializable, Sluggable
         return $this->location->getCountry();
     }
 
-    public function getCity(): string
+    public function getCity(): City
     {
         return $this->location->getCity();
     }
@@ -79,7 +79,7 @@ class Brewery implements JsonSerializable, Sluggable
 
     public function getLabel(): string
     {
-        return "{$this->name}, {$this->location->getCity()}";
+        return "{$this->name}, {$this->location->getCity()->getName()}";
     }
 
     public function getDate(): Carbon

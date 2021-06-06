@@ -83,7 +83,7 @@ class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
 
     public function getCitiesCount(): int
     {
-        return $this->getBreweries()->groupBy(fn(Brewery $brewery): string => $brewery->getCity())->count();
+        return $this->getBreweries()->groupBy(fn(Brewery $brewery): string => $brewery->getCity()->getSlug())->count();
     }
 
     public function getAll(): Collection

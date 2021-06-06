@@ -56,6 +56,31 @@ class Tag implements JsonSerializable, Sluggable
         return $this;
     }
 
+    public function getBreweries(): Collection
+    {
+        return $this->breweries;
+    }
+
+    public function getBreweriesCount(): int
+    {
+        return $this->breweries->count();
+    }
+
+    public function getCountriesCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCountry()->getSlug())->count();
+    }
+
+    public function getTripsCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getTrip()->getSlug())->count();
+    }
+
+    public function getCitiesCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity()->getSlug())->count();
+    }
+
     public function jsonSerialize(): array
     {
         return [
@@ -63,10 +88,5 @@ class Tag implements JsonSerializable, Sluggable
             "slug" => $this->slug,
             "breweries" => $this->getBreweries()->count(),
         ];
-    }
-
-    public function getBreweries(): Collection
-    {
-        return $this->breweries;
     }
 }

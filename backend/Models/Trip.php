@@ -74,7 +74,7 @@ class Trip implements JsonSerializable, Sluggable, Boundable
 
     public function getCitiesCount(): int
     {
-        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity())->count();
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity()->getSlug())->count();
     }
 
     public function getExtremes(): ?Extremes

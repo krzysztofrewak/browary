@@ -1,7 +1,7 @@
 <template>
   <ul class="px-4 divide-y divide-gray-100" v-if="entries">
     <router-link :to="route(entry)" v-for="(entry, index) in entries" :key="index" class="trip flex hover:bg-gray-100" :class="paddingClass">
-      <div class="flex justify-center items-center mx-2">
+      <div class="flex justify-center items-center mx-2" v-if="flag || flags">
         <div class="flags whitespace-nowrap -mr-2" v-if="flags">
           <span class="ml-1" v-for="(flag) in flags(entry)" :key="flag.slug">
             <i class="flat flag shadow" :class="flag.symbol"></i>
@@ -12,7 +12,7 @@
       <div class="mx-2 w-full text-xs flex items-center">
         <div class="text-gray-900 flex-1">
           {{ name(entry) }}
-          <div class="text-gray-500"> {{ alt(entry) }}</div>
+          <div class="text-gray-500" v-if="alt"> {{ alt(entry) }}</div>
         </div>
         <div class="text-gray-500 text-right">
           <div v-for="(label, i) in labels" :key="i">{{ label(entry) }}</div>

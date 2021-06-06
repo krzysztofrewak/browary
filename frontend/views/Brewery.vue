@@ -14,7 +14,11 @@
             {{ brewery.location.country.name }}
           </router-link>
         </infobox-item>
-        <infobox-item label="miasto" :value="brewery.location.city"></infobox-item>
+        <infobox-item label="miasto">
+          <router-link :to="{ name: 'city', params: { slug: brewery.location.city.slug } }">
+            {{ brewery.location.city.name }}
+          </router-link>
+        </infobox-item>
         <infobox-item label="adres" :value="brewery.location.address"></infobox-item>
         <infobox-item label="GPS">
           <a :href="getGoogleMapsUrl(brewery.location.coordinates)" target="_blank">

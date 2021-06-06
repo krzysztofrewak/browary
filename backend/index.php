@@ -5,10 +5,10 @@ declare(strict_types=1);
 require __DIR__ . "/../vendor/autoload.php";
 
 use Brewmap\Collections\Builders\Breweries;
-use Brewmap\Collections\Builders\Cities;
 use Brewmap\Collections\Builders\Countries;
 use Brewmap\Collections\Builders\Notes;
 use Brewmap\Collections\Builders\Trips;
+use Brewmap\Collections\Cities;
 use Brewmap\Collections\GeoJson;
 use Brewmap\Collections\Tags;
 use Brewmap\Filesystem\Directory;
@@ -19,12 +19,14 @@ use Brewmap\Models\Calendar\Group;
 use Brewmap\Models\Calendar\MonthDetailed;
 use Brewmap\Models\Calendar\YearDetailed;
 use Brewmap\Models\Mappers\BreweryDetailed;
+use Brewmap\Models\Mappers\CityDetailed;
 use Brewmap\Models\Mappers\CountryDetailed;
 use Brewmap\Models\Mappers\TagDetailed;
 use Brewmap\Models\Mappers\TripDetailed;
 use Brewmap\Models\Statistics;
 use Brewmap\Services\BoundsService;
 use Brewmap\Services\BreweryIndexer;
+use Brewmap\Services\BreweryToCityAssigner;
 use Brewmap\Services\BreweryToCountryAssigner;
 use Brewmap\Services\BreweryToTagAssigner;
 use Brewmap\Services\CalendarBuilder;
@@ -52,10 +54,10 @@ $tripsData = collect(glob(__DIR__ . "/../resources/trips/*.json"))->map(
 );
 
 $tags = new Tags();
+$cities = new Cities();
 $countries = Countries::buildFromJson($countriesData);
-$trips = Trips::buildFromFiles($tripsData, $countries, $tags);
+$trips = Trips::buildFromFiles($tripsData, $countries, $cities, $tags);
 $breweries = Breweries::buildFromTrips($trips);
-$cities = Cities::buildFromBreweries($breweries);
 $notes = Notes::buildFromBreweries($breweries);
 
 $generalData = GeneralDataBuilder::build($breweries, $countries);
@@ -64,11 +66,13 @@ $calendar = CalendarBuilder::build($breweries);
 BreweryIndexer::index($breweries);
 BreweryToCountryAssigner::assign($breweries);
 BreweryToTagAssigner::assign($breweries);
+BreweryToCityAssigner::assign($breweries);
 CountryBoundsService::setBounds($countries);
 
 BoundsService::setBounds($trips->getAll());
 BoundsService::setBounds($tags->getAll());
 BoundsService::setBounds($calendar->getAll());
+BoundsService::setBounds($cities->getAll());
 $calendar->getAll()->each(fn(Group $group) => BoundsService::setBounds($group->getAll()));
 
 $statistics = new Statistics();
@@ -93,6 +97,7 @@ Files::save($countries, "countries", CountryDetailed::class);
 Files::save($breweries, "breweries", BreweryDetailed::class);
 Files::save($trips, "trips", TripDetailed::class);
 Files::save($tags, "tags", TagDetailed::class);
+Files::save($cities, "cities", CityDetailed::class);
 Files::save($calendar, "calendar", YearDetailed::class);
 foreach ($calendar->getAll() as $year) {
     $directory = "calendar/{$year->getSlug()}";

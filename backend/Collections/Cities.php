@@ -6,6 +6,7 @@ namespace Brewmap\Collections;
 
 use Brewmap\Interfaces\HavingAll;
 use Brewmap\Models\City;
+use Brewmap\Models\Country;
 use Illuminate\Support\Collection;
 use JsonSerializable;
 
@@ -18,19 +19,27 @@ class Cities implements JsonSerializable, HavingAll
         $this->cities = new Collection();
     }
 
-    public function addCity(City $city): static
+    public function firstOrCreate(string $name, Country $country): City
     {
+        $alreadyExisting = $this->cities->get(City::slug($name));
+        if ($alreadyExisting) {
+            return $alreadyExisting;
+        }
+
+        $city = new City($name, $country);
         $this->cities->put($city->getSlug(), $city);
-        return $this;
+
+        return $city;
     }
 
     public function getAll(): Collection
     {
-        return $this->cities;
+        return $this->cities
+            ->sort(fn(City $a, City $b): int => $b->getBreweries()->count() <=> $a->getBreweries()->count());
     }
 
     public function jsonSerialize(): Collection
     {
-        return $this->cities;
+        return $this->getAll();
     }
 }

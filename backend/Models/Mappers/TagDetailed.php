@@ -23,7 +23,12 @@ class TagDetailed implements JsonSerializable
             "slug" => $this->tag->getSlug(),
             "extremes" => $this->tag->getExtremes(),
             "breweries" => $this->tag->getBreweries()->reverse()->values()->all(),
-            "breweriesCount" => $this->tag->getBreweries()->count(),
+            "stats" => [
+                "breweries" => $this->tag->getBreweriesCount(),
+                "trips" => $this->tag->getTripsCount(),
+                "cities" => $this->tag->getCitiesCount(),
+                "countries" => $this->tag->getCountriesCount(),
+            ],
         ];
     }
 }

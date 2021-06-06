@@ -23,6 +23,12 @@ export default {
     inflectCountry (number, withNumber = true) {
       return inflect(number, ['państw', 'państwo', 'państw', 'państwa'], withNumber)
     },
+    inflectTrip (number, withNumber = true) {
+      return inflect(number, ['wycieczek', 'wycieczka', 'wycieczek', 'wycieczki'], withNumber)
+    },
+    inflectCity (number, withNumber = true) {
+      return inflect(number, ['miast', 'miasto', 'miast', 'miasta'], withNumber)
+    },
     inflectCountries (number, withNumber = true) {
       return inflect(number, ['państwach', 'państwie', 'państwach', 'państwach'], withNumber)
     },

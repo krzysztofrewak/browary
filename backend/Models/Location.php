@@ -11,10 +11,10 @@ class Location implements JsonSerializable
 {
     protected Coordinates $coordinates;
     protected Country $country;
-    protected string $city;
+    protected City $city;
     protected string $address;
 
-    public function __construct(Coordinates $coordinates, Country $country, string $city, string $address)
+    public function __construct(Coordinates $coordinates, Country $country, City $city, string $address)
     {
         $this->country = $country;
         $this->coordinates = $coordinates;
@@ -27,7 +27,7 @@ class Location implements JsonSerializable
         return $this->country;
     }
 
-    public function getCity(): string
+    public function getCity(): City
     {
         return $this->city;
     }

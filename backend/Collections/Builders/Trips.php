@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Brewmap\Collections\Builders;
 
+use Brewmap\Collections\Cities;
 use Brewmap\Collections\Countries;
 use Brewmap\Collections\Tags;
 use Brewmap\Collections\Trips as TripsCollection;
@@ -16,12 +17,16 @@ use Illuminate\Support\Collection;
 
 class Trips
 {
-    public static function buildFromFiles(Collection $tripsData, Countries $countries, Tags $tags): TripsCollection
-    {
+    public static function buildFromFiles(
+        Collection $tripsData,
+        Countries $countries,
+        Cities $cities,
+        Tags $tags
+    ): TripsCollection {
         $trips = new TripsCollection();
 
         $tripsData->reverse()->each(
-            function (string $jsonFile) use ($trips, $countries, $tags): void {
+            function (string $jsonFile) use ($trips, $countries, $cities, $tags): void {
                 $data = json_decode($jsonFile, true);
                 $trip = new Trip($data["name"]);
 
@@ -31,7 +36,7 @@ class Trips
                     $coordinates = new Coordinates($latitude, $longitude);
 
                     $country = $countries->getCountryBySymbol($breweryData["location"]["country"]);
-                    $city = $breweryData["location"]["city"];
+                    $city = $cities->firstOrCreate($breweryData["location"]["city"], $country);
                     $address = $breweryData["location"]["address"];
                     $location = new Location($coordinates, $country, $city, $address);
 
@@ -39,6 +44,11 @@ class Trips
                     $note = $breweryData["note"] ?? "";
 
                     $brewery = new Brewery($breweryData["name"], $location, $date, $trip, $note);
+
+                    foreach ($breweryData["tags"] as $tag) {
+                        $tag = $tags->firstOrCreate($tag);
+                        $brewery->addTag($tag);
+                    }
 
                     foreach ($breweryData["tags"] as $tag) {
                         $tag = $tags->firstOrCreate($tag);

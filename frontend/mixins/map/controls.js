@@ -52,6 +52,13 @@ export default {
             eventHandler: () => {
               this.$store.commit('toggleGhosts')
             }
+          },
+          {
+            title: 'Przeładuj widok',
+            icon: 'refresh icon',
+            eventHandler: () => {
+              location.reload()
+            }
           }
         ]
       })

@@ -51,6 +51,18 @@ const routes = [
     meta: { section: 'countries' }
   },
   {
+    path: '/miasta',
+    name: 'cities',
+    component: () => import(/* webpackChunkName: "cities" */ './views/Cities.vue'),
+    meta: { section: 'cities' }
+  },
+  {
+    path: '/miasta/:slug',
+    name: 'city',
+    component: () => import(/* webpackChunkName: "city" */ './views/City.vue'),
+    meta: { section: 'cities' }
+  },
+  {
     path: '/wycieczki',
     name: 'trips',
     component: () => import(/* webpackChunkName: "trips" */ './views/Trips.vue'),
@@ -63,9 +75,15 @@ const routes = [
     meta: { section: 'trips' }
   },
   {
+    path: '/tagi',
+    name: 'tags',
+    component: () => import(/* webpackChunkName: "tags" */ './views/Tags.vue'),
+    meta: { section: 'tags' }
+  },
+  {
     path: '/tagi/:slug',
     name: 'tag',
-    component: () => import(/* webpackChunkName: "tag" */ './views/Home.vue'),
+    component: () => import(/* webpackChunkName: "tag" */ './views/Tag.vue'),
     meta: { section: 'tags' }
   },
   {

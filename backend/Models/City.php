@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Brewmap\Models;
 
 use Brewmap\Interfaces\Sluggable;
+use Brewmap\Models\Mappers\SimplifiedCountry;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JsonSerializable;
@@ -13,14 +14,21 @@ class City implements JsonSerializable, Sluggable
 {
     protected string $name;
     protected string $slug;
+    protected Country $country;
     protected Collection $breweries;
     protected ?Extremes $extremes = null;
 
-    public function __construct(string $name)
+    public function __construct(string $name, Country $country)
     {
         $this->name = $name;
         $this->slug = Str::slug($this->name);
+        $this->country = $country;
         $this->breweries = new Collection();
+    }
+
+    public static function slug(string $name): string
+    {
+        return Str::slug($name);
     }
 
     public function addBrewery(Brewery $brewery): static
@@ -55,12 +63,19 @@ class City implements JsonSerializable, Sluggable
         return $this->breweries;
     }
 
+    public function getTripsCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getTrip()->getSlug())->count();
+    }
+
     public function jsonSerialize(): array
     {
         return [
             "name" => $this->name,
             "slug" => $this->slug,
-            "breweriesCount" => $this->getBreweries()->count(),
+            "country" => new SimplifiedCountry($this->country),
+            "breweries" => $this->getBreweries()->count(),
+            "trips" => $this->getTripsCount(),
         ];
     }
 }

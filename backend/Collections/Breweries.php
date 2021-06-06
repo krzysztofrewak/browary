@@ -28,6 +28,9 @@ class Breweries implements JsonSerializable, HavingAll
         return $this;
     }
 
+    /**
+     * @return Brewery[]|Collection
+     */
     public function getAll(): Collection
     {
         return $this->breweries;
