@@ -1,0 +1,77 @@
+{
+  "name": "Majorka, czerwiec 2021",
+  "breweries": [
+    {
+      "name": "Cervecería Tramuntana",
+      "visited": "2021-06-09",
+      "location": {
+        "country": "es",
+        "city": "Palma",
+        "address": "Carrer de Caro 14",
+        "coordinates": {
+          "lat": 39.572875,
+          "lng": 2.639564
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Cervecería Lowther",
+      "visited": "2021-06-09",
+      "location": {
+        "country": "es",
+        "city": "Palma",
+        "address": "Carrer de Joan Crespí 53",
+        "coordinates": {
+          "lat": 39.576758,
+          "lng": 2.634762
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Adalt Brewing",
+      "visited": "2021-06-10",
+      "location": {
+        "country": "es",
+        "city": "Palma",
+        "address": "Carrer de l'Arxiduc Lluís Salvador 40",
+        "coordinates": {
+          "lat": 39.580158,
+          "lng": 2.654872
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Forastera Cerveza Artesana",
+      "visited": "2021-06-13",
+      "location": {
+        "country": "es",
+        "city": "Alaró",
+        "address": "Av. Constitució 34",
+        "coordinates": {
+          "lat": 39.704038,
+          "lng": 2.792272
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "mikrobrowar",
+        "spotkanie z piwowarem",
+        "piwo spróbowane z tanka"
+      ]
+    }
+  ]
+}
