@@ -18,6 +18,7 @@
     { "symbol": "li",  "name": "Liechtenstein" },
     { "symbol": "gb",  "name": "Wielka Brytania" },
     { "symbol": "is",  "name": "Islandia" },
-    { "symbol": "sk",  "name": "Słowacja" }
+    { "symbol": "sk",  "name": "Słowacja" },
+    { "symbol": "es",  "name": "Hiszpania" }
   ]
 }
