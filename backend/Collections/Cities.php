@@ -38,8 +38,10 @@ class Cities implements JsonSerializable, HavingAll
             ->sort(fn(City $a, City $b): int => $b->getBreweries()->count() <=> $a->getBreweries()->count());
     }
 
-    public function jsonSerialize(): Collection
+    public function jsonSerialize(): array
     {
-        return $this->getAll();
+        return $this->cities
+            ->filter(fn(City $city): bool => $city->getBreweries()->count() > 1)
+            ->toArray();
     }
 }

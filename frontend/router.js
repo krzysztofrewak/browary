@@ -87,6 +87,12 @@ const routes = [
     meta: { section: 'tags' }
   },
   {
+    path: '/statystyki',
+    name: 'statistics',
+    component: () => import(/* webpackChunkName: "statistics" */ './views/Statistics.vue'),
+    meta: { section: 'statistics' }
+  },
+  {
     path: '/404',
     name: '404',
     component: () => import(/* webpackChunkName: "404" */ './views/NotFound.vue'),

@@ -7,14 +7,17 @@
             { label: 'nomine', method: sortByOriginalName },
             { label: 'kod', method: sortByCode }
         ]"
-        :right="[{ label: 'liczba browarów', method: sortByBreweries }]"
+        :right="[
+            { label: 'liczba browarów', method: sortByBreweries },
+            { label: 'wycieczek', method: sortByTrips }
+        ]"
     ></sorting-header>
     <list :entries="countries"
         :name="c => c.name"
         :alt="c => c.original"
         :flag="c => c.symbol"
         :route="c => { return { name: 'country', params: { slug: c.slug }}}"
-        :labels="[c => inflectBrewery(c.breweries)]"
+        :labels="[c => inflectBrewery(c.stats.breweries), c => inflectTrip(c.stats.trips)]"
     ></list>
   </div>
 </template>
@@ -51,7 +54,11 @@ export default {
     }
 
     const sortByBreweries = (countries) => {
-      countries.sort((a, b) => b.breweries > a.breweries)
+      countries.sort((a, b) => b.stats.breweries > a.stats.breweries)
+    }
+
+    const sortByTrips = (countries) => {
+      countries.sort((a, b) => b.stats.trips > a.stats.trips)
     }
 
     onMounted(() => {
@@ -65,7 +72,8 @@ export default {
       sortByName,
       sortByOriginalName,
       sortByCode,
-      sortByBreweries
+      sortByBreweries,
+      sortByTrips
     }
   }
 }

@@ -14,6 +14,7 @@ class GeneralCountry implements JsonSerializable
     protected string $symbol;
     protected string $slug;
     protected int $breweries;
+    protected int $trips;
 
     public function __construct(Country $country)
     {
@@ -22,6 +23,7 @@ class GeneralCountry implements JsonSerializable
         $this->symbol = $country->getSymbol();
         $this->slug = $country->getSlug();
         $this->breweries = $country->getBreweriesCount();
+        $this->trips = $country->getTripsCount();
     }
 
     public function jsonSerialize(): array
@@ -31,7 +33,10 @@ class GeneralCountry implements JsonSerializable
             "original" => $this->original,
             "symbol" => $this->symbol,
             "slug" => $this->slug,
-            "breweries" => $this->breweries,
+            "stats" => [
+                "breweries" => $this->breweries,
+                "trips" => $this->trips,
+            ],
         ];
     }
 }

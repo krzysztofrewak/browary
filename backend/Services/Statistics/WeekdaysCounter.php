@@ -12,11 +12,16 @@ class WeekdaysCounter
     public static function count(Collection $breweries): array
     {
         $weekdays = ["pn", "wt", "śr", "cz", "pt", "sb", "nd"];
-        return $breweries->countBy(fn(Brewery $brewery): int => $brewery->getDate()->isoWeekday())
+
+        $values = $breweries->countBy(fn(Brewery $brewery): int => $brewery->getDate()->isoWeekday())
             ->map(fn(int $value, int $key): array => [
                 "label" => $weekdays[$key - 1],
                 "value" => $value,
-            ])
-            ->toArray();
+            ])->toArray();
+
+        return array_map(
+            callback: fn(string $day): array => $values[$day],
+            array: range(1, 7),
+        );
     }
 }

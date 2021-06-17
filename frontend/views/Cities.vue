@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-header title="Browarnicze miasta"></page-header>
+    <page-header title="Browarnicze miasta" header="Z przynajmniej dwoma odwiedzonymi browarami"></page-header>
     <sorting-header :entries="cities"
         :left="[{ label: 'państwo', method: sortByCountry }, { label: 'miasto', method: sortByName }]"
         :right="[{ label: 'liczba browarów', method: sortByBreweries }, { label: 'wycieczek', method: sortByTrips }]"

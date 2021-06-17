@@ -16,6 +16,6 @@ export default [
   { name: 'Miasta', route: 'cities', icon: OfficeBuildingIcon, section: 'cities' },
   { name: 'Wycieczki', route: 'trips', icon: TicketIcon, section: 'trips' },
   { name: 'Tagi browarów', route: 'tags', icon: TagIcon, section: 'tags' },
-  { name: 'O nas', route: 'about', icon: QuestionMarkCircleIcon, section: 'about' },
-  { name: 'Statystyki', route: 'home', icon: PresentationChartLineIcon, section: 'statistics' }
+  { name: 'Statystyki', route: 'statistics', icon: PresentationChartLineIcon, section: 'statistics' },
+  { name: 'O nas', route: 'about', icon: QuestionMarkCircleIcon, section: 'about' }
 ]

@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="404">
     <page-header title="Błąd 404" header="Nie znaleziono żądanego zasobu"></page-header>
   </div>
 </template>

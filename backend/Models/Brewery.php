@@ -24,7 +24,7 @@ class Brewery implements JsonSerializable, Sluggable
     public function __construct(string $name, Location $location, Carbon $date, Trip $trip, string $note = "")
     {
         $this->name = $name;
-        $this->slug = Str::slug($name);
+        $this->slug = Str::slug(title: $name, language: $location->getCountry()->getSymbol());
         $this->location = $location;
         $this->date = $date;
         $this->trip = $trip;

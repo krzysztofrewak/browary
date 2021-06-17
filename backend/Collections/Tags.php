@@ -39,7 +39,12 @@ class Tags implements JsonSerializable, HavingAll
     public function jsonSerialize(): array
     {
         return $this->tags
-            ->sort(fn(Tag $a, Tag $b): int => $a->getName() <=> $b->getName())
+            ->sort(
+                fn(Tag $a, Tag $b): int => $a->getBreweriesCount() === $b->getBreweriesCount()
+                    ? $a->getName() <=> $b->getName()
+                    : $b->getBreweriesCount() <=> $a->getBreweriesCount()
+            )
+            ->filter(fn(Tag $city): bool => $city->getBreweries()->count() > 1)
             ->toArray();
     }
 }

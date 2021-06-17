@@ -28,7 +28,13 @@ export default {
     onMounted(() => {
       api.fetch(router, url, (data) => {
         data.slug = route.params.year + '-' + route.params.month
-        store.commit('setFilter', { type: 'month', item: data })
+
+        if (data.extremes.north === '') {
+          store.commit('resetMap')
+        } else {
+          store.commit('setFilter', { type: 'month', item: data })
+        }
+
         month.value = data
         title.value = 'Miesiąc ' + data.label
       })
