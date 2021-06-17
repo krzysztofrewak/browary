@@ -33,7 +33,7 @@ class GeneralCountry implements JsonSerializable
             "original" => $this->original,
             "symbol" => $this->symbol,
             "slug" => $this->slug,
-            "stats" => [
+            "counters" => [
                 "breweries" => $this->breweries,
                 "trips" => $this->trips,
             ],

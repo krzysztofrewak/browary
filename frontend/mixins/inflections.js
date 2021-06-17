@@ -29,6 +29,9 @@ export default {
     inflectCity (number, withNumber = true) {
       return inflect(number, ['miast', 'miasto', 'miast', 'miasta'], withNumber)
     },
+    inflectTag (number, withNumber = true) {
+      return inflect(number, ['tagów', 'tag', 'tagów', 'tagi'], withNumber)
+    },
     inflectCountries (number, withNumber = true) {
       return inflect(number, ['państwach', 'państwie', 'państwach', 'państwach'], withNumber)
     },

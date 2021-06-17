@@ -96,7 +96,7 @@ class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
         return [
             "label" => $this->label,
             "items" => $this->items,
-            "stats" => [
+            "counters" => [
                 "breweries" => $this->getBreweriesCount(),
                 "countries" => $this->getCountriesCount(),
                 "trips" => $this->getTripsCount(),

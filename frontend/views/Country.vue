@@ -2,10 +2,10 @@
   <div>
     <page-header :title="country.name" :header="country.original"></page-header>
 
-    <statistics v-if="country.stats">
-      <statistic :label="inflectVisitedBreweries(country.stats.breweries, false)" :value="country.stats.breweries"></statistic>
-      <statistic :label="inflectVisitedTrips(country.stats.trips, false)" :value="country.stats.trips"></statistic>
-      <statistic :label="inflectVisitedCities(country.stats.cities, false)" :value="country.stats.cities"></statistic>
+    <statistics v-if="country.counters">
+      <statistic :label="inflectVisitedBreweries(country.counters.breweries, false)" :value="country.counters.breweries"></statistic>
+      <statistic :label="inflectVisitedTrips(country.counters.trips, false)" :value="country.counters.trips"></statistic>
+      <statistic :label="inflectVisitedCities(country.counters.cities, false)" :value="country.counters.cities"></statistic>
     </statistics>
     <hr class="my-4">
 

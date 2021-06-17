@@ -2,11 +2,11 @@
   <div>
     <page-header :title="tag.name"></page-header>
 
-    <statistics v-if="tag.stats">
-      <statistic :label="inflectBrewery(tag.stats.breweries, false)" :value="tag.stats.breweries"></statistic>
-      <statistic :label="inflectCountry(tag.stats.countries, false)" :value="tag.stats.countries"></statistic>
-      <statistic :label="inflectTrip(tag.stats.trips, false)" :value="tag.stats.trips"></statistic>
-      <statistic :label="inflectCity(tag.stats.cities, false)" :value="tag.stats.cities"></statistic>
+    <statistics v-if="tag.counters">
+      <statistic :label="inflectBrewery(tag.counters.breweries, false)" :value="tag.counters.breweries"></statistic>
+      <statistic :label="inflectCountry(tag.counters.countries, false)" :value="tag.counters.countries"></statistic>
+      <statistic :label="inflectTrip(tag.counters.trips, false)" :value="tag.counters.trips"></statistic>
+      <statistic :label="inflectCity(tag.counters.cities, false)" :value="tag.counters.cities"></statistic>
     </statistics>
     <hr class="my-4">
 

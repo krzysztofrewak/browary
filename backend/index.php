@@ -79,6 +79,11 @@ $statistics = new Statistics();
 $statistics->setExtremes(ExtremesFinder::find($breweries->getAll()));
 $statistics->setWeekdays(WeekdaysCounter::count($breweries->getAll()));
 $statistics->setMonths(MonthsCounter::count($breweries->getAll()));
+$statistics->setCounter("breweries", $breweries->getAll()->count());
+$statistics->setCounter("countries", $countries->getAll()->count());
+$statistics->setCounter("cities", $cities->getAll()->count());
+$statistics->setCounter("trips", $trips->getAll()->count());
+$statistics->setCounter("tags", $tags->getAll()->count());
 
 $map = new GeoJson($breweries);
 

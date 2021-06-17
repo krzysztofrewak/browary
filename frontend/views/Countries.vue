@@ -17,7 +17,7 @@
         :alt="c => c.original"
         :flag="c => c.symbol"
         :route="c => { return { name: 'country', params: { slug: c.slug }}}"
-        :labels="[c => inflectBrewery(c.stats.breweries), c => inflectTrip(c.stats.trips)]"
+        :labels="[c => inflectBrewery(c.counters.breweries), c => inflectTrip(c.counters.trips)]"
     ></list>
   </div>
 </template>
@@ -54,11 +54,11 @@ export default {
     }
 
     const sortByBreweries = (countries) => {
-      countries.sort((a, b) => b.stats.breweries > a.stats.breweries)
+      countries.sort((a, b) => b.counters.breweries > a.counters.breweries)
     }
 
     const sortByTrips = (countries) => {
-      countries.sort((a, b) => b.stats.trips > a.stats.trips)
+      countries.sort((a, b) => b.counters.trips > a.counters.trips)
     }
 
     onMounted(() => {

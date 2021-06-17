@@ -22,7 +22,7 @@ class TripDetailed implements JsonSerializable
             "name" => $this->trip->getName(),
             "slug" => $this->trip->getSlug(),
             "extremes" => $this->trip->getExtremes(),
-            "stats" => [
+            "counters" => [
                 "breweries" => $this->trip->getBreweriesCount(),
                 "countries" => $this->trip->getCountriesCount(),
                 "cities" => $this->trip->getCitiesCount(),

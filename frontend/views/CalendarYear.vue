@@ -8,11 +8,11 @@
 
     <hr class="my-4">
 
-    <statistics v-if="year.stats">
-      <statistic label="odwiedzonych browarów" :value="year.stats.breweries"></statistic>
-      <statistic label="odbytych wycieczek" :value="year.stats.trips"></statistic>
-      <statistic label="zwiedzonych państw" :value="year.stats.countries"></statistic>
-      <statistic label="zwiedzonych miast" :value="year.stats.cities"></statistic>
+    <statistics v-if="year.counters">
+      <statistic label="odwiedzonych browarów" :value="year.counters.breweries"></statistic>
+      <statistic label="odbytych wycieczek" :value="year.counters.trips"></statistic>
+      <statistic label="zwiedzonych państw" :value="year.counters.countries"></statistic>
+      <statistic label="zwiedzonych miast" :value="year.counters.cities"></statistic>
     </statistics>
 
     <hr class="my-4">

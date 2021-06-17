@@ -25,7 +25,7 @@ class CountryDetailed implements JsonSerializable
             "slug" => $this->country->getSlug(),
             "extremes" => $this->country->getExtremes(),
             "breweries" => $this->country->getBreweries(),
-            "stats" => [
+            "counters" => [
                 "breweries" => $this->country->getBreweriesCount(),
                 "trips" => $this->country->getTripsCount(),
                 "cities" => $this->country->getCitiesCount(),

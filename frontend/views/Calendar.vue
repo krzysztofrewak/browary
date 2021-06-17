@@ -32,10 +32,10 @@
                 {{ year.label }}
               </router-link>
             </td>
-            <td>{{ year.stats.breweries }}</td>
-            <td>{{ year.stats.countries }}</td>
-            <td>{{ year.stats.trips }}</td>
-            <td>{{ year.stats.cities }}</td>
+            <td>{{ year.counters.breweries }}</td>
+            <td>{{ year.counters.countries }}</td>
+            <td>{{ year.counters.trips }}</td>
+            <td>{{ year.counters.cities }}</td>
           </tr>
         </tbody>
       </table>
