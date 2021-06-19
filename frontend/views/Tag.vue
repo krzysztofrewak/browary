@@ -2,12 +2,12 @@
   <div>
     <page-header :title="tag.name"></page-header>
 
-    <statistics v-if="tag.counters">
-      <statistic :label="inflectBrewery(tag.counters.breweries, false)" :value="tag.counters.breweries"></statistic>
-      <statistic :label="inflectCountry(tag.counters.countries, false)" :value="tag.counters.countries"></statistic>
-      <statistic :label="inflectTrip(tag.counters.trips, false)" :value="tag.counters.trips"></statistic>
-      <statistic :label="inflectCity(tag.counters.cities, false)" :value="tag.counters.cities"></statistic>
-    </statistics>
+    <counters v-if="tag.counters">
+      <counter :label="inflectBrewery(tag.counters.breweries, false)" :value="tag.counters.breweries"></counter>
+      <counter :label="inflectCountry(tag.counters.countries, false)" :value="tag.counters.countries"></counter>
+      <counter :label="inflectTrip(tag.counters.trips, false)" :value="tag.counters.trips"></counter>
+      <counter :label="inflectCity(tag.counters.cities, false)" :value="tag.counters.cities"></counter>
+    </counters>
     <hr class="my-4">
 
     <breweries :breweries="tag.breweries"></breweries>
@@ -18,14 +18,14 @@
 import { onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useStore } from 'vuex'
-import PageHeader from '../components/PageHeader'
-import Statistic from '../components/Statistic'
-import Statistics from '../components/Statistics'
-import Breweries from '../components/Lists/Breweries'
 import api from '../api'
+import PageHeader from '../components/PageHeader'
+import Counter from '../components/Counter'
+import Counters from '../components/Counters'
+import Breweries from '../components/Lists/Breweries'
 
 export default {
-  components: { Breweries, Statistics, Statistic, PageHeader },
+  components: { Breweries, Counters, Counter, PageHeader },
   setup () {
     const route = useRoute()
     const router = useRouter()

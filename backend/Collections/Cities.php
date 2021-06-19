@@ -40,7 +40,7 @@ class Cities implements JsonSerializable, HavingAll
 
     public function jsonSerialize(): array
     {
-        return $this->cities
+        return $this->getAll()
             ->filter(fn(City $city): bool => $city->getBreweries()->count() > 1)
             ->toArray();
     }

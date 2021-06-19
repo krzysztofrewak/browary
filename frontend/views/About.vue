@@ -1,8 +1,11 @@
 <template>
   <div class="about">
     <page-header title="O co chodzi?" header="Kilka słów o projekcie"></page-header>
-    <p class="px-6 text-sm text-gray-900">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias cum dolor, dolore esse et harum impedit laboriosam laudantium minima natus nihil optio provident quo ratione recusandae similique suscipit voluptas voluptatibus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi aperiam consequuntur cum dolore ducimus eius, expedita libero molestiae numquam officia placeat reprehenderit sed sit suscipit ut vero! Beatae, voluptate?
+    <p class="my-4 px-6 text-sm text-gray-900">
+      Nazywam się Krzysztof Rewak i wraz z moją żoną Joanną od kilku lat staramy się podczas naszych podróży odwiedzać napotkane browary. Pasją zaraził nas nasz kolega Marcin, z którym zjechaliśmy kilkanaście czeskich i niemieckich mikrobrowarów; my natomiast nauczyliśmy tego hobby kilkoro naszych innych znajomych.
+    </p>
+    <p class="my-4 px-6 text-sm text-gray-900">
+      Głównym celem niniejszej strony jest archiwizacja naszych podróży oraz budowanie ładnie namalowanych statystyk. Kod aplikacji jest otwartoźródłowy, więc każdy chętny może zbudować podobną mapę przy odrobinie dobrych chęci i wiedzy programistycznej.
     </p>
   </div>
 </template>

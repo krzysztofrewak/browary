@@ -8,12 +8,12 @@
 
     <hr class="my-4">
 
-    <statistics v-if="year.counters">
-      <statistic label="odwiedzonych browarów" :value="year.counters.breweries"></statistic>
-      <statistic label="odbytych wycieczek" :value="year.counters.trips"></statistic>
-      <statistic label="zwiedzonych państw" :value="year.counters.countries"></statistic>
-      <statistic label="zwiedzonych miast" :value="year.counters.cities"></statistic>
-    </statistics>
+    <counters v-if="year.counters">
+      <counter label="odwiedzonych browarów" :value="year.counters.breweries"></counter>
+      <counter label="odbytych wycieczek" :value="year.counters.trips"></counter>
+      <counter label="zwiedzonych państw" :value="year.counters.countries"></counter>
+      <counter label="zwiedzonych miast" :value="year.counters.cities"></counter>
+    </counters>
 
     <hr class="my-4">
 
@@ -25,15 +25,15 @@
 import { onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useStore } from 'vuex'
+import api from '../api'
 import PageHeader from '../components/PageHeader'
 import Breweries from '../components/Lists/Breweries'
-import Statistic from '../components/Statistic'
-import Statistics from '../components/Statistics'
-import api from '../api'
+import Counter from '../components/Counter'
+import Counters from '../components/Counters'
 import YearRow from '../components/Calendar/YearRow'
 
 export default {
-  components: { YearRow, Breweries, PageHeader, Statistic, Statistics },
+  components: { YearRow, Breweries, PageHeader, Counter, Counters },
   setup () {
     const route = useRoute()
     const router = useRouter()

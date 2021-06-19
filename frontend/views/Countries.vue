@@ -34,7 +34,7 @@ export default {
   components: { List, PageHeader, SortingHeader },
   computed: {
     subtitle () {
-      return 'Odwiedziliśmy do tej pory ' + this.inflectCountry(this.countries.length)
+      return this.inflectCountry(this.countries.length)
     }
   },
   setup () {

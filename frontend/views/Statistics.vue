@@ -1,13 +1,13 @@
 <template>
   <div class="statistics">
     <page-header title="Liczniki" header="Ogólne podsumowanie danych"></page-header>
-    <statistics>
-      <statistic :value="counters.breweries" :label="inflectBrewery(counters.breweries, false)"></statistic>
-      <statistic :value="counters.countries" :label="inflectCountry(counters.countries, false)"></statistic>
-      <statistic :value="counters.cities" :label="inflectTrip(counters.cities, false)"></statistic>
-      <statistic :value="counters.trips" :label="inflectCity(counters.trips, false)"></statistic>
-      <statistic :value="counters.tags" :label="inflectTag(counters.tags, false)"></statistic>
-    </statistics>
+    <counters>
+      <counter :value="counters.breweries" :label="inflectBrewery(counters.breweries, false)"></counter>
+      <counter :value="counters.countries" :label="inflectCountry(counters.countries, false)"></counter>
+      <counter :value="counters.tags" :label="inflectTag(counters.tags, false)"></counter>
+      <counter :value="counters.trips" :label="inflectCity(counters.trips, false)"></counter>
+      <counter :value="counters.cities" :label="inflectTrip(counters.cities, false)"></counter>
+    </counters>
     <hr class="my-4">
 
     <extremes :extremes="extremes"></extremes>
@@ -26,12 +26,12 @@ import { useRouter } from 'vue-router'
 import api from '../api'
 import Extremes from '../components/Statistics/Extremes'
 import Chart from '../components/Statistics/Chart'
-import Statistics from '../components/Statistics'
-import Statistic from '../components/Statistic'
+import Counters from '../components/Counters'
+import Counter from '../components/Counter'
 import PageHeader from '../components/PageHeader'
 
 export default {
-  components: { PageHeader, Statistic, Statistics, Chart, Extremes },
+  components: { PageHeader, Counter, Counters, Chart, Extremes },
   setup () {
     const router = useRouter()
 
