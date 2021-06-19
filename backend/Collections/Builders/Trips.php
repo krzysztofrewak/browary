@@ -30,7 +30,8 @@ class Trips
                 $data = json_decode($jsonFile, true);
                 $trip = new Trip($data["name"]);
 
-                foreach (collect($data["breweries"])->reverse() as $breweryData) {
+                $breweries = new Collection($data["breweries"]);
+                foreach ($breweries->reverse() as $breweryData) {
                     $latitude = $breweryData["location"]["coordinates"]["lat"];
                     $longitude = $breweryData["location"]["coordinates"]["lng"];
                     $coordinates = new Coordinates($latitude, $longitude);

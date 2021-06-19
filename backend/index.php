@@ -35,6 +35,7 @@ use Brewmap\Services\Statistics\ExtremesFinder;
 use Brewmap\Services\Statistics\MonthsCounter;
 use Brewmap\Services\Statistics\WeekdaysCounter;
 use Dotenv\Dotenv;
+use Illuminate\Support\Collection;
 
 $dotenv = Dotenv::createImmutable(__DIR__ . "/../");
 $dotenv->load();
@@ -49,7 +50,8 @@ Directory::create("tags");
 Directory::create("trips");
 
 $countriesData = file_get_contents(__DIR__ . "/../resources/countries.json");
-$tripsData = collect(glob(__DIR__ . "/../resources/trips/*.json"))->map(
+$tripsFiles = new Collection(glob(__DIR__ . "/../resources/trips/*.json"));
+$tripsData = $tripsFiles->map(
     fn(string $filename): string => file_get_contents($filename)
 );
 
