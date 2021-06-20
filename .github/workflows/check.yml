@@ -1,4 +1,4 @@
-name: Check code style
+name: Check code style and test
 
 on:
   pull_request:
@@ -27,3 +27,7 @@ jobs:
       - name: Run code style checker
         run: |
           composer ecs
+
+      - name: Run code style checker
+        run: |
+          composer test

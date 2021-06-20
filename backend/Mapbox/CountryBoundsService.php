@@ -16,6 +16,10 @@ class CountryBoundsService
         $api = new Client();
         $token = $_ENV["VUE_APP_MAPBOX_TOKEN"] ?? getenv("VUE_APP_MAPBOX_TOKEN");
 
+        if (empty($token)) {
+            return;
+        }
+
         /** @var Country $country */
         foreach ($countries->getAll() as $country) {
             $name = $country->getName();

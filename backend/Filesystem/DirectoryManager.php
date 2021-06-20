@@ -7,20 +7,25 @@ namespace Brewmap\Filesystem;
 use RecursiveDirectoryIterator;
 use RecursiveIteratorIterator;
 
-class Directory
+class DirectoryManager
 {
-    public static function create(string $directory): void
+    public function __construct(
+        protected string $basePath
+    ) {
+    }
+
+    public function create(string $directory): void
     {
-        $directory = __DIR__ . "/../../public/api/${directory}";
+        $directory = $this->basePath . "/public/api/${directory}";
 
         if (!file_exists($directory)) {
             mkdir($directory, 0777, true);
         }
     }
 
-    public static function purge(): void
+    public function purge(): void
     {
-        $directory = __DIR__ . "/../../public/api/";
+        $directory = $this->basePath . "/public/api/";
 
         if (file_exists($directory)) {
             $files = new RecursiveIteratorIterator(

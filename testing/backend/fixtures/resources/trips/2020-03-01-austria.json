@@ -1,9 +1,9 @@
 {
-  "name": "Wiedeń, grudzień 2014",
+  "name": "Wiedeń, marzec 2020",
   "breweries": [
     {
       "name": "1516 Brewing Company",
-      "visited": "2014-12-12",
+      "visited": "2020-03-01",
       "location": {
         "country": "at",
         "city": "Wien",
@@ -21,7 +21,7 @@
     },
     {
       "name": "Lichtenthaler Bräu",
-      "visited": "2014-12-13",
+      "visited": "2020-03-02",
       "location": {
         "country": "at",
         "city": "Wien",

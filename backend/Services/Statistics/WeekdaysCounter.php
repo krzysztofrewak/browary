@@ -14,13 +14,18 @@ class WeekdaysCounter
         $weekdays = ["pn", "wt", "śr", "cz", "pt", "sb", "nd"];
 
         $values = $breweries->countBy(fn(Brewery $brewery): int => $brewery->getDate()->isoWeekday())
-            ->map(fn(int $value, int $key): array => [
-                "label" => $weekdays[$key - 1],
-                "value" => $value,
-            ])->toArray();
+            ->map(
+                fn(int $value, int $key): array => [
+                    "label" => $weekdays[$key - 1],
+                    "value" => $value,
+                ]
+            )->toArray();
 
         return array_map(
-            callback: fn(string $day): array => $values[$day],
+            callback: fn(string $day): array => $values[$day] ?? [
+                "label" => $day,
+                "value" => 0,
+            ],
             array: range(1, 7),
         );
     }

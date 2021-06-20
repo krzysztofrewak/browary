@@ -58,7 +58,7 @@ class Country implements JsonSerializable, Sluggable
         return $this->breweries;
     }
 
-    public function getExtremes(): Extremes
+    public function getExtremes(): ?Extremes
     {
         return $this->extremes;
     }

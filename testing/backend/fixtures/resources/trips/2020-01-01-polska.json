@@ -1,0 +1,62 @@
+{
+  "name": "Wrocław, styczeń 2020",
+  "breweries": [
+    {
+      "name": "Spiż Wrocław",
+      "visited": "2020-01-01",
+      "location": {
+        "country": "pl",
+        "city": "Wrocław",
+        "address": "Ratusz 2",
+        "coordinates": {
+          "lat": 51.109934,
+          "lng": 17.031211
+        }
+      },
+      "tags": [
+        "dolnośląski browar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Bierhalle Arkadia",
+      "visited": "2020-01-02",
+      "location": {
+        "country": "pl",
+        "city": "Warszawa",
+        "address": "al. Jana Pawła II 82",
+        "coordinates": {
+          "lat": 52.256166,
+          "lng": 20.984165
+        }
+      },
+      "tags": [
+        "sieć Bierhalle",
+        "browar w galerii handlowej",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Brovarnia Gdańsk",
+      "visited": "2020-01-03",
+      "location": {
+        "country": "pl",
+        "city": "Gdańsk",
+        "address": "Szafarnia 9",
+        "coordinates": {
+          "lat": 54.349342,
+          "lng": 18.660396
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

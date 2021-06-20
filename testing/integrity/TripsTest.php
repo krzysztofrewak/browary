@@ -41,9 +41,9 @@ class TripsTest extends TestCase
                 }
 
                 $this->assertContains(
-                    sizeof($brewery),
-                    [4, 5],
-                    "There's a wrong number of fields for " . $brewery["name"]
+                    needle: sizeof($brewery),
+                    haystack: [4, 5],
+                    message: "There's a wrong number of fields for " . $brewery["name"]
                 );
             }
         }
@@ -62,9 +62,9 @@ class TripsTest extends TestCase
 
             foreach ($trip["breweries"] as $brewery) {
                 $this->assertContains(
-                    $brewery["location"]["country"],
-                    $symbols,
-                    "Unidentified country symbol was used for " . $brewery["name"]
+                    needle: $brewery["location"]["country"],
+                    haystack: $symbols,
+                    message: "Unidentified country symbol was used for " . $brewery["name"]
                 );
             }
         }

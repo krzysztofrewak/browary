@@ -5,5 +5,7 @@ vendor
 
 public/*
 !public/.gitkeep
+testing/backend/fixtures/public/*
+!testing/backend/fixtures/public/.gitkeep
 
 .env

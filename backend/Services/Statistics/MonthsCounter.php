@@ -14,14 +14,19 @@ class MonthsCounter
     {
         $weekdays = RomanMonthTranslator::ROMAN;
         $values = $breweries->countBy(fn(Brewery $brewery): int => $brewery->getDate()->month)
-            ->map(fn(int $value, int $key): array => [
-                "label" => $weekdays[$key - 1],
-                "value" => $value,
-            ])
+            ->map(
+                fn(int $value, int $key): array => [
+                    "label" => $weekdays[$key - 1],
+                    "value" => $value,
+                ]
+            )
             ->toArray();
 
         return array_map(
-            callback: fn(string $day): array => $values[$day],
+            callback: fn(string $day): array => $values[$day] ?? [
+                "label" => $day,
+                "value" => 0,
+            ],
             array: range(1, 12),
         );
     }
