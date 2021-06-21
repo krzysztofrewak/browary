@@ -34,8 +34,8 @@ class DirectoryManager
             );
 
             foreach ($files as $file) {
-                $todo = ($file->isDir() ? "rmdir" : "unlink");
-                $todo($file->getRealPath());
+                $action = ($file->isDir() ? "rmdir" : "unlink");
+                $action($file->getRealPath());
             }
 
             rmdir($directory);

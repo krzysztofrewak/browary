@@ -8,9 +8,13 @@ use Brewmap\Collections\Countries;
 use Brewmap\Models\Country;
 use Brewmap\Models\Extremes;
 use GuzzleHttp\Client;
+use GuzzleHttp\Exception\GuzzleException;
 
 class CountryBoundsService
 {
+    /**
+     * @throws GuzzleException
+     */
     public static function setBounds(Countries $countries): void
     {
         $api = new Client();
@@ -28,11 +32,13 @@ class CountryBoundsService
             );
             $bounds = json_decode($response->getBody()->getContents(), true)["features"][0]["bbox"];
 
-            $extremes = new Extremes();
-            $extremes->setNorth((string)$bounds[3]);
-            $extremes->setEast((string)$bounds[2]);
-            $extremes->setSouth((string)$bounds[1]);
-            $extremes->setWest((string)$bounds[0]);
+            $extremes = new Extremes(
+                north: (string)$bounds[3],
+                east: (string)$bounds[2],
+                south: (string)$bounds[1],
+                west: (string)$bounds[0]
+            );
+
             $country->setExtremes($extremes);
         }
     }

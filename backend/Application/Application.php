@@ -41,6 +41,7 @@ use Brewmap\Services\Statistics\ExtremesFinder;
 use Brewmap\Services\Statistics\MonthsCounter;
 use Brewmap\Services\Statistics\WeekdaysCounter;
 use Dotenv\Dotenv;
+use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Collection;
 
 class Application
@@ -120,6 +121,9 @@ class Application
         BreweryToCityAssigner::assign($breweries);
     }
 
+    /**
+     * @throws GuzzleException
+     */
     protected function prepareBounds(
         CountriesCollection $countries,
         TripsCollection $trips,
