@@ -7,9 +7,9 @@ namespace Brewmap\Services;
 use Brewmap\Models\Brewery;
 use Illuminate\Support\Collection;
 
-final class BreweriesUniqueSlugService
+class BreweriesUniqueSlugService
 {
-    private Collection $slugs;
+    protected Collection $slugs;
 
     public function __construct()
     {

@@ -7,9 +7,9 @@ namespace Brewmap\Models\Mappers;
 use Brewmap\Models\Tag;
 use JsonSerializable;
 
-final class TagDetailed implements JsonSerializable
+class TagDetailed implements JsonSerializable
 {
-    private Tag $tag;
+    protected Tag $tag;
 
     public function __construct(Tag $tag)
     {
@@ -23,7 +23,12 @@ final class TagDetailed implements JsonSerializable
             "slug" => $this->tag->getSlug(),
             "extremes" => $this->tag->getExtremes(),
             "breweries" => $this->tag->getBreweries()->reverse()->values()->all(),
-            "breweriesCount" => $this->tag->getBreweries()->count(),
+            "counters" => [
+                "breweries" => $this->tag->getBreweriesCount(),
+                "trips" => $this->tag->getTripsCount(),
+                "cities" => $this->tag->getCitiesCount(),
+                "countries" => $this->tag->getCountriesCount(),
+            ],
         ];
     }
 }

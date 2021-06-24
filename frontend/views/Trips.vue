@@ -1,51 +1,60 @@
 <template>
   <div>
-    <div class="mb-8">
-      <h1 class="text-2xl text-blue-900 font-semibold leading-none">Wycieczki</h1>
-      <h2 class="text-gray-600">Wszystkie wycieczki z więcej niż jednym browarem, chronologicznie</h2>
-    </div>
-
-    <div class="text-sm">
-      <div class="flex text-gray-600 py-2 px-2 border-b items-center">
-        <div class="cursor-pointer flex-grow" @click="sortBy('date')">data</div>
-        <div class="cursor-pointer text-right" @click="sortBy('breweries')">odwiedzone browary</div>
-      </div>
-      <div v-for="trip in trips" class="flex py-1 px-2 border-b items-center hover:bg-gray-300">
-        <div class="flex-grow mt-1 mr-3">
-          <router-link v-for="country in trip.countries" :to="{ name: 'country', params: { slug: country.slug } }">
-            <i :class="country.symbol" class="mr-1 flat flag"></i>
-          </router-link>
-          <router-link :to="{ name: 'trip', params: { slug: trip.slug } }">
-            {{ trip.name }}
-          </router-link>
-        </div>
-        <div class="text-gray-600 text-right">
-          {{ inflectBrewery(trip.breweries) }}
-        </div>
-      </div>
-    </div>
+    <page-header title="Wycieczki" header="Z przynajmniej dwoma odwiedzonymi browarami"></page-header>
+    <sorting-header :entries="trips"
+        :left="[{ label: 'data', method: sortByDate }, { label: 'wycieczka', method: sortByName }]"
+        :right="[{ label: 'liczba browarów', method: sortByBreweries }]"
+    ></sorting-header>
+    <list :entries="trips"
+        :name="trip => trip.name"
+        :alt="trip => trip.original"
+        :flags="trip => trip.countries"
+        :route="trip => { return { name: 'trip', params: { slug: trip.slug }}}"
+        :labels="[trip => inflectBrewery(trip.breweries)]"
+        padding="0.5"
+    >
+    </list>
   </div>
 </template>
 
 <script>
-import api from '../resources/Trips'
+import { onMounted, ref } from 'vue'
+import { useRouter } from 'vue-router'
+import PageHeader from '../components/PageHeader'
+import SortingHeader from '../components/Lists/SortingHeader'
+import List from '../components/Lists/List'
+import api from '../api'
 
 export default {
-  data () {
-    return {
-      trips: [],
-      sortKey: null,
+  components: { List, PageHeader, SortingHeader },
+  setup () {
+    const router = useRouter()
+    const trips = ref([])
+
+    const sortByDate = (trips) => {
+      trips.sort((a, b) => b.date > a.date)
     }
-  },
-  mounted () {
-    api.assign(result => {
-      this.trips = Object.values(result)
+
+    const sortByName = (trips) => {
+      trips.sort((a, b) => a.name.localeCompare(b.name))
+    }
+
+    const sortByBreweries = (trips) => {
+      trips.sort((a, b) => b.breweries > a.breweries)
+    }
+
+    onMounted(() => {
+      api.fetch(router, 'trips', (data) => {
+        trips.value = Object.values(data)
+      })
     })
-  },
-  methods: {
-    sortBy (key) {
-      this.trips = this.trips.sort((a, b) => Number.isInteger(a[key]) ? a[key] < b[key] : a[key] > b[key])
-    },
-  },
+
+    return {
+      trips,
+      sortByDate,
+      sortByName,
+      sortByBreweries
+    }
+  }
 }
 </script>

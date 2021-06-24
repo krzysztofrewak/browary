@@ -1,30 +1,29 @@
 <template>
-  <div class="mb-8 flex items-center">
-    <div v-if="country" class="mt-1 mr-4">
-      <router-link :to="{ name: 'country', params: { slug: country.slug } }">
-        <i :class="country.symbol" class="giant flat flag"></i>
-      </router-link>
+  <div>
+    <div class="relative h-40 sm:h-56" v-if="cover">
+      <img class="absolute h-full w-full object-cover" :src="cover" :alt="title">
     </div>
-    <div>
-      <h1 class="text-2xl text-blue-900 font-semibold leading-none">{{ title }}</h1>
-      <h2 v-if="subtitle" class="text-gray-600">{{ subtitle }}</h2>
+    <div class="mt-6 pb-2 px-4 sm:flex sm:items-end sm:px-6">
+      <div class="sm:flex-1">
+        <div>
+          <div class="flex items-center">
+            <h3 class="text-xl text-gray-900 sm:text-2xl">{{ title }}</h3>
+          </div>
+          <p class="text-sm text-gray-500">{{ header }}</p>
+        </div>
+      </div>
     </div>
+
+    <hr class="my-4">
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    title: {
-      type: String,
-      required: true,
-    },
-    subtitle: {
-      type: String,
-    },
-    country: {
-      type: Object,
-    },
-  },
+    title: String,
+    header: String,
+    cover: String
+  }
 }
 </script>

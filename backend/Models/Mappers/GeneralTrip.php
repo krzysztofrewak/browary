@@ -7,9 +7,9 @@ namespace Brewmap\Models\Mappers;
 use Brewmap\Models\Trip;
 use JsonSerializable;
 
-final class GeneralTrip implements JsonSerializable
+class GeneralTrip implements JsonSerializable
 {
-    private Trip $trip;
+    protected Trip $trip;
 
     public function __construct(Trip $trip)
     {

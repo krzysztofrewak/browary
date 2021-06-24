@@ -7,14 +7,14 @@ namespace Brewmap\Models;
 use Brewmap\Models\Mappers\BreweryCountry;
 use JsonSerializable;
 
-final class Location implements JsonSerializable
+class Location implements JsonSerializable
 {
-    private Coordinates $coordinates;
-    private Country $country;
-    private string $city;
-    private string $address;
+    protected Coordinates $coordinates;
+    protected Country $country;
+    protected City $city;
+    protected string $address;
 
-    public function __construct(Coordinates $coordinates, Country $country, string $city, string $address)
+    public function __construct(Coordinates $coordinates, Country $country, City $city, string $address)
     {
         $this->country = $country;
         $this->coordinates = $coordinates;
@@ -27,7 +27,7 @@ final class Location implements JsonSerializable
         return $this->country;
     }
 
-    public function getCity(): string
+    public function getCity(): City
     {
         return $this->city;
     }

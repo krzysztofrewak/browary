@@ -8,43 +8,17 @@ use JsonSerializable;
 
 class Extremes implements JsonSerializable
 {
-    private string $north;
-    private string $east;
-    private string $south;
-    private string $west;
+    protected string $north;
+    protected string $east;
+    protected string $south;
+    protected string $west;
 
-    public function set(string $north, string $east, string $south, string $west): self
+    public function __construct(string $north, string $east, string $south, string $west)
     {
-        $this->north = $north;
-        $this->east = $east;
-        $this->south = $south;
-        $this->west = $west;
-
-        return $this;
-    }
-
-    public function setNorth(string $north): self
-    {
-        $this->north = $north;
-        return $this;
-    }
-
-    public function setEast(string $east): self
-    {
-        $this->east = $east;
-        return $this;
-    }
-
-    public function setSouth(string $south): self
-    {
-        $this->south = $south;
-        return $this;
-    }
-
-    public function setWest(string $west): self
-    {
-        $this->west = $west;
-        return $this;
+        $this->north = $this->processCoordinate($north);
+        $this->east = $this->processCoordinate($east);
+        $this->south = $this->processCoordinate($south);
+        $this->west = $this->processCoordinate($west);
     }
 
     public function jsonSerialize(): array
@@ -55,5 +29,21 @@ class Extremes implements JsonSerializable
             "south" => $this->south,
             "west" => $this->west,
         ];
+    }
+
+    protected function processCoordinate(string $coordinate): string
+    {
+        if (empty($coordinate)) {
+            return $coordinate;
+        }
+
+        $parts = explode(".", $coordinate);
+        $parts[1] = str_pad(
+            string: $parts[1],
+            length: 6,
+            pad_string: "0"
+        );
+
+        return $parts[0] . "." . $parts[1];
     }
 }

@@ -1,57 +1,80 @@
 <template>
   <div>
-    <div class="mb-6">
-      <h1 class="text-2xl text-blue-900 font-semibold leading-none">Odwiedzone państwa</h1>
-      <h2 class="text-gray-600">Wszystkie państwa z odwiedzonymi browarami ({{ countriesCount }})</h2>
-    </div>
-
-    <div class="text-sm">
-      <div class="flex text-gray-600 py-2 px-2 border-b items-center">
-        <div class="cursor-pointer w-12" @click="sortBy('symbol')">kod</div>
-        <div class="cursor-pointer flex-grow" @click="sortBy('name')">nazwa</div>
-        <div class="cursor-pointer text-right" @click="sortBy('breweries')">odwiedzone browary</div>
-      </div>
-      <div v-for="country in countries" class="flex py-1 px-2 border-b items-center hover:bg-gray-300">
-        <div class="mt-1 mr-3">
-          <router-link :to="{ name: 'country', params: { slug: country.slug } }">
-            <i :class="country.symbol" class="large flat flag"></i>
-          </router-link>
-        </div>
-        <div class="flex-grow">
-          <router-link :to="{ name: 'country', params: { slug: country.slug } }">{{ country.name }}</router-link>
-        </div>
-        <div class="text-gray-600 text-right">
-          {{ inflectBrewery(country.breweries) }}
-        </div>
-      </div>
-    </div>
+    <page-header title="Odwiedzone państwa" :header="subtitle"></page-header>
+    <sorting-header :entries="countries"
+        :left="[
+            { label: 'nazwa', method: sortByName },
+            { label: 'nomine', method: sortByOriginalName },
+            { label: 'kod', method: sortByCode }
+        ]"
+        :right="[
+            { label: 'liczba browarów', method: sortByBreweries },
+            { label: 'wycieczek', method: sortByTrips }
+        ]"
+    ></sorting-header>
+    <list :entries="countries"
+        :name="c => c.name"
+        :alt="c => c.original"
+        :flag="c => c.symbol"
+        :route="c => { return { name: 'country', params: { slug: c.slug }}}"
+        :labels="[c => inflectBrewery(c.counters.breweries), c => inflectTrip(c.counters.trips)]"
+    ></list>
   </div>
 </template>
 
 <script>
-import api from '../resources/Countries'
+import { onMounted, ref } from 'vue'
+import { useRouter } from 'vue-router'
+import PageHeader from '../components/PageHeader'
+import SortingHeader from '../components/Lists/SortingHeader'
+import List from '../components/Lists/List'
+import api from '../api'
 
 export default {
-  data () {
-    return {
-      countries: [],
-      sortKey: null,
+  components: { List, PageHeader, SortingHeader },
+  computed: {
+    subtitle () {
+      return this.inflectCountry(this.countries.length)
     }
   },
-  computed: {
-    countriesCount () {
-      return this.countries.length
-    },
-  },
-  mounted () {
-    api.assign(result => {
-      this.countries = Object.values(result)
+  setup () {
+    const router = useRouter()
+    const countries = ref([])
+
+    const sortByName = (countries) => {
+      countries.sort((a, b) => a.name.localeCompare(b.name))
+    }
+
+    const sortByOriginalName = (countries) => {
+      countries.sort((a, b) => a.original.localeCompare(b.original))
+    }
+
+    const sortByCode = (countries) => {
+      countries.sort((a, b) => a.symbol.localeCompare(b.symbol))
+    }
+
+    const sortByBreweries = (countries) => {
+      countries.sort((a, b) => b.counters.breweries > a.counters.breweries)
+    }
+
+    const sortByTrips = (countries) => {
+      countries.sort((a, b) => b.counters.trips > a.counters.trips)
+    }
+
+    onMounted(() => {
+      api.fetch(router, 'countries', (data) => {
+        countries.value = Object.values(data)
+      })
     })
-  },
-  methods: {
-    sortBy (key) {
-      this.countries = this.countries.sort((a, b) => Number.isInteger(a[key]) ? a[key] < b[key] : a[key] > b[key])
-    },
-  },
+
+    return {
+      countries,
+      sortByName,
+      sortByOriginalName,
+      sortByCode,
+      sortByBreweries,
+      sortByTrips
+    }
+  }
 }
 </script>

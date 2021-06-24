@@ -10,12 +10,12 @@ use Brewmap\Models\Brewery;
 use Brewmap\Models\Extremes;
 use Illuminate\Support\Collection;
 
-final class Item implements Sluggable, Boundable
+class Item implements Sluggable, Boundable
 {
-    private string $label;
-    private string $slug;
-    private Collection $breweries;
-    private ?Extremes $extremes;
+    protected string $label;
+    protected string $slug;
+    protected Collection $breweries;
+    protected ?Extremes $extremes;
 
     public function __construct(string $label, string $slug)
     {
@@ -24,15 +24,12 @@ final class Item implements Sluggable, Boundable
         $this->breweries = new Collection();
     }
 
-    public function addBrewery(Brewery $brewery): self
+    public function addBrewery(Brewery $brewery): static
     {
         $this->breweries->add($brewery);
         return $this;
     }
 
-    /**
-     * @return Collection|Brewery[]
-     */
     public function getBreweries(): Collection
     {
         return $this->breweries;
@@ -53,10 +50,15 @@ final class Item implements Sluggable, Boundable
         return $this->extremes;
     }
 
-    public function setExtremes(Extremes $extremes): Boundable
+    public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
         return $this;
+    }
+
+    public function getValue(): int
+    {
+        return $this->breweries->count();
     }
 
     public function jsonSerialize(): array
@@ -66,10 +68,5 @@ final class Item implements Sluggable, Boundable
             "label" => $this->label,
             "value" => $this->getValue(),
         ];
-    }
-
-    public function getValue(): int
-    {
-        return $this->breweries->count();
     }
 }

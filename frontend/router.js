@@ -1,45 +1,108 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import store from '@/store'
-
-Vue.use(VueRouter)
+import { createRouter, createWebHistory } from 'vue-router'
+import Home from './views/Home.vue'
 
 const routes = [
-  { path: '/', name: 'breweries', component: () => import('./views/Breweries.vue'), meta: { resetMap: true } },
-  { path: '/browary/:slug', name: 'brewery', component: () => import('./views/Brewery.vue') },
-  { path: '/o', name: 'about', component: () => import('./views/About.vue'), meta: { resetMap: true } },
-  { path: '/kalendarz', name: 'calendar', component: () => import('./views/Calendar.vue'), meta: { resetMap: true } },
-  { path: '/kalendarz/:year', name: 'calendar.year', component: () => import('./views/CalendarPage.vue'), },
-  { path: '/kalendarz/:year/:month', name: 'calendar.month', component: () => import('./views/CalendarPage.vue'), },
-  { path: '/panstwa', name: 'countries', component: () => import('./views/Countries.vue') },
-  { path: '/panstwa/:slug', name: 'country', component: () => import('./views/Country.vue') },
-  { path: '/wycieczki', name: 'trips', component: () => import('./views/Trips.vue') },
-  { path: '/wycieczki/:slug', name: 'trip', component: () => import('./views/Trip.vue') },
-  { path: '/tagi', name: 'tags', component: () => import('./views/Tags.vue') },
-  { path: '/tagi/:slug', name: 'tag', component: () => import('./views/Tag.vue') },
-  { path: '/notatki', name: 'notes', component: () => import('./views/Notes.vue'), meta: { resetMap: true } },
+  {
+    path: '/',
+    name: 'home',
+    component: Home,
+    meta: { section: 'home' }
+  },
+  {
+    path: '/browar/:slug',
+    name: 'brewery',
+    component: () => import(/* webpackChunkName: "brewery" */ './views/Brewery.vue'),
+    meta: { section: 'home' }
+  },
+  {
+    path: '/kalendarz',
+    name: 'calendar',
+    component: () => import(/* webpackChunkName: "calendar" */ './views/Calendar.vue'),
+    meta: { section: 'calendar' }
+  },
+  {
+    path: '/kalendarz/:year',
+    name: 'calendar.year',
+    component: () => import(/* webpackChunkName: "year" */ './views/CalendarYear.vue'),
+    meta: { section: 'calendar' }
+  },
+  {
+    path: '/kalendarz/:year/:month',
+    name: 'calendar.month',
+    component: () => import(/* webpackChunkName: "month" */ './views/CalendarMonth.vue'),
+    meta: { section: 'calendar' }
+  },
+  {
+    path: '/informacje',
+    name: 'about',
+    component: () => import(/* webpackChunkName: "about" */ './views/About.vue'),
+    meta: { section: 'about' }
+  },
+  {
+    path: '/panstwa',
+    name: 'countries',
+    component: () => import(/* webpackChunkName: "countries" */ './views/Countries.vue'),
+    meta: { section: 'countries' }
+  },
+  {
+    path: '/panstwa/:slug',
+    name: 'country',
+    component: () => import(/* webpackChunkName: "country" */ './views/Country.vue'),
+    meta: { section: 'countries' }
+  },
+  {
+    path: '/miasta',
+    name: 'cities',
+    component: () => import(/* webpackChunkName: "cities" */ './views/Cities.vue'),
+    meta: { section: 'cities' }
+  },
+  {
+    path: '/miasta/:slug',
+    name: 'city',
+    component: () => import(/* webpackChunkName: "city" */ './views/City.vue'),
+    meta: { section: 'cities' }
+  },
+  {
+    path: '/wycieczki',
+    name: 'trips',
+    component: () => import(/* webpackChunkName: "trips" */ './views/Trips.vue'),
+    meta: { section: 'trips' }
+  },
+  {
+    path: '/wycieczki/:slug',
+    name: 'trip',
+    component: () => import(/* webpackChunkName: "trip" */ './views/Trip.vue'),
+    meta: { section: 'trips' }
+  },
+  {
+    path: '/tagi',
+    name: 'tags',
+    component: () => import(/* webpackChunkName: "tags" */ './views/Tags.vue'),
+    meta: { section: 'tags' }
+  },
+  {
+    path: '/tagi/:slug',
+    name: 'tag',
+    component: () => import(/* webpackChunkName: "tag" */ './views/Tag.vue'),
+    meta: { section: 'tags' }
+  },
   {
     path: '/statystyki',
     name: 'statistics',
-    component: () => import('./views/Statistics.vue'),
-    meta: { resetMap: true }
+    component: () => import(/* webpackChunkName: "statistics" */ './views/Statistics.vue'),
+    meta: { section: 'statistics' }
   },
-  { path: '/404', name: '404', redirect: { name: 'none' } },
-  { path: '/*', name: 'none', component: () => import('./views/404.vue'), meta: { resetMap: true } },
+  {
+    path: '/404',
+    name: '404',
+    component: () => import(/* webpackChunkName: "404" */ './views/NotFound.vue'),
+    meta: { section: 'error' }
+  }
 ]
 
-const router = new VueRouter({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes,
-})
-
-router.beforeEach((to, from, next) => {
-  if (to.matched.some(record => record.meta.resetMap)) {
-    store.commit('resetMap')
-  }
-
-  next()
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes
 })
 
 export default router

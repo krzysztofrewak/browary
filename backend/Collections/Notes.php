@@ -9,25 +9,21 @@ use Brewmap\Models\Note;
 use Illuminate\Support\Collection;
 use JsonSerializable;
 
-final class Notes implements JsonSerializable, HavingAll
+class Notes implements JsonSerializable, HavingAll
 {
-    /** @var Collection|Note[] */
-    private Collection $notes;
+    protected Collection $notes;
 
     public function __construct()
     {
         $this->notes = new Collection();
     }
 
-    public function addNote(Note $note): self
+    public function addNote(Note $note): static
     {
         $this->notes->add($note);
         return $this;
     }
 
-    /**
-     * @return Collection|Note[]
-     */
     public function getAll(): Collection
     {
         return $this->notes;

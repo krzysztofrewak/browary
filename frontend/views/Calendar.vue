@@ -1,63 +1,81 @@
 <template>
-  <div>
-    <div class="mb-8">
-      <h1 class="text-2xl text-blue-900 font-semibold leading-none">Kalendarz</h1>
-      <h2 class="text-gray-600">Wszystkie lata i miesiące zwiedzania browarów</h2>
+  <div class="calendar">
+    <page-header title="Kalendarz" header="Im ciemniej, tym więcej"></page-header>
+
+    <div class="px-4">
+      <div class="flex items-center justify-between p-1" v-for="year in years" :key="year.label">
+        <router-link :to="{ name: 'calendar.year', params: { year: year.label } }" class="pr-3 text-gray-500 text-xs">
+          {{ year.label }}
+        </router-link>
+        <year-row :row="year.items" :max-value="maxValue" :year="year.label"></year-row>
+      </div>
     </div>
 
-    <div class="flex w-full flex-col">
-      <div v-for="year in years" class="flex w-full justify-content items-center">
-        <div class="flex items-center">
-          <router-link :title="year.count" :to="{ name: 'calendar.year', params: { year: year.label } }"
-              class="flex-1 h-full p-2">
-            {{ year.label }}
-          </router-link>
-        </div>
-        <div class="mx-1 flex items-center flex-grow">
-          <router-link v-for="item in year.items" :class="getHeatMap(item.value)"
-              :title="item.value"
-              :to="{ name: 'calendar.month', params: { year: year.label, month: item.slug } }" class="flex-1 border m-1 p-3"></router-link>
-        </div>
-      </div>
+    <hr class="my-4">
+    <page-header title="Podsumowanie" header="Zaliczone browary, państwa, wycieczki i miasta"></page-header>
+
+    <div class="m-4">
+      <table class="w-full text-xs leading-loose divide-y divide-gray-100 text-left">
+        <thead>
+          <tr class="py-2">
+            <th class="w-1/6">rok</th>
+            <th class="w-1/6 font-normal">browarów</th>
+            <th class="w-1/6 font-normal">państw</th>
+            <th class="w-1/6 font-normal">wycieczek</th>
+            <th class="w-1/6 font-normal">miast</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-gray-100">
+          <tr v-for="year in years" :key="year.label" class="odd:bg-gray-50">
+            <td>
+              <router-link :to="{ name: 'calendar.year', params: { year: year.label } }">
+                {{ year.label }}
+              </router-link>
+            </td>
+            <td>{{ year.counters.breweries }}</td>
+            <td>{{ year.counters.countries }}</td>
+            <td>{{ year.counters.trips }}</td>
+            <td>{{ year.counters.cities }}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
 
 <script>
-import api from '../resources/Calendar'
+import PageHeader from '../components/PageHeader'
+import YearRow from '../components/Calendar/YearRow'
+import { useRouter } from 'vue-router'
+import { onMounted, ref } from 'vue'
+import api from '../api'
 
 export default {
-  data () {
+  components: { YearRow, PageHeader },
+  setup () {
+    const router = useRouter()
+
+    const maxValue = ref(0)
+    const years = ref([])
+    const tableOrder = ref('year')
+
+    onMounted(() => {
+      api.fetch(router, 'calendar', (data) => {
+        maxValue.value = data.maxValue
+        years.value = data.groups.reverse()
+      })
+    })
+
     return {
-      maxValue: 0,
-      years: [],
+      years,
+      maxValue,
+      tableOrder
     }
   },
-  mounted () {
-    api.assign(result => {
-      this.maxValue = result.maxValue
-      this.years = result.groups.reverse()
-    })
-  },
   methods: {
-    getHeatMap (value) {
-      if (value >= this.maxValue) {
-        return 'bg-gray-900'
-      }
-      if (value > this.maxValue * .5) {
-        return 'bg-gray-800'
-      }
-      if (value > this.maxValue * .33) {
-        return 'bg-gray-700'
-      }
-      if (value > this.maxValue * .1) {
-        return 'bg-gray-600'
-      }
-      if (value > 0) {
-        return 'bg-gray-500'
-      }
-      return 'bg-gray-300'
-    },
-  },
+    reorder (column) {
+      this.tableOrder = column
+    }
+  }
 }
 </script>

@@ -1,7 +1,4 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-
-Vue.use(Vuex)
+import { createStore } from 'vuex'
 
 const state = {
   mapFilters: {
@@ -10,12 +7,12 @@ const state = {
     bounds: null,
     filter: {
       key: null,
-      value: null,
-    },
+      value: null
+    }
   },
   ghosts: true,
   counters: null,
-  defaultBounds: null,
+  defaultBounds: null
 }
 
 const getters = {
@@ -25,7 +22,7 @@ const getters = {
   mapFilterValue: state => state.mapFilters.filter,
   counters: state => state.counters,
   ghosts: state => state.ghosts,
-  defaultBounds: state => state.defaultBounds,
+  defaultBounds: state => state.defaultBounds
 }
 
 const mutations = {
@@ -35,7 +32,7 @@ const mutations = {
   setMapDefaultExtremes (state, extremes) {
     state.defaultBounds = [
       [extremes.west, extremes.south],
-      [extremes.east, extremes.north],
+      [extremes.east, extremes.north]
     ]
   },
   resetMap (state) {
@@ -55,18 +52,18 @@ const mutations = {
     state.mapFilters.center = null
     state.mapFilters.bounds = [
       [payload.item.extremes.west, payload.item.extremes.south],
-      [payload.item.extremes.east, payload.item.extremes.north],
+      [payload.item.extremes.east, payload.item.extremes.north]
     ]
     state.mapFilters.filter.key = payload.type
     state.mapFilters.filter.value = payload.item.slug
   },
   toggleGhosts (state) {
     state.ghosts = !state.ghosts
-  },
+  }
 }
 
-export default new Vuex.Store({
+export default createStore({
   state,
   getters,
-  mutations,
+  mutations
 })

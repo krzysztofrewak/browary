@@ -8,7 +8,7 @@ use Brewmap\Interfaces\Boundable;
 use Brewmap\Models\Extremes;
 use Illuminate\Support\Collection;
 
-final class BoundsService
+class BoundsService
 {
     /**
      * @param Collection|Boundable[] $collection
@@ -42,11 +42,12 @@ final class BoundsService
                 }
             }
 
-            $extremes = new Extremes();
-            $extremes->setNorth((string)$north);
-            $extremes->setEast((string)$east);
-            $extremes->setSouth((string)$south);
-            $extremes->setWest((string)$west);
+            $extremes = new Extremes(
+                north: (string)$north,
+                east: (string)$east,
+                south: (string)$south,
+                west: (string)$west,
+            );
 
             $item->setExtremes($extremes);
         }

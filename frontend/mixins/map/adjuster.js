@@ -5,9 +5,10 @@ function areBoundsPoint (bounds) {
 export default {
   methods: {
     adjustMap () {
-      let bounds = this.$store.getters.mapFilterBounds
-      let center = this.$store.getters.mapFilterCenter
-      let filter = this.$store.getters.mapFilterValue
+      const bounds = this.$store.getters.mapFilterBounds
+      const center = this.$store.getters.mapFilterCenter
+      const filter = this.$store.getters.mapFilterValue
+      const padding = window.innerWidth > 1024 ? 120 : 30
 
       this.setFilters(filter)
 
@@ -17,7 +18,7 @@ export default {
           return
         }
 
-        this.map.fitBounds(bounds, { padding: 100, duration: 0 })
+        this.map.fitBounds(bounds, { padding: padding, duration: 0 })
         return
       }
 
@@ -43,13 +44,13 @@ export default {
       this.map.jumpTo({
         center: point,
         zoom: 13,
-        essential: true,
+        essential: true
       })
     },
     resetMarkers () {
       this.map.setFilter('breweries', null)
       this.map.setFilter('ghosts', ['==', 'key', 'value'])
-    },
+    }
   },
   watch: {
     '$store.getters.mapFilters': {
@@ -58,7 +59,7 @@ export default {
         if (this.map.isStyleLoaded()) {
           this.adjustMap()
         }
-      },
+      }
     },
     '$store.getters.ghosts' (ghosts) {
       if (!ghosts) {
@@ -66,6 +67,6 @@ export default {
       } else {
         this.setFilters(this.$store.getters.mapFilterValue)
       }
-    },
-  },
+    }
+  }
 }

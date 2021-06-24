@@ -7,28 +7,36 @@ namespace Brewmap\Models\Mappers;
 use Brewmap\Models\Country;
 use JsonSerializable;
 
-final class GeneralCountry implements JsonSerializable
+class GeneralCountry implements JsonSerializable
 {
-    private string $name;
-    private string $symbol;
-    private string $slug;
-    private int $breweries;
+    protected string $name;
+    protected string $original;
+    protected string $symbol;
+    protected string $slug;
+    protected int $breweries;
+    protected int $trips;
 
     public function __construct(Country $country)
     {
         $this->name = $country->getName();
+        $this->original = $country->getOriginalName();
         $this->symbol = $country->getSymbol();
         $this->slug = $country->getSlug();
         $this->breweries = $country->getBreweriesCount();
+        $this->trips = $country->getTripsCount();
     }
 
     public function jsonSerialize(): array
     {
         return [
             "name" => $this->name,
+            "original" => $this->original,
             "symbol" => $this->symbol,
             "slug" => $this->slug,
-            "breweries" => $this->breweries,
+            "counters" => [
+                "breweries" => $this->breweries,
+                "trips" => $this->trips,
+            ],
         ];
     }
 }

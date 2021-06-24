@@ -1,0 +1,14 @@
+{
+  "countries": [
+    {
+      "symbol": "pl",
+      "name": "Polska",
+      "original": "Polska"
+    },
+    {
+      "symbol": "at",
+      "name": "Austria",
+      "original": "Österreich"
+    }
+  ]
+}

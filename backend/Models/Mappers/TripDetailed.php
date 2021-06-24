@@ -7,9 +7,9 @@ namespace Brewmap\Models\Mappers;
 use Brewmap\Models\Trip;
 use JsonSerializable;
 
-final class TripDetailed implements JsonSerializable
+class TripDetailed implements JsonSerializable
 {
-    private Trip $trip;
+    protected Trip $trip;
 
     public function __construct(Trip $trip)
     {
@@ -22,6 +22,11 @@ final class TripDetailed implements JsonSerializable
             "name" => $this->trip->getName(),
             "slug" => $this->trip->getSlug(),
             "extremes" => $this->trip->getExtremes(),
+            "counters" => [
+                "breweries" => $this->trip->getBreweriesCount(),
+                "countries" => $this->trip->getCountriesCount(),
+                "cities" => $this->trip->getCitiesCount(),
+            ],
             "breweries" => $this->trip->getBreweries()->reverse(),
             "countries" => $this->trip->getCountries(),
         ];

@@ -7,7 +7,7 @@ namespace Brewmap\Collections\Builders;
 use Brewmap\Collections\Countries as CountriesCollection;
 use Brewmap\Models\Country;
 
-final class Countries
+class Countries
 {
     public static function buildFromJson(string $jsonFile): CountriesCollection
     {
@@ -15,7 +15,7 @@ final class Countries
 
         $data = json_decode($jsonFile, true);
         foreach ($data["countries"] as $countryData) {
-            $countries->addCountry(new Country($countryData["name"], $countryData["symbol"]));
+            $countries->addCountry(new Country($countryData["name"], $countryData["original"], $countryData["symbol"]));
         }
 
         return $countries;

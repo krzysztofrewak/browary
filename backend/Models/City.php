@@ -5,26 +5,33 @@ declare(strict_types=1);
 namespace Brewmap\Models;
 
 use Brewmap\Interfaces\Sluggable;
+use Brewmap\Models\Mappers\SimplifiedCountry;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JsonSerializable;
 
-final class City implements JsonSerializable, Sluggable
+class City implements JsonSerializable, Sluggable
 {
-    private string $name;
-    private string $slug;
-    /** @var Collection|Brewery[] */
-    private Collection $breweries;
-    private ?Extremes $extremes = null;
+    protected string $name;
+    protected string $slug;
+    protected Country $country;
+    protected Collection $breweries;
+    protected ?Extremes $extremes = null;
 
-    public function __construct(string $name)
+    public function __construct(string $name, Country $country)
     {
         $this->name = $name;
         $this->slug = Str::slug($this->name);
+        $this->country = $country;
         $this->breweries = new Collection();
     }
 
-    public function addBrewery(Brewery $brewery): self
+    public static function slug(string $name): string
+    {
+        return Str::slug($name);
+    }
+
+    public function addBrewery(Brewery $brewery): static
     {
         $this->breweries->add($brewery);
         return $this;
@@ -45,10 +52,20 @@ final class City implements JsonSerializable, Sluggable
         return $this->extremes;
     }
 
-    public function setExtremes(Extremes $extremes): self
+    public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
         return $this;
+    }
+
+    public function getBreweries(): Collection
+    {
+        return $this->breweries;
+    }
+
+    public function getTripsCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getTrip()->getSlug())->count();
     }
 
     public function jsonSerialize(): array
@@ -56,12 +73,9 @@ final class City implements JsonSerializable, Sluggable
         return [
             "name" => $this->name,
             "slug" => $this->slug,
-            "breweriesCount" => $this->getBreweries()->count(),
+            "country" => new SimplifiedCountry($this->country),
+            "breweries" => $this->getBreweries()->count(),
+            "trips" => $this->getTripsCount(),
         ];
-    }
-
-    public function getBreweries(): Collection
-    {
-        return $this->breweries;
     }
 }

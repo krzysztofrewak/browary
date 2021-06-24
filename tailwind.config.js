@@ -1,15 +1,23 @@
 module.exports = {
   purge: {
-    enabled: true,
-    content: ['./frontend/**/*.vue'],
+    content: ['./frontend/**/*.{vue,html}']
   },
+  darkMode: false,
   theme: {
     extend: {
+      margin: {
+        '34': '8.5rem'
+      },
       width: {
-        "2/7": "28.5714286%"
+        '120': '30rem'
       }
     }
   },
-  variants: {},
+  variants: {
+    extend: {
+      backgroundColor: ['odd'],
+      margin: ['hover']
+    }
+  },
   plugins: []
 }

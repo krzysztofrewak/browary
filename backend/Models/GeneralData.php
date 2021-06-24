@@ -6,11 +6,11 @@ namespace Brewmap\Models;
 
 use JsonSerializable;
 
-final class GeneralData implements JsonSerializable
+class GeneralData implements JsonSerializable
 {
-    private int $breweries;
-    private int $countries;
-    private ?Extremes $extremes = null;
+    protected int $breweries;
+    protected int $countries;
+    protected ?Extremes $extremes = null;
 
     public function setCounters(int $breweries, int $countries): void
     {

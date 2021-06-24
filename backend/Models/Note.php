@@ -6,9 +6,9 @@ namespace Brewmap\Models;
 
 use JsonSerializable;
 
-final class Note implements JsonSerializable
+class Note implements JsonSerializable
 {
-    private Brewery $brewery;
+    protected Brewery $brewery;
 
     public function __construct(Brewery $brewery)
     {

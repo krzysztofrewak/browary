@@ -1,24 +1,104 @@
 {
   "countries": [
-    { "symbol": "pl",  "name": "Polska" },
-    { "symbol": "at",  "name": "Austria" },
-    { "symbol": "de",  "name": "Niemcy" },
-    { "symbol": "cz",  "name": "Czechy" },
-    { "symbol": "al",  "name": "Albania" },
-    { "symbol": "ba",  "name": "Bośnia i Hercegowina" },
-    { "symbol": "it",  "name": "Włochy" },
-    { "symbol": "si",  "name": "Słowenia" },
-    { "symbol": "gr",  "name": "Grecja" },
-    { "symbol": "nl",  "name": "Holandia" },
-    { "symbol": "ee",  "name": "Estonia" },
-    { "symbol": "ua",  "name": "Ukraina" },
-    { "symbol": "mt",  "name": "Malta" },
-    { "symbol": "fr",  "name": "Francja" },
-    { "symbol": "ch",  "name": "Szwajcaria" },
-    { "symbol": "li",  "name": "Liechtenstein" },
-    { "symbol": "gb",  "name": "Wielka Brytania" },
-    { "symbol": "is",  "name": "Islandia" },
-    { "symbol": "sk",  "name": "Słowacja" },
-    { "symbol": "es",  "name": "Hiszpania" }
+    {
+      "symbol": "pl",
+      "name": "Polska",
+      "original": "Polska"
+    },
+    {
+      "symbol": "at",
+      "name": "Austria",
+      "original": "Österreich"
+    },
+    {
+      "symbol": "de",
+      "name": "Niemcy",
+      "original": "Deutschland"
+    },
+    {
+      "symbol": "cz",
+      "name": "Czechy",
+      "original": "Česko"
+    },
+    {
+      "symbol": "al",
+      "name": "Albania",
+      "original": "Shqipëria"
+    },
+    {
+      "symbol": "ba",
+      "name": "Bośnia i Hercegowina",
+      "original": "Bosna i Hercegovina"
+    },
+    {
+      "symbol": "it",
+      "name": "Włochy",
+      "original": "Italia"
+    },
+    {
+      "symbol": "si",
+      "name": "Słowenia",
+      "original": "Slovenija"
+    },
+    {
+      "symbol": "gr",
+      "name": "Grecja",
+      "original": "Ελλάδα"
+    },
+    {
+      "symbol": "nl",
+      "name": "Holandia",
+      "original": "Nederland"
+    },
+    {
+      "symbol": "ee",
+      "name": "Estonia",
+      "original": "Eesti"
+    },
+    {
+      "symbol": "ua",
+      "name": "Ukraina",
+      "original": "Україна"
+    },
+    {
+      "symbol": "mt",
+      "name": "Malta",
+      "original": "Malta"
+    },
+    {
+      "symbol": "fr",
+      "name": "Francja",
+      "original": "France"
+    },
+    {
+      "symbol": "ch",
+      "name": "Szwajcaria",
+      "original": "Helvetia"
+    },
+    {
+      "symbol": "li",
+      "name": "Liechtenstein",
+      "original": "Liechtenstein"
+    },
+    {
+      "symbol": "gb",
+      "name": "Wielka Brytania",
+      "original": "United Kingdom"
+    },
+    {
+      "symbol": "is",
+      "name": "Islandia",
+      "original": "Ísland"
+    },
+    {
+      "symbol": "sk",
+      "name": "Słowacja",
+      "original": "Slovensko"
+    },
+    {
+      "symbol": "es",
+      "name": "Hiszpania",
+      "original": "España"
+    }
   ]
 }

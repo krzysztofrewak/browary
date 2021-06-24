@@ -6,7 +6,7 @@ namespace Brewmap\Services;
 
 use Brewmap\Collections\Breweries;
 
-final class BreweryToCountryAssigner
+class BreweryToCountryAssigner
 {
     public static function assign(Breweries $breweries): void
     {

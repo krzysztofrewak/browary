@@ -6,15 +6,34 @@ namespace Brewmap\Models;
 
 use JsonSerializable;
 
-final class Statistics implements JsonSerializable
+class Statistics implements JsonSerializable
 {
-    private array $extremes;
-    private array $weekdays;
-    private array $months;
+    protected array $extremes = [];
+    protected array $weekdays = [];
+    protected array $months = [];
+    protected array $counters = [];
 
-    public function setExtremes(array $extremes): self
+    public function setExtremes(array $extremes): static
     {
         $this->extremes = $extremes;
+        return $this;
+    }
+
+    public function setWeekdays(array $weekdays): static
+    {
+        $this->weekdays = $weekdays;
+        return $this;
+    }
+
+    public function setMonths(array $months): static
+    {
+        $this->months = $months;
+        return $this;
+    }
+
+    public function setCounter(string $label, int $value): static
+    {
+        $this->counters[$label] = $value;
         return $this;
     }
 
@@ -24,18 +43,13 @@ final class Statistics implements JsonSerializable
             "extremes" => $this->extremes,
             "weekdays" => $this->weekdays,
             "months" => $this->months,
+            "counters" => [
+                "breweries" => $this->counters["breweries"] ?? 0,
+                "countries" => $this->counters["countries"] ?? 0,
+                "cities" => $this->counters["cities"] ?? 0,
+                "trips" => $this->counters["trips"] ?? 0,
+                "tags" => $this->counters["tags"] ?? 0,
+            ],
         ];
-    }
-
-    public function setWeekdays(array $weekdays): self
-    {
-        $this->weekdays = $weekdays;
-        return $this;
-    }
-
-    public function setMonths(array $months): self
-    {
-        $this->months = $months;
-        return $this;
     }
 }

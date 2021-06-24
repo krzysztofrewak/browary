@@ -7,7 +7,7 @@ namespace Brewmap\Services\Statistics;
 use Brewmap\Models\Brewery;
 use Illuminate\Support\Collection;
 
-final class ExtremesFinder
+class ExtremesFinder
 {
     public static function find(Collection $breweries): array
     {

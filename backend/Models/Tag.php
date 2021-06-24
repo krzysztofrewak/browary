@@ -9,18 +9,18 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
 use JsonSerializable;
 
-final class Tag implements JsonSerializable, Sluggable
+class Tag implements JsonSerializable, Sluggable
 {
-    private string $name;
-    private string $slug;
+    protected string $name;
+    protected string $slug;
     /** @var Collection|Brewery[] */
-    private Collection $breweries;
-    private ?Extremes $extremes = null;
+    protected Collection $breweries;
+    protected ?Extremes $extremes = null;
 
     public function __construct(string $name)
     {
         $this->name = $name;
-        $this->slug = self::slug($this->name);
+        $this->slug = static::slug($this->name);
         $this->breweries = new Collection();
     }
 
@@ -29,7 +29,7 @@ final class Tag implements JsonSerializable, Sluggable
         return Str::slug($name);
     }
 
-    public function addBrewery(Brewery $brewery): self
+    public function addBrewery(Brewery $brewery): static
     {
         $this->breweries->add($brewery);
         return $this;
@@ -50,10 +50,35 @@ final class Tag implements JsonSerializable, Sluggable
         return $this->extremes;
     }
 
-    public function setExtremes(Extremes $extremes): self
+    public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
         return $this;
+    }
+
+    public function getBreweries(): Collection
+    {
+        return $this->breweries;
+    }
+
+    public function getBreweriesCount(): int
+    {
+        return $this->breweries->count();
+    }
+
+    public function getCountriesCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCountry()->getSlug())->count();
+    }
+
+    public function getTripsCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getTrip()->getSlug())->count();
+    }
+
+    public function getCitiesCount(): int
+    {
+        return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity()->getSlug())->count();
     }
 
     public function jsonSerialize(): array
@@ -63,10 +88,5 @@ final class Tag implements JsonSerializable, Sluggable
             "slug" => $this->slug,
             "breweries" => $this->getBreweries()->count(),
         ];
-    }
-
-    public function getBreweries(): Collection
-    {
-        return $this->breweries;
     }
 }
