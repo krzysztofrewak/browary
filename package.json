@@ -4,14 +4,17 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
+    "prebuild": "rm -rf ./public",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint frontend --fix"
+    "postbuild": "touch ./public/.gitkeep && echo 'Please remember to run `composer build` too.'",
+    "lint": "vue-cli-service lint frontend --no-fix"
   },
   "dependencies": {
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@vue-hero-icons/outline": "^1.7.2",
     "core-js": "^3.6.5",
     "mapbox-gl": "^2.2.0",
+    "slugify": "^1.5.3",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"

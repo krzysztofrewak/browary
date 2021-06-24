@@ -13,6 +13,7 @@ use Brewmap\Collections\Cities as CitiesCollection;
 use Brewmap\Collections\Countries as CountriesCollection;
 use Brewmap\Collections\GeoJson;
 use Brewmap\Collections\Notes as NotesCollection;
+use Brewmap\Collections\SearchList;
 use Brewmap\Collections\Tags as TagsCollection;
 use Brewmap\Collections\Trips as TripsCollection;
 use Brewmap\Filesystem\DirectoryManager;
@@ -86,10 +87,12 @@ class Application
         $statistics = $this->prepareStatistics($breweries, $countries, $cities, $trips, $tags);
 
         $map = new GeoJson($breweries);
+        $search = new SearchList($breweries);
 
         $this->saveToFiles(
             $calendar,
             $map,
+            $search,
             $generalData,
             $countries,
             $trips,
@@ -163,6 +166,7 @@ class Application
     protected function saveToFiles(
         Calendar $calendar,
         GeoJson $map,
+        SearchList $search,
         GeneralData $generalData,
         CountriesCollection $countries,
         TripsCollection $trips,
@@ -174,6 +178,7 @@ class Application
     ): void {
         $this->fileManager->save($calendar, "calendar.json");
         $this->fileManager->save($map, "map.json");
+        $this->fileManager->save($search, "search.json");
         $this->fileManager->save($generalData, "general.json");
         $this->fileManager->save($countries, "countries.json");
         $this->fileManager->save($trips, "trips.json");

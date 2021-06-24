@@ -1,5 +1,4 @@
 import mapbox from 'mapbox-gl'
-import Geocoder from '@mapbox/mapbox-gl-geocoder'
 
 class MapboxGLButtonControls {
   constructor ({ id, controls = [] }) {
@@ -66,14 +65,6 @@ export default {
       this.map.addControl(controls, 'top-left')
       this.map.addControl(new mapbox.NavigationControl(), 'top-left')
       this.map.addControl(new mapbox.ScaleControl(), 'bottom-left')
-      this.map.addControl(
-        new Geocoder({
-          accessToken: mapbox.accessToken,
-          marker: false,
-          mapboxgl: this.map,
-          types: 'country,region,district,place'
-        })
-      )
     }
   }
 }

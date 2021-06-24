@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
@@ -22,26 +22,19 @@ jobs:
           npm install
           npm run-script build
 
-      - name: Install PHP dependencies
+      - name: Install and build backend
         run: |
           composer install
+          echo 'VUE_APP_MAPBOX_TOKEN="${{ secrets.VUE_APP_MAPBOX_TOKEN }}"' > .env
+          composer build
 
-      - name: Build API
-        env:
-          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
-        run: |
-          echo 'VUE_APP_MAPBOX_TOKEN="${{ secrets.VUE_APP_MAPBOX_TOKEN }}"' > ../.env
-          php index.php
-        working-directory: backend
-
-      - name: Handle 404
+      - name: Handle 404 for GitHub Pages
         run: cp index.html 404.html
         working-directory: public
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.6.2
+        uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: public
           FOLDER: public
           CLEAN: true

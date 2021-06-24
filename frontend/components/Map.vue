@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="loading" class="flex justify-center items-center w-full h-full bg-gray-300 text-gray-400">
-        <LocationMarkerIcon class="h-36 w-36 animate-pulse" aria-hidden="true"/>
+      <location-marker-icon class="h-36 w-36 animate-pulse" aria-hidden="true"/>
     </div>
     <div id="map" class="w-full h-full"></div>
   </div>
@@ -9,10 +9,11 @@
 
 <script>
 import mapboxgl from 'mapbox-gl'
-import adjuster from '@/mixins/map/adjuster'
-import controls from '@/mixins/map/controls'
-import markers from '@/mixins/map/markers'
-import popups from '@/mixins/map/popups'
+import adjuster from '../mixins/map/adjuster'
+import controls from '../mixins/map/controls'
+import markers from '../mixins/map/markers'
+import popups from '../mixins/map/popups'
+import search from '../mixins/map/search'
 import { LocationMarkerIcon } from '@heroicons/vue/outline'
 
 export default {
@@ -23,7 +24,8 @@ export default {
     adjuster,
     controls,
     markers,
-    popups
+    popups,
+    search
   ],
   mounted () {
     mapboxgl.accessToken = process.env.VUE_APP_MAPBOX_TOKEN
