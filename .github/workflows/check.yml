@@ -28,6 +28,6 @@ jobs:
         run: |
           composer ecs
 
-      - name: Run code style checker
+      - name: Run tests
         run: |
           composer test
