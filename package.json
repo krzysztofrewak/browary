@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "prebuild": "rm -rf ./public",
     "build": "vue-cli-service build",
-    "postbuild": "touch ./public/.gitkeep && echo 'Please remember to run `composer build` too.'",
+    "postbuild": "cp -rT ./frontend/static ./public && echo 'Please remember to run `composer build` too.'",
     "lint": "vue-cli-service lint frontend --no-fix"
   },
   "dependencies": {

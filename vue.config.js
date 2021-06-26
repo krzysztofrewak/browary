@@ -15,6 +15,9 @@ module.exports = {
     entry: {
       app: './frontend/main.js'
     },
+    output: {
+      filename: 'js/application.' + Date.now() + '.js'
+    },
     resolve: {
       alias: {
         '@': resolveSrc('frontend'),
@@ -29,6 +32,9 @@ module.exports = {
     ]
   },
   css: {
-    sourceMap: !(process.env.NODE_ENV === 'production')
+    sourceMap: !(process.env.NODE_ENV === 'production'),
+    extract: {
+      filename: 'css/stylesheet.' + Date.now() + '.css'
+    }
   }
 }
