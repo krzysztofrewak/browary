@@ -26,7 +26,7 @@ async function forwardGeocoder (query) {
 
 export default {
   methods: {
-    addControls () {
+    addSearch () {
       const geocoder = new Geocoder({
         accessToken: mapbox.accessToken,
         marker: false,
