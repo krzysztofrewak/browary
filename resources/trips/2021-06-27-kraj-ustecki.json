@@ -1,0 +1,77 @@
+{
+  "name": "kraj ustecki, czerwiec 2021",
+  "breweries": [
+    {
+      "name": "Pivovar Kocour",
+      "visited": "2021-06-27",
+      "location": {
+        "country": "cz",
+        "city": "Varnsdorf",
+        "address": "Rumburská 1920",
+        "coordinates": {
+          "lat": 50.920031,
+          "lng": 14.603473
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "mikrobrowar",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Pivovar Falkenštejn",
+      "visited": "2021-06-27",
+      "location": {
+        "country": "cz",
+        "city": "Krásná Lípa",
+        "address": "Křinické náměstí 7/12",
+        "coordinates": {
+          "lat": 50.913890,
+          "lng": 14.507593
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Kytlický minipivovar Helene",
+      "visited": "2021-06-27",
+      "location": {
+        "country": "cz",
+        "city": "Kytlice",
+        "address": "Kytlice 120",
+        "coordinates": {
+          "lat": 50.812667,
+          "lng": 14.531900
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Pivovar Born",
+      "visited": "2021-06-27",
+      "location": {
+        "country": "cz",
+        "city": "Nový Bor",
+        "address": "nám. Míru 100",
+        "coordinates": {
+          "lat": 50.760178,
+          "lng": 14.557237
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    }
+  ]
+}
