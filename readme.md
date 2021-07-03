@@ -33,7 +33,7 @@ docker-compose exec node npm run build
 Install backend dependencies and build static API endpoints:
 ```
 docker-compose exec php composer install
-docker-compose exec php php backend/index.php
+docker-compose exec php composer build
 ```
 
 Application should be available under `localhost:8037` or other port if you changed `EXTERNAL_WEBSERVER_PORT` value in `.env. file.
