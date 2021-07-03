@@ -61,6 +61,32 @@ class Item implements Sluggable, Boundable
         return $this->breweries->count();
     }
 
+    public function getBreweriesCount(): int
+    {
+        return $this->getBreweries()->count();
+    }
+
+    public function getCountriesCount(): int
+    {
+        return $this->getBreweries()
+            ->groupBy(fn(Brewery $brewery): string => $brewery->getCountry()->getSlug())
+            ->count();
+    }
+
+    public function getTripsCount(): int
+    {
+        return $this->getBreweries()
+            ->groupBy(fn(Brewery $brewery): string => $brewery->getTrip()->getSlug())
+            ->count();
+    }
+
+    public function getCitiesCount(): int
+    {
+        return $this->getBreweries()
+            ->groupBy(fn(Brewery $brewery): string => $brewery->getCity()->getSlug())
+            ->count();
+    }
+
     public function jsonSerialize(): array
     {
         return [

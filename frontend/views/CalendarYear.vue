@@ -1,6 +1,6 @@
 <template>
   <div class="year">
-    <page-header :title="title" header="Odwiedzone browary"></page-header>
+    <page-header :title="title" header="Kartka z kalendarza"></page-header>
 
     <div class="px-4">
       <year-row :row="year.months" :max-value="maxValue" :year="year.label" :show-months="true"></year-row>
@@ -9,10 +9,10 @@
     <hr class="my-4">
 
     <counters v-if="year.counters">
-      <counter label="odwiedzonych browarów" :value="year.counters.breweries"></counter>
-      <counter label="odbytych wycieczek" :value="year.counters.trips"></counter>
-      <counter label="zwiedzonych państw" :value="year.counters.countries"></counter>
-      <counter label="zwiedzonych miast" :value="year.counters.cities"></counter>
+      <counter :label="inflectVisitedBreweries(year.counters.breweries, false)" :value="year.counters.breweries"></counter>
+      <counter :label="inflectVisitedTrips(year.counters.trips, false)" :value="year.counters.trips"></counter>
+      <counter :label="inflectVisitedCountries(year.counters.countries, false)" :value="year.counters.countries"></counter>
+      <counter :label="inflectVisitedCities(year.counters.cities, false)" :value="year.counters.cities"></counter>
     </counters>
 
     <hr class="my-4">

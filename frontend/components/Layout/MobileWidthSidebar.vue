@@ -18,7 +18,7 @@
           <div class="pt-5 pb-4">
             <nav aria-label="Sidebar">
               <div class="px-2 space-y-1">
-                <router-link v-for="item in navigation" :key="item.route" :to="{ name: item.route }" class="group p-2 rounded-md flex items-center text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900">
+                <router-link v-for="item in navigation" :key="item.route" :to="{ name: item.route }" class="group p-2 rounded-md flex items-center text-base font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900" @click="$emit('hide')">
                   <component :is="item.icon" class="mr-4 h-6 w-6 text-gray-400 group-hover:text-gray-500" aria-hidden="true"></component>
                   {{ item.name }}
                 </router-link>

@@ -1,6 +1,16 @@
 <template>
   <div class="month">
-    <page-header :title="title" header="Odwiedzone browary"></page-header>
+    <page-header :title="title" header="Kartka z kalendarza"></page-header>
+
+    <counters v-if="month.counters">
+      <counter :label="inflectVisitedBreweries(month.counters.breweries, false)" :value="month.counters.breweries"></counter>
+      <counter :label="inflectVisitedTrips(month.counters.trips, false)" :value="month.counters.trips"></counter>
+      <counter :label="inflectVisitedCountries(month.counters.countries, false)" :value="month.counters.countries"></counter>
+      <counter :label="inflectVisitedCities(month.counters.cities, false)" :value="month.counters.cities"></counter>
+    </counters>
+
+    <hr class="my-4">
+
     <breweries :breweries="month.breweries"></breweries>
   </div>
 </template>
@@ -11,10 +21,12 @@ import { useRoute, useRouter } from 'vue-router'
 import { useStore } from 'vuex'
 import Breweries from '../components/Lists/Breweries'
 import PageHeader from '../components/PageHeader'
+import Counter from '../components/Counter'
+import Counters from '../components/Counters'
 import api from '../api'
 
 export default {
-  components: { Breweries, PageHeader },
+  components: { Breweries, PageHeader, Counter, Counters },
   setup () {
     const route = useRoute()
     const router = useRouter()
@@ -36,7 +48,7 @@ export default {
         }
 
         month.value = data
-        title.value = 'Miesiąc ' + data.label
+        title.value = data.label.charAt(0).toUpperCase() + data.label.slice(1)
       })
     })
 
