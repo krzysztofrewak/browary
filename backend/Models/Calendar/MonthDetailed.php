@@ -22,6 +22,12 @@ class MonthDetailed implements JsonSerializable
             "slug" => $this->item->getSlug(),
             "extremes" => $this->item->getExtremes(),
             "breweries" => $this->item->getBreweries()->reverse()->values()->all(),
+            "counters" => [
+                "breweries" => $this->item->getBreweriesCount(),
+                "countries" => $this->item->getCountriesCount(),
+                "trips" => $this->item->getTripsCount(),
+                "cities" => $this->item->getCitiesCount(),
+            ],
         ];
     }
 }
