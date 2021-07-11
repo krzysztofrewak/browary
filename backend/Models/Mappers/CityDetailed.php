@@ -20,6 +20,7 @@ class CityDetailed implements JsonSerializable
     {
         return [
             "name" => $this->city->getName(),
+            "translation" => $this->city->getTranslation(),
             "extremes" => $this->city->getExtremes(),
             "breweries" => $this->city->getBreweries(),
         ];

@@ -36,7 +36,7 @@ docker-compose exec php composer install
 docker-compose exec php composer build
 ```
 
-Application should be available under `localhost:8037` or other port if you changed `EXTERNAL_WEBSERVER_PORT` value in `.env. file.
+Application should be available under `localhost:8037` or other port if you changed `EXTERNAL_WEBSERVER_PORT` value in `.env` file.
 
 
 ### Development

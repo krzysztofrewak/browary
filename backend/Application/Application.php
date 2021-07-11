@@ -20,6 +20,7 @@ use Brewmap\Filesystem\DirectoryManager;
 use Brewmap\Filesystem\FileManager;
 use Brewmap\Filesystem\FilesManager;
 use Brewmap\Mapbox\CountryBoundsService;
+use Brewmap\Mappings\Cities as CitiesMapping;
 use Brewmap\Models\Calendar\Calendar;
 use Brewmap\Models\Calendar\Group;
 use Brewmap\Models\Calendar\MonthDetailed;
@@ -62,18 +63,23 @@ class Application
         $this->filesManager = new FilesManager($this->fileManager);
     }
 
+    /**
+     * @throws GuzzleException
+     */
     public function build(): void
     {
         $this->prepareDirectories();
 
         $countriesData = file_get_contents($this->rootPath . "/resources/countries.json");
         $tripsFiles = new Collection(glob($this->rootPath . "/resources/trips/*.json"));
-        $tripsData = $tripsFiles->map(
-            fn(string $filename): string => file_get_contents($filename)
+        $tripsData = $tripsFiles->map(fn(string $filename): string => file_get_contents($filename));
+
+        $citiesMapping = CitiesMapping::buildFromJson(
+            file_get_contents($this->rootPath . "/resources/mappings/cities.json")
         );
 
         $tags = new TagsCollection();
-        $cities = new CitiesCollection();
+        $cities = new CitiesCollection($citiesMapping);
         $countries = Countries::buildFromJson($countriesData);
         $trips = Trips::buildFromFiles($tripsData, $countries, $cities, $tags);
         $breweries = Breweries::buildFromTrips($trips);

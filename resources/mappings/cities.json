@@ -1,0 +1,197 @@
+{
+  "cities": [
+    {
+      "name": "London",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Londyn"
+        }
+      ]
+    },
+    {
+      "name": "Київ",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "kiev"
+        },
+        {
+          "mapping": "translation",
+          "value": "Kijów"
+        }
+      ]
+    },
+    {
+      "name": "Wien",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Wiedeń"
+        }
+      ]
+    },
+    {
+      "name": "Bratislava",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Bratysława"
+        }
+      ]
+    },
+    {
+      "name": "Львів",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Lwów"
+        }
+      ]
+    },
+    {
+      "name": "Den Haag",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Haga"
+        }
+      ]
+    },
+    {
+      "name": "Bautzen",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Budziszyn"
+        }
+      ]
+    },
+    {
+      "name": "Dresden",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Drezno"
+        }
+      ]
+    },
+    {
+      "name": "Genève",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Genewa"
+        }
+      ]
+    },
+    {
+      "name": "Ħal Luqa",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Luqa"
+        }
+      ]
+    },
+    {
+      "name": "Hannover",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Hanower"
+        }
+      ]
+    },
+    {
+      "name": "Ix-Xewkija",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Xewkija"
+        }
+      ]
+    },
+    {
+      "name": "Litoměřice",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Litomierzyce"
+        }
+      ]
+    },
+    {
+      "name": "Olomouc",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Ołomuniec"
+        }
+      ]
+    },
+    {
+      "name": "Plzeň",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Pilzno"
+        }
+      ]
+    },
+    {
+      "name": "Prostějov",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Prościejów"
+        }
+      ]
+    },
+    {
+      "name": "Tas-Sliema",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Sliema"
+        }
+      ]
+    },
+    {
+      "name": "Tiranë",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Tirana"
+        }
+      ]
+    },
+    {
+      "name": "Trieste",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Triest"
+        }
+      ]
+    },
+    {
+      "name": "Ústí nad Labem",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Uście nad Łabą"
+        }
+      ]
+    },
+    {
+      "name": "Zürich",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Zurych"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-header :title="city.name"></page-header>
+    <page-header :title="city.name" :header="city.translation"></page-header>
     <breweries :breweries="city.breweries"></breweries>
   </div>
 </template>

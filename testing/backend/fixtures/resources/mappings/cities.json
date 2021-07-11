@@ -1,0 +1,13 @@
+{
+  "cities": [
+    {
+      "name": "Wien",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Wiedeń"
+        }
+      ]
+    }
+  ]
+}
