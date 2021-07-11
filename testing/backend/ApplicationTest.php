@@ -6,10 +6,14 @@ use Brewmap\Application\Application;
 use Brewmap\Filesystem\DirectoryManager;
 use Carbon\Carbon;
 use Dotenv\Dotenv;
+use GuzzleHttp\Exception\GuzzleException;
 use PHPUnit\Framework\TestCase;
 
 class ApplicationTest extends TestCase
 {
+    /**
+     * @throws GuzzleException
+     */
     public static function setUpBeforeClass(): void
     {
         $root = static::getFixturesDirectory();
@@ -51,6 +55,12 @@ class ApplicationTest extends TestCase
         $calendar = $this->getApiFileContent("calendar.json");
         $this->assertSame(3, $calendar["maxValue"]);
         $this->assertCount(Carbon::now()->year - 2020 + 1, $calendar["groups"]);
+    }
+
+    public function testCitiesMappings(): void
+    {
+        $city = $this->getApiFileContent("cities/wien.json");
+        $this->assertSame("Wiedeń", $city["translation"]);
     }
 
     protected static function getFixturesDirectory(): string

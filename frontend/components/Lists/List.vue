@@ -12,7 +12,8 @@
       <div class="mx-2 w-full text-xs flex items-center">
         <div class="text-gray-900 flex-1">
           {{ name(entry) }}
-          <div class="text-gray-500" v-if="alt"> {{ alt(entry) }}</div>
+          <span class="text-gray-500" v-if="additional && additional(entry)">| {{ additional(entry) }}</span>
+          <div class="text-gray-500" v-if="alt">{{ alt(entry) }}</div>
         </div>
         <div class="text-gray-500 text-right">
           <div v-for="(label, i) in labels" :key="i">{{ label(entry) }}</div>
@@ -28,6 +29,7 @@ export default {
     entries: Array,
     route: Function,
     name: Function,
+    additional: Function,
     alt: Function,
     flag: Function,
     flags: Function,

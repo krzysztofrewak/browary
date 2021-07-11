@@ -7,6 +7,7 @@
     ></sorting-header>
     <list :entries="cities"
         :name="city => city.name"
+        :additional="city => city.translation"
         :alt="city => city.country.name"
         :route="city => { return { name: 'city', params: { slug: city.slug }}}"
         :flag="city => city.country.symbol"

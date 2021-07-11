@@ -13,15 +13,17 @@ use JsonSerializable;
 class City implements JsonSerializable, Sluggable
 {
     protected string $name;
+    protected string $translation;
     protected string $slug;
     protected Country $country;
     protected Collection $breweries;
     protected ?Extremes $extremes = null;
 
-    public function __construct(string $name, Country $country)
+    public function __construct(string $name, Country $country, string $translation = "", string $slug = "")
     {
         $this->name = $name;
-        $this->slug = Str::slug($this->name);
+        $this->translation = $translation;
+        $this->slug = $slug ?: static::slug($this->name);
         $this->country = $country;
         $this->breweries = new Collection();
     }
@@ -45,6 +47,11 @@ class City implements JsonSerializable, Sluggable
     public function getSlug(): string
     {
         return $this->slug;
+    }
+
+    public function getTranslation(): string
+    {
+        return $this->translation;
     }
 
     public function getExtremes(): Extremes
@@ -72,6 +79,7 @@ class City implements JsonSerializable, Sluggable
     {
         return [
             "name" => $this->name,
+            "translation" => $this->translation,
             "slug" => $this->slug,
             "country" => new SimplifiedCountry($this->country),
             "breweries" => $this->getBreweries()->count(),

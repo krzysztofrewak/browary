@@ -13,20 +13,25 @@ use JsonSerializable;
 class Cities implements JsonSerializable, HavingAll
 {
     protected Collection $cities;
+    protected array $mappings;
 
-    public function __construct()
+    public function __construct(array $mappings = [])
     {
         $this->cities = new Collection();
+        $this->mappings = $mappings;
     }
 
     public function firstOrCreate(string $name, Country $country): City
     {
-        $alreadyExisting = $this->cities->get(City::slug($name));
+        $translation = $this->mappings[$name]["translation"] ?? "";
+        $slug = $this->mappings[$name]["slug"] ?? City::slug($name);
+
+        $alreadyExisting = $this->cities->get($slug);
         if ($alreadyExisting) {
             return $alreadyExisting;
         }
 
-        $city = new City($name, $country);
+        $city = new City($name, $country, $translation, $slug);
         $this->cities->put($city->getSlug(), $city);
 
         return $city;
