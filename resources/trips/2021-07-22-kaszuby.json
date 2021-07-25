@@ -1,0 +1,205 @@
+{
+  "name": "Kaszuby, lipiec 2021",
+  "breweries": [
+    {
+      "name": "Dobry Browar",
+      "visited": "2021-07-22",
+      "location": {
+        "country": "pl",
+        "city": "Gniezno",
+        "address": "Grzybowo 34",
+        "coordinates": {
+          "lat": 52.536957,
+          "lng": 17.598659
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane na wynos",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Stacja Filtracja",
+      "visited": "2021-07-22",
+      "location": {
+        "country": "pl",
+        "city": "Żnin",
+        "address": "Janickiego 1",
+        "coordinates": {
+          "lat": 52.849280,
+          "lng": 17.738829
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Browar Vrest",
+      "visited": "2021-07-23",
+      "location": {
+        "country": "pl",
+        "city": "Gdańsk",
+        "address": "Słowackiego 23",
+        "coordinates": {
+          "lat": 54.380895,
+          "lng": 18.588509
+        }
+      },
+      "tags": [
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Browar PG4",
+      "visited": "2021-07-23",
+      "location": {
+        "country": "pl",
+        "city": "Gdańsk",
+        "address": "Podwale Grodzkie 4",
+        "coordinates": {
+          "lat": 54.354194,
+          "lng": 18.644651
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Hola Tapas",
+      "visited": "2021-07-23",
+      "location": {
+        "country": "pl",
+        "city": "Gdańsk",
+        "address": "Piwna 50/51",
+        "coordinates": {
+          "lat": 54.350045,
+          "lng": 18.651683
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Browar Kaszëbskô Kóruna",
+      "visited": "2021-07-24",
+      "location": {
+        "country": "pl",
+        "city": "Szymbark",
+        "address": "Szymbarskich Zakładników 12",
+        "coordinates": {
+          "lat": 54.205116,
+          "lng": 18.107024
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Browar Lubrow",
+      "visited": "2021-07-24",
+      "location": {
+        "country": "pl",
+        "city": "Borcz",
+        "address": "Borcz 2",
+        "coordinates": {
+          "lat": 54.273724,
+          "lng": 18.294328
+        }
+      },
+      "tags": [
+        "piwo spróbowane na wynos",
+        "mikrobrowar",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Browar Port Gdynia",
+      "visited": "2021-07-24",
+      "location": {
+        "country": "pl",
+        "city": "Gdynia",
+        "address": "Bulwar Nadmorski 2",
+        "coordinates": {
+          "lat": 54.513943,
+          "lng": 18.549998
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Browar Miejski Sopot",
+      "visited": "2021-07-24",
+      "location": {
+        "country": "pl",
+        "city": "Sopot",
+        "address": "Bohaterów Monte Cassino 35",
+        "coordinates": {
+          "lat": 54.443458,
+          "lng": 18.563523
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Piwnica Rajców",
+      "visited": "2021-07-24",
+      "location": {
+        "country": "pl",
+        "city": "Gdańsk",
+        "address": "Długi Targ 44",
+        "coordinates": {
+          "lat": 54.348746,
+          "lng": 18.653270
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Browar Grudziądz",
+      "visited": "2021-07-25",
+      "location": {
+        "country": "pl",
+        "city": "Grudziądz",
+        "address": "Chełmińska 144",
+        "coordinates": {
+          "lat": 53.467805,
+          "lng": 18.741736
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}
