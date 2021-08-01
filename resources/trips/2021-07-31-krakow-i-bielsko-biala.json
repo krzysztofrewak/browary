@@ -1,0 +1,61 @@
+{
+  "name": "Kraków i Bielsko-Biała, wakacje 2021",
+  "breweries": [
+    {
+      "name": "Browar Górniczo-Hutniczy",
+      "visited": "2021-07-31",
+      "location": {
+        "country": "pl",
+        "city": "Kraków",
+        "address": "Witolda Budryka 4",
+        "coordinates": {
+          "lat": 50.068217,
+          "lng": 19.908163
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "instalacja Kaspar Schulz",
+        "piwo spróbowane na miejscu",
+        "browar akademicki"
+      ]
+    },
+    {
+      "name": "Browar Wirtuozeria",
+      "visited": "2021-08-01",
+      "location": {
+        "country": "pl",
+        "city": "Bielsko-Biała",
+        "address": "Pocztowa 39",
+        "coordinates": {
+          "lat": 49.780809,
+          "lng": 19.053432
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Browar Miejski Bielitzer",
+      "visited": "2021-08-01",
+      "location": {
+        "country": "pl",
+        "city": "Bielsko-Biała",
+        "address": "Piwowarska 2",
+        "coordinates": {
+          "lat": 49.820687,
+          "lng": 19.041661
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos"
+      ]
+    }
+  ]
+}
