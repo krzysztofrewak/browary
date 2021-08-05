@@ -16,7 +16,8 @@
       "tags": [
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj południowomorawski"
       ]
     },
     {
@@ -34,7 +35,8 @@
       "tags": [
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj południowomorawski"
       ]
     },
     {
@@ -52,7 +54,9 @@
       "tags": [
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj południowomorawski",
+        "instalacja Caspary"
       ]
     },
     {
@@ -70,7 +74,8 @@
       "tags": [
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj południowomorawski"
       ]
     },
     {
@@ -160,7 +165,8 @@
       "tags": [
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "instalacja Ziptech"
       ]
     },
     {
@@ -188,7 +194,7 @@
       "location": {
         "country": "sk",
         "city": "Bratislava",
-        "address": "Námestie SNP 469\/8",
+        "address": "Námestie SNP 469/8",
         "coordinates": {
           "lat": 48.146218,
           "lng": 17.110072
@@ -197,7 +203,8 @@
       "tags": [
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "instalacja Pacovske Strojirny"
       ]
     },
     {
@@ -253,7 +260,9 @@
       "tags": [
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj ołomuniecki",
+        "instalacja MBS"
       ]
     },
     {
@@ -271,7 +280,8 @@
       "tags": [
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj ołomuniecki"
       ]
     },
     {
@@ -289,7 +299,8 @@
       "tags": [
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj ołomuniecki"
       ]
     }
   ]

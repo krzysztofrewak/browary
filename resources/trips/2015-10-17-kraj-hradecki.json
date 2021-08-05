@@ -14,10 +14,11 @@
         }
       },
       "tags": [
-        "dolnośląski browar",
+        "województwo dolnośląskie",
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "instalacja Schulz"
       ]
     },
     {
@@ -34,8 +35,10 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
         "przybrowarniany sklep",
-        "browar regionalny"
+        "browar regionalny",
+        "kraj hradecki"
       ]
     },
     {
@@ -53,7 +56,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj hradecki"
       ]
     },
     {
@@ -70,8 +74,11 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj hradecki",
+        "instalacja MBS"
       ]
     },
     {
@@ -88,9 +95,11 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "mikrobrowar"
+        "mikrobrowar",
+        "kraj hradecki"
       ]
     },
     {
@@ -108,7 +117,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj pardubicki"
       ]
     }
   ]

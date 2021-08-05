@@ -15,8 +15,10 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
         "przybrowarniany sklep",
-        "browar regionalny"
+        "browar regionalny",
+        "kraj hradecki"
       ]
     },
     {
@@ -35,7 +37,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "spotkanie z piwowarem"
+        "spotkanie z piwowarem",
+        "kraj hradecki"
       ]
     },
     {
@@ -53,7 +56,9 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "instalacja Pacovske Strojirny",
+        "kraj hradecki"
       ]
     },
     {
@@ -71,7 +76,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj hradecki"
       ]
     },
     {
@@ -87,10 +93,12 @@
         }
       },
       "tags": [
-        "dolnośląski browar",
+        "województwo dolnośląskie",
         "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "instalacja Minibrowary.pl"
       ]
     }
   ]

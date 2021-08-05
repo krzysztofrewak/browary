@@ -15,8 +15,10 @@
       },
       "tags": [
         "obejrzany sprzęt",
+        "piwo spróbowane poza browarem",
+        "piwo spróbowane na wynos",
         "browar regionalny",
-        "dolnośląski browar",
+        "województwo dolnośląskie",
         "przybrowarniany sklep"
       ]
     },
@@ -35,7 +37,9 @@
       "tags": [
         "mikrobrowar",
         "przybrowarniany sklep",
-        "dolnośląski browar"
+        "województwo dolnośląskie",
+        "piwo spróbowane poza browarem",
+        "piwo spróbowane na wynos"
       ]
     }
   ]

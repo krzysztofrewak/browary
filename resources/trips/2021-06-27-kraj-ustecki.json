@@ -15,8 +15,11 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
         "mikrobrowar",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj ustecki"
       ]
     },
     {
@@ -33,8 +36,9 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
-        "browar restauracyjny",
-        "obejrzany sprzęt"
+        "brewpub",
+        "obejrzany sprzęt",
+        "kraj ustecki"
       ]
     },
     {
@@ -52,7 +56,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "browar restauracyjny",
-        "mikrobrowar"
+        "mikrobrowar",
+        "kraj ustecki"
       ]
     },
     {
@@ -70,7 +75,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "browar restauracyjny",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj liberecki"
       ]
     }
   ]
