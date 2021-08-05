@@ -15,11 +15,13 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
         "obejrzany sprzęt",
         "przybrowarniany sklep",
         "spotkanie z piwowarem",
         "mikrobrowar",
-        "obecnie zamknięty"
+        "obecnie zamknięty",
+        "województwo małopolskie"
       ]
     },
     {
@@ -37,10 +39,12 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "piwo spróbowane z tanka",
+        "piwo spróbowane poza browarem",
         "obejrzany sprzęt",
         "zorganizowana wycieczka",
         "spotkanie z piwowarem",
-        "browar regionalny"
+        "browar regionalny",
+        "województwo małopolskie"
       ]
     },
     {
@@ -58,7 +62,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "województwo małopolskie"
       ]
     },
     {
@@ -76,7 +81,9 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "województwo małopolskie",
+        "instalacja JBT"
       ]
     },
     {
@@ -94,7 +101,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "brewpub",
+        "województwo małopolskie"
       ]
     },
     {
@@ -112,7 +120,9 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "województwo małopolskie",
+        "instalacja MBS"
       ]
     }
   ]

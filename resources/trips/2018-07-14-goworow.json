@@ -16,7 +16,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj pardubicki"
       ]
     },
     {
@@ -34,7 +35,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj ołomuniecki"
       ]
     },
     {
@@ -52,7 +54,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj ołomuniecki"
       ]
     },
     {
@@ -69,8 +72,10 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
         "grupa PMS",
-        "browar regionalny"
+        "browar regionalny",
+        "kraj ołomuniecki"
       ]
     }
   ]

@@ -19,7 +19,8 @@
         "zorganizowana wycieczka",
         "muzeum",
         "koncern Heineken",
-        "browar koncernowy"
+        "browar koncernowy",
+        "prowincja Holandia Północna"
       ]
     },
     {
@@ -38,7 +39,9 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "instalacja CoEnCo",
+        "prowincja Holandia Północna"
       ]
     },
     {
@@ -55,8 +58,11 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
         "obejrzany sprzęt",
-        "mikrobrowar"
+        "mikrobrowar",
+        "brewpub",
+        "prowincja Holandia Północna"
       ]
     },
     {
@@ -74,7 +80,9 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "mikrobrowar"
+        "mikrobrowar",
+        "brewpub",
+        "prowincja Holandia Północna"
       ]
     },
     {
@@ -92,7 +100,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "mikrobrowar"
+        "brewpub",
+        "prowincja Holandia Północna"
       ]
     },
     {
@@ -110,7 +119,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Holandia Północna"
       ]
     },
     {
@@ -127,8 +137,11 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Holandia Północna",
+        "instalacja CoEnCo"
       ]
     },
     {
@@ -146,7 +159,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Holandia Północna"
       ]
     },
     {
@@ -164,7 +178,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Holandia Północna"
       ]
     }
   ]

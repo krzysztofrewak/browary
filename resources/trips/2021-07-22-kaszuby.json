@@ -18,7 +18,8 @@
         "piwo spróbowane na miejscu",
         "piwo spróbowane na wynos",
         "browar restauracyjny",
-        "instalacja Pacovske Strojirny"
+        "instalacja Pacovske Strojirny",
+        "województwo wielkopolskie"
       ]
     },
     {
@@ -36,7 +37,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "mikrobrowar",
+        "województwo kujawsko-pomorskie"
       ]
     },
     {
@@ -56,7 +58,8 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "browar restauracyjny",
-        "instalacja Minibrowary.pl"
+        "instalacja Minibrowary.pl",
+        "województwo pomorskie"
       ]
     },
     {
@@ -74,7 +77,9 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "województwo pomorskie",
+        "instalacja Caspary"
       ]
     },
     {
@@ -92,7 +97,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "województwo pomorskie"
       ]
     },
     {
@@ -111,7 +117,8 @@
         "obejrzany sprzęt",
         "piwo spróbowane na wynos",
         "browar restauracyjny",
-        "instalacja Minibrowary.pl"
+        "instalacja Minibrowary.pl",
+        "województwo pomorskie"
       ]
     },
     {
@@ -130,7 +137,8 @@
         "piwo spróbowane na wynos",
         "mikrobrowar",
         "przybrowarniany sklep",
-        "instalacja Kaspar Schulz"
+        "instalacja Kaspar Schulz",
+        "województwo pomorskie"
       ]
     },
     {
@@ -149,7 +157,9 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "browar restauracyjny",
-        "instalacja Minibrowary.pl"
+        "instalacja Minibrowary.pl",
+        "województwo pomorskie",
+        "browar nad morzem"
       ]
     },
     {
@@ -166,9 +176,10 @@
       },
       "tags": [
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "piwo spróbowane na wynos",
         "browar restauracyjny",
-        "instalacja Pacovske Strojirny"
+        "instalacja Pacovske Strojirny",
+        "województwo pomorskie"
       ]
     },
     {
@@ -186,7 +197,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "województwo pomorskie"
       ]
     },
     {
@@ -204,7 +216,9 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na wynos",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "województwo kujawsko-pomorskie",
+        "instalacja Salm"
       ]
     }
   ]

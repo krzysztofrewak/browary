@@ -18,7 +18,8 @@
         "obejrzany sprzęt",
         "przybrowarniany sklep",
         "piwo spróbowane na wynos",
-        "instalacja Kaspar Schulz"
+        "instalacja Kaspar Schulz",
+        "województwo śląskie"
       ]
     },
     {
@@ -38,7 +39,8 @@
         "spotkanie z piwowarem",
         "przybrowarniany sklep",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos"
+        "piwo spróbowane na wynos",
+        "województwo śląskie"
       ]
     },
     {
@@ -57,7 +59,9 @@
         "mikrobrowar",
         "spotkanie z piwowarem",
         "przybrowarniany sklep",
-        "piwo spróbowane na wynos"
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "województwo małopolskie"
       ]
     },
     {
@@ -77,7 +81,9 @@
         "spotkanie z piwowarem",
         "przybrowarniany sklep",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos"
+        "piwo spróbowane na wynos",
+        "województwo śląskie",
+        "instalacja Salm"
       ]
     },
     {
@@ -97,7 +103,9 @@
         "spotkanie z piwowarem",
         "przybrowarniany sklep",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos"
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "województwo śląskie"
       ]
     }
   ]

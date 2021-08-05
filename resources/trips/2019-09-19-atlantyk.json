@@ -52,7 +52,8 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "spotkanie z piwowarem",
-        "londyńska piwna mila"
+        "londyńska piwna mila",
+        "brewpub"
       ]
     },
     {
@@ -70,7 +71,9 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "londyńska piwna mila"
+        "londyńska piwna mila",
+        "brewpub",
+        "mikrobrowar"
       ]
     },
     {
@@ -88,7 +91,7 @@
       "tags": [
         "cydrownia",
         "obejrzany sprzęt",
-        "browar restauracyjny",
+        "brewpub",
         "piwo spróbowane na miejscu",
         "londyńska piwna mila"
       ]
@@ -109,7 +112,9 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "spotkanie z piwowarem",
-        "londyńska piwna mila"
+        "londyńska piwna mila",
+        "mikrobrowar",
+        "brewpub"
       ]
     },
     {
@@ -126,8 +131,11 @@
       },
       "tags": [
         "obejrzany sprzęt",
+        "piwo spróbowane poza browarem",
         "piwo spróbowane na miejscu",
-        "londyńska piwna mila"
+        "londyńska piwna mila",
+        "mikrobrowar",
+        "brewpub"
       ]
     },
     {
@@ -145,7 +153,9 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "londyńska piwna mila"
+        "londyńska piwna mila",
+        "mikrobrowar",
+        "brewpub"
       ]
     },
     {
@@ -163,7 +173,9 @@
       "tags": [
         "spotkanie z piwowarem",
         "obejrzany sprzęt",
-        "londyńska piwna mila"
+        "londyńska piwna mila",
+        "mikrobrowar",
+        "piwo spróbowane poza browarem"
       ]
     },
     {
@@ -181,7 +193,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "londyńska piwna mila"
+        "londyńska piwna mila",
+        "brewpub"
       ]
     },
     {
@@ -200,7 +213,9 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "spotkanie z piwowarem",
-        "londyńska piwna mila"
+        "londyńska piwna mila",
+        "brewpub",
+        "mikrobrowar"
       ]
     },
     {
@@ -218,7 +233,11 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "londyńska piwna mila"
+        "piwo spróbowane poza browarem",
+        "londyńska piwna mila",
+        "instalacja BrauKon",
+        "brewpub",
+        "mikrobrowar"
       ]
     },
     {
@@ -236,7 +255,7 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "brewpub"
       ]
     },
     {
@@ -254,7 +273,7 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny",
+        "brewpub",
         "BrewDog Outpost"
       ]
     },
@@ -273,7 +292,7 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "brewpub"
       ]
     },
     {
@@ -327,7 +346,8 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "spotkanie z piwowarem",
-        "mikrobrowar"
+        "mikrobrowar",
+        "brewpub"
       ]
     },
     {
@@ -363,7 +383,8 @@
       "tags": [
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu"
+        "piwo spróbowane na miejscu",
+        "instalacja Ziptech"
       ]
     },
     {
@@ -382,7 +403,8 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "spotkanie z piwowarem",
-        "mikrobrowar"
+        "mikrobrowar",
+        "brewpub"
       ]
     }
   ]

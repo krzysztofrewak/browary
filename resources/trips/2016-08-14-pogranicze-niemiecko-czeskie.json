@@ -17,7 +17,8 @@
         "koncern Radeberger",
         "piwo spróbowane na miejscu",
         "browar koncernowy",
-        "przybrowarniana restauracja"
+        "przybrowarniana restauracja",
+        "kraj związkowy Saksonia"
       ]
     },
     {
@@ -35,7 +36,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj związkowy Saksonia"
       ]
     },
     {
@@ -55,7 +57,8 @@
         "obejrzany sprzęt",
         "browar restauracyjny",
         "spotkanie z piwowarem",
-        "browar na zamku"
+        "browar na zamku",
+        "kraj związkowy Saksonia"
       ]
     },
     {
@@ -73,7 +76,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj związkowy Saksonia"
       ]
     },
     {
@@ -92,7 +96,8 @@
         "piwo spróbowane na wynos",
         "obejrzany sprzęt",
         "przybrowarniany sklep",
-        "przybrowarniany hotel"
+        "przybrowarniany hotel",
+        "kraj ustecki"
       ]
     },
     {
@@ -110,7 +115,9 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj ustecki",
+        "instalacja MBS"
       ]
     },
     {
@@ -128,7 +135,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj ustecki"
       ]
     },
     {
@@ -146,7 +154,9 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "browar regionalny",
-        "przybrowarniana restauracja"
+        "przybrowarniana restauracja",
+        "koncern Heineken",
+        "kraj ustecki"
       ]
     },
     {
@@ -164,7 +174,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj ustecki"
       ]
     },
     {
@@ -183,7 +194,8 @@
         "browar w galerii handlowej",
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj ustecki"
       ]
     },
     {
@@ -201,7 +213,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj ustecki"
       ]
     },
     {
@@ -221,7 +234,8 @@
         "spotkanie z piwowarem",
         "przybrowarniany sklep",
         "piwo spróbowane na wynos",
-        "mikrobrowar"
+        "mikrobrowar",
+        "kraj liberecki"
       ]
     },
     {
@@ -239,7 +253,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj liberecki"
       ]
     },
     {
@@ -257,7 +272,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "przybrowarniany sklep",
-        "browar regionalny"
+        "browar regionalny",
+        "kraj liberecki"
       ]
     }
   ]

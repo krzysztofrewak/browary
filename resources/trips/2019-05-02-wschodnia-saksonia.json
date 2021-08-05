@@ -14,8 +14,10 @@
         }
       },
       "tags": [
+        "piwo spróbowane poza browarem",
         "przybrowarniany sklep",
-        "browar regionalny"
+        "browar regionalny",
+        "kraj związkowy Saksonia"
       ]
     },
     {
@@ -33,7 +35,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj związkowy Saksonia"
       ]
     },
     {
@@ -51,7 +54,9 @@
       "tags": [
         "piwo spróbowane na wynos",
         "przybrowarniany sklep",
-        "obejrzany sprzęt"
+        "obejrzany sprzęt",
+        "kraj związkowy Saksonia",
+        "mikrobrowar"
       ]
     },
     {
@@ -70,7 +75,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "instalacja Kaspar Schulz"
+        "instalacja Kaspar Schulz",
+        "kraj związkowy Saksonia"
       ]
     },
     {
@@ -89,7 +95,10 @@
         "piwo spróbowane na miejscu",
         "przybrowarniany sklep",
         "obejrzany sprzęt",
-        "spotkanie z piwowarem"
+        "spotkanie z piwowarem",
+        "kraj związkowy Saksonia",
+        "mikrobrowar",
+        "instalacja Labu"
       ]
     },
     {
@@ -107,7 +116,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "kraj związkowy Saksonia"
       ]
     }
   ]

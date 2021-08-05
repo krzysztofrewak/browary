@@ -16,7 +16,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "brewpub",
+        "prowincja Brabancja Północna"
       ]
     },
     {
@@ -34,7 +35,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "brewpub",
+        "prowincja Brabancja Północna"
       ]
     },
     {
@@ -52,7 +54,9 @@
       "tags": [
         "browar trapistów",
         "piwo spróbowane na miejscu",
-        "browar regionalny"
+        "piwo spróbowane poza browarem",
+        "browar regionalny",
+        "prowincja Brabancja Północna"
       ]
     },
     {
@@ -69,7 +73,8 @@
       },
       "tags": [
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "brewpub",
+        "prowincja Brabancja Północna"
       ]
     },
     {
@@ -90,7 +95,8 @@
         "zorganizowana wycieczka",
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "mikrobrowar"
+        "mikrobrowar",
+        "prowincja Brabancja Północna"
       ]
     },
     {
@@ -108,7 +114,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Brabancja Północna"
       ]
     },
     {
@@ -126,7 +133,9 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Brabancja Północna",
+        "instalacja CoEnCo"
       ]
     },
     {
@@ -144,7 +153,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Brabancja Północna"
       ]
     },
     {
@@ -162,7 +172,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Brabancja Północna"
       ]
     },
     {
@@ -180,7 +191,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Holandia Południowa"
       ]
     },
     {
@@ -198,7 +210,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Holandia Południowa"
       ]
     },
     {
@@ -216,8 +229,9 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny",
-        "BrewDog Outpost"
+        "brewpub",
+        "BrewDog Outpost",
+        "prowincja Holandia Południowa"
       ]
     },
     {
@@ -235,7 +249,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Holandia Południowa"
       ]
     },
     {
@@ -252,7 +267,10 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
-        "mikrobrowar"
+        "mikrobrowar",
+        "brewpub",
+        "piwo spróbowane poza browarem",
+        "prowincja Holandia Południowa"
       ]
     },
     {
@@ -269,7 +287,8 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "brewpub",
+        "prowincja Holandia Południowa"
       ]
     },
     {
@@ -286,7 +305,8 @@
       },
       "tags": [
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "prowincja Holandia Południowa"
       ]
     },
     {
@@ -304,7 +324,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "brewpub",
+        "prowincja Holandia Południowa"
       ]
     },
     {
@@ -322,7 +343,10 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "mikrobrowar"
+        "mikrobrowar",
+        "brewpub",
+        "prowincja Holandia Południowa",
+        "instalacja BrauKon"
       ]
     },
     {
@@ -340,7 +364,9 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "mikrobrowar"
+        "mikrobrowar",
+        "brewpub",
+        "prowincja Holandia Południowa"
       ]
     },
     {
@@ -360,7 +386,9 @@
         "piwo spróbowane na miejscu",
         "piwo spróbowane na wynos",
         "mikrobrowar",
-        "spotkanie z piwowarem"
+        "brwepub",
+        "spotkanie z piwowarem",
+        "prowincja Utrecht"
       ]
     },
     {
@@ -377,7 +405,8 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "brewpub",
+        "prowincja Utrecht"
       ]
     },
     {
@@ -394,7 +423,8 @@
       },
       "tags": [
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos"
+        "piwo spróbowane na wynos",
+        "prowincja Utrecht"
       ]
     }
   ]

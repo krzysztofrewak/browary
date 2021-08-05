@@ -17,7 +17,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "instalacja Kaspar Schulz"
+        "instalacja Kaspar Schulz",
+        "województwo wielkopolskie"
       ]
     },
     {
@@ -35,9 +36,11 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "piwo spróbowane z tanka",
+        "piwo spróbowane poza browarem",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "mikrobrowar"
+        "mikrobrowar",
+        "województwo łódzkie"
       ]
     },
     {
@@ -54,7 +57,8 @@
       },
       "tags": [
         "obejrzany sprzęt",
-        "mikrobrowar"
+        "mikrobrowar",
+        "województwo łódzkie"
       ]
     },
     {
@@ -73,7 +77,8 @@
         "obejrzany sprzęt",
         "przybrowarniany sklep",
         "piwo spróbowane na wynos",
-        "mikrobrowar"
+        "mikrobrowar",
+        "województwo łódzkie"
       ]
     },
     {
@@ -91,7 +96,9 @@
       "tags": [
         "przybrowarniany sklep",
         "piwo spróbowane na wynos",
-        "browar regionalny"
+        "piwo spróbowane poza browarem",
+        "browar regionalny",
+        "województwo łódzkie"
       ]
     }
   ]
