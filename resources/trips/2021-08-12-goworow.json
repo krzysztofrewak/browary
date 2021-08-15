@@ -1,0 +1,45 @@
+{
+  "name": "pogranicze polsko-czeskie, sierpień 2021",
+  "breweries": [
+    {
+      "name": "Manufaktura Piwowarska Złota Woda",
+      "visited": "2021-08-12",
+      "location": {
+        "country": "pl",
+        "city": "Łomnica",
+        "address": "Sudecka",
+        "coordinates": {
+          "lat": 50.679363,
+          "lng": 16.344795
+        }
+      },
+      "tags": [
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "mikrobrowar",
+        "województwo dolnośląskie",
+        "instalacja autorska"
+      ]
+    },
+    {
+      "name": "Zámecký minipivovar Albert",
+      "visited": "2021-08-13",
+      "location": {
+        "country": "cz",
+        "city": "Sobotín",
+        "address": "Sobotín 13",
+        "coordinates": {
+          "lat": 50.018287,
+          "lng": 17.080899
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "mikrobrowar",
+        "przybrowarniana restauracja",
+        "kraj ołomuniecki"
+      ]
+    }
+  ]
+}
