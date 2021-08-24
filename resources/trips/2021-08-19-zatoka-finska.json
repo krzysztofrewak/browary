@@ -1,0 +1,139 @@
+{
+  "name": "Zatoka Fińska, sierpień 2021",
+  "breweries": [
+    {
+      "name": "nanoPruul",
+      "visited": "2021-08-19",
+      "location": {
+        "country": "ee",
+        "city": "Tallinn",
+        "address": "Madara 25a",
+        "coordinates": {
+          "lat": 59.431991,
+          "lng": 24.722233
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane z tanka",
+        "instalacja autorska"
+      ]
+    },
+    {
+      "name": "Panimoravintola Bruuveri",
+      "visited": "2021-08-20",
+      "location": {
+        "country": "fi",
+        "city": "Helsinki",
+        "address": "Fredrikinkatu 63 AB",
+        "coordinates": {
+          "lat": 60.168548,
+          "lng": 24.931542
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar w galerii handlowej"
+      ]
+    },
+    {
+      "name": "Ravintola Perho",
+      "visited": "2021-08-20",
+      "location": {
+        "country": "fi",
+        "city": "Helsinki",
+        "address": "Mechelininkatu 7",
+        "coordinates": {
+          "lat": 60.170795,
+          "lng": 24.921243
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Mad Hopper Brewing Co.",
+      "visited": "2021-08-20",
+      "location": {
+        "country": "fi",
+        "city": "Helsinki",
+        "address": "Mannerheimintie 53",
+        "coordinates": {
+          "lat": 60.190017,
+          "lng": 24.916402
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Helsinki Bryggeri",
+      "visited": "2021-08-20",
+      "location": {
+        "country": "fi",
+        "city": "Helsinki",
+        "address": "Sofiankatu 2",
+        "coordinates": {
+          "lat": 60.168118,
+          "lng": 24.951764
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Sveaborgs Bryggeri",
+      "visited": "2021-08-20",
+      "location": {
+        "country": "fi",
+        "city": "Helsinki",
+        "address": "Suomenlinna C 1",
+        "coordinates": {
+          "lat": 60.148855,
+          "lng": 24.985247
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar na wyspie"
+      ]
+    },
+    {
+      "name": "Tanker Brewery",
+      "visited": "2021-08-23",
+      "location": {
+        "country": "ee",
+        "city": "Jüri",
+        "address": "Kesk tee 10A",
+        "coordinates": {
+          "lat": 59.350738,
+          "lng": 24.888917
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "przybrowarniany sklep",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "obejrzany sprzęt"
+      ]
+    }
+  ]
+}
