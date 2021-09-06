@@ -29,7 +29,7 @@ class SearchList implements JsonSerializable
                     "description" => $this->getBreweryName($brewery),
                     "symbol" => $brewery->getCountry()->getSymbol(),
                     "center" => $brewery->getCoordinates(),
-                ]
+                ],
             )
             ->toArray();
     }

@@ -9,7 +9,7 @@ use JsonSerializable;
 class FileManager
 {
     public function __construct(
-        protected string $basePath
+        protected string $basePath,
     ) {
     }
 

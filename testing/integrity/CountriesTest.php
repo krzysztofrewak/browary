@@ -38,7 +38,7 @@ class CountriesTest extends TestCase
         $this->assertSameSize(
             expected: $content["countries"],
             actual: $symbols,
-            message: "There's a different number of symbols and countries; possible non-unique symbol was used."
+            message: "There's a different number of symbols and countries; possible non-unique symbol was used.",
         );
     }
 

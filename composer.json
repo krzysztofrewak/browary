@@ -20,7 +20,7 @@
 		"vlucas/phpdotenv": "^5.3.0"
 	},
 	"require-dev": {
-		"blumilksoftware/codestyle": "^0.4.1",
+		"blumilksoftware/codestyle": "^0.5.0",
 		"phpunit/phpunit": "^9"
 	},
 	"scripts": {

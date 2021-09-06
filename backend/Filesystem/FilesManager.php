@@ -11,7 +11,7 @@ use JsonSerializable;
 class FilesManager
 {
     public function __construct(
-        protected FileManager $fileManager
+        protected FileManager $fileManager,
     ) {
     }
 

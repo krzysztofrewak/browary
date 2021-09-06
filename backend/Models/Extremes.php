@@ -41,7 +41,7 @@ class Extremes implements JsonSerializable
         $parts[1] = str_pad(
             string: $parts[1],
             length: 6,
-            pad_string: "0"
+            pad_string: "0",
         );
 
         return $parts[0] . "." . $parts[1];

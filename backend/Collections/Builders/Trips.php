@@ -21,7 +21,7 @@ class Trips
         Collection $tripsData,
         Countries $countries,
         Cities $cities,
-        Tags $tags
+        Tags $tags,
     ): TripsCollection {
         $trips = new TripsCollection();
 
@@ -60,7 +60,7 @@ class Trips
                 }
 
                 $trips->addTrip($trip);
-            }
+            },
         );
 
         return $trips;
