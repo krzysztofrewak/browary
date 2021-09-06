@@ -10,7 +10,7 @@ use RecursiveIteratorIterator;
 class DirectoryManager
 {
     public function __construct(
-        protected string $basePath
+        protected string $basePath,
     ) {
     }
 
@@ -30,7 +30,7 @@ class DirectoryManager
         if (file_exists($directory)) {
             $files = new RecursiveIteratorIterator(
                 new RecursiveDirectoryIterator($directory, RecursiveDirectoryIterator::SKIP_DOTS),
-                RecursiveIteratorIterator::CHILD_FIRST
+                RecursiveIteratorIterator::CHILD_FIRST,
             );
 
             foreach ($files as $file) {

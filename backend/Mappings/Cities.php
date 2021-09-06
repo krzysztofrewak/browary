@@ -15,13 +15,13 @@ class Cities
         return $mappings->mapWithKeys(
             fn(array $city): array => [
                 $city["name"] => new Collection($city["mappings"]),
-            ]
+            ],
         )->map(
             fn(Collection $mappings): array => $mappings->mapWithKeys(
                 fn(array $mapping): array => [
                     $mapping["mapping"] => $mapping["value"],
-                ]
-            )->toArray()
+                ],
+            )->toArray(),
         )->toArray();
     }
 }

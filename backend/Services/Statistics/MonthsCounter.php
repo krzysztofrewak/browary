@@ -18,7 +18,7 @@ class MonthsCounter
                 fn(int $value, int $key): array => [
                     "label" => $weekdays[$key - 1],
                     "value" => $value,
-                ]
+                ],
             )
             ->toArray();
 

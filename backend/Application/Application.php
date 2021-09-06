@@ -54,7 +54,7 @@ class Application
 
     public function __construct(
         protected string $rootPath,
-        Dotenv $dotenv
+        Dotenv $dotenv,
     ) {
         $dotenv->load();
 
@@ -75,7 +75,7 @@ class Application
         $tripsData = $tripsFiles->map(fn(string $filename): string => file_get_contents($filename));
 
         $citiesMapping = CitiesMapping::buildFromJson(
-            file_get_contents($this->rootPath . "/resources/mappings/cities.json")
+            file_get_contents($this->rootPath . "/resources/mappings/cities.json"),
         );
 
         $tags = new TagsCollection();
@@ -106,7 +106,7 @@ class Application
             $cities,
             $tags,
             $notes,
-            $statistics
+            $statistics,
         );
     }
 
@@ -138,7 +138,7 @@ class Application
         TripsCollection $trips,
         TagsCollection $tags,
         Calendar $calendar,
-        CitiesCollection $cities
+        CitiesCollection $cities,
     ): void {
         CountryBoundsService::setBounds($countries);
         BoundsService::setBounds($trips->getAll());
@@ -153,7 +153,7 @@ class Application
         CountriesCollection $countries,
         CitiesCollection $cities,
         TripsCollection $trips,
-        TagsCollection $tags
+        TagsCollection $tags,
     ): Statistics {
         $statistics = new Statistics();
 
@@ -180,7 +180,7 @@ class Application
         CitiesCollection $cities,
         TagsCollection $tags,
         NotesCollection $notes,
-        Statistics $statistics
+        Statistics $statistics,
     ): void {
         $this->fileManager->save($calendar, "calendar.json");
         $this->fileManager->save($map, "map.json");
