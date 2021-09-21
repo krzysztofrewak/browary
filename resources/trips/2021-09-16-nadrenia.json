@@ -1,0 +1,287 @@
+{
+  "name": "nad Renem i Mozą, wrzesień 2021",
+  "breweries": [
+    {
+      "name": "Hövels Hausbrauerei",
+      "visited": "2021-09-16",
+      "location": {
+        "country": "de",
+        "city": "Dortmund",
+        "address": "Hoher Wall 5-7",
+        "coordinates": {
+          "lat": 51.51240438613674,
+          "lng": 7.459020483538525
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia",
+        "koncern Radeberger",
+        "browar w galerii handlowej"
+      ]
+    },
+    {
+      "name": "Brauerei Schumacher",
+      "visited": "2021-09-17",
+      "location": {
+        "country": "de",
+        "city": "Düsseldorf",
+        "address": "Oststraße 123",
+        "coordinates": {
+          "lat": 51.22159523587784,
+          "lng": 6.785157800593952
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Uerige",
+      "visited": "2021-09-17",
+      "location": {
+        "country": "de",
+        "city": "Düsseldorf",
+        "address": "Berger Str. 1",
+        "coordinates": {
+          "lat": 51.224966167516385,
+          "lng": 6.772214847653591
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Brauerei im Füchschen",
+      "visited": "2021-09-17",
+      "location": {
+        "country": "de",
+        "city": "Düsseldorf",
+        "address": "Ratinger Str. 28",
+        "coordinates": {
+          "lat": 51.229599567388256,
+          "lng": 6.775236720069465
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Brauerei Kürzer",
+      "visited": "2021-09-17",
+      "location": {
+        "country": "de",
+        "city": "Düsseldorf",
+        "address": "Kurze Str. 20",
+        "coordinates": {
+          "lat": 51.22696452619953,
+          "lng": 6.773299116361773
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "spotkanie z piwowarem",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Hausbrauerei Zum Schlüssel",
+      "visited": "2021-09-17",
+      "location": {
+        "country": "de",
+        "city": "Düsseldorf",
+        "address": "Bolkerstraße 41-47",
+        "coordinates": {
+          "lat": 51.22604216249818,
+          "lng": 6.7744416510155965
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Brauhaus Alterbahnhof",
+      "visited": "2021-09-17",
+      "location": {
+        "country": "de",
+        "city": "Düsseldorf",
+        "address": "Belsenpl. 2",
+        "coordinates": {
+          "lat": 51.23148799825689,
+          "lng": 6.74683877931307
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Brauhaus Joh. Albrecht",
+      "visited": "2021-09-17",
+      "location": {
+        "country": "de",
+        "city": "Düsseldorf",
+        "address": "Niederkasseler Str. 104",
+        "coordinates": {
+          "lat": 51.24040666360192,
+          "lng": 6.75159689549187
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Hitchcoq",
+      "visited": "2021-09-17",
+      "location": {
+        "country": "de",
+        "city": "Düsseldorf",
+        "address": "Nordstraße 30",
+        "coordinates": {
+          "lat": 51.236689940724794,
+          "lng": 6.778797516299336
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Düsseldorfer Privatbrauerei Frankenheim",
+      "visited": "2021-09-17",
+      "location": {
+        "country": "de",
+        "city": "Düsseldorf",
+        "address": "Wielandstraße 12-14",
+        "coordinates": {
+          "lat": 51.22924211233179,
+          "lng": 6.792764774713765
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Brauhaus zur Malzmühle",
+      "visited": "2021-09-18",
+      "location": {
+        "country": "de",
+        "city": "Köln",
+        "address": "Heumarkt 6",
+        "coordinates": {
+          "lat": 50.934697171849955,
+          "lng": 6.960589855903466
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Brauerei Päffgen",
+      "visited": "2021-09-18",
+      "location": {
+        "country": "de",
+        "city": "Köln",
+        "address": "Friesenstraße 64-66",
+        "coordinates": {
+          "lat": 50.940769245204635,
+          "lng": 6.941819634470685
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Braustelle",
+      "visited": "2021-09-18",
+      "location": {
+        "country": "de",
+        "city": "Köln",
+        "address": "Christianstraße 2",
+        "coordinates": {
+          "lat": 50.95382410495769,
+          "lng": 6.910777505903511
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "objerzany sprzęt",
+        "kraj związkowy Nadrenia Północna-Westfalia"
+      ]
+    },
+    {
+      "name": "Brasserie {C}",
+      "visited": "2021-09-19",
+      "location": {
+        "country": "be",
+        "city": "Liège",
+        "address": "Imp. des Ursulines 14",
+        "coordinates": {
+          "lat": 50.647537,
+          "lng": 5.577540
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Stadsbrouwerij Maastricht",
+      "visited": "2021-09-20",
+      "location": {
+        "country": "nl",
+        "city": "Maastricht",
+        "address": "Oeverwal 12",
+        "coordinates": {
+          "lat": 50.849858,
+          "lng": 5.697535
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "prowincja Limburgia"
+      ]
+    }
+  ]
+}

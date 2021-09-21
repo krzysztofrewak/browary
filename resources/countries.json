@@ -73,7 +73,7 @@
     {
       "symbol": "ch",
       "name": "Szwajcaria",
-      "original": "Helvetia"
+      "original": "Schweiz"
     },
     {
       "symbol": "li",
@@ -104,6 +104,11 @@
       "symbol": "fi",
       "name": "Finlandia",
       "original": "Suomi"
+    },
+    {
+      "symbol": "be",
+      "name": "Belgia",
+      "original": "België"
     }
   ]
 }
