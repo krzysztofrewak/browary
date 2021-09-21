@@ -192,6 +192,15 @@
           "value": "Zurych"
         }
       ]
+    },
+    {
+      "name": "Köln",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Kolonia"
+        }
+      ]
     }
   ]
 }
