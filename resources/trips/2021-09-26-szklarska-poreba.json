@@ -1,0 +1,24 @@
+{
+  "name": "Szklarska Poręba, wrzesień 2021",
+  "breweries": [
+    {
+      "name": "Browar Mariental",
+      "visited": "2021-09-26",
+      "location": {
+        "country": "pl",
+        "city": "Szklarska Poręba",
+        "address": "1 maja 11",
+        "coordinates": {
+          "lat": 50.825949,
+          "lng": 15.524900
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "województwo dolnośląskie"
+      ]
+    }
+  ]
+}
