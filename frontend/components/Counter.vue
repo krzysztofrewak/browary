@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-1 flex flex-col p-2">
+  <div class="flex-1 flex flex-col">
     <div class="text-3xl">
       <span v-if="value">{{ value }}</span>
       <slot v-else></slot>

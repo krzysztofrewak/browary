@@ -3,8 +3,8 @@
     <page-header title="Kalendarz" header="Im ciemniej, tym więcej"></page-header>
 
     <div class="px-4">
-      <div class="flex items-center justify-between p-1" v-for="year in years" :key="year.label">
-        <router-link :to="{ name: 'calendar.year', params: { year: year.label } }" class="pr-3 text-gray-500 text-xs">
+      <div class="flex flex-col sm:flex-row items-center justify-between p-1" v-for="year in years" :key="year.label">
+        <router-link :to="{ name: 'calendar.year', params: { year: year.label } }" class="mb-2 sm:mb-0 sm:pr-3 text-gray-500 text-xs">
           {{ year.label }}
         </router-link>
         <year-row :row="year.items" :max-value="maxValue" :year="year.label"></year-row>
