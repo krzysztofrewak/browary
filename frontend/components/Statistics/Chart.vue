@@ -1,5 +1,5 @@
 <template>
-  <div class="chart">
+  <div class="w-full chart">
     <page-header :title="title" :header="subtitle"></page-header>
     <div class="flex w-full px-8" v-if="max > 0">
       <div class="flex-1 flex flex-col justify-end" v-for="value in values" :key="value.label">
