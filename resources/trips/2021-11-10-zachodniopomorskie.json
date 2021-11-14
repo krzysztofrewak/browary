@@ -1,0 +1,67 @@
+{
+  "name": "zachodniopomorskie, listopad 2021",
+  "breweries": [
+    {
+      "name": "Miejski Browar Stargard",
+      "visited": "2021-11-10",
+      "location": {
+        "country": "pl",
+        "city": "Stargard",
+        "address": "Krzywoustego 1",
+        "coordinates": {
+          "lat": 53.33484080865049,
+          "lng": 15.044091145198033
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "województwo zachodniopomorskie",
+        "instalacja Kaspar Schultz"
+      ]
+    },
+    {
+      "name": "Browar Dobosz",
+      "visited": "2021-11-12",
+      "location": {
+        "country": "pl",
+        "city": "Świnoujście",
+        "address": "Uzdrowiskowa 23",
+        "coordinates": {
+          "lat": 53.91870420186502,
+          "lng": 14.266927493229979
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "województwo zachodniopomorskie",
+        "instalacja Kaspar Schultz",
+        "browar hotelowy"
+      ]
+    },
+    {
+      "name": "Prima Beer & Restaurant",
+      "visited": "2021-11-13",
+      "location": {
+        "country": "pl",
+        "city": "Międzyzdroje",
+        "address": "Bohaterów Warszawy 16a",
+        "coordinates": {
+          "lat": 53.930293791269634,
+          "lng": 14.444645541728239
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "województwo zachodniopomorskie",
+        "instalacja Minibrowary.pl",
+        "browar hotelowy"
+      ]
+    }
+  ]
+}
