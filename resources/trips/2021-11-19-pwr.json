@@ -1,0 +1,26 @@
+{
+  "name": "Politechnika Wrocławska, listopad 2021",
+  "breweries": [
+    {
+      "name": "Browar Politechniki Wrocławskiej",
+      "visited": "2021-11-19",
+      "location": {
+        "country": "pl",
+        "city": "Wrocław",
+        "address": "ul. Norwida 4/6",
+        "coordinates": {
+          "lat": 51.108252408654444,
+          "lng": 17.05980164240277
+        }
+      },
+      "tags": [
+        "województwo dolnośląskie",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane z tanka",
+        "obejrzany sprzęt",
+        "browar akademicki",
+        "spotkanie z piwowarem"
+      ]
+    }
+  ]
+}
