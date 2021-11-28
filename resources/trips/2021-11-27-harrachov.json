@@ -1,0 +1,25 @@
+{
+  "name": "Harrachov, listopad 2021",
+  "breweries": [
+    {
+      "name": "Minipivovar Novosad a syn",
+      "visited": "2021-11-27",
+      "location": {
+        "country": "cz",
+        "city": "Harrachov",
+        "address": "Nový Svět 95",
+        "coordinates": {
+          "lat": 50.7823285024608,
+          "lng": 15.419426977964141
+        }
+      },
+      "tags": [
+        "kraj liberecki",
+        "piwo spróbowane na wynos",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}
