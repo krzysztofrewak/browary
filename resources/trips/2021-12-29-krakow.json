@@ -1,0 +1,26 @@
+{
+  "name": "Kraków, grudzień 2021",
+  "breweries": [
+    {
+      "name": "Browar Nowa Wytwórnia",
+      "visited": "2021-12-29",
+      "location": {
+        "country": "pl",
+        "city": "Kraków",
+        "address": "Fabryczna 13",
+        "coordinates": {
+          "lat": 50.062849021659964,
+          "lng": 19.973286439582093
+        }
+      },
+      "tags": [
+        "województwo małopolskie",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "koncern Carlsberg"
+      ]
+    }
+  ]
+}
