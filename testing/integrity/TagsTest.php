@@ -14,7 +14,7 @@ class TagsTest extends TestCase
         foreach ($tags as $tag) {
             foreach ($tags as $comparee) {
                 if ($tag !== $comparee) {
-                    $this->assertGreaterThan(2, levenshtein($tag, $comparee), "Tag $tag is too much similar to $comparee");
+                    $this->assertGreaterThan(2, levenshtein($tag, $comparee), "Tag ${tag} is too much similar to ${comparee}");
                 }
             }
         }

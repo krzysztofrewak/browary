@@ -10,7 +10,6 @@ use Brewmap\Collections\Tags;
 use Brewmap\Collections\Trips as TripsCollection;
 use Brewmap\Models\Brewery;
 use Brewmap\Models\Coordinates;
-use Brewmap\Models\Country;
 use Brewmap\Models\Location;
 use Brewmap\Models\Trip;
 use Carbon\Carbon;
