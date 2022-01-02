@@ -10,6 +10,7 @@ use Brewmap\Collections\Tags;
 use Brewmap\Collections\Trips as TripsCollection;
 use Brewmap\Models\Brewery;
 use Brewmap\Models\Coordinates;
+use Brewmap\Models\Country;
 use Brewmap\Models\Location;
 use Brewmap\Models\Trip;
 use Carbon\Carbon;
@@ -51,7 +52,7 @@ class Trips
                         $brewery->addTag($tag);
                     }
 
-                    foreach ($breweryData["tags"] as $tag) {
+                    foreach ($country->getTags() as $tag) {
                         $tag = $tags->firstOrCreate($tag);
                         $brewery->addTag($tag);
                     }

@@ -109,7 +109,7 @@ class Brewery implements JsonSerializable, Sluggable
 
     public function getTags(): Collection
     {
-        return $this->tags->sort(fn(Tag $a, Tag $b): int => $a->getName() <=> $b->getName());
+        return $this->tags->sort(fn(Tag $a, Tag $b): int => strtolower($a->getName()) <=> strtolower($b->getName()));
     }
 
     public function getMonthYearDate(): string

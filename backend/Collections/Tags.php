@@ -44,7 +44,6 @@ class Tags implements JsonSerializable, HavingAll
                     ? $a->getName() <=> $b->getName()
                     : $b->getBreweriesCount() <=> $a->getBreweriesCount(),
             )
-            ->filter(fn(Tag $city): bool => $city->getBreweries()->count() > 1)
             ->toArray();
     }
 }

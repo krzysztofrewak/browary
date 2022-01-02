@@ -3,112 +3,203 @@
     {
       "symbol": "pl",
       "name": "Polska",
-      "original": "Polska"
+      "original": "Polska",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "at",
       "name": "Austria",
-      "original": "Österreich"
+      "original": "Österreich",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa niemieckojęzyczne"
+      ]
     },
     {
       "symbol": "de",
       "name": "Niemcy",
-      "original": "Deutschland"
+      "original": "Deutschland",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa niemieckojęzyczne"
+      ]
     },
     {
       "symbol": "cz",
       "name": "Czechy",
-      "original": "Česko"
+      "original": "Česko",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "al",
       "name": "Albania",
-      "original": "Shqipëria"
+      "original": "Shqipëria",
+      "tags": [
+        "Europa"
+      ]
     },
     {
       "symbol": "ba",
       "name": "Bośnia i Hercegowina",
-      "original": "Bosna i Hercegovina"
+      "original": "Bosna i Hercegovina",
+      "tags": [
+        "Europa",
+        "państwa byłej Jugosławii"
+      ]
     },
     {
       "symbol": "it",
       "name": "Włochy",
-      "original": "Italia"
+      "original": "Italia",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "si",
       "name": "Słowenia",
-      "original": "Slovenija"
+      "original": "Slovenija",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa byłej Jugosławii"
+      ]
     },
     {
       "symbol": "gr",
       "name": "Grecja",
-      "original": "Ελλάδα"
+      "original": "Ελλάδα",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "nl",
       "name": "Holandia",
-      "original": "Nederland"
+      "original": "Nederland",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa Beneluksu"
+      ]
     },
     {
       "symbol": "ee",
       "name": "Estonia",
-      "original": "Eesti"
+      "original": "Eesti",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa byłego ZSRR"
+      ]
     },
     {
       "symbol": "ua",
       "name": "Ukraina",
-      "original": "Україна"
+      "original": "Україна",
+      "tags": [
+        "Europa",
+        "państwa byłego ZSRR"
+      ]
     },
     {
       "symbol": "mt",
       "name": "Malta",
-      "original": "Malta"
+      "original": "Malta",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "fr",
       "name": "Francja",
-      "original": "France"
+      "original": "France",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "ch",
       "name": "Szwajcaria",
-      "original": "Schweiz"
+      "original": "Schweiz",
+      "tags": [
+        "Europa",
+        "państwa niemieckojęzyczne"
+      ]
     },
     {
       "symbol": "li",
       "name": "Liechtenstein",
-      "original": "Liechtenstein"
+      "original": "Liechtenstein",
+      "tags": [
+        "Europa",
+        "państwa niemieckojęzyczne"
+      ]
     },
     {
       "symbol": "gb",
       "name": "Wielka Brytania",
-      "original": "United Kingdom"
+      "original": "United Kingdom",
+      "tags": [
+        "Europa"
+      ]
     },
     {
       "symbol": "is",
       "name": "Islandia",
-      "original": "Ísland"
+      "original": "Ísland",
+      "tags": [
+        "Europa"
+      ]
     },
     {
       "symbol": "sk",
       "name": "Słowacja",
-      "original": "Slovensko"
+      "original": "Slovensko",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "es",
       "name": "Hiszpania",
-      "original": "España"
+      "original": "España",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "fi",
       "name": "Finlandia",
-      "original": "Suomi"
+      "original": "Suomi",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "be",
       "name": "Belgia",
-      "original": "België"
+      "original": "België",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa Beneluksu"
+      ]
     }
   ]
 }
