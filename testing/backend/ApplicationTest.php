@@ -47,7 +47,7 @@ class ApplicationTest extends TestCase
         $this->assertSame(2, $statistics["counters"]["countries"]);
         $this->assertSame(4, $statistics["counters"]["cities"]);
         $this->assertSame(2, $statistics["counters"]["trips"]);
-        $this->assertSame(7, $statistics["counters"]["tags"]);
+        $this->assertSame(9, $statistics["counters"]["tags"]);
     }
 
     public function testBuiltCalendar(): void

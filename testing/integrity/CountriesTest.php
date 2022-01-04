@@ -22,7 +22,7 @@ class CountriesTest extends TestCase
             $this->assertArrayHasKey("symbol", $country);
             $this->assertArrayHasKey("name", $country);
             $this->assertArrayHasKey("original", $country);
-            $this->assertCount(3, $country);
+            $this->assertCount(4, $country);
         }
     }
 

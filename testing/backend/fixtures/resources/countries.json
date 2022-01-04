@@ -3,12 +3,20 @@
     {
       "symbol": "pl",
       "name": "Polska",
-      "original": "Polska"
+      "original": "Polska",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     },
     {
       "symbol": "at",
       "name": "Austria",
-      "original": "Österreich"
+      "original": "Österreich",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     }
   ]
 }

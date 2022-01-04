@@ -51,7 +51,7 @@ class Trips
                         $brewery->addTag($tag);
                     }
 
-                    foreach ($breweryData["tags"] as $tag) {
+                    foreach ($country->getTags() as $tag) {
                         $tag = $tags->firstOrCreate($tag);
                         $brewery->addTag($tag);
                     }

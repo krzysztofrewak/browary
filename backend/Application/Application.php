@@ -63,9 +63,6 @@ class Application
         $this->filesManager = new FilesManager($this->fileManager);
     }
 
-    /**
-     * @throws GuzzleException
-     */
     public function build(): void
     {
         $this->prepareDirectories();
