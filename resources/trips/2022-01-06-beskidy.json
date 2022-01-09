@@ -1,0 +1,155 @@
+{
+  "name": "Beskidy, styczeń 2022",
+  "breweries": [
+    {
+      "name": "Karczma i Browar Wrzos",
+      "visited": "2022-01-06",
+      "location": {
+        "country": "pl",
+        "city": "Ustroń",
+        "address": "Michała Grażyńskiego 23",
+        "coordinates": {
+          "lat": 49.72176959155561,
+          "lng": 18.816209635210633
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "browar restauracyjny",
+        "destylarnia",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "instalacja Wachsmann"
+      ]
+    },
+    {
+      "name": "Browar PINTA",
+      "visited": "2022-01-07",
+      "location": {
+        "country": "pl",
+        "city": "Wieprz",
+        "address": "Przemysłowa 4",
+        "coordinates": {
+          "lat": 49.649231452059816,
+          "lng": 19.172641271403613
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "przybrowarniany sklep",
+        "piwo spróbowane poza browarem",
+        "instalacja Joh. Albrecht Brautechnik",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "PINTA Barrel Brewing",
+      "visited": "2022-01-07",
+      "location": {
+        "country": "pl",
+        "city": "Wieprz",
+        "address": "Przemysłowa 4",
+        "coordinates": {
+          "lat": 49.64910268159278,
+          "lng": 19.173793471629395
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "przybrowarniany sklep",
+        "piwo spróbowane poza browarem"
+      ]
+    },
+    {
+      "name": "Arcyksiążęcy Browar w Żywcu",
+      "visited": "2022-01-07",
+      "location": {
+        "country": "pl",
+        "city": "Żywiec",
+        "address": "Browarna 88",
+        "coordinates": {
+          "lat": 49.663617716712565,
+          "lng": 19.176531298607852
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "browar koncernowy",
+        "koncern Grupa Żywiec",
+        "koncern Heineken",
+        "obejrzany sprzęt",
+        "muzeum",
+        "zorganizowana wycieczka",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem"
+      ]
+    },
+    {
+      "name": "Żywiecki Browar Rzemieślniczy Krajcar",
+      "visited": "2022-01-07",
+      "location": {
+        "country": "pl",
+        "city": "Żywiec",
+        "address": "Świętokrzyska 8",
+        "coordinates": {
+          "lat": 49.6892251246603,
+          "lng": 19.19917140029961
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "instalacja Minibrowary.pl"
+      ]
+    },
+    {
+      "name": "Browar Zamkowy Cieszyn",
+      "visited": "2022-01-08",
+      "location": {
+        "country": "pl",
+        "city": "Cieszyn",
+        "address": "Dojazdowa 2",
+        "coordinates": {
+          "lat": 49.75197245172254,
+          "lng": 18.62621737367944
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "browar regionalny",
+        "obejrzany sprzęt",
+        "muzeum",
+        "zorganizowana wycieczka",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Browar Wisła",
+      "visited": "2022-01-08",
+      "location": {
+        "country": "pl",
+        "city": "Wisła",
+        "address": "1 Maja 69",
+        "coordinates": {
+          "lat": 49.6583413135047,
+          "lng": 18.855399299320602
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar na dworcu"
+      ]
+    }
+  ]
+}
