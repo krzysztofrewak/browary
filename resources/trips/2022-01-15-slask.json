@@ -1,0 +1,68 @@
+{
+  "name": "Śląsk, styczeń 2022",
+  "breweries": [
+    {
+      "name": "Browar Pałacowy",
+      "visited": "2022-01-15",
+      "location": {
+        "country": "pl",
+        "city": "Siemanowice Śląskie",
+        "address": "Chopina 10",
+        "coordinates": {
+          "lat": 50.30809285696183,
+          "lng": 19.027304227167825
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "instalacja Salm"
+      ]
+    },
+    {
+      "name": "Browar Mariacki",
+      "visited": "2022-01-15",
+      "location": {
+        "country": "pl",
+        "city": "Katowice",
+        "address": "Mariacka 17",
+        "coordinates": {
+          "lat": 50.257318799393296,
+          "lng": 19.02627620042291
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "browar hotelowy",
+        "piwo spróbowane na miejscu",
+        "instalacja Minibrowary.pl"
+      ]
+    },
+    {
+      "name": "Bierhalle Katowice",
+      "visited": "2022-01-15",
+      "location": {
+        "country": "pl",
+        "city": "Katowice",
+        "address": "Chorzowska 107",
+        "coordinates": {
+          "lat": 50.27057790239272,
+          "lng": 19.002795766397266
+        }
+      },
+      "tags": [
+        "województwo śląskie",
+        "browar restauracyjny",
+        "sieć Bierhalle",
+        "browar w galerii handlowej",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "instalacja Joh. Albrecht Brautechnik"
+      ]
+    }
+  ]
+}
