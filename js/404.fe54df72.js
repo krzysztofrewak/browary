@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["404"],{"69c0":function(e,a,n){"use strict";n.r(a);var t=n("7a23"),c={class:"404"};function o(e,a,n,o,r,d){var s=Object(t["D"])("page-header");return Object(t["x"])(),Object(t["h"])("div",c,[Object(t["k"])(s,{title:"Błąd 404",header:"Nie znaleziono żądanego zasobu"})])}var r=n("597a"),d={components:{PageHeader:r["a"]}},s=n("6b0d"),i=n.n(s);const b=i()(d,[["render",o]]);a["default"]=b}}]);
+//# sourceMappingURL=404.fe54df72.js.map
