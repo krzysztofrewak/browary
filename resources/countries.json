@@ -200,6 +200,14 @@
         "państwa Unii Europejskiej",
         "państwa Beneluksu"
       ]
+    },
+    {
+      "symbol": "cu",
+      "name": "Kuba",
+      "original": "Cuba",
+      "tags": [
+        "Ameryka Północna"
+      ]
     }
   ]
 }

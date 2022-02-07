@@ -1,0 +1,62 @@
+{
+  "name": "Kuba, ferie 2022",
+  "breweries": [
+    {
+      "name": "Factoria Varadero 43 Cervecería",
+      "visited": "2022-01-31",
+      "location": {
+        "country": "cu",
+        "city": "Varadero",
+        "address": "Avenida Playa",
+        "coordinates": {
+          "lat": 23.149383797804138,
+          "lng": -81.26264329976843
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "instalacja Salm"
+      ]
+    },
+    {
+      "name": "Factoría Plaza Vieja",
+      "visited": "2022-02-02",
+      "location": {
+        "country": "cu",
+        "city": "La Habana",
+        "address": "Calle San Ignacio nº 368 esquina Muralla",
+        "coordinates": {
+          "lat": 23.13560944079876,
+          "lng": -82.35027134326161
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "instalacja Salm"
+      ]
+    },
+    {
+      "name": "Cervecería Antiguo Almacen de la Madera y el Tabaco",
+      "visited": "2022-02-02",
+      "location": {
+        "country": "cu",
+        "city": "La Habana",
+        "address": "Avenida Del Puerto",
+        "coordinates": {
+          "lat": 23.130616467215404,
+          "lng": -82.34799388952491
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "instalacja Salm"
+      ]
+    }
+  ]
+}
