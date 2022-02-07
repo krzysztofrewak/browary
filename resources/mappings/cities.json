@@ -201,6 +201,15 @@
           "value": "Kolonia"
         }
       ]
+    },
+    {
+      "name": "La Habana",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Hawana"
+        }
+      ]
     }
   ]
 }
