@@ -1,0 +1,24 @@
+{
+  "name": "Szreniawa, marzec 2022",
+  "breweries": [
+    {
+      "name": "Browar Szreniawa",
+      "visited": "2022-03-04",
+      "location": {
+        "country": "pl",
+        "city": "Szreniawa",
+        "address": "Dworcowa 5",
+        "coordinates": {
+          "lat": 52.31520667541089,
+          "lng": 16.797506236782727
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "piwo spróbowane na wynos",
+        "przybrowarniany sklep",
+        "województwo wielkopolskie"
+      ]
+    }
+  ]
+}
