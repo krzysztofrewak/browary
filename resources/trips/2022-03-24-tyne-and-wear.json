@@ -1,0 +1,368 @@
+{
+  "name": "hrabstwo Tyne and Wear, marzec 2022",
+  "breweries": [
+    {
+      "name": "By The River Brew Co.",
+      "visited": "2022-03-24",
+      "location": {
+        "country": "gb",
+        "city": "Gateshead",
+        "address": "Hillgate Quays",
+        "coordinates": {
+          "lat": 54.96722045648333,
+          "lng": -1.6060038915370198
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "browar nad rzeką",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "wielokrotnie odwiedzony",
+        "instalacja SSV Limited"
+      ]
+    },
+    {
+      "name": "The Bridge Tavern",
+      "visited": "2022-03-24",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "7 Akenside Hill",
+        "coordinates": {
+          "lat": 54.96948871082225,
+          "lng": -1.607327560607045
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Newcastle Brewing Ltd.",
+      "visited": "2022-03-24",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "Arch 2 Stepney Bank",
+        "coordinates": {
+          "lat": 54.97546353243308,
+          "lng": -1.5933138092318035
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Brinkburn St Brewery",
+      "visited": "2022-03-24",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "1A Ford St, Byker",
+        "coordinates": {
+          "lat": 54.97294232604,
+          "lng": -1.588651926859065
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Full Circle Brew Co",
+      "visited": "2022-03-24",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "Hoults Yard",
+        "coordinates": {
+          "lat": 54.969648181263764,
+          "lng": -1.5806671899350462
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Tyne Bank Brewery",
+      "visited": "2022-03-24",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "375 Walker Rd, Byker",
+        "coordinates": {
+          "lat": 54.96917312313293,
+          "lng": -1.5781189433838092
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Darwin Brewery Ltd",
+      "visited": "2022-03-25",
+      "location": {
+        "country": "gb",
+        "city": "Sunderland",
+        "address": "Sunderland Enterprise Park, Unit 1 West Quay Court",
+        "coordinates": {
+          "lat": 54.91621443252132,
+          "lng": -1.4110594676321864
+        }
+      },
+      "tags": [
+        "Anglia",
+        "mikrobrowar",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane na wynos",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "VAUX Brewery",
+      "visited": "2022-03-25",
+      "location": {
+        "country": "gb",
+        "city": "Sunderland",
+        "address": "Unit 2 Monk St, Monkwearmouth",
+        "coordinates": {
+          "lat": 54.91525182979209,
+          "lng": -1.3813192718805538
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "1 More than 2 Brew",
+      "visited": "2022-03-25",
+      "location": {
+        "country": "gb",
+        "city": "South Shields",
+        "address": "Unit J, Portberry St",
+        "coordinates": {
+          "lat": 54.987109006982195,
+          "lng": -1.4442749636808563
+        }
+      },
+      "tags": [
+        "Anglia",
+        "mikrobrowar",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Overkill Microbrewery",
+      "visited": "2022-03-25",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "Haddricks Mill Rd, South Gosforth",
+        "coordinates": {
+          "lat": 55.00670158897328,
+          "lng": -1.6030232400313802
+        }
+      },
+      "tags": [
+        "Anglia",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Wylam Brewery",
+      "visited": "2022-03-25",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "Palace of Arts Exhibition Park, Claremont Rd",
+        "coordinates": {
+          "lat": 54.98638340368706,
+          "lng": -1.6164847599099192
+        }
+      },
+      "tags": [
+        "Anglia",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "browar w parku",
+        "instalacja SSV Limited"
+      ]
+    },
+    {
+      "name": "Anarchy Brew Co",
+      "visited": "2022-03-26",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "Benfield Business Park, Unit A1, Benfield Rd",
+        "coordinates": {
+          "lat": 54.98547709835267,
+          "lng": -1.5624823052376593
+        }
+      },
+      "tags": [
+        "Anglia",
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Black Storm Brewery",
+      "visited": "2022-03-26",
+      "location": {
+        "country": "gb",
+        "city": "North Shields",
+        "address": "Royal Quays Factory Outlets, Coble Dene",
+        "coordinates": {
+          "lat": 54.99511294168213,
+          "lng": -1.466015654802286
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Flash House Brewing Co.",
+      "visited": "2022-03-26",
+      "location": {
+        "country": "gb",
+        "city": "North Shields",
+        "address": "Unit 1a Northumberland St",
+        "coordinates": {
+          "lat": 55.011366730442084,
+          "lng": -1.4363678835112164
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "obejrzany sprzęt",
+        "browar z pizzerią",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Whitley Bay Brewing Company",
+      "visited": "2022-03-26",
+      "location": {
+        "country": "gb",
+        "city": "Whitley Bay",
+        "address": "2-4 S Parade",
+        "coordinates": {
+          "lat": 55.04254026504688,
+          "lng": -1.4440087668666692
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "The Dog & Rabbit",
+      "visited": "2022-03-26",
+      "location": {
+        "country": "gb",
+        "city": "Whitley Bay",
+        "address": "36 Park View",
+        "coordinates": {
+          "lat": 55.04204942954188,
+          "lng": -1.4485797210041456
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "King Ælle Brew Co.",
+      "visited": "2022-03-26",
+      "location": {
+        "country": "gb",
+        "city": "Seaton Sluice",
+        "address": "Seaton Sluice",
+        "coordinates": {
+          "lat": 55.075524846867886,
+          "lng": -1.4669376115677948
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Northern Alchemy",
+      "visited": "2022-03-26",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "The Old Coal Yard, 12 Elizabeth St",
+        "coordinates": {
+          "lat": 54.97713193759614,
+          "lng": -1.5895288405156625
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Flying Gang Brewing",
+      "visited": "2022-03-27",
+      "location": {
+        "country": "gb",
+        "city": "Ponteland",
+        "address": "Meadowfield",
+        "coordinates": {
+          "lat": 55.051659676539366,
+          "lng": -1.7513496992995519
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    }
+  ]
+}
