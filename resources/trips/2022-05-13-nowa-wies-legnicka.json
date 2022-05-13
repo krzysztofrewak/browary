@@ -1,0 +1,25 @@
+{
+  "name": "Nowa Wieś Legnicka, maj 2022",
+  "breweries": [
+    {
+      "name": "Jaworzyński Browar Rzemieślniczy Jauer",
+      "visited": "2022-05-13",
+      "location": {
+        "country": "pl",
+        "city": "Nowa Wieś Legnicka",
+        "address": "Nowa Wieś Legnicka 55B",
+        "coordinates": {
+          "lat": 51.15557022566225,
+          "lng": 16.17350512229476
+        }
+      },
+      "tags": [
+        "województwo dolnośląskie",
+        "piwo spróbowane na wynos",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "instalacja Minibrowary.pl"
+      ]
+    }
+  ]
+}
