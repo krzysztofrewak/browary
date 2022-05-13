@@ -9,18 +9,12 @@ use JsonSerializable;
 
 class Location implements JsonSerializable
 {
-    protected Coordinates $coordinates;
-    protected Country $country;
-    protected City $city;
-    protected string $address;
-
-    public function __construct(Coordinates $coordinates, Country $country, City $city, string $address)
-    {
-        $this->country = $country;
-        $this->coordinates = $coordinates;
-        $this->city = $city;
-        $this->address = $address;
-    }
+    public function __construct(
+        protected Coordinates $coordinates,
+        protected Country $country,
+        protected City $city,
+        protected string $address,
+    ) {}
 
     public function getCountry(): Country
     {

@@ -9,12 +9,9 @@ use JsonSerializable;
 
 class CityDetailed implements JsonSerializable
 {
-    protected City $city;
-
-    public function __construct(City $city)
-    {
-        $this->city = $city;
-    }
+    public function __construct(
+        protected City $city,
+    ) {}
 
     public function jsonSerialize(): array
     {

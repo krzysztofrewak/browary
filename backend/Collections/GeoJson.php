@@ -11,12 +11,9 @@ class GeoJson implements JsonSerializable
 {
     protected const TYPE = "FeatureCollection";
 
-    protected Breweries $breweries;
-
-    public function __construct(Breweries $breweries)
-    {
-        $this->breweries = $breweries;
-    }
+    public function __construct(
+        protected Breweries $breweries,
+    ) {}
 
     public function jsonSerialize(): array
     {

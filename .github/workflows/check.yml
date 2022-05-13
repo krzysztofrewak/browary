@@ -26,7 +26,7 @@ jobs:
 
       - name: Run code style checker
         run: |
-          composer ecs
+          composer cs
 
       - name: Run tests
         run: |

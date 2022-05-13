@@ -12,15 +12,14 @@ use JsonSerializable;
 
 class Trip implements JsonSerializable, Sluggable, Boundable
 {
-    protected string $name;
     protected string $slug;
     protected Collection $breweries;
     protected Collection $countries;
     protected ?Extremes $extremes = null;
 
-    public function __construct(string $name)
-    {
-        $this->name = $name;
+    public function __construct(
+        protected string $name,
+    ) {
         $this->slug = Str::slug($this->name);
         $this->breweries = new Collection();
         $this->countries = new Collection();
@@ -50,7 +49,7 @@ class Trip implements JsonSerializable, Sluggable, Boundable
     }
 
     /**
-     * @return Collection|Brewery[]
+     * @return Collection<Brewery>
      */
     public function getBreweries(): Collection
     {

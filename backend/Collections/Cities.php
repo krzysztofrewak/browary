@@ -13,12 +13,11 @@ use JsonSerializable;
 class Cities implements JsonSerializable, HavingAll
 {
     protected Collection $cities;
-    protected array $mappings;
 
-    public function __construct(array $mappings = [])
-    {
+    public function __construct(
+        protected array $mappings = [],
+    ) {
         $this->cities = new Collection();
-        $this->mappings = $mappings;
     }
 
     public function firstOrCreate(string $name, Country $country): City

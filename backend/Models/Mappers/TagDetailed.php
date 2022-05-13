@@ -9,12 +9,9 @@ use JsonSerializable;
 
 class TagDetailed implements JsonSerializable
 {
-    protected Tag $tag;
-
-    public function __construct(Tag $tag)
-    {
-        $this->tag = $tag;
-    }
+    public function __construct(
+        protected Tag $tag,
+    ) {}
 
     public function jsonSerialize(): array
     {

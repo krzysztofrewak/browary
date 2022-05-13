@@ -12,8 +12,7 @@ class FilesManager
 {
     public function __construct(
         protected FileManager $fileManager,
-    ) {
-    }
+    ) {}
 
     public function save(HavingAll $resource, string $directory, string $mapper = ""): void
     {

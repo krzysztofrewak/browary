@@ -10,8 +10,7 @@ class FileManager
 {
     public function __construct(
         protected string $basePath,
-    ) {
-    }
+    ) {}
 
     public function save(JsonSerializable $resource, string $filename): void
     {

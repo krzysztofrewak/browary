@@ -9,12 +9,9 @@ use JsonSerializable;
 
 class GeneralTrip implements JsonSerializable
 {
-    protected Trip $trip;
-
-    public function __construct(Trip $trip)
-    {
-        $this->trip = $trip;
-    }
+    public function __construct(
+        protected Trip $trip,
+    ) {}
 
     public function jsonSerialize(): array
     {

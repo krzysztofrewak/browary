@@ -29,7 +29,7 @@ class Breweries implements JsonSerializable, HavingAll
     }
 
     /**
-     * @return Brewery[]|Collection
+     * @return Collection<Brewery>
      */
     public function getAll(): Collection
     {

@@ -8,12 +8,9 @@ use JsonSerializable;
 
 class Note implements JsonSerializable
 {
-    protected Brewery $brewery;
-
-    public function __construct(Brewery $brewery)
-    {
-        $this->brewery = $brewery;
-    }
+    public function __construct(
+        protected Brewery $brewery,
+    ) {}
 
     public function jsonSerialize(): array
     {
