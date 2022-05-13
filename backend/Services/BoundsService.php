@@ -11,7 +11,7 @@ use Illuminate\Support\Collection;
 class BoundsService
 {
     /**
-     * @param Collection|Boundable[] $collection
+     * @param Collection<Boundable> $collection
      */
     public static function setBounds(Collection $collection): void
     {

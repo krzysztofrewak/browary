@@ -11,19 +11,17 @@ use JsonSerializable;
 
 class Country implements JsonSerializable, Sluggable
 {
-    protected string $name;
-    protected string $original;
-    protected string $symbol;
     protected string $slug;
     protected Collection $breweries;
     protected Collection $tags;
     protected ?Extremes $extremes = null;
 
-    public function __construct(string $name, string $original, string $symbol, array $tags)
-    {
-        $this->name = $name;
-        $this->original = $original;
-        $this->symbol = $symbol;
+    public function __construct(
+        protected string $name,
+        protected string $original,
+        protected string $symbol,
+        array $tags,
+    ) {
         $this->slug = Str::slug($this->name);
         $this->breweries = new Collection();
         $this->tags = new Collection($tags);

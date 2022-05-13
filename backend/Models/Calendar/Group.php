@@ -14,13 +14,12 @@ use JsonSerializable;
 
 class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
 {
-    protected string $label;
     protected Collection $items;
     protected ?Extremes $extremes;
 
-    public function __construct(string $label)
-    {
-        $this->label = $label;
+    public function __construct(
+        protected string $label,
+    ) {
         $this->items = new Collection();
     }
 

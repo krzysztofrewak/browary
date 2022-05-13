@@ -12,15 +12,13 @@ use Illuminate\Support\Collection;
 
 class Item implements Sluggable, Boundable
 {
-    protected string $label;
-    protected string $slug;
     protected Collection $breweries;
     protected ?Extremes $extremes;
 
-    public function __construct(string $label, string $slug)
-    {
-        $this->label = $label;
-        $this->slug = $slug;
+    public function __construct(
+        protected string $label,
+        protected string $slug,
+    ) {
         $this->breweries = new Collection();
     }
 

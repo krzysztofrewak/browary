@@ -8,12 +8,9 @@ use JsonSerializable;
 
 class YearDetailed implements JsonSerializable
 {
-    protected Group $group;
-
-    public function __construct(Group $group)
-    {
-        $this->group = $group;
-    }
+    public function __construct(
+        protected Group $group,
+    ) {}
 
     public function jsonSerialize(): array
     {

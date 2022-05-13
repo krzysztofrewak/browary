@@ -11,15 +11,16 @@ use JsonSerializable;
 
 class Tag implements JsonSerializable, Sluggable
 {
-    protected string $name;
     protected string $slug;
-    /** @var Collection|Brewery[] */
+
+    /** @var Collection<Brewery> */
     protected Collection $breweries;
+
     protected ?Extremes $extremes = null;
 
-    public function __construct(string $name)
-    {
-        $this->name = $name;
+    public function __construct(
+        protected string $name,
+    ) {
         $this->slug = static::slug($this->name);
         $this->breweries = new Collection();
     }

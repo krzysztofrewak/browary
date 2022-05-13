@@ -13,22 +13,17 @@ use JsonSerializable;
 class Brewery implements JsonSerializable, Sluggable
 {
     protected int $id;
-    protected string $name;
     protected string $slug;
-    protected Location $location;
-    protected Carbon $date;
-    protected Trip $trip;
-    protected string $note;
     protected Collection $tags;
 
-    public function __construct(string $name, Location $location, Carbon $date, Trip $trip, string $note = "")
-    {
-        $this->name = $name;
+    public function __construct(
+        protected string $name,
+        protected Location $location,
+        protected Carbon $date,
+        protected Trip $trip,
+        protected string $note = "",
+    ) {
         $this->slug = Str::slug(title: $name, language: $location->getCountry()->getSymbol());
-        $this->location = $location;
-        $this->date = $date;
-        $this->trip = $trip;
-        $this->note = $note;
         $this->tags = new Collection();
     }
 

@@ -8,12 +8,9 @@ use JsonSerializable;
 
 class MonthDetailed implements JsonSerializable
 {
-    protected Item $item;
-
-    public function __construct(Item $item)
-    {
-        $this->item = $item;
-    }
+    public function __construct(
+        protected Item $item,
+    ) {}
 
     public function jsonSerialize(): array
     {

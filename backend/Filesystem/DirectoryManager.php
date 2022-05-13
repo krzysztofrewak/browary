@@ -11,8 +11,7 @@ class DirectoryManager
 {
     public function __construct(
         protected string $basePath,
-    ) {
-    }
+    ) {}
 
     public function create(string $directory): void
     {
@@ -34,7 +33,7 @@ class DirectoryManager
             );
 
             foreach ($files as $file) {
-                $action = ($file->isDir() ? "rmdir" : "unlink");
+                $action = $file->isDir() ? "rmdir" : "unlink";
                 $action($file->getRealPath());
             }
 

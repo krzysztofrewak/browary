@@ -9,12 +9,9 @@ use JsonSerializable;
 
 class CountryDetailed implements JsonSerializable
 {
-    protected Country $country;
-
-    public function __construct(Country $country)
-    {
-        $this->country = $country;
-    }
+    public function __construct(
+        protected Country $country,
+    ) {}
 
     public function jsonSerialize(): array
     {

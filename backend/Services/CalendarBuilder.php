@@ -7,7 +7,6 @@ namespace Brewmap\Services;
 use Brewmap\Collections\Breweries;
 use Brewmap\Models\Brewery;
 use Brewmap\Models\Calendar\Calendar;
-use Brewmap\Models\Calendar\Group;
 use Brewmap\Models\Calendar\Item;
 use Carbon\Carbon;
 
@@ -17,7 +16,6 @@ class CalendarBuilder
     {
         $calendar = new Calendar();
 
-        /** @var Group $year */
         /** @var Carbon $iterator */
         $iterator = $breweries->getAll()->last()->getDate()->copy()->startOfYear();
         $previousYear = null;

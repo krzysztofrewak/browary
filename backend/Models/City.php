@@ -12,19 +12,17 @@ use JsonSerializable;
 
 class City implements JsonSerializable, Sluggable
 {
-    protected string $name;
-    protected string $translation;
     protected string $slug;
-    protected Country $country;
     protected Collection $breweries;
     protected ?Extremes $extremes = null;
 
-    public function __construct(string $name, Country $country, string $translation = "", string $slug = "")
-    {
-        $this->name = $name;
-        $this->translation = $translation;
+    public function __construct(
+        protected string $name,
+        protected Country $country,
+        protected string $translation = "",
+        string $slug = "",
+    ) {
         $this->slug = $slug ?: static::slug($this->name);
-        $this->country = $country;
         $this->breweries = new Collection();
     }
 
