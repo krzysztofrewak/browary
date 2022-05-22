@@ -1,0 +1,47 @@
+{
+  "name": "czeskie podnóże Śnieżki, maj 2022",
+  "breweries": [
+    {
+      "name": "Pecký pivovar",
+      "visited": "2022-05-20",
+      "location": {
+        "country": "cz",
+        "city": "Pec pod Sněžkou",
+        "address": "Pec pod Sněžkou 124",
+        "coordinates": {
+          "lat": 50.70775840870583,
+          "lng": 15.73307230577405
+        }
+      },
+      "tags": [
+        "kraj hradecki",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "spotkanie z piwowarem",
+        "przybrowarniana restauracja"
+      ]
+    },
+    {
+      "name": "Pivovar Trautenberk",
+      "visited": "2022-05-20",
+      "location": {
+        "country": "cz",
+        "city": "Malá Úpa",
+        "address": "Horní Malá Úpa 87",
+        "coordinates": {
+          "lat": 50.74557487126414,
+          "lng": 15.821989366167504
+        }
+      },
+      "tags": [
+        "kraj hradecki",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "browar przygraniczny",
+        "instalacja MBS"
+      ]
+    }
+  ]
+}
