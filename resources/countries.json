@@ -210,6 +210,16 @@
         "Ameryka Północna",
         "państwa hiszpańskojęzyczne"
       ]
+    },
+    {
+      "symbol": "hr",
+      "name": "Chrowacja",
+      "original": "Hrvatska",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa byłej Jugosławii"
+      ]
     }
   ]
 }

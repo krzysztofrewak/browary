@@ -210,6 +210,15 @@
           "value": "Hawana"
         }
       ]
+    },
+    {
+      "name": "Žďár nad Sázavou",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Zdziar nad Sazawą"
+        }
+      ]
     }
   ]
 }

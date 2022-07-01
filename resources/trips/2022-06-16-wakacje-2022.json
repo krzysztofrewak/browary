@@ -1,0 +1,433 @@
+{
+  "name": "wakacje 2022",
+  "breweries": [
+    {
+      "name": "Pivovar Džekův ranč",
+      "visited": "2022-06-16",
+      "location": {
+        "country": "cz",
+        "city": "Ždírec nad Doubravou",
+        "address": "Žďárská 22",
+        "coordinates": {
+          "lat": 49.69652624464432,
+          "lng": 15.818968608592433
+        }
+      },
+      "tags": [
+        "kraj Wysoczyna",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "przybrowarniana restauracja",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Stöckl im Park",
+      "visited": "2022-06-17",
+      "location": {
+        "country": "at",
+        "city": "Wien",
+        "address": "Prinz Eugen-Straße 25",
+        "coordinates": {
+          "lat": 48.19270784876603,
+          "lng": 16.378979096408123
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar w parku"
+      ]
+    },
+    {
+      "name": "Wieden Bräu",
+      "visited": "2022-06-17",
+      "location": {
+        "country": "at",
+        "city": "Wien",
+        "address": "Waaggasse 5",
+        "coordinates": {
+          "lat": 48.19490044267005,
+          "lng": 16.366180985665913
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Muttermilch Vienna Brewery",
+      "visited": "2022-06-17",
+      "location": {
+        "country": "at",
+        "city": "Wien",
+        "address": "Gumpendorfer Straße 35 UG",
+        "coordinates": {
+          "lat": 48.198663577493384,
+          "lng": 16.3583602731005
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "brewpub",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Drunken Unicorn Beer Factory",
+      "visited": "2022-06-17",
+      "location": {
+        "country": "at",
+        "city": "Korneuburg",
+        "address": "Hauptplatz 33",
+        "coordinates": {
+          "lat": 48.34507177855567,
+          "lng": 16.332697525286793
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "mikrobrowar",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Brauerei Puntigam",
+      "visited": "2022-06-20",
+      "location": {
+        "country": "at",
+        "city": "Graz",
+        "address": "Triester Str. 357-359",
+        "coordinates": {
+          "lat": 47.02986065053947,
+          "lng": 15.433326649061488
+        }
+      },
+      "tags": [
+        "piwo spróbowane poza browarem",
+        "przybrowarniany sklep",
+        "browar koncernowy",
+        "koncern Brau Union"
+      ]
+    },
+    {
+      "name": "Vergal Brewery",
+      "visited": "2022-06-21",
+      "location": {
+        "country": "hr",
+        "city": "Savudrija",
+        "address": "Frančeskija 52 i",
+        "coordinates": {
+          "lat": 45.48774728148658,
+          "lng": 13.521155719657353
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Stazione Parenzana",
+      "visited": "2022-06-22",
+      "location": {
+        "country": "si",
+        "city": "Portorož",
+        "address": "Seča 81",
+        "coordinates": {
+          "lat": 45.49555786353086,
+          "lng": 13.612402324875768
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Birrificio Cittavecchia",
+      "visited": "2022-06-22",
+      "location": {
+        "country": "it",
+        "city": "Sgonico",
+        "address": "Z.A. Stazione di Prosecco, 29/e",
+        "coordinates": {
+          "lat": 45.70772491631968,
+          "lng": 13.747134829426134
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na wynos",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Birra Campagnolo",
+      "visited": "2022-06-22",
+      "location": {
+        "country": "it",
+        "city": "Muggia",
+        "address": "Str. delle Saline, 30",
+        "coordinates": {
+          "lat": 45.59739910961505,
+          "lng": 13.788830230639592
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Pivovarna 22brewing",
+      "visited": "2022-06-22",
+      "location": {
+        "country": "si",
+        "city": "Koper",
+        "address": "Čevljarska ulica 14",
+        "coordinates": {
+          "lat": 45.547290729719045,
+          "lng": 13.729311690057605
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na wynos",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Bujska pivovara San Servolo",
+      "visited": "2022-06-24",
+      "location": {
+        "country": "hr",
+        "city": "Buje",
+        "address": "Momjanska ulica 7a",
+        "coordinates": {
+          "lat": 45.42347096429943,
+          "lng": 13.676226456987855
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "mikrobrowar",
+        "piwo spróbowane poza browarem",
+        "browar z pizzerią"
+      ]
+    },
+    {
+      "name": "Bruman Craft Brewery",
+      "visited": "2022-06-24",
+      "location": {
+        "country": "hr",
+        "city": "Buzet",
+        "address": "Sv. Ivan 5",
+        "coordinates": {
+          "lat": 45.4058099149254,
+          "lng": 13.97481989229531
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na wynos",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Pivovarna Beerkinka",
+      "visited": "2022-06-24",
+      "location": {
+        "country": "si",
+        "city": "Kozina",
+        "address": "Reška cesta 43",
+        "coordinates": {
+          "lat": 45.60568051239123,
+          "lng": 13.946975020322975
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivovarna Gostilna Mahnič",
+      "visited": "2022-06-24",
+      "location": {
+        "country": "si",
+        "city": "Kozina",
+        "address": "Kolodvorska ulica 4",
+        "coordinates": {
+          "lat": 45.60458092842453,
+          "lng": 13.93402112648956
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivovarna Emonec",
+      "visited": "2022-06-24",
+      "location": {
+        "country": "si",
+        "city": "Koper",
+        "address": "Vanganelska cesta 20",
+        "coordinates": {
+          "lat": 45.52785417539927,
+          "lng": 13.739031739826707
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Kampanjola",
+      "visited": "2022-06-27",
+      "location": {
+        "country": "hr",
+        "city": "Svetvinčenat",
+        "address": "Svetvincenat 3",
+        "coordinates": {
+          "lat": 45.08670608136793,
+          "lng": 13.88103246310286
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na wynos",
+        "spotkanie z piwowarem",
+        "piwo spróbowane poza browarem"
+      ]
+    },
+    {
+      "name": "Fabrika Bire",
+      "visited": "2022-06-27",
+      "location": {
+        "country": "hr",
+        "city": "Vodnjan",
+        "address": "Trgovačka ul. 46",
+        "coordinates": {
+          "lat": 44.96116648922301,
+          "lng": 13.852325542951998
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Pivovarna Kostanj",
+      "visited": "2022-06-29",
+      "location": {
+        "country": "si",
+        "city": "Gornja Radgona",
+        "address": "Ptujska Cesta 45",
+        "coordinates": {
+          "lat": 46.63757447345165,
+          "lng": 15.998884100721629
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar z pizzerią"
+      ]
+    },
+    {
+      "name": "Brauhaus Bevog",
+      "visited": "2022-06-29",
+      "location": {
+        "country": "at",
+        "city": "Bad Radkersburg",
+        "address": "Gewerbepark B 9",
+        "coordinates": {
+          "lat": 46.68613520251829,
+          "lng": 16.011359429397054
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "mikrobrowar",
+        "piwo spróbowane poza browarem",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Pivovarská restaurace Galant",
+      "visited": "2022-06-30",
+      "location": {
+        "country": "cz",
+        "city": "Mikulov",
+        "address": "Mlýnská 739",
+        "coordinates": {
+          "lat": 48.807628648266714,
+          "lng": 16.64059980537972
+        }
+      },
+      "tags": [
+        "kraj południowomorawski",
+        "browar restauracyjny",
+        "piwo spróbowane na wynos",
+        "browar hotelowy"
+      ]
+    },
+    {
+      "name": "Wild Creatures",
+      "visited": "2022-06-30",
+      "location": {
+        "country": "cz",
+        "city": "Dolní Dunajovice",
+        "address": "Dolní Dunajovice",
+        "coordinates": {
+          "lat": 48.85661254048731,
+          "lng": 16.57733098026235
+        }
+      },
+      "tags": [
+        "kraj południowomorawski",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na wynos",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Pivovar Revolta",
+      "visited": "2022-06-30",
+      "location": {
+        "country": "cz",
+        "city": "Žďár nad Sázavou",
+        "address": "nám. Republiky 64/14",
+        "coordinates": {
+          "lat": 49.562217517004534,
+          "lng": 15.939546870475231
+        }
+      },
+      "tags": [
+        "kraj Wysoczyna",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    }
+  ]
+}
