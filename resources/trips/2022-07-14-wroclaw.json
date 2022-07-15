@@ -1,0 +1,24 @@
+{
+  "name": "Wrocław, lipiec 2022",
+  "breweries": [
+    {
+      "name": "Piwnica Świdnicka",
+      "visited": "2022-07-14",
+      "location": {
+        "country": "pl",
+        "city": "Wrocław",
+        "address": "Rynek Ratusz 1A",
+        "coordinates": {
+          "lat": 51.1095541585734,
+          "lng": 17.03201756261707
+        }
+      },
+      "tags": [
+        "województwo dolnośląskie",
+        "obejrzany sprzęt",
+        "instalacja Kaspar Schulz",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}
