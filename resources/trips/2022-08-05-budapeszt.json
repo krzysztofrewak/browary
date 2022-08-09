@@ -1,0 +1,116 @@
+{
+  "name": "Budapeszt, sierpień 2022",
+  "breweries": [
+    {
+      "name": "Gravity Brewing",
+      "visited": "2022-08-05",
+      "location": {
+        "country": "hu",
+        "city": "Budapest",
+        "address": "Lónyay u. 22",
+        "coordinates": {
+          "lat": 47.485834565698156,
+          "lng": 19.062268663057505
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Ruin Brew",
+      "visited": "2022-08-06",
+      "location": {
+        "country": "hu",
+        "city": "Budapest",
+        "address": "Akácfa u. 54-56",
+        "coordinates": {
+          "lat": 47.50109272342491,
+          "lng": 19.06432867711624
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Parabolic Lázárus Brewery",
+      "visited": "2022-08-06",
+      "location": {
+        "country": "hu",
+        "city": "Budapest",
+        "address": "Lázár u. 4",
+        "coordinates": {
+          "lat": 47.50229892062639,
+          "lng": 19.056075891721093
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "spotkanie z piwowarem",
+        "instalacja Brewiks",
+        "piwo spróbowane z tanka"
+      ]
+    },
+    {
+      "name": "FIRST Craft Beer Brewery",
+      "visited": "2022-08-06",
+      "location": {
+        "country": "hu",
+        "city": "Budapest",
+        "address": "Váci út 83",
+        "coordinates": {
+          "lat": 47.58100146790265,
+          "lng": 19.082021250866777
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Horizont Brewing",
+      "visited": "2022-08-08",
+      "location": {
+        "country": "hu",
+        "city": "Budapest",
+        "address": "Maglódi út 47",
+        "coordinates": {
+          "lat": 47.48286089692116,
+          "lng": 19.15463845733133
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "mikrobrowar",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Mad Scientist",
+      "visited": "2022-08-08",
+      "location": {
+        "country": "hu",
+        "city": "Budapest",
+        "address": "Maglódi út 47",
+        "coordinates": {
+          "lat": 47.48340902770054,
+          "lng": 19.155801168941256
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar"
+      ]
+    }
+  ]
+}

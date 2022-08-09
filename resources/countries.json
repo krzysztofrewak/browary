@@ -220,6 +220,15 @@
         "państwa Unii Europejskiej",
         "państwa byłej Jugosławii"
       ]
+    },
+    {
+      "symbol": "hu",
+      "name": "Węgry",
+      "original": "Magyarország",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
+      ]
     }
   ]
 }

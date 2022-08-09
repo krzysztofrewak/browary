@@ -219,6 +219,15 @@
           "value": "Zdziar nad Sazawą"
         }
       ]
+    },
+    {
+      "name": "Budapest",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Budapeszt"
+        }
+      ]
     }
   ]
 }
