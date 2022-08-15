@@ -1,0 +1,80 @@
+{
+  "name": "kraj żyliński, sierpień 2022",
+  "breweries": [
+    {
+      "name": "Pivovar a pivovarská reštaurácia Liptovar",
+      "visited": "2022-08-14",
+      "location": {
+        "country": "sk",
+        "city": "Liptovský Mikuláš",
+        "address": "Garbiarska 2032",
+        "coordinates": {
+          "lat": 49.080949638220396,
+          "lng": 19.617414418471885
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Pivovar Maravar",
+      "visited": "2022-08-14",
+      "location": {
+        "country": "sk",
+        "city": "Liptovský Trnovec",
+        "address": "Liptovský Trnovec 335",
+        "coordinates": {
+          "lat": 49.11224682285181,
+          "lng": 19.545420989497156
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "destylarnia",
+        "piwne spa"
+      ]
+    },
+    {
+      "name": "Pivovar Buc Kvačany",
+      "visited": "2022-08-14",
+      "location": {
+        "country": "sk",
+        "city": "Kvačany",
+        "address": "Kvačany 88",
+        "coordinates": {
+          "lat": 49.17126326036279,
+          "lng": 19.54213122570108
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Brovar 16 Petrus Wachenius",
+      "visited": "2022-08-15",
+      "location": {
+        "country": "pl",
+        "city": "Pszczyna",
+        "address": "Rynek 16",
+        "coordinates": {
+          "lat": 49.977321878787194,
+          "lng": 18.94200345727452
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar przy rynku"
+      ]
+    }
+  ]
+}

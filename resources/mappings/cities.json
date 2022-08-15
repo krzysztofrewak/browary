@@ -228,6 +228,33 @@
           "value": "Budapeszt"
         }
       ]
+    },
+    {
+      "name": "Liptovský Mikuláš",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Liptowski Mikułasz"
+        }
+      ]
+    },
+    {
+      "name": "Liptovský Trnovec",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Liptowski Tarnowiec"
+        }
+      ]
+    },
+    {
+      "name": "Kvačany",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Kwaczany"
+        }
+      ]
     }
   ]
 }
