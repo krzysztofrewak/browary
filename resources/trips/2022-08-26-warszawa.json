@@ -1,0 +1,67 @@
+{
+  "name": "Warszawa i okolice, sierpień 2022",
+  "breweries": [
+    {
+      "name": "Browar Artezan",
+      "visited": "2022-08-26",
+      "location": {
+        "country": "pl",
+        "city": "Błonie",
+        "address": "Grodziska 15",
+        "coordinates": {
+          "lat": 52.18539839056872,
+          "lng": 20.61479099265248
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep",
+        "województwo mazowieckie",
+        "spotkanie z piwowarem",
+        "piwo spróbowane poza browarem",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Browar Błonie",
+      "visited": "2022-08-26",
+      "location": {
+        "country": "pl",
+        "city": "Błonie",
+        "address": "Grodziska 15",
+        "coordinates": {
+          "lat": 52.18303533388968,
+          "lng": 20.61356120733247
+        }
+      },
+      "tags": [
+        "browar regionalny",
+        "obejrzany sprzęt",
+        "województwo mazowieckie",
+        "piwo spróbowane poza browarem"
+      ]
+    },
+    {
+      "name": "Browar Warszawski",
+      "visited": "2022-08-27",
+      "location": {
+        "country": "pl",
+        "city": "Warszawa",
+        "address": "Grzybowska 60",
+        "coordinates": {
+          "lat": 52.23494446251658,
+          "lng": 20.987544628339464
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "województwo mazowieckie",
+        "instalacja Ziptech",
+        "browar w byłym browarze"
+      ]
+    }
+  ]
+}
