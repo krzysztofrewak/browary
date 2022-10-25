@@ -1,0 +1,24 @@
+{
+  "name": "Liberec, październik 2022",
+  "breweries": [
+    {
+      "name": "Pivovar Kousek Piva",
+      "visited": "2022-10-22",
+      "location": {
+        "country": "cz",
+        "city": "Liberec",
+        "address": "328/10, Hanychovská",
+        "coordinates": {
+          "lat": 50.75864808040541,
+          "lng": 15.043572259460044
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "kraj liberecki",
+        "piwo spróbowane na miejscu"
+      ]
+    }
+  ]
+}
