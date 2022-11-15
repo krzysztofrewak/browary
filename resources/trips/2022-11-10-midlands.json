@@ -1,0 +1,558 @@
+{
+  "name": "Midlands, listopad 2022",
+  "breweries": [
+    {
+      "name": "Attic Brew Co.",
+      "visited": "2022-11-10",
+      "location": {
+        "country": "gb",
+        "city": "Birmingham",
+        "address": "29B Mary Vale Rd, Stirchley",
+        "coordinates": {
+          "lat": 52.426596193351386,
+          "lng": -1.9253176336765307
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Birmingham Brewing Company",
+      "visited": "2022-11-10",
+      "location": {
+        "country": "gb",
+        "city": "Birmingham",
+        "address": "Unit 17, Stirchley Trading Estate, Hazelwell Rd, Stirchley",
+        "coordinates": {
+          "lat": 52.427142435880334,
+          "lng": -1.9176893843391507
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Indian Brewery",
+      "visited": "2022-11-10",
+      "location": {
+        "country": "gb",
+        "city": "Birmingham",
+        "address": "Expressway Industrial Estate, Unit 5 Aston, Pritchett St",
+        "coordinates": {
+          "lat": 52.49051811200772,
+          "lng": -1.890347283426839
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Two Towers Brewery",
+      "visited": "2022-11-10",
+      "location": {
+        "country": "gb",
+        "city": "Birmingham",
+        "address": "29 Shadwell St",
+        "coordinates": {
+          "lat": 52.48668256233813,
+          "lng": -1.8969825298676088
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Rock & Roll Brewery",
+      "visited": "2022-11-10",
+      "location": {
+        "country": "gb",
+        "city": "Birmingham",
+        "address": "19 Hall St",
+        "coordinates": {
+          "lat": 52.487941056336446,
+          "lng": -1.908914846354737
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Sommar Brewing Company",
+      "visited": "2022-11-10",
+      "location": {
+        "country": "gb",
+        "city": "Birmingham",
+        "address": "19 Hall St",
+        "coordinates": {
+          "lat": 52.479165910030325,
+          "lng": -1.9148187854865206
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Bathams Brewery",
+      "visited": "2022-11-11",
+      "location": {
+        "country": "gb",
+        "city": "Brierley Hill",
+        "address": "10 Delph Rd.",
+        "coordinates": {
+          "lat": 52.474442153432086,
+          "lng": -2.1155180490726844
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "The Fownes Brewing Company",
+      "visited": "2022-11-11",
+      "location": {
+        "country": "gb",
+        "city": "Brierley Hill",
+        "address": "Estate, Unit 2 Two Woods Ln, Talbots Ln",
+        "coordinates": {
+          "lat": 52.47442829682746,
+          "lng": -2.110857098923445
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Printworks Brewery",
+      "visited": "2022-11-11",
+      "location": {
+        "country": "gb",
+        "city": "Lye",
+        "address": "7 Stourbridge Rd",
+        "coordinates": {
+          "lat": 52.45829390444866,
+          "lng": -2.1180187347519914
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "brewpub",
+        "destylarnia",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "The Britt Brewery",
+      "visited": "2022-11-11",
+      "location": {
+        "country": "gb",
+        "city": "Rowley Regis",
+        "address": "18 Rowley Village",
+        "coordinates": {
+          "lat": 52.48126871237713,
+          "lng": -2.0424761663969044
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Halton Turner Brewing Company",
+      "visited": "2022-11-11",
+      "location": {
+        "country": "gb",
+        "city": "Birmingham",
+        "address": "1, Rea Court, 40 Trent St",
+        "coordinates": {
+          "lat": 52.47676928410388,
+          "lng": -1.8861272641566311
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Dig Brew Co.",
+      "visited": "2022-11-11",
+      "location": {
+        "country": "gb",
+        "city": "Birmingham",
+        "address": "43 River St, Deritend",
+        "coordinates": {
+          "lat": 52.47740632767759,
+          "lng": -1.8828859325004152
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Brewhouse & Kitchen - Sutton Coldfield",
+      "visited": "2022-11-12",
+      "location": {
+        "country": "gb",
+        "city": "Sutton Coldfield",
+        "address": "The Cup, 8 Birmingham Rd",
+        "coordinates": {
+          "lat": 52.559539521579055,
+          "lng": -1.826421207438004
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "Anglia",
+        "sieć Brewhouse & Kitchen",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Brewhouse & Kitchen - Lichfield",
+      "visited": "2022-11-12",
+      "location": {
+        "country": "gb",
+        "city": "Lichfield",
+        "address": "1 Bird St",
+        "coordinates": {
+          "lat": 52.68220308826323,
+          "lng": -1.8294566367131964
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "Anglia",
+        "sieć Brewhouse & Kitchen"
+      ]
+    },
+    {
+      "name": "Trinity Brew Co.",
+      "visited": "2022-11-12",
+      "location": {
+        "country": "gb",
+        "city": "Lichfield",
+        "address": "Unit 4 The Shires, Essington Cl",
+        "coordinates": {
+          "lat": 52.67390074842085,
+          "lng": -1.8330380480569242
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Burton Town Brewery",
+      "visited": "2022-11-12",
+      "location": {
+        "country": "gb",
+        "city": "Burton upon Trent",
+        "address": "8 Falcon Cl",
+        "coordinates": {
+          "lat": 52.81539983849885,
+          "lng": -1.6283216699591256
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Tower Brewery",
+      "visited": "2022-11-12",
+      "location": {
+        "country": "gb",
+        "city": "Burton upon Trent",
+        "address": "Glensyl Way",
+        "coordinates": {
+          "lat": 52.81264228057036,
+          "lng": -1.6269108323067347
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "Anglia",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Burton Bridge Brewery",
+      "visited": "2022-11-12",
+      "location": {
+        "country": "gb",
+        "city": "Burton upon Trent",
+        "address": "24 Bridge St",
+        "coordinates": {
+          "lat": 52.806863975035895,
+          "lng": -1.6254463455774129
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Brunswick Brewery",
+      "visited": "2022-11-12",
+      "location": {
+        "country": "gb",
+        "city": "Derby",
+        "address": "1 Railway Terrace",
+        "coordinates": {
+          "lat": 52.91831125856028,
+          "lng": -1.4641171864909526
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Mr Grundy's Brewery",
+      "visited": "2022-11-12",
+      "location": {
+        "country": "gb",
+        "city": "Derby",
+        "address": "32-34 Ashbourne Rd",
+        "coordinates": {
+          "lat": 52.925992122779604,
+          "lng": -1.4928549533499047
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "The Falstaff Brewery",
+      "visited": "2022-11-12",
+      "location": {
+        "country": "gb",
+        "city": "Derby",
+        "address": "The Falstaff, 74 Silver Hill Rd",
+        "coordinates": {
+          "lat": 52.91048804663973,
+          "lng": -1.4800979268460648
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "The Furnace Inn Brewpub",
+      "visited": "2022-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Derby",
+        "address": "9 Duke St",
+        "coordinates": {
+          "lat": 52.928838798879625,
+          "lng": -1.4765929423328477
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Nottingham Brewery Ltd",
+      "visited": "2022-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Nottingham",
+        "address": "17 St Peter's St, Radford",
+        "coordinates": {
+          "lat": 52.958285390468035,
+          "lng": -1.1804326864772006
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "The Angel Microbrewery",
+      "visited": "2022-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Nottingham",
+        "address": "7 Stoney St",
+        "coordinates": {
+          "lat": 52.95335037688717,
+          "lng": -1.1434517288302768
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Neon Raptor Brewing Company",
+      "visited": "2022-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Nottingham",
+        "address": "Sneinton Market, Unit 14 Avenue A",
+        "coordinates": {
+          "lat": 52.95368005479277,
+          "lng": -1.138201113336936
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Liquid Light Brewing Company",
+      "visited": "2022-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Nottingham",
+        "address": "Unit 9, Robin Hood Industrial Estate, Alfred St S",
+        "coordinates": {
+          "lat": 52.956470310779665,
+          "lng": -1.1355589979354535
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Brewhouse & Kitchen - Nottingham",
+      "visited": "2022-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Nottingham",
+        "address": "Trent Bridge",
+        "coordinates": {
+          "lat": 52.938667103268365,
+          "lng": -1.1375990135135383
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "Anglia",
+        "sieć Brewhouse & Kitchen"
+      ]
+    },
+    {
+      "name": "Navigation Brewery",
+      "visited": "2022-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Nottingham",
+        "address": "17 Meadow Ln",
+        "coordinates": {
+          "lat": 52.94114409211974,
+          "lng": -1.1382686855675561
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Castle Rock Brewery",
+      "visited": "2022-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Nottingham",
+        "address": "Queensbridge Rd",
+        "coordinates": {
+          "lat": 52.945632715555405,
+          "lng": -1.148511735682339
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar regionalny",
+        "piwo spróbowane na miejscu",
+        "Anglia"
+      ]
+    }
+  ]
+}
