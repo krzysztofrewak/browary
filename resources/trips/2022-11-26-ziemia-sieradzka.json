@@ -1,0 +1,45 @@
+{
+  "name": "ziemia sieradzka, listopad 2022",
+  "breweries": [
+    {
+      "name": "Nadwarciański Browar",
+      "visited": "2022-11-26",
+      "location": {
+        "country": "pl",
+        "city": "Pątnów",
+        "address": "Pątnów 74",
+        "coordinates": {
+          "lat": 51.143601145763746,
+          "lng": 18.61624054061129
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "województwo łódzkie",
+        "piwo spróbowane na wynos",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Metalurgia - restauracja & browar",
+      "visited": "2022-11-27",
+      "location": {
+        "country": "pl",
+        "city": "Radomsko",
+        "address": "Metalurgii 7",
+        "coordinates": {
+          "lat": 51.07300042825987,
+          "lng": 19.442075578778603
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "województwo łódzkie",
+        "piwo spróbowane na miejscu",
+        "instalacja S-Brewery"
+      ]
+    }
+  ]
+}
