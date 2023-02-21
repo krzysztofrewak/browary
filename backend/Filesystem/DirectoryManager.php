@@ -15,7 +15,7 @@ class DirectoryManager
 
     public function create(string $directory): void
     {
-        $directory = $this->basePath . "/public/api/${directory}";
+        $directory = $this->basePath . "/public/api/{$directory}";
 
         if (!file_exists($directory)) {
             mkdir($directory, 0777, true);

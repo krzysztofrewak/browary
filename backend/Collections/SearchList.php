@@ -36,6 +36,6 @@ class SearchList implements JsonSerializable
         $city = $brewery->getCity()->getName();
         $country = $brewery->getCountry()->getName();
 
-        return "browar (${city}, ${country})";
+        return "browar ({$city}, {$country})";
     }
 }

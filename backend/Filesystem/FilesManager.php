@@ -31,6 +31,6 @@ class FilesManager
 
     protected function filename(Sluggable $item, string $directory): string
     {
-        return "${directory}/{$item->getSlug()}.json";
+        return "{$directory}/{$item->getSlug()}.json";
     }
 }

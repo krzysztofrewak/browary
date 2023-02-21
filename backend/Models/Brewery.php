@@ -44,7 +44,7 @@ class Brewery implements JsonSerializable, Sluggable
 
     public function updateSlug(int $index): void
     {
-        $this->slug .= "-${index}";
+        $this->slug .= "-{$index}";
     }
 
     public function setId(int $id): void
