@@ -255,6 +255,15 @@
           "value": "Kwaczany"
         }
       ]
+    },
+    {
+      "name": "Praha",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Praga"
+        }
+      ]
     }
   ]
 }

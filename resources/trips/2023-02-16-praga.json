@@ -1,0 +1,453 @@
+{
+  "name": "Praga, ferie 2023",
+  "breweries": [
+    {
+      "name": "Pivovarský dům Benedict",
+      "visited": "2023-02-16",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Ječná 511/16",
+        "coordinates": {
+          "lat": 50.075422488324605,
+          "lng": 14.423799347348048
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "U Fleků",
+      "visited": "2023-02-16",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Křemencova 11",
+        "coordinates": {
+          "lat": 50.078843396774204,
+          "lng": 14.417008387993862
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "instalacja Caspary"
+      ]
+    },
+    {
+      "name": "Pivovar Národní",
+      "visited": "2023-02-16",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Národní 8",
+        "coordinates": {
+          "lat": 50.08125869929907,
+          "lng": 14.415234923285242
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Pivovar Vojanův Dvůr",
+      "visited": "2023-02-16",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "U Lužického semináře 21",
+        "coordinates": {
+          "lat": 50.08968493646166,
+          "lng": 14.409661820393634
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Pivovar U Tří růží",
+      "visited": "2023-02-16",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Husova 232/10",
+        "coordinates": {
+          "lat": 50.0856307780061,
+          "lng": 14.418385595272055
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivovar U Medvídků",
+      "visited": "2023-02-16",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Na Perštýně 345/7",
+        "coordinates": {
+          "lat": 50.082863325007644,
+          "lng": 14.41877175875384
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar hotelowy"
+      ]
+    },
+    {
+      "name": "Pivovar Staropramen",
+      "visited": "2023-02-17",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Pivovarská",
+        "coordinates": {
+          "lat": 50.068148871269464,
+          "lng": 14.407494861980211
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
+        "browar koncernowy",
+        "koncern Molson Coors",
+        "zorganizowana wycieczka",
+        "muzeum"
+      ]
+    },
+    {
+      "name": "Andělský pivovar",
+      "visited": "2023-02-17",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Lidická 337/30",
+        "coordinates": {
+          "lat": 50.0723200177679,
+          "lng": 14.405995380665823
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Klášterní Pivovar Strahov",
+      "visited": "2023-02-17",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Strahovské nádvoří 301",
+        "coordinates": {
+          "lat": 50.08683610798252,
+          "lng": 14.38837873486276
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar klasztorny"
+      ]
+    },
+    {
+      "name": "Pivovar Bubeneč",
+      "visited": "2023-02-17",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Bubenečská 321/33",
+        "coordinates": {
+          "lat": 50.10121571235178,
+          "lng": 14.404405650659212
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Pivovar a café Lajka",
+      "visited": "2023-02-17",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "U Akademie 366/11",
+        "coordinates": {
+          "lat": 50.102378573223035,
+          "lng": 14.424458208784891
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Pivovar Marina",
+      "visited": "2023-02-17",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Jankovcova 1059",
+        "coordinates": {
+          "lat": 50.10604324084051,
+          "lng": 14.45660820663914
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar nad rzeką"
+      ]
+    },
+    {
+      "name": "Loď Pivovar",
+      "visited": "2023-02-17",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Štefánikův most Dvořákovo nábřeží Kotviště číslo 19",
+        "coordinates": {
+          "lat": 50.093604593844475,
+          "lng": 14.42651888840683
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar na wodzie",
+        "browar na łodzi",
+        "browar nad rzeką"
+      ]
+    },
+    {
+      "name": "U Dvou koček",
+      "visited": "2023-02-18",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Uhelný trh 415",
+        "coordinates": {
+          "lat": 50.0835701515813,
+          "lng": 14.42050383613333
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivovar OSSEGG Praha",
+      "visited": "2023-02-18",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Římská 2135/45",
+        "coordinates": {
+          "lat": 50.076632501239196,
+          "lng": 14.438672786491523
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Vinohradský Pivovar",
+      "visited": "2023-02-18",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Korunní 106",
+        "coordinates": {
+          "lat": 50.075275805342976,
+          "lng": 14.457587619696712
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivovar Victor",
+      "visited": "2023-02-18",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Husitská 72",
+        "coordinates": {
+          "lat": 50.08681224873746,
+          "lng": 14.450118071990257
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivo Karlín",
+      "visited": "2023-02-18",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Pernerova 691/42",
+        "coordinates": {
+          "lat": 50.09168602905916,
+          "lng": 14.457556592932951
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Dva kohouti",
+      "visited": "2023-02-18",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Sokolovská 81/55",
+        "coordinates": {
+          "lat": 50.093469249260174,
+          "lng": 14.446904371725898
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Sousedský Pivovar Bašta",
+      "visited": "2023-02-18",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Táborská 389/49",
+        "coordinates": {
+          "lat": 50.06286205915543,
+          "lng": 14.439821183386906
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivovar Hostivar H2",
+      "visited": "2023-02-19",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Hornoměcholupská 750/115",
+        "coordinates": {
+          "lat": 50.049332109538334,
+          "lng": 14.562097318054379
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Pivovar Hostivar",
+      "visited": "2023-02-19",
+      "location": {
+        "country": "cz",
+        "city": "Praha",
+        "address": "Lochotínská 656",
+        "coordinates": {
+          "lat": 50.046301998990344,
+          "lng": 14.54929887895169
+        }
+      },
+      "tags": [
+        "miasto wydzielone Praga",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Pivovar Svijany",
+      "visited": "2023-02-19",
+      "location": {
+        "country": "cz",
+        "city": "Svijany",
+        "address": "Svijany 25",
+        "coordinates": {
+          "lat": 50.57255193024966,
+          "lng": 15.054072741457345
+        }
+      },
+      "tags": [
+        "kraj liberecki",
+        "piwo spróbowane poza browarem",
+        "piwo spróbowane na wynos",
+        "browar regionalny",
+        "grupa Liberec Investment Fund",
+        "przybrowarniany sklep",
+        "przybrowarniana restauracja"
+      ]
+    }
+  ]
+}
