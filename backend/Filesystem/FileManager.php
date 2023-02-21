@@ -15,7 +15,7 @@ class FileManager
     public function save(JsonSerializable $resource, string $filename): void
     {
         file_put_contents(
-            filename: $this->basePath . "/public/api/${filename}",
+            filename: $this->basePath . "/public/api/{$filename}",
             data: json_encode($resource, JSON_UNESCAPED_UNICODE),
         );
     }
