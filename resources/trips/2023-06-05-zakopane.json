@@ -1,0 +1,64 @@
+{
+  "name": "Zakopane, czerwiec 2023",
+  "breweries": [
+    {
+      "name": "Browar Gwarno",
+      "visited": "2023-06-05",
+      "location": {
+        "country": "pl",
+        "city": "Zakopane",
+        "address": "Na Gubałówkę 7",
+        "coordinates": {
+          "lat": 49.29863150514623,
+          "lng": 19.94598115322449
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "województwo małopolskie",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Browar Pstrąg Górski",
+      "visited": "2023-06-05",
+      "location": {
+        "country": "pl",
+        "city": "Zakopane",
+        "address": "Krupówki 6a",
+        "coordinates": {
+          "lat": 49.295828409703,
+          "lng": 19.949695052364685
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "województwo małopolskie",
+        "odwiedzony przedpremierowo"
+      ]
+    },
+    {
+      "name": "Browar Watra",
+      "visited": "2023-06-05",
+      "location": {
+        "country": "pl",
+        "city": "Zakopane",
+        "address": "Hr. Władysława Zamoyskiego 2",
+        "coordinates": {
+          "lat": 49.29094538608855,
+          "lng": 19.961223228551177
+        }
+      },
+      "tags": [
+        "instalacja Salm",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "województwo małopolskie",
+        "piwo spróbowane na miejscu"
+      ]
+    }
+  ]
+}
