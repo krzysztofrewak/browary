@@ -1,0 +1,82 @@
+{
+  "name": "Amsterdam, lipiec 2023",
+  "breweries": [
+    {
+      "name": "Butcher's Tears Brewery",
+      "visited": "2023-07-06",
+      "location": {
+        "country": "nl",
+        "city": "Amsterdam",
+        "address": "Karperweg 45",
+        "coordinates": {
+          "lat": 52.34718700392995,
+          "lng": 4.853574055495082
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "prowincja Holandia Północna"
+      ]
+    },
+    {
+      "name": "Brouwerij Asperius",
+      "visited": "2023-07-06",
+      "location": {
+        "country": "nl",
+        "city": "Amsterdam",
+        "address": "Bilderdijkstraat 188 H",
+        "coordinates": {
+          "lat": 52.36658077733126,
+          "lng": 4.87223532365852
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "prowincja Holandia Północna"
+      ]
+    },
+    {
+      "name": "Brouwerij Troost De Pijp",
+      "visited": "2023-07-06",
+      "location": {
+        "country": "nl",
+        "city": "Amsterdam",
+        "address": "Cornelis Troostplein 21",
+        "coordinates": {
+          "lat": 52.35046687791919,
+          "lng": 4.891015323812417
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "prowincja Holandia Północna"
+      ]
+    },
+    {
+      "name": "Lion's Head Brewery",
+      "visited": "2023-07-06",
+      "location": {
+        "country": "nl",
+        "city": "Amsterdam",
+        "address": "Van Woustraat 36",
+        "coordinates": {
+          "lat": 52.356512887209064,
+          "lng": 4.899671946910357
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "browar w podziemiu",
+        "prowincja Holandia Północna"
+      ]
+    }
+  ]
+}
