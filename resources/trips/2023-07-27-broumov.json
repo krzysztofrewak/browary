@@ -1,0 +1,26 @@
+{
+  "name": "Broumov, lipiec 2023",
+  "breweries": [
+    {
+      "name": "Pivovar Olivetín",
+      "visited": "2023-07-27",
+      "location": {
+        "country": "cz",
+        "city": "Broumov",
+        "address": "tř. Osvobození 55, Velká Ves",
+        "coordinates": {
+          "lat": 50.60397152491573,
+          "lng": 16.334775583603054
+        }
+      },
+      "tags": [
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "przybrowarniany sklep",
+        "muzeum",
+        "kraj hradecki",
+        "browar regionalny"
+      ]
+    }
+  ]
+}
