@@ -1,0 +1,29 @@
+{
+  "name": "Tychy, sierpień 2023",
+  "breweries": [
+    {
+      "name": "Browar Książęcy w Tychach",
+      "visited": "2023-08-11",
+      "location": {
+        "country": "pl",
+        "city": "Tychy",
+        "address": "Mikołowska 5",
+        "coordinates": {
+          "lat": 50.131566311345786,
+          "lng": 18.985991351278194
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
+        "przybrowarniany sklep",
+        "zorganizowana wycieczka",
+        "muzeum",
+        "browar koncernowy",
+        "koncern Asahi",
+        "grupa Kompania Piwowarska",
+        "województwo śląskie"
+      ]
+    }
+  ]
+}
