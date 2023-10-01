@@ -1,0 +1,24 @@
+{
+  "name": "Spreewald, wrzesień 2023",
+  "breweries": [
+    {
+      "name": "Spreewälder Privatbrauerei 1788",
+      "visited": "2023-09-29",
+      "location": {
+        "country": "de",
+        "city": "Schlepzig",
+        "address": "Dorfstraße 53",
+        "coordinates": {
+          "lat": 52.02896020723814,
+          "lng": 13.888702329583802
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "kraj związkowy Brandenburgia"
+      ]
+    }
+  ]
+}
