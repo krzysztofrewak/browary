@@ -1,0 +1,29 @@
+{
+  "name": "Zator, wrzesień 2023",
+  "breweries": [
+    {
+      "name": "Browar Brokreacja",
+      "visited": "2023-09-28",
+      "location": {
+        "country": "pl",
+        "city": "Zator",
+        "address": "Stanisława Staszica 33",
+        "coordinates": {
+          "lat": 49.9977289277111,
+          "lng": 19.426289627846582
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "przybrowarniany sklep",
+        "przybrowarniana restauracja",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "województwo małopolskie",
+        "odwiedzony przedpremierowo"
+      ]
+    }
+  ]
+}
