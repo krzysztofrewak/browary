@@ -264,6 +264,24 @@
           "value": "Praga"
         }
       ]
+    },
+    {
+      "name": "Torino",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Turyn"
+        }
+      ]
+    },
+    {
+      "name": "Milano",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Mediolan"
+        }
+      ]
     }
   ]
 }

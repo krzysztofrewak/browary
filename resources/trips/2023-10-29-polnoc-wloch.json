@@ -1,0 +1,160 @@
+{
+  "name": "północ Włoch, jesień 2023",
+  "breweries": [
+    {
+      "name": "Birrificio La Piazza",
+      "visited": "2023-10-29",
+      "location": {
+        "country": "it",
+        "city": "Torino",
+        "address": "Via Jacopo Durandi, 13",
+        "coordinates": {
+          "lat": 45.08200590245423,
+          "lng": 7.659507242583646
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "region Piemont"
+      ]
+    },
+    {
+      "name": "Birrificio Torino",
+      "visited": "2023-10-29",
+      "location": {
+        "country": "it",
+        "city": "Torino",
+        "address": "Via Parma, 30",
+        "coordinates": {
+          "lat": 45.07812663586788,
+          "lng": 7.6931419153342935
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "region Piemont"
+      ]
+    },
+    {
+      "name": "EDIT Torino",
+      "visited": "2023-10-30",
+      "location": {
+        "country": "it",
+        "city": "Torino",
+        "address": "Piazza Teresa Noce, 15/A",
+        "coordinates": {
+          "lat": 45.09038798940792,
+          "lng": 7.6853488000000185
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "spotkanie z piwowarem",
+        "region Piemont"
+      ]
+    },
+    {
+      "name": "EDIT Torino",
+      "visited": "2023-10-30",
+      "location": {
+        "country": "it",
+        "city": "Torino",
+        "address": "Piazza Teresa Noce, 15/A",
+        "coordinates": {
+          "lat": 45.07812663586788,
+          "lng": 7.6931419153342935
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "spotkanie z piwowarem",
+        "region Piemont"
+      ]
+    },
+    {
+      "name": "Personal Brewery",
+      "visited": "2023-10-30",
+      "location": {
+        "country": "it",
+        "city": "Milano",
+        "address": "Via Rombon, 97",
+        "coordinates": {
+          "lat": 45.487968431526404,
+          "lng": 9.255598813520212
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "region Lombardia",
+        "browar edukacyjny"
+      ]
+    },
+    {
+      "name": "Birrificio la Ribalta",
+      "visited": "2023-10-30",
+      "location": {
+        "country": "it",
+        "city": "Milano",
+        "address": "Via Cevedale, 3",
+        "coordinates": {
+          "lat": 45.506983111032184,
+          "lng": 9.173217543309157
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "region Lombardia"
+      ]
+    },
+    {
+      "name": "Birrificio Milano",
+      "visited": "2023-10-31",
+      "location": {
+        "country": "it",
+        "city": "Milano",
+        "address": "Via Zante, 14",
+        "coordinates": {
+          "lat": 45.45490765056172,
+          "lng": 9.24865779249537
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na wynos",
+        "region Lombardia"
+      ]
+    },
+    {
+      "name": "Birrificio Barona",
+      "visited": "2023-10-31",
+      "location": {
+        "country": "it",
+        "city": "Milano",
+        "address": "Via Modica, 3",
+        "coordinates": {
+          "lat": 45.43925786013945,
+          "lng": 9.154925203407652
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na wynos",
+        "region Lombardia"
+      ]
+    }
+  ]
+}
