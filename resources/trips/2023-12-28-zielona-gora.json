@@ -1,0 +1,25 @@
+{
+  "name": "Zielona Góra, grudzień 2023",
+  "breweries": [
+    {
+      "name": "Browar Haust",
+      "visited": "2023-12-28",
+      "location": {
+        "country": "pl",
+        "city": "Zielona Góra",
+        "address": "pl. Pocztowy 9",
+        "coordinates": {
+          "lat": 51.93743553187676,
+          "lng": 15.506938188365282
+        }
+      },
+      "tags": [
+        "piwo spróbowane poza browarem",
+        "obejrzany sprzęt",
+        "brewpub",
+        "województwo lubuskie",
+        "obecnie zamknięty"
+      ]
+    }
+  ]
+}
