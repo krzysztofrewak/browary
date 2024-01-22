@@ -118,7 +118,8 @@
       "original": "Malta",
       "tags": [
         "Europa",
-        "państwa Unii Europejskiej"
+        "państwa Unii Europejskiej",
+        "państwa anglojęzyczne"
       ]
     },
     {
@@ -153,7 +154,8 @@
       "name": "Wielka Brytania",
       "original": "United Kingdom",
       "tags": [
-        "Europa"
+        "Europa",
+        "państwa anglojęzyczne"
       ]
     },
     {
@@ -228,6 +230,16 @@
       "tags": [
         "Europa",
         "państwa Unii Europejskiej"
+      ]
+    },
+    {
+      "symbol": "ie",
+      "name": "Irlandia",
+      "original": "Éire, Ireland",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa anglojęzyczne"
       ]
     }
   ]

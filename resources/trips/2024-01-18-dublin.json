@@ -1,0 +1,139 @@
+{
+  "name": "Dublin, styczeń 2024",
+  "breweries": [
+    {
+      "name": "St. James's Gate Brewery",
+      "visited": "2024-01-18",
+      "location": {
+        "country": "ie",
+        "city": "Dublin",
+        "address": "St. James's Gate",
+        "coordinates": {
+          "lat": 53.34185795493264,
+          "lng": -6.286762541116257
+        }
+      },
+      "tags": [
+        "koncern Diageo",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
+        "muzeum",
+        "zorganizowana wycieczka",
+        "browar koncernowy"
+      ]
+    },
+    {
+      "name": "Guinness Open Gate Brewery",
+      "visited": "2024-01-18",
+      "location": {
+        "country": "ie",
+        "city": "Dublin",
+        "address": "53 James St, St. James's Gate",
+        "coordinates": {
+          "lat": 53.343340883157694,
+          "lng": -6.287042619118126
+        }
+      },
+      "tags": [
+        "koncern Diageo",
+        "piwo spróbowane na miejscu",
+        "eksperymentalny browar wewnątrz większego browaru",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "BrewDog Outpost Dublin",
+      "visited": "2024-01-18",
+      "location": {
+        "country": "ie",
+        "city": "Dublin",
+        "address": "Three Locks Square, 4, Grand Canal Dock",
+        "coordinates": {
+          "lat": 53.3448200449738,
+          "lng": -6.230759146595817
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "BrewDog Outpost",
+        "odwiedzony wielokrotnie"
+      ]
+    },
+    {
+      "name": "J.W. Sweetman",
+      "visited": "2024-01-19",
+      "location": {
+        "country": "ie",
+        "city": "Dublin",
+        "address": "1-2, Burgh Quay",
+        "coordinates": {
+          "lat": 53.34694269289923,
+          "lng": -6.2580686259130545
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Urban Brewing",
+      "visited": "2024-01-19",
+      "location": {
+        "country": "ie",
+        "city": "Dublin",
+        "address": "CHQ Building, Custom House Quay, IFSC",
+        "coordinates": {
+          "lat": 53.34914825342175,
+          "lng": -6.2482109560653605
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Rascals Brewing Company",
+      "visited": "2024-01-19",
+      "location": {
+        "country": "ie",
+        "city": "Dublin",
+        "address": "Goldenbridge Estate, Tyrconnell Rd",
+        "coordinates": {
+          "lat": 53.3359805591274,
+          "lng": -6.32391414595897
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "zorganizowana wycieczka",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Four Provinces Brewing Company",
+      "visited": "2024-01-20",
+      "location": {
+        "country": "ie",
+        "city": "Dublin",
+        "address": "Brookfield Green, Kimmage",
+        "coordinates": {
+          "lat": 53.31491685229153,
+          "lng": -6.3005047553273394
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    }
+  ]
+}
