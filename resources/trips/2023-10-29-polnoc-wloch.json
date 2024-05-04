@@ -60,26 +60,6 @@
       ]
     },
     {
-      "name": "EDIT Torino",
-      "visited": "2023-10-30",
-      "location": {
-        "country": "it",
-        "city": "Torino",
-        "address": "Piazza Teresa Noce, 15/A",
-        "coordinates": {
-          "lat": 45.07812663586788,
-          "lng": 7.6931419153342935
-        }
-      },
-      "tags": [
-        "piwo spróbowane na miejscu",
-        "obejrzany sprzęt",
-        "brewpub",
-        "spotkanie z piwowarem",
-        "region Piemont"
-      ]
-    },
-    {
       "name": "Personal Brewery",
       "visited": "2023-10-30",
       "location": {

@@ -1,0 +1,62 @@
+{
+  "name": "Görlitz, maj 2024",
+  "breweries": [
+    {
+      "name": "GR-LI Bräu",
+      "visited": "2024-05-02",
+      "location": {
+        "country": "de",
+        "city": "Görlitz",
+        "address": "Löbauer Str. 28",
+        "coordinates": {
+          "lat": 51.15191176393776,
+          "lng": 14.974634297907974
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "kraj związkowy Saksonia"
+      ]
+    },
+    {
+      "name": "Sudost Brauwerkstatt",
+      "visited": "2024-05-02",
+      "location": {
+        "country": "de",
+        "city": "Görlitz",
+        "address": "Jakobstraße 4",
+        "coordinates": {
+          "lat": 51.15083998351779,
+          "lng": 14.986039265563054
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "piwo spróbowane na wynos",
+        "kraj związkowy Saksonia"
+      ]
+    },
+    {
+      "name": "Bierblume",
+      "visited": "2024-05-02",
+      "location": {
+        "country": "de",
+        "city": "Görlitz",
+        "address": "Neißstraße 8",
+        "coordinates": {
+          "lat": 51.157326443431344,
+          "lng": 14.99290139490237
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na miejscu",
+        "browar przygraniczny",
+        "kraj związkowy Saksonia"
+      ]
+    }
+  ]
+}
