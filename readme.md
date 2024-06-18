@@ -21,19 +21,19 @@ cp .env.example .env
 
 Run containerized environment:
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 Install frontend dependencies and build frontend:
 ```
-docker-compose exec node npm install
-docker-compose exec node npm run build
+docker compose exec node npm install
+docker compose exec node npm run build
 ```
 
 Install backend dependencies and build static API endpoints:
 ```
-docker-compose exec php composer install
-docker-compose exec php composer build
+docker compose exec php composer install
+docker compose exec php composer build
 ```
 
 Application should be available under `localhost:8037` or other port if you changed `EXTERNAL_WEBSERVER_PORT` value in `.env` file.
@@ -42,7 +42,7 @@ Application should be available under `localhost:8037` or other port if you chan
 ### Development
 Run frontend in development mode:
 ```
-docker-compose exec node npm run serve
+docker compose exec node npm run serve
 ```
 
 ### Deployment

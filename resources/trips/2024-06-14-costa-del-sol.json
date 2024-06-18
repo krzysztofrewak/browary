@@ -1,0 +1,42 @@
+{
+  "name": "Costa del Sol, czerwiec 2024",
+  "breweries": [
+    {
+      "name": "La Fábrica",
+      "visited": "2024-06-14",
+      "location": {
+        "country": "es",
+        "city": "Málaga",
+        "address": "C/ Trinidad Grund, 29",
+        "coordinates": {
+          "lat": 36.71636015939608,
+          "lng": -4.4237056398578405
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "browar przy klubie",
+        "region Andaluzja",
+        "wielokrotnie odwiedzony"
+      ]
+    },
+    {
+      "name": "Ø Brewery Gibraltar",
+      "visited": "2024-06-17",
+      "location": {
+        "country": "gi",
+        "city": "Gibraltar",
+        "address": "11 & 12 The Strip, Chatham Counterguard",
+        "coordinates": {
+          "lat": 36.14345291171665,
+          "lng": -5.354885917995102
+        }
+      },
+      "tags": [
+        "mikrobrowar"
+      ]
+    }
+  ]
+}
