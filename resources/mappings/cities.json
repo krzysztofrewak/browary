@@ -282,6 +282,15 @@
           "value": "Mediolan"
         }
       ]
+    },
+    {
+      "name": "Málaga",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Malaga"
+        }
+      ]
     }
   ]
 }

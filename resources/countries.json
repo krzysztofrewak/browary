@@ -241,6 +241,17 @@
         "państwa Unii Europejskiej",
         "państwa anglojęzyczne"
       ]
+    },
+    {
+      "symbol": "gi",
+      "name": "Gibraltar",
+      "original": "Gibraltar",
+      "tags": [
+        "Europa",
+        "terytoria zależne",
+        "terytoria zależne Wielkiej Brytanii",
+        "państwa anglojęzyczne"
+      ]
     }
   ]
 }
