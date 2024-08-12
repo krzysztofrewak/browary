@@ -1,0 +1,26 @@
+{
+  "name": "granica polsko-czeska, sierpień 2024",
+  "breweries": [
+    {
+      "name": "Pivovar Neratov",
+      "visited": "2024-08-10",
+      "location": {
+        "country": "cz",
+        "city": "Bartošovice v Orlických horách",
+        "address": "v Orl, Bartošovice v Orlických horách 118",
+        "coordinates": {
+          "lat": 50.21489960297608,
+          "lng": 16.55295903711086
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "mikrobrowar",
+        "browar przygraniczny",
+        "browar nad rzeką",
+        "kraj hradecki"
+      ]
+    }
+  ]
+}
