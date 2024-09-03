@@ -291,6 +291,24 @@
           "value": "Malaga"
         }
       ]
+    },
+    {
+      "name": "Schleswig",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Szlezwik"
+        }
+      ]
+    },
+    {
+      "name": "København",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Kopenhaga"
+        }
+      ]
     }
   ]
 }

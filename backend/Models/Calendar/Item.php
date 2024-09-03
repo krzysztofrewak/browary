@@ -25,6 +25,7 @@ class Item implements Sluggable, Boundable
     public function addBrewery(Brewery $brewery): static
     {
         $this->breweries->add($brewery);
+
         return $this;
     }
 
@@ -51,6 +52,7 @@ class Item implements Sluggable, Boundable
     public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
+
         return $this;
     }
 

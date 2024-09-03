@@ -21,6 +21,7 @@ class Calendar implements JsonSerializable, HavingAll
     {
         $group = new Group($label);
         $this->groups->add($group);
+
         return $group;
     }
 
@@ -40,8 +41,10 @@ class Calendar implements JsonSerializable, HavingAll
     protected function findMaxValue(): int
     {
         $max = 0;
+
         foreach ($this->groups as $group) {
             $value = $group->findMaxValue();
+
             if ($value > $max) {
                 $max = $value;
             }

@@ -20,6 +20,7 @@ class TripsTest extends TestCase
             $this->assertCount(2, $trip, "There's a different number of fields for " . $trip["name"]);
 
             $this->assertIsArray($trip["breweries"]);
+
             foreach ($trip["breweries"] as $brewery) {
                 $this->assertArrayHasKey("name", $brewery);
                 $this->assertArrayHasKey("visited", $brewery);
@@ -36,6 +37,7 @@ class TripsTest extends TestCase
 
                 $this->assertArrayHasKey("tags", $brewery);
                 $this->assertIsArray($brewery["tags"]);
+
                 foreach ($brewery["tags"] as $tag) {
                     $this->assertIsString($tag);
                 }

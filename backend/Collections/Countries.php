@@ -22,6 +22,7 @@ class Countries implements JsonSerializable, HavingAll
     public function addCountry(Country $country): static
     {
         $this->countries->put($country->getSymbol(), $country);
+
         return $this;
     }
 

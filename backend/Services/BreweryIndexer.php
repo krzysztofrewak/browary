@@ -11,6 +11,7 @@ class BreweryIndexer
     public static function index(Breweries $breweries): void
     {
         $i = 1;
+
         foreach ($breweries->getAll()->reverse() as $brewery) {
             $brewery->setId($i++);
         }

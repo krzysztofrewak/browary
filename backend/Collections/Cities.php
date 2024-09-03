@@ -26,6 +26,7 @@ class Cities implements JsonSerializable, HavingAll
         $slug = $this->mappings[$name]["slug"] ?? City::slug($name);
 
         $alreadyExisting = $this->cities->get($slug);
+
         if ($alreadyExisting) {
             return $alreadyExisting;
         }

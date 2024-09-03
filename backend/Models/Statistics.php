@@ -16,24 +16,28 @@ class Statistics implements JsonSerializable
     public function setExtremes(array $extremes): static
     {
         $this->extremes = $extremes;
+
         return $this;
     }
 
     public function setWeekdays(array $weekdays): static
     {
         $this->weekdays = $weekdays;
+
         return $this;
     }
 
     public function setMonths(array $months): static
     {
         $this->months = $months;
+
         return $this;
     }
 
     public function setCounter(string $label, int $value): static
     {
         $this->counters[$label] = $value;
+
         return $this;
     }
 

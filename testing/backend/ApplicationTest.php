@@ -71,6 +71,7 @@ class ApplicationTest extends TestCase
     protected function getApiFileContent(string $file): array
     {
         $content = file_get_contents(static::getFixturesDirectory() . "public/api/" . $file);
+
         return json_decode($content, true);
     }
 }

@@ -28,6 +28,7 @@ class Trip implements JsonSerializable, Sluggable, Boundable
     public static function buildFromJson(string $jsonFile): static
     {
         $data = json_decode($jsonFile, true);
+
         return new static($data["name"]);
     }
 
@@ -45,6 +46,7 @@ class Trip implements JsonSerializable, Sluggable, Boundable
     {
         $this->breweries->put($brewery->getSlug(), $brewery);
         $this->countries->prepend($brewery->getCountry(), $brewery->getCountry()->getSlug());
+
         return $this;
     }
 
@@ -84,6 +86,7 @@ class Trip implements JsonSerializable, Sluggable, Boundable
     public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
+
         return $this;
     }
 

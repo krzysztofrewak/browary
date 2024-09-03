@@ -31,6 +31,7 @@ class CountriesTest extends TestCase
         $content = $this->getCountriesData();
 
         $symbols = [];
+
         foreach ($content["countries"] as $country) {
             $symbols[$country["symbol"]] = $country["symbol"];
         }
@@ -51,6 +52,7 @@ class CountriesTest extends TestCase
     {
         $filename = $this->getCountriesFilePath();
         $content = file_get_contents($filename);
+
         return json_decode($content, true);
     }
 }

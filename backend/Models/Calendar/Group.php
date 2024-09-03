@@ -27,6 +27,7 @@ class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
     {
         $item = new Item($label, $slug);
         $this->items->add($item);
+
         return $item;
     }
 
@@ -38,8 +39,10 @@ class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
     public function findMaxValue(): int
     {
         $max = 0;
+
         foreach ($this->items as $item) {
             $value = $item->getValue();
+
             if ($value > $max) {
                 $max = $value;
             }
@@ -56,6 +59,7 @@ class Group implements JsonSerializable, Sluggable, HavingAll, Boundable
     public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
+
         return $this;
     }
 

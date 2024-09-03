@@ -33,6 +33,7 @@ class Tag implements JsonSerializable, Sluggable
     public function addBrewery(Brewery $brewery): static
     {
         $this->breweries->add($brewery);
+
         return $this;
     }
 
@@ -54,6 +55,7 @@ class Tag implements JsonSerializable, Sluggable
     public function setExtremes(Extremes $extremes): static
     {
         $this->extremes = $extremes;
+
         return $this;
     }
 
