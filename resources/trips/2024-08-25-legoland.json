@@ -1,0 +1,364 @@
+{
+  "name": "Legoland, wakacje 2024",
+  "breweries": [
+    {
+      "name": "BrewDog DogTap Berlin",
+      "visited": "2024-08-25",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Im Marienpark 23",
+        "coordinates": {
+          "lat": 52.43805764144972,
+          "lng": 13.36836241736122
+        }
+      },
+      "tags": [
+        "BrewDog Outpost",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar z kręgielnią",
+        "muzeum"
+      ]
+    },
+    {
+      "name": "Brauhaus am Lohberg zu Wismar",
+      "visited": "2024-08-26",
+      "location": {
+        "country": "de",
+        "city": "Wismar",
+        "address": "Kleine Hohe Str. 15",
+        "coordinates": {
+          "lat": 53.89534387837964,
+          "lng": 11.46107272763626
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "kraj związkowy Meklemburgia-Pomorze Przednie"
+      ]
+    },
+    {
+      "name": "BLOCKBRÄU",
+      "visited": "2024-08-27",
+      "location": {
+        "country": "de",
+        "city": "Hamburg",
+        "address": "Bei den St. Pauli-Landungsbrücken 3",
+        "coordinates": {
+          "lat": 53.54560834351178,
+          "lng": 9.96932770034064
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "browar nad rzeką",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "instalacja BrauKon"
+      ]
+    },
+    {
+      "name": "Gröninger Privatbrauerei",
+      "visited": "2024-08-27",
+      "location": {
+        "country": "de",
+        "city": "Hamburg",
+        "address": "Willy-Brandt-Straße 47",
+        "coordinates": {
+          "lat": 53.547154324199454,
+          "lng": 9.996267041422005
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar w podziemiu",
+        "instalacja Caspary",
+        "instalacja Kaspar Schulz"
+      ]
+    },
+    {
+      "name": "Asgaard Brauerei Schleswig",
+      "visited": "2024-08-28",
+      "location": {
+        "country": "de",
+        "city": "Schleswig",
+        "address": "Königstraße 27",
+        "coordinates": {
+          "lat": 54.51441068638647,
+          "lng": 9.561885267729103
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Trolden Destilleri & Bryghus",
+      "visited": "2024-08-29",
+      "location": {
+        "country": "dk",
+        "city": "Kolding",
+        "address": "Nordager 15",
+        "coordinates": {
+          "lat": 55.54881303531299,
+          "lng": 9.487393274673398
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "destylarnia"
+      ]
+    },
+    {
+      "name": "Biergarten Blåvand",
+      "visited": "2024-08-30",
+      "location": {
+        "country": "dk",
+        "city": "Blåvand",
+        "address": "Horns Bjerge 5",
+        "coordinates": {
+          "lat": 55.555129721381356,
+          "lng": 8.124915059741214
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Warwik Bryghus",
+      "visited": "2024-08-30",
+      "location": {
+        "country": "dk",
+        "city": "Varde",
+        "address": "Vestervold 18B",
+        "coordinates": {
+          "lat": 55.621636977706764,
+          "lng": 8.477148210380344
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Jacobi Craft Brew",
+      "visited": "2024-08-30",
+      "location": {
+        "country": "dk",
+        "city": "Varde",
+        "address": "Storegade 8",
+        "coordinates": {
+          "lat": 55.619294639725474,
+          "lng": 8.483756240318153
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Kolding Gårdbryggeri",
+      "visited": "2024-08-31",
+      "location": {
+        "country": "dk",
+        "city": "Jordrup",
+        "address": "Fynslundvej 41",
+        "coordinates": {
+          "lat": 55.52681353825754,
+          "lng": 9.347970648662084
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Bryghus København",
+      "visited": "2024-09-01",
+      "location": {
+        "country": "dk",
+        "city": "København",
+        "address": "Vestergade 29",
+        "coordinates": {
+          "lat": 55.67716256554567,
+          "lng": 12.56946652374704
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Bryggeriet Apollo",
+      "visited": "2024-09-01",
+      "location": {
+        "country": "dk",
+        "city": "København",
+        "address": "Vesterbrogade 3",
+        "coordinates": {
+          "lat": 55.67483152041997,
+          "lng": 12.566067855018463
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "browar w parku",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Mikkeller Færgekroen",
+      "visited": "2024-09-01",
+      "location": {
+        "country": "dk",
+        "city": "København",
+        "address": "Vesterbrogade 3",
+        "coordinates": {
+          "lat": 55.67411916109232,
+          "lng": 12.569865250839888
+        }
+      },
+      "tags": [
+        "browar Mikkellera",
+        "browar w parku",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar nad stawem"
+      ]
+    },
+    {
+      "name": "Mikkeller Warpigs",
+      "visited": "2024-09-01",
+      "location": {
+        "country": "dk",
+        "city": "København",
+        "address": "Flæsketorvet 25-37",
+        "coordinates": {
+          "lat": 55.66850020821291,
+          "lng": 12.559938393199799
+        }
+      },
+      "tags": [
+        "browar Mikkellera",
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "ÅBEN",
+      "visited": "2024-09-01",
+      "location": {
+        "country": "dk",
+        "city": "København",
+        "address": "Slagtehusgade 15",
+        "coordinates": {
+          "lat": 55.66825105939881,
+          "lng": 12.561569148026855
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "instalacja BrauKon"
+      ]
+    },
+    {
+      "name": "Amager Bryghus",
+      "visited": "2024-09-02",
+      "location": {
+        "country": "dk",
+        "city": "Kastrup",
+        "address": "Kirstinehøj 38B",
+        "coordinates": {
+          "lat": 55.61769209184557,
+          "lng": 12.621594260946111
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem"
+      ]
+    },
+    {
+      "name": "bryggerikollektiv i The Bishops Arms",
+      "visited": "2024-09-02",
+      "location": {
+        "country": "se",
+        "city": "Malmö",
+        "address": "Gustav Adolfs torg 49C",
+        "coordinates": {
+          "lat": 55.60327690942635,
+          "lng": 12.99938934988543
+        }
+      },
+      "tags": [
+        "browar kolektywny",
+        "wyspiarski pub",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Malmö Brewing Co",
+      "visited": "2024-09-02",
+      "location": {
+        "country": "se",
+        "city": "Malmö",
+        "address": "Bergsgatan 33",
+        "coordinates": {
+          "lat": 55.593448527581366,
+          "lng": 13.007592742647827
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "Browar Witnica",
+      "visited": "2024-09-03",
+      "location": {
+        "country": "pl",
+        "city": "Witnica",
+        "address": "Marii Konopnickiej 1",
+        "coordinates": {
+          "lat": 52.67335911415519,
+          "lng": 14.899857150025964
+        }
+      },
+      "tags": [
+        "browar regionalny",
+        "przybrowarniany sklep",
+        "przybrowarniana restauracja",
+        "muzeum"
+      ]
+    }
+  ]
+}

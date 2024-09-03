@@ -25,6 +25,7 @@ class Breweries implements JsonSerializable, HavingAll
     {
         $this->slugService->process($brewery);
         $this->breweries->put($brewery->getSlug(), $brewery);
+
         return $this;
     }
 

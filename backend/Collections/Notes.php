@@ -21,6 +21,7 @@ class Notes implements JsonSerializable, HavingAll
     public function addNote(Note $note): static
     {
         $this->notes->add($note);
+
         return $this;
     }
 

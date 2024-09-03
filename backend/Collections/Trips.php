@@ -21,6 +21,7 @@ class Trips implements JsonSerializable, HavingAll
     public function addTrip(Trip $trip): static
     {
         $this->trips->put($trip->getSlug(), $trip);
+
         return $this;
     }
 

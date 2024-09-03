@@ -9,3 +9,4 @@ testing/backend/fixtures/public/*
 !testing/backend/fixtures/public/.gitkeep
 
 .env
+.php-cs-fixer.cache

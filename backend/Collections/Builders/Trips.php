@@ -31,6 +31,7 @@ class Trips
                 $trip = new Trip($data["name"]);
 
                 $breweries = new Collection($data["breweries"]);
+
                 foreach ($breweries->reverse() as $breweryData) {
                     $latitude = $breweryData["location"]["coordinates"]["lat"];
                     $longitude = $breweryData["location"]["coordinates"]["lng"];

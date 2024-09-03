@@ -163,7 +163,8 @@
       "name": "Islandia",
       "original": "Ísland",
       "tags": [
-        "Europa"
+        "Europa",
+        "państwa nordyckie"
       ]
     },
     {
@@ -191,7 +192,8 @@
       "original": "Suomi",
       "tags": [
         "Europa",
-        "państwa Unii Europejskiej"
+        "państwa Unii Europejskiej",
+        "państwa nordyckie"
       ]
     },
     {
@@ -251,6 +253,28 @@
         "terytoria zależne",
         "terytoria zależne Wielkiej Brytanii",
         "państwa anglojęzyczne"
+      ]
+    },
+    {
+      "symbol": "dk",
+      "name": "Dania",
+      "original": "Danmark",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa nordyckie",
+        "państwa skandynawskie"
+      ]
+    },
+    {
+      "symbol": "se",
+      "name": "Szwecja",
+      "original": "Sverige",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa nordyckie",
+        "państwa skandynawskie"
       ]
     }
   ]

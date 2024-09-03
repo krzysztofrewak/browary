@@ -21,6 +21,7 @@ class Tags implements JsonSerializable, HavingAll
     public function firstOrCreate(string $name): Tag
     {
         $alreadyExisting = $this->tags->get(Tag::slug($name));
+
         if ($alreadyExisting) {
             return $alreadyExisting;
         }
