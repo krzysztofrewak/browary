@@ -1,0 +1,42 @@
+{
+  "name": "Madrid Tech Show 2024",
+  "breweries": [
+    {
+      "name": "La Canibal - Fabrica de Cervezas",
+      "visited": "2024-10-15",
+      "location": {
+        "country": "es",
+        "city": "Madrid",
+        "address": "C. de Julián Camarillo, 19, San Blas-Canillejas",
+        "coordinates": {
+          "lat": 40.43504619778355,
+          "lng": -3.631298600667213
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Compañía de Cervezas Valle del Kahs",
+      "visited": "2024-10-17",
+      "location": {
+        "country": "es",
+        "city": "Madrid",
+        "address": "C. Enrique Velasco, 21, Puente de Vallecas",
+        "coordinates": {
+          "lat": 40.39601742183635,
+          "lng": -3.661214506072373
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "spotkanie z piwowarem",
+        "mikrobrowar"
+      ]
+    }
+  ]
+}
