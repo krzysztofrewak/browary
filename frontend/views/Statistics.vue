@@ -4,9 +4,9 @@
     <counters>
       <counter :value="counters.breweries" :label="inflectBrewery(counters.breweries, false)"></counter>
       <counter :value="counters.countries" :label="inflectCountry(counters.countries, false)"></counter>
+      <counter :value="counters.cities" :label="inflectCity(counters.cities, false)"></counter>
+      <counter :value="counters.trips" :label="inflectTrip(counters.trips, false)"></counter>
       <counter :value="counters.tags" :label="inflectTag(counters.tags, false)"></counter>
-      <counter :value="counters.trips" :label="inflectCity(counters.trips, false)"></counter>
-      <counter :value="counters.cities" :label="inflectTrip(counters.cities, false)"></counter>
     </counters>
     <hr class="my-4">
 

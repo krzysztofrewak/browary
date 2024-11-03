@@ -2,7 +2,7 @@
   <div class="extremes">
     <page-header title="Róża wiatrów" header="Najbardziej wysunięte w każdym kierunku browary"></page-header>
 
-    <div class="compass relative mt-8">
+    <div class="compass relative mt-8 pb-4">
       <div class="w-full absolute text-xs">
         <div class="absolute top-0 right-0 w-1/2 -mt-4 p-4 pl-24 mr-10 bg-gray-100" v-if="extremes.north">
           <div class="opacity-75 py-1">północ:</div>

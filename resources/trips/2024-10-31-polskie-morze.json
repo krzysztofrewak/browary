@@ -1,0 +1,46 @@
+{
+  "name": "Wszystkich Świętych 2024",
+  "breweries": [
+    {
+      "name": "Beczka & Chmiel",
+      "visited": "2024-10-31",
+      "location": {
+        "country": "pl",
+        "city": "Gorzów Wielkopolski",
+        "address": "Targowa 2",
+        "coordinates": {
+          "lat": 52.724794679362475,
+          "lng": 15.243603924923132
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar hotelowy",
+        "województwo lubuskie"
+      ]
+    },
+    {
+      "name": "Browar Folga",
+      "visited": "2024-11-02",
+      "location": {
+        "country": "pl",
+        "city": "Gryfice",
+        "address": "Nowy Świat 8",
+        "coordinates": {
+          "lat": 53.92015694975213,
+          "lng": 15.195491734057734
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane na wynos",
+        "browar restauracyjny",
+        "browar hotelowy",
+        "województwo zachodniopomorskie"
+      ]
+    }
+  ]
+}

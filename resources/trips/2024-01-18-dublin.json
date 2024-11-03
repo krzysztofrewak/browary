@@ -20,7 +20,8 @@
         "piwo spróbowane poza browarem",
         "muzeum",
         "zorganizowana wycieczka",
-        "browar koncernowy"
+        "browar koncernowy",
+        "browar stołeczny"
       ]
     },
     {
@@ -39,7 +40,8 @@
         "koncern Diageo",
         "piwo spróbowane na miejscu",
         "eksperymentalny browar wewnątrz większego browaru",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -59,7 +61,8 @@
         "piwo spróbowane na miejscu",
         "brewpub",
         "BrewDog Outpost",
-        "odwiedzony wielokrotnie"
+        "odwiedzony wielokrotnie",
+        "browar stołeczny"
       ]
     },
     {
@@ -76,7 +79,8 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -94,7 +98,8 @@
       "tags": [
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -115,7 +120,8 @@
         "zorganizowana wycieczka",
         "piwo spróbowane na miejscu",
         "brewpub",
-        "mikrobrowar"
+        "mikrobrowar",
+        "browar stołeczny"
       ]
     },
     {
@@ -132,7 +138,8 @@
       },
       "tags": [
         "piwo spróbowane na miejscu",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     }
   ]

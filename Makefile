@@ -13,4 +13,10 @@ restart: stop run
 shell:
 	@docker compose --file ${DOCKER_COMPOSE_FILE} exec --user "${CURRENT_USER_ID}:${CURRENT_USER_GROUP_ID}" php ash
 
-.PHONY: run stop restart shell
+dev:
+	@docker compose --file ${DOCKER_COMPOSE_FILE} exec --user "${CURRENT_USER_ID}:${CURRENT_USER_GROUP_ID}" node npm run serve
+
+build:
+	@docker compose --file ${DOCKER_COMPOSE_FILE} exec --user "${CURRENT_USER_ID}:${CURRENT_USER_GROUP_ID}" node npm run build
+
+.PHONY: run stop restart shell dev build
