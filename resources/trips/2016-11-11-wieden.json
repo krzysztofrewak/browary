@@ -17,7 +17,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "instalacja Salm"
+        "instalacja Salm",
+        "browar stołeczny"
       ]
     },
     {
@@ -36,7 +37,8 @@
         "obecnie zamknięty",
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "browar stołeczny"
       ]
     },
     {
@@ -55,7 +57,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "mikrobrowar"
+        "mikrobrowar",
+        "browar stołeczny"
       ]
     },
     {
@@ -74,7 +77,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "brewpub",
-        "spotkanie z piwowarem"
+        "spotkanie z piwowarem",
+        "browar stołeczny"
       ]
     },
     {
@@ -94,7 +98,8 @@
         "obejrzany sprzęt",
         "browar restauracyjny",
         "sieć Stiegl",
-        "instalacja Caspary"
+        "instalacja Caspary",
+        "browar stołeczny"
       ]
     },
     {
@@ -113,7 +118,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "instalacja Salm"
+        "instalacja Salm",
+        "browar stołeczny"
       ]
     },
     {
@@ -131,7 +137,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "browar stołeczny"
       ]
     },
     {
@@ -150,7 +157,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "instalacja Salm"
+        "instalacja Salm",
+        "browar stołeczny"
       ]
     }
   ]

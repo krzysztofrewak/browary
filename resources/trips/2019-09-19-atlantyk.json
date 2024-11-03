@@ -17,7 +17,8 @@
         "Anglia",
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "spotkanie z piwowarem"
+        "spotkanie z piwowarem",
+        "browar stołeczny"
       ]
     },
     {
@@ -35,7 +36,8 @@
       "tags": [
         "Anglia",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu"
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
       ]
     },
     {
@@ -56,7 +58,8 @@
         "piwo spróbowane na miejscu",
         "spotkanie z piwowarem",
         "londyńska piwna mila",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -77,7 +80,8 @@
         "piwo spróbowane na miejscu",
         "londyńska piwna mila",
         "brewpub",
-        "mikrobrowar"
+        "mikrobrowar",
+        "browar stołeczny"
       ]
     },
     {
@@ -98,7 +102,8 @@
         "obejrzany sprzęt",
         "brewpub",
         "piwo spróbowane na miejscu",
-        "londyńska piwna mila"
+        "londyńska piwna mila",
+        "browar stołeczny"
       ]
     },
     {
@@ -120,7 +125,8 @@
         "spotkanie z piwowarem",
         "londyńska piwna mila",
         "mikrobrowar",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -142,7 +148,8 @@
         "piwo spróbowane na miejscu",
         "londyńska piwna mila",
         "mikrobrowar",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -163,7 +170,8 @@
         "piwo spróbowane na miejscu",
         "londyńska piwna mila",
         "mikrobrowar",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -184,7 +192,8 @@
         "obejrzany sprzęt",
         "londyńska piwna mila",
         "mikrobrowar",
-        "piwo spróbowane poza browarem"
+        "piwo spróbowane poza browarem",
+        "browar stołeczny"
       ]
     },
     {
@@ -204,7 +213,8 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "londyńska piwna mila",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -226,7 +236,8 @@
         "spotkanie z piwowarem",
         "londyńska piwna mila",
         "brewpub",
-        "mikrobrowar"
+        "mikrobrowar",
+        "browar stołeczny"
       ]
     },
     {
@@ -249,7 +260,8 @@
         "londyńska piwna mila",
         "instalacja BrauKon",
         "brewpub",
-        "mikrobrowar"
+        "mikrobrowar",
+        "browar stołeczny"
       ]
     },
     {
@@ -268,7 +280,8 @@
         "Anglia",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -288,7 +301,8 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "brewpub",
-        "BrewDog Outpost"
+        "BrewDog Outpost",
+        "browar stołeczny"
       ]
     },
     {
@@ -307,7 +321,8 @@
         "Anglia",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -326,7 +341,8 @@
         "Anglia",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "browar stołeczny"
       ]
     },
     {
@@ -344,7 +360,8 @@
       "tags": [
         "Anglia",
         "piwo spróbowane na miejscu",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "browar stołeczny"
       ]
     },
     {
@@ -364,7 +381,8 @@
         "piwo spróbowane na miejscu",
         "spotkanie z piwowarem",
         "mikrobrowar",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     },
     {
@@ -382,7 +400,8 @@
       "tags": [
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu"
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
       ]
     },
     {
@@ -401,7 +420,8 @@
         "obejrzany sprzęt",
         "browar restauracyjny",
         "piwo spróbowane na miejscu",
-        "instalacja Ziptech"
+        "instalacja Ziptech",
+        "browar stołeczny"
       ]
     },
     {
@@ -421,7 +441,8 @@
         "piwo spróbowane na miejscu",
         "spotkanie z piwowarem",
         "mikrobrowar",
-        "brewpub"
+        "brewpub",
+        "browar stołeczny"
       ]
     }
   ]

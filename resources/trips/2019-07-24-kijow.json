@@ -17,7 +17,8 @@
         "sieć Porter Pub",
         "piwo spróbowane na miejscu",
         "browar restauracyjny",
-        "instalacja S-Brewery"
+        "instalacja S-Brewery",
+        "browar stołeczny"
       ]
     },
     {
@@ -36,7 +37,8 @@
         "koncern Carlsberg",
         "piwo spróbowane na miejscu",
         "browar restauracyjny",
-        "obecnie zamknięty"
+        "obecnie zamknięty",
+        "browar stołeczny"
       ]
     },
     {
@@ -57,7 +59,8 @@
         "obejrzany sprzęt",
         "browar restauracyjny",
         "instalacja Wachsmann",
-        "obecnie zamknięty"
+        "obecnie zamknięty",
+        "browar stołeczny"
       ]
     },
     {
@@ -76,7 +79,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "obecnie zamknięty"
+        "obecnie zamknięty",
+        "browar stołeczny"
       ]
     },
     {
@@ -97,7 +101,8 @@
         "obejrzany sprzęt",
         "browar restauracyjny",
         "instalacja Ziptech",
-        "obecnie zamknięty"
+        "obecnie zamknięty",
+        "browar stołeczny"
       ]
     },
     {
@@ -116,7 +121,8 @@
         "sieć Porter Pub",
         "piwo spróbowane na miejscu",
         "browar restauracyjny",
-        "instalacja S-Brewery"
+        "instalacja S-Brewery",
+        "browar stołeczny"
       ]
     },
     {
@@ -135,7 +141,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "instalacja S-Brewery"
+        "instalacja S-Brewery",
+        "browar stołeczny"
       ]
     },
     {
@@ -153,7 +160,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "browar restauracyjny",
-        "obecnie zamknięty"
+        "obecnie zamknięty",
+        "browar stołeczny"
       ]
     },
     {
@@ -172,7 +180,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "instalacja Kaspar Schulz"
+        "instalacja Kaspar Schulz",
+        "browar stołeczny"
       ]
     },
     {
@@ -190,7 +199,8 @@
       "tags": [
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
-        "browar restauracyjny"
+        "browar restauracyjny",
+        "browar stołeczny"
       ]
     },
     {
@@ -210,7 +220,8 @@
         "piwo spróbowane na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "instalacja S-Brewery"
+        "instalacja S-Brewery",
+        "browar stołeczny"
       ]
     }
   ]
