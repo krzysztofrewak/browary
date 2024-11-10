@@ -1,0 +1,298 @@
+{
+  "name": "Londyn, listopad 2024",
+  "breweries": [
+    {
+      "name": "BrewDog Waterloo",
+      "visited": "2024-11-07",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Unit G, Waterloo Station, 01 The Sidings",
+        "coordinates": {
+          "lat": 51.5022592707397,
+          "lng": -0.11538234097656665
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "browar na dworcu",
+        "BrewDog Outpost",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "German Kraft Beer",
+      "visited": "2024-11-07",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "42 Newington Causeway",
+        "coordinates": {
+          "lat": 51.49839733742642,
+          "lng": -0.09831976490830281
+        }
+      },
+      "tags": [
+        "Anglia",
+        "sieć German Kraft",
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Mikkeller Brewpub London",
+      "visited": "2024-11-07",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "37-39 Exmouth Market",
+        "coordinates": {
+          "lat": 51.52598488560315,
+          "lng": -0.10911611327426199
+        }
+      },
+      "tags": [
+        "Anglia",
+        "browar Mikkellera",
+        "brewpub",
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Brewhouse & Kitchen - Highbury",
+      "visited": "2024-11-07",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "2A Corsica St",
+        "coordinates": {
+          "lat": 51.54634819579435,
+          "lng": -0.10171887710253251
+        }
+      },
+      "tags": [
+        "Anglia",
+        "sieć Brewhouse & Kitchen",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Brewhouse & Kitchen - Hoxton",
+      "visited": "2024-11-07",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "397-400 Geffrye St",
+        "coordinates": {
+          "lat": 51.53080806543183,
+          "lng": -0.07581664853019265
+        }
+      },
+      "tags": [
+        "Anglia",
+        "sieć Brewhouse & Kitchen",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Great Beyond Taproom and Brewery",
+      "visited": "2024-11-07",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "417 Union Walk",
+        "coordinates": {
+          "lat": 51.529328334690064,
+          "lng": -0.07683148254826044
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "browar z pod nasypem kolejowym",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Hammerton Brewery",
+      "visited": "2024-11-07",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Unit 8 & 9, Roman Way Industrial Estate, 149 Roman Way",
+        "coordinates": {
+          "lat": 51.54303449876888,
+          "lng": -0.11520664481617236
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "browar z pizzerią",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Two Tribes Brewery & Campfire Taproom",
+      "visited": "2024-11-07",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Tileyard Rd",
+        "coordinates": {
+          "lat": 51.54336433384523,
+          "lng": -0.12271746541348456
+        }
+      },
+      "tags": [
+        "Anglia",
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Babel Beerhouse",
+      "visited": "2024-11-07",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "1 Lewis Cubitt Walk",
+        "coordinates": {
+          "lat": 51.537738150793686,
+          "lng": -0.1258336133652422
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Kraft Dalston",
+      "visited": "2024-11-08",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "130a Kingsland High St",
+        "coordinates": {
+          "lat": 51.550132636220546,
+          "lng": -0.07504955772862519
+        }
+      },
+      "tags": [
+        "Anglia",
+        "sieć German Kraft",
+        "obejrzany sprzęt",
+        "browar stołeczny",
+        "browar hotelowy"
+      ]
+    },
+    {
+      "name": "Saint Monday Brewery",
+      "visited": "2024-11-08",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "4 Warburton Rd",
+        "coordinates": {
+          "lat": 51.53871685071107,
+          "lng": -0.058071298920662436
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Howling Hops Brewery and Tank Bar",
+      "visited": "2024-11-08",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Unit 9A Queen's Yard, White Post Ln",
+        "coordinates": {
+          "lat": 51.54282884123285,
+          "lng": -0.02271575178159954
+        }
+      },
+      "tags": [
+        "Anglia",
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane z tanka",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "CRATE Brewery & Pizzeria",
+      "visited": "2024-11-08",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Unit 7 Queen's Yard",
+        "coordinates": {
+          "lat": 51.54296616002749,
+          "lng": -0.022116887788626263
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny",
+        "browar z pizzerią",
+        "browar nad rzeką"
+      ]
+    },
+    {
+      "name": "Tap East",
+      "visited": "2024-11-08",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "7, International Square",
+        "coordinates": {
+          "lat": 51.54416914677341,
+          "lng": -0.009083805745991885
+        }
+      },
+      "tags": [
+        "Anglia",
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny",
+        "browar z galerii handlowej"
+      ]
+    }
+  ]
+}
