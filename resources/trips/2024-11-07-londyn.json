@@ -17,7 +17,7 @@
         "Anglia",
         "brewpub",
         "browar na dworcu",
-        "BrewDog Outpost",
+        "sieć BrewDog",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "browar stołeczny"
@@ -58,7 +58,7 @@
       },
       "tags": [
         "Anglia",
-        "browar Mikkellera",
+        "sieć Mikkeller",
         "brewpub",
         "spotkanie z piwowarem",
         "obejrzany sprzęt",
@@ -124,6 +124,7 @@
         "Anglia",
         "brewpub",
         "browar z pod nasypem kolejowym",
+        "spotkanie z piwowarem",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "browar stołeczny"
@@ -248,7 +249,8 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "piwo spróbowane z tanka",
-        "browar stołeczny"
+        "browar stołeczny",
+        "spotkanie z piwowarem"
       ]
     },
     {
@@ -291,7 +293,7 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "browar stołeczny",
-        "browar z galerii handlowej"
+        "browar w galerii handlowej"
       ]
     }
   ]
