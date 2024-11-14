@@ -1,0 +1,173 @@
+{
+  "name": "Kraków i Lyon, listopad 2024",
+  "breweries": [
+    {
+      "name": "Browar Dwie Wieże",
+      "visited": "2024-11-11",
+      "location": {
+        "country": "pl",
+        "city": "Kraków",
+        "address": "Wapowskiego 8",
+        "coordinates": {
+          "lat": 49.99168465275842,
+          "lng": 19.849882883533507
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "województwo małopolskie",
+        "piwo spróbowane na wynos",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Browar Pod Wielką Solą",
+      "visited": "2024-11-11",
+      "location": {
+        "country": "pl",
+        "city": "Wieliczka",
+        "address": "Grunwaldzka 46",
+        "coordinates": {
+          "lat": 49.993211864745476,
+          "lng": 20.078079268578886
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "województwo małopolskie",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Malting-Pot Part-Dieu",
+      "visited": "2024-11-12",
+      "location": {
+        "country": "fr",
+        "city": "Lyon",
+        "address": "2 Pl. de Francfort",
+        "coordinates": {
+          "lat": 45.76106046701165,
+          "lng": 4.862458643846276
+        }
+      },
+      "tags": [
+        "sieć Malting-Pot",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Brasserie Platypus",
+      "visited": "2024-11-12",
+      "location": {
+        "country": "fr",
+        "city": "Lyon",
+        "address": "32 Cr Charlemagne",
+        "coordinates": {
+          "lat": 45.746321394484475,
+          "lng": 4.8236078039446655
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Brasserie Georges",
+      "visited": "2024-11-12",
+      "location": {
+        "country": "fr",
+        "city": "Lyon",
+        "address": "30 Cr de Verdun Perrache",
+        "coordinates": {
+          "lat": 45.74826307338302,
+          "lng": 4.828309857401102
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Brasserie de l'Amour",
+      "visited": "2024-11-12",
+      "location": {
+        "country": "fr",
+        "city": "Villeurbanne",
+        "address": "82 Rue Magenta",
+        "coordinates": {
+          "lat": 45.76460975345786,
+          "lng": 4.871574367990468
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "La Beer Fabrique",
+      "visited": "2024-11-13",
+      "location": {
+        "country": "fr",
+        "city": "Lyon",
+        "address": "10 Rue Saint-Polycarpe",
+        "coordinates": {
+          "lat": 45.76899379014095,
+          "lng": 4.834107274462588
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "warsztat dla piwowarów domowych",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Drôle d'oiseau",
+      "visited": "2024-11-13",
+      "location": {
+        "country": "fr",
+        "city": "Lyon",
+        "address": "49 Rue de l'Abondance",
+        "coordinates": {
+          "lat": 45.75393410876113,
+          "lng": 4.8546912283447785
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Malting-Pot Lyon-7",
+      "visited": "2024-11-13",
+      "location": {
+        "country": "fr",
+        "city": "Lyon",
+        "address": "263 Gd Rue de la Guillotière",
+        "coordinates": {
+          "lat": 45.7474798028256,
+          "lng": 4.858389492902015
+        }
+      },
+      "tags": [
+        "sieć Malting-Pot",
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+
+      ]
+    }
+  ]
+}
