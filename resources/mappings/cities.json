@@ -318,6 +318,15 @@
           "value": "Madryt"
         }
       ]
+    },
+    {
+      "name": "Nürnberg",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Norymberga"
+        }
+      ]
     }
   ]
 }

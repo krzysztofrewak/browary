@@ -1,0 +1,97 @@
+{
+  "name": "BrauBeviale 2024",
+  "breweries": [
+    {
+      "name": "Brauerei Mahr",
+      "visited": "2024-11-25",
+      "location": {
+        "country": "de",
+        "city": "Bamberg",
+        "address": "Wunderburg 10",
+        "coordinates": {
+          "lat": 49.89002080044896,
+          "lng": 10.906442062023835
+        }
+      },
+      "tags": [
+        "kraj związkowy Bawaria",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Brauerei Keesmann",
+      "visited": "2024-11-25",
+      "location": {
+        "country": "de",
+        "city": "Bamberg",
+        "address": "Wunderburg 5",
+        "coordinates": {
+          "lat": 49.89036039278193,
+          "lng": 10.905608861482817
+        }
+      },
+      "tags": [
+        "kraj związkowy Bawaria",
+        "piwo spróbowane na miejscu",
+        "browar regionalny"
+      ]
+    },
+    {
+      "name": "Tucher Mautkeller Nürnberg",
+      "visited": "2024-11-25",
+      "location": {
+        "country": "de",
+        "city": "Nürnberg",
+        "address": "Hallpl. 2",
+        "coordinates": {
+          "lat": 49.449414312454664,
+          "lng": 11.079094841080613
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "kraj związkowy Bawaria",
+        "browar restauracyjny",
+        "sieć Tucher"
+      ]
+    },
+    {
+      "name": "Hausbrauerei Altstadthof",
+      "visited": "2024-11-25",
+      "location": {
+        "country": "de",
+        "city": "Nürnberg",
+        "address": "Unschlittpl. 9",
+        "coordinates": {
+          "lat": 49.45688993247522,
+          "lng": 11.07470508251356
+        }
+      },
+      "tags": [
+        "kraj związkowy Bawaria",
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "destylarnia"
+      ]
+    },
+    {
+      "name": "Brauerei Schanzenbräu",
+      "visited": "2024-11-27",
+      "location": {
+        "country": "de",
+        "city": "Nürnberg",
+        "address": "Proeslerstraße 3",
+        "coordinates": {
+          "lat": 49.44839484904009,
+          "lng": 11.003195700003602
+        }
+      },
+      "tags": [
+        "kraj związkowy Bawaria",
+        "piwo spróbowane poza browarem",
+        "przybrowarniany sklep"
+      ]
+    }
+  ]
+}
