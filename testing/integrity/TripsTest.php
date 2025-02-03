@@ -17,7 +17,7 @@ class TripsTest extends TestCase
             $this->assertIsArray($trip);
             $this->assertArrayHasKey("name", $trip);
             $this->assertArrayHasKey("breweries", $trip);
-            $this->assertCount(2, $trip, "There's a different number of fields for " . $trip["name"]);
+            $this->assertContains(count($trip), [2, 3], "There's a different number of fields for " . $trip["name"]);
 
             $this->assertIsArray($trip["breweries"]);
 
