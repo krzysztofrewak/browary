@@ -28,7 +28,7 @@ class Trips
         $tripsData->reverse()->each(
             function (string $jsonFile) use ($trips, $countries, $cities, $tags): void {
                 $data = json_decode($jsonFile, true);
-                $trip = new Trip($data["name"]);
+                $trip = new Trip($data["name"], $data["tags"] ?? []);
 
                 $breweries = new Collection($data["breweries"]);
 
@@ -53,6 +53,11 @@ class Trips
                     }
 
                     foreach ($country->getTags() as $tag) {
+                        $tag = $tags->firstOrCreate($tag);
+                        $brewery->addTag($tag);
+                    }
+
+                    foreach ($trip->getTags() as $tag) {
                         $tag = $tags->firstOrCreate($tag);
                         $brewery->addTag($tag);
                     }

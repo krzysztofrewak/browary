@@ -327,6 +327,15 @@
           "value": "Norymberga"
         }
       ]
+    },
+    {
+      "name": "Ústí nad Orlicí",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Uście nad Orlicą"
+        }
+      ]
     }
   ]
 }
