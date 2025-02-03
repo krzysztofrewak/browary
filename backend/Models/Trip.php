@@ -15,21 +15,24 @@ class Trip implements JsonSerializable, Sluggable, Boundable
     protected string $slug;
     protected Collection $breweries;
     protected Collection $countries;
+    protected Collection $tags;
     protected ?Extremes $extremes = null;
 
     public function __construct(
         protected string $name,
+        array $tags,
     ) {
         $this->slug = Str::slug($this->name);
         $this->breweries = new Collection();
         $this->countries = new Collection();
+        $this->tags = new Collection($tags);
     }
 
     public static function buildFromJson(string $jsonFile): static
     {
         $data = json_decode($jsonFile, true);
 
-        return new static($data["name"]);
+        return new static($data["name"], $data["tags"] ?? []);
     }
 
     public function getName(): string
@@ -76,6 +79,11 @@ class Trip implements JsonSerializable, Sluggable, Boundable
     public function getCitiesCount(): int
     {
         return $this->breweries->groupBy(fn(Brewery $brewery): string => $brewery->getCity()->getSlug())->count();
+    }
+
+    public function getTags()
+    {
+        return $this->tags;
     }
 
     public function getExtremes(): ?Extremes

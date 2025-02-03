@@ -1,0 +1,63 @@
+{
+  "name": "kraj pardubicki, styczeń 2025",
+  "tags": [
+    "odwiedzone z Goworowa",
+    "kraj pardubicki"
+  ],
+  "breweries": [
+    {
+      "name": "Měšťanský pivovar a hotel Na Zámečku",
+      "visited": "2025-01-31",
+      "location": {
+        "country": "cz",
+        "city": "Ústí nad Orlicí",
+        "address": "Hylváty 1",
+        "coordinates": {
+          "lat": 49.960434341874,
+          "lng": 16.403694671080128
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar hotelowy",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivovar Faltus",
+      "visited": "2025-01-31",
+      "location": {
+        "country": "cz",
+        "city": "Česká Třebová",
+        "address": "Moravská 207",
+        "coordinates": {
+          "lat": 49.90076099444855,
+          "lng": 16.449327110393597
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Pivovar Veselka",
+      "visited": "2025-01-31",
+      "location": {
+        "country": "cz",
+        "city": "Litomyšl",
+        "address": "T. Novákové 64",
+        "coordinates": {
+          "lat": 49.87087400144217,
+          "lng": 16.316662473571768
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

@@ -11,6 +11,7 @@
 import mapboxgl from 'mapbox-gl'
 import adjuster from '../mixins/map/adjuster'
 import controls from '../mixins/map/controls'
+import countries from '../mixins/map/countries'
 import markers from '../mixins/map/markers'
 import popups from '../mixins/map/popups'
 import search from '../mixins/map/search'
@@ -23,6 +24,7 @@ export default {
   mixins: [
     adjuster,
     controls,
+    countries,
     markers,
     popups,
     search
@@ -48,6 +50,7 @@ export default {
       this.addControls()
       this.addSearch()
       this.buildMarkers()
+      this.buildCountries()
     }
   }
 }
