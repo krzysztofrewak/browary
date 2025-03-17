@@ -49,8 +49,8 @@ export default {
 
       this.addControls()
       this.addSearch()
-      this.buildMarkers()
       this.buildCountries()
+      this.buildMarkers()
     }
   }
 }

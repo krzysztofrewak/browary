@@ -1,0 +1,24 @@
+{
+  "name": "Sady, marzec 2025",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Browar Sady",
+      "visited": "2025-03-17",
+      "location": {
+        "country": "pl",
+        "city": "Sady",
+        "address": "Logistyczna 21",
+        "coordinates": {
+          "lat": 52.44782237809482,
+          "lng": 16.73569832884278
+        }
+      },
+      "tags": [
+        "piwo spróbowane na wynos",
+        "przybrowarniany sklep",
+        "województwo wielkopolskie"
+      ]
+    }
+  ]
+}
