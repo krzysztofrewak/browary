@@ -51,6 +51,7 @@ export default {
       this.addSearch()
       this.buildCountries()
       this.buildMarkers()
+      this.buildCountries()
     }
   }
 }
