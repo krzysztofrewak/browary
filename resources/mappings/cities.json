@@ -336,6 +336,71 @@
           "value": "Uście nad Orlicą"
         }
       ]
+    },
+    {
+      "name": "香港",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "hongkong"
+        },
+        {
+          "mapping": "translation",
+          "value": "Hongkong"
+        }
+      ]
+    },
+    {
+      "name": "กรุงเทพมหานคร",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "bangkok"
+        },
+        {
+          "mapping": "translation",
+          "value": "Bangkok"
+        }
+      ]
+    },
+    {
+      "name": "นนทบุรี",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "nonthaburi"
+        },
+        {
+          "mapping": "translation",
+          "value": "Nonthaburi"
+        }
+      ]
+    },
+    {
+      "name": "臺北市",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "taipei"
+        },
+        {
+          "mapping": "translation",
+          "value": "Tajpej"
+        }
+      ]
+    },
+    {
+      "name": "新北",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "new-taipei"
+        },
+        {
+          "mapping": "translation",
+          "value": "Nowe Tajpej"
+        }
+      ]
     }
   ]
 }

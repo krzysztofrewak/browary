@@ -3,6 +3,7 @@
   "breweries": [
     {
       "name": "Κρητική Ζυθοποιία",
+      "altName": "Cretan Beer",
       "visited": "2018-09-03",
       "location": {
         "country": "gr",

@@ -45,7 +45,9 @@ class Trips
                     $date = Carbon::parse($breweryData["visited"]);
                     $note = $breweryData["note"] ?? "";
 
-                    $brewery = new Brewery($breweryData["name"], $location, $date, $trip, $note);
+                    $altName = $breweryData["altName"] ?? null;
+
+                    $brewery = new Brewery($breweryData["name"], $altName, $location, $date, $trip, $note);
 
                     foreach ($breweryData["tags"] as $tag) {
                         $tag = $tags->firstOrCreate($tag);

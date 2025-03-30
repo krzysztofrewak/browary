@@ -20,7 +20,7 @@ class SearchList implements JsonSerializable
             ->values()
             ->map(
                 fn(Brewery $brewery): array => [
-                    "searchable" => $brewery->getSlug() . " " . $brewery->getName(),
+                    "searchable" => $brewery->getSlug() . " " . $brewery->getName() . " " . ($brewery->getAltName() ?? ""),
                     "name" => $brewery->getName(),
                     "slug" => $brewery->getSlug(),
                     "description" => $this->getBreweryName($brewery),

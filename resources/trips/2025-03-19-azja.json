@@ -1,0 +1,260 @@
+{
+  "name": "Azja Południowo-Wschodnia, marzec 2025",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "The Trafalgar Brewing Company",
+      "visited": "2025-03-21",
+      "location": {
+        "country": "hk",
+        "city": "香港",
+        "address": "Shop D, G/F, 12-14 Yim Po Fong St, Mong Kok",
+        "coordinates": {
+          "lat": 22.31914807239415,
+          "lng": 114.17273399994927
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Bootleg Brothers Brewing Co.",
+      "visited": "2025-03-22",
+      "location": {
+        "country": "th",
+        "city": "กรุงเทพมหานคร",
+        "address": "ชั้น 5 Escape Bangkok, 689 Sukhumvit Rd, Khlong Tan Nuea, Watthana",
+        "coordinates": {
+          "lat": 13.731131583030004,
+          "lng": 100.56979304655854
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny",
+        "browar w galerii handlowej"
+      ]
+    },
+    {
+      "name": "โรงเบียร์เยอรมันตะวันแดง",
+      "altName": "Tawandang German Brewery",
+      "visited": "2025-03-22",
+      "location": {
+        "country": "th",
+        "city": "กรุงเทพมหานคร",
+        "address": "645 647 Pradit Manutham Rd, Lat Phrao",
+        "coordinates": {
+          "lat": 13.696891993275475,
+          "lng": 100.54579593676877
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "The Londoner Brew Pub",
+      "visited": "2025-03-23",
+      "location": {
+        "country": "th",
+        "city": "กรุงเทพมหานคร",
+        "address": "1178 Phatthanakan Rd, Suan Luang",
+        "coordinates": {
+          "lat": 13.736355164338681,
+          "lng": 100.62010017607214
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "โรงเบียร์สหประชาชื่น",
+      "altName": "United Peoples Brewery",
+      "visited": "2025-03-23",
+      "location": {
+        "country": "th",
+        "city": "กรุงเทพมหานคร",
+        "address": "109 Thetsaban Nimit Tai 1 Alley, Lat Yao, Chatuchak",
+        "coordinates": {
+          "lat": 13.833547126139578,
+          "lng": 100.55082976546117
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Callmepapa Brewhouse",
+      "visited": "2025-03-23",
+      "location": {
+        "country": "th",
+        "city": "นนทบุรี",
+        "address": "เลขที่ 2 Ngamwongwarn 25 Alley",
+        "coordinates": {
+          "lat": 13.866540792203741,
+          "lng": 100.53956662352387
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "โรงเบียร์มิตรสัมพันธ์",
+      "altName": "Mitr Brewery",
+      "visited": "2025-03-23",
+      "location": {
+        "country": "th",
+        "city": "นนทบุรี",
+        "address": "85, 3 Tiwanon-Pak Kret 21 Alley",
+        "coordinates": {
+          "lat": 13.916515434617269,
+          "lng": 100.51169447525312
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "โรงบ่มเทพนม",
+      "altName": "Devanom Brewing Company",
+      "visited": "2025-03-23",
+      "location": {
+        "country": "th",
+        "city": "นนทบุรี",
+        "address": "85, 18 Tiwanon-Pak Kret 21 Alley",
+        "coordinates": {
+          "lat": 13.916795742666627,
+          "lng": 100.51186529580538
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "cydrownia",
+        "miodosytnia"
+      ]
+    },
+    {
+      "name": "吉比鮮釀餐廳 台北信義店",
+      "altName": "GB Brewery - Xinyi",
+      "visited": "2025-03-25",
+      "location": {
+        "country": "tw",
+        "city": "臺北市",
+        "address": "Songshou Rd, 11號2樓",
+        "coordinates": {
+          "lat": 25.03715855664501,
+          "lng": 121.56713176339953
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "browar w galerii handlowej",
+        "piwo spróbowane na miejscu",
+        "sieć GB",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "酉鬼啤酒",
+      "altName": "Ugly Half Beer",
+      "visited": "2025-03-26",
+      "location": {
+        "country": "tw",
+        "city": "新北",
+        "address": "No. 9 號, Lane 116, Wugongsan Rd, Wugu District",
+        "coordinates": {
+          "lat": 25.069006400679502,
+          "lng": 121.45584935680894
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "少爺啤酒廠",
+      "altName": "Young Master Brewery",
+      "visited": "2025-03-27",
+      "location": {
+        "country": "hk",
+        "city": "香港",
+        "address": "G/F, Sungib Industrial Centre, 53 Wong Chuk Hang Rd, Wong Chuk Hang",
+        "coordinates": {
+          "lat": 22.24965618228241,
+          "lng": 114.1678502549185
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane poza browarem"
+      ]
+    },
+    {
+      "name": "Black Kite Brewery",
+      "visited": "2025-03-27",
+      "location": {
+        "country": "hk",
+        "city": "香港",
+        "address": "11/F, unit B, Derrick Industrial Building, 49 Wong Chuk Hang Rd, Wong Chuk Hang",
+        "coordinates": {
+          "lat": 22.249643714964815,
+          "lng": 114.16748439998443
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na wynos"
+      ]
+    },
+    {
+      "name": "嘅英雄總部",
+      "altName": "Heroes Beer Co",
+      "visited": "2025-03-27",
+      "location": {
+        "country": "hk",
+        "city": "香港",
+        "address": "Unit 3C, Wah Fai Industrial Building, 4 Sze Shan St, Yau Tong",
+        "coordinates": {
+          "lat": 22.295434606033265,
+          "lng": 114.23708867069898
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na wynos"
+      ]
+    }
+  ]
+}
