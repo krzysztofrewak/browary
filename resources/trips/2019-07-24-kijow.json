@@ -3,6 +3,7 @@
   "breweries": [
     {
       "name": "Портер Паб (Хрещатик)",
+      "altName": "Porter Pub (Chreszczatyk)",
       "visited": "2019-07-24",
       "location": {
         "country": "ua",
@@ -23,6 +24,7 @@
     },
     {
       "name": "Шато Robert Doms",
+      "altName": "Chateau Robert Doms",
       "visited": "2019-07-24",
       "location": {
         "country": "ua",
@@ -43,6 +45,7 @@
     },
     {
       "name": "Арена Beer House",
+      "altName": "Arena Beer House",
       "visited": "2019-07-24",
       "location": {
         "country": "ua",
@@ -65,6 +68,7 @@
     },
     {
       "name": "Пиваріум",
+      "altName": "Piwiarium",
       "visited": "2019-07-25",
       "location": {
         "country": "ua",
@@ -85,6 +89,7 @@
     },
     {
       "name": "Фрау Роза",
+      "altName": "Frau Rosa",
       "visited": "2019-07-25",
       "location": {
         "country": "ua",
@@ -107,6 +112,7 @@
     },
     {
       "name": "Портер Паб (Костянтинівська)",
+      "altName": "Porter Pub (Kostiantynivska)",
       "visited": "2019-07-26",
       "location": {
         "country": "ua",
@@ -147,6 +153,7 @@
     },
     {
       "name": "Літпаб Крапка Кома",
+      "altName": "Litpub Kramka Koma",
       "visited": "2019-07-26",
       "location": {
         "country": "ua",
@@ -186,6 +193,7 @@
     },
     {
       "name": "Синдикат",
+      "altName": "Syndykat",
       "visited": "2019-07-27",
       "location": {
         "country": "ua",
@@ -205,6 +213,7 @@
     },
     {
       "name": "Броварня Шульц",
+      "altName": "Browar Schultz",
       "visited": "2019-07-28",
       "location": {
         "country": "ua",

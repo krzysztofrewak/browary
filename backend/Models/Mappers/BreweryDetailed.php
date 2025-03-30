@@ -18,6 +18,7 @@ class BreweryDetailed implements JsonSerializable
         return [
             "id" => $this->brewery->getId(),
             "name" => $this->brewery->getName(),
+            "altName" => $this->brewery->getAltName(),
             "slug" => $this->brewery->getSlug(),
             "note" => $this->brewery->getNote(),
             "location" => $this->brewery->getLocation(),

@@ -276,6 +276,32 @@
         "państwa nordyckie",
         "państwa skandynawskie"
       ]
+    },
+    {
+      "symbol": "hk",
+      "name": "Hongkong",
+      "original": "Hong Kong, 香港",
+      "tags": [
+        "Azja",
+        "terytoria zależne",
+        "terytoria zależne Chin"
+      ]
+    },
+    {
+      "symbol": "th",
+      "name": "Tajlandia",
+      "original": "ราชอาณาจักรไทย",
+      "tags": [
+        "Azja"
+      ]
+    },
+    {
+      "symbol": "tw",
+      "name": "Tajwan",
+      "original": "中華民國",
+      "tags": [
+        "Azja"
+      ]
     }
   ]
 }

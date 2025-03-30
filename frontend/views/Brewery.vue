@@ -1,6 +1,6 @@
 <template>
   <div v-if="brewery.name">
-    <page-header :title="brewery.name"></page-header>
+    <page-header :title="brewery.name" :header="brewery.altName"></page-header>
 
     <infobox>
       <template v-slot:general>
@@ -17,6 +17,7 @@
         <infobox-item label="miasto">
           <router-link :to="{ name: 'city', params: { slug: brewery.location.city.slug } }">
             {{ brewery.location.city.name }}
+            <span class="text-gray-500" v-if="brewery.location.city.translation">| {{ brewery.location.city.translation }}</span>
           </router-link>
         </infobox-item>
         <infobox-item label="adres" :value="brewery.location.address"></infobox-item>

@@ -3,6 +3,7 @@
   "breweries": [
     {
       "name": "Ресторан-пивоварня Кумпель",
+      "altName": "Restauracja-browar Kumpel",
       "visited": "2019-04-06",
       "location": {
         "country": "ua",
@@ -22,6 +23,7 @@
     },
     {
       "name": "Чеська пивоварня Старгород",
+      "altName": "Starogród Lwów",
       "visited": "2019-04-06",
       "location": {
         "country": "ua",
@@ -40,6 +42,7 @@
     },
     {
       "name": "36по",
+      "altName": "36po",
       "visited": "2019-04-06",
       "location": {
         "country": "ua",
@@ -58,6 +61,7 @@
     },
     {
       "name": "Львівська пивоварня",
+      "altName": "Browar Lwowski",
       "visited": "2019-04-07",
       "location": {
         "country": "ua",
@@ -78,6 +82,7 @@
     },
     {
       "name": "Театр пива Правда",
+      "altName": "Teatr piwa Prawda",
       "visited": "2019-04-07",
       "location": {
         "country": "ua",
@@ -97,6 +102,7 @@
     },
     {
       "name": "Королівська Пивоварня",
+      "altName": "Browar Królewski",
       "visited": "2019-04-07",
       "location": {
         "country": "ua",

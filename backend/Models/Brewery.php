@@ -18,6 +18,7 @@ class Brewery implements JsonSerializable, Sluggable
 
     public function __construct(
         protected string $name,
+        protected ?string $altName,
         protected Location $location,
         protected Carbon $date,
         protected Trip $trip,
@@ -35,6 +36,11 @@ class Brewery implements JsonSerializable, Sluggable
     public function getName(): string
     {
         return $this->name;
+    }
+
+    public function getAltName(): ?string
+    {
+        return $this->altName;
     }
 
     public function getSlug(): string
@@ -117,6 +123,7 @@ class Brewery implements JsonSerializable, Sluggable
         return [
             "id" => $this->id,
             "name" => $this->name,
+            "altName" => $this->altName ?? "",
             "slug" => $this->slug,
             "location" => $this->location,
             "date" => $this->getMonthYearDate(),
