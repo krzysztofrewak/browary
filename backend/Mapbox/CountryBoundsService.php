@@ -15,7 +15,7 @@ class CountryBoundsService
     /**
      * @throws GuzzleException
      */
-    public static function setBounds(Countries $countries): void
+    public static function setBounds(Countries $countries, string $rootPath): void
     {
         $api = new Client();
         $token = $_ENV["VUE_APP_MAPBOX_TOKEN"] ?? getenv("VUE_APP_MAPBOX_TOKEN");
@@ -23,6 +23,28 @@ class CountryBoundsService
         if (empty($token)) {
             return;
         }
+
+        $hash = $countries->getHash();
+
+        if (file_exists($rootPath . "/.countries.cache.json")) {
+            $cache = file_get_contents($rootPath . "/.countries.cache.json");
+            $cache = json_decode($cache, associative: true);
+
+            if ($cache["hash"] === $hash) {
+                /** @var Country $country */
+                foreach ($countries->getAll() as $country) {
+                    $extremes = new Extremes(...$cache["extremes"][$country->getSymbol()]);
+                    $country->setExtremes($extremes);
+                }
+
+                return;
+            }
+        }
+
+        $cache = [
+            "hash" => $hash,
+            "extremes" => [],
+        ];
 
         /** @var Country $country */
         foreach ($countries->getAll() as $country) {
@@ -40,6 +62,9 @@ class CountryBoundsService
             );
 
             $country->setExtremes($extremes);
+            $cache["extremes"][$country->getSymbol()] = $extremes;
         }
+
+        file_put_contents($rootPath . "/.countries.cache.json", json_encode($cache, JSON_PRETTY_PRINT));
     }
 }

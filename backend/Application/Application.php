@@ -140,7 +140,7 @@ class Application
         Calendar $calendar,
         CitiesCollection $cities,
     ): void {
-        CountryBoundsService::setBounds($countries);
+        CountryBoundsService::setBounds($countries, $this->rootPath);
         BoundsService::setBounds($trips->getAll());
         BoundsService::setBounds($tags->getAll());
         BoundsService::setBounds($calendar->getAll());
