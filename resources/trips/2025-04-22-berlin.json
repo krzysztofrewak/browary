@@ -1,0 +1,191 @@
+{
+  "name": "Berlin, kwiecień 2025",
+  "tags": [
+    "kraj związkowy Berlin",
+    "browar stołeczny"
+  ],
+  "breweries": [
+    {
+      "name": "Heidenpeters",
+      "visited": "2025-04-22",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Eisenbahnstraße 42-43",
+        "coordinates": {
+          "lat": 52.5021317348037,
+          "lng": 13.43160416434046
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar w hali targowej"
+      ]
+    },
+    {
+      "name": "Privatbrauerei Schalander, Haus9",
+      "visited": "2025-04-22",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Revaler Str. 99",
+        "coordinates": {
+          "lat": 52.50703981848853,
+          "lng": 13.456768813519563
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Straßenbräu",
+      "visited": "2025-04-22",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Neue Bahnhofstraße 30",
+        "coordinates": {
+          "lat": 52.505476195155076,
+          "lng": 13.46943071701856
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Hops & Barley",
+      "visited": "2025-04-22",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Wühlischstraße 22/23",
+        "coordinates": {
+          "lat": 52.508944960281596,
+          "lng": 13.460689071172839
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Brauhaus Südstern",
+      "visited": "2025-04-22",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Hasenheide 69",
+        "coordinates": {
+          "lat": 52.488394597701344,
+          "lng": 13.41046334254748
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Brauhaus Neulich",
+      "visited": "2025-04-22",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Selchower Str. 20",
+        "coordinates": {
+          "lat": 52.478406096474785,
+          "lng": 13.41995768649221
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Brauhaus Georgbræu",
+      "visited": "2025-04-23",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Spreeufer 4",
+        "coordinates": {
+          "lat": 52.51654174231181,
+          "lng": 13.405503799999549
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar nad rzeką"
+      ]
+    },
+    {
+      "name": "Biermeisterei by Lemke",
+      "visited": "2025-04-23",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Karl-Liebknecht-Str. 13",
+        "coordinates": {
+          "lat": 52.52253348820448,
+          "lng": 13.407958957662519
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Das Lemke",
+      "visited": "2025-04-23",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "S-Bahnbogen 143, Dircksenstraße",
+        "coordinates": {
+          "lat": 52.52327761171378,
+          "lng": 13.404725072827153
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "BRŁO Brwhouse",
+      "visited": "2025-04-23",
+      "location": {
+        "country": "de",
+        "city": "Berlin",
+        "address": "Schöneberger Str. 16",
+        "coordinates": {
+          "lat": 52.50019007712119,
+          "lng": 13.373689273896813
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
+        "obejrzany sprzęt"
+      ]
+    }
+  ]
+}

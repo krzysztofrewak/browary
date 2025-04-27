@@ -1,0 +1,44 @@
+{
+  "name": "kraj liberecki, kwiecień 2025",
+  "tags": [
+    "kraj liberecki"
+  ],
+  "breweries": [
+    {
+      "name": "Minipivovar U Čápa",
+      "visited": "2025-04-27",
+      "location": {
+        "country": "cz",
+        "city": "Kořenov-Příchovice",
+        "address": "Příchovice 1",
+        "coordinates": {
+          "lat": 50.739776189210396,
+          "lng": 15.346508334937967
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar przy wyciągu narciarskim"
+      ]
+    },
+    {
+      "name": "Minipivovar Na Perlíčku Prdek",
+      "visited": "2025-04-27",
+      "location": {
+        "country": "cz",
+        "city": "Paseky nad Jizerou",
+        "address": "Paseky nad Jizerou 222",
+        "coordinates": {
+          "lat": 50.725117288778584,
+          "lng": 15.377758130600181
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt"
+      ]
+    }
+  ]
+}

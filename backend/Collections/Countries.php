@@ -36,6 +36,11 @@ class Countries implements JsonSerializable, HavingAll
         return $this->countries;
     }
 
+    public function getHash(): string
+    {
+        return $this->countries->map(fn(Country $country) => $country->getSymbol())->join(":");
+    }
+
     public function jsonSerialize(): Collection
     {
         return $this->countries->sort(
