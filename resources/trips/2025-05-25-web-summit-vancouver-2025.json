@@ -1,0 +1,706 @@
+{
+  "name": "Web Summit Vancouver 2025",
+  "tags": [
+    "prowincja Kolumbia Brytyjska"
+  ],
+  "breweries": [
+    {
+      "name": "33 Brewing Experiment",
+      "visited": "2025-05-25",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "25 W 8th Ave",
+        "coordinates": {
+          "lat": 49.26395523925639,
+          "lng": -123.10555021936104
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "33 Acres Brewing Company",
+      "visited": "2025-05-25",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "15 W 8th Ave",
+        "coordinates": {
+          "lat": 49.263929060259784,
+          "lng": -123.10531147899825
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane poza browarem",
+        "obejrzany sprzęt",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Electric Bicycle Brewing",
+      "visited": "2025-05-25",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "20 E 4th Ave",
+        "coordinates": {
+          "lat": 49.26726684962772,
+          "lng": -123.10428154518806
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "R&B Brewing",
+      "visited": "2025-05-25",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1-54 E 4th Ave",
+        "coordinates": {
+          "lat": 49.267212732916754,
+          "lng": -123.10331506418389
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar z pizzerią",
+        "wielokrotnie odwiedzony",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Faculty Brewing Co.",
+      "visited": "2025-05-25",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1830 Ontario St",
+        "coordinates": {
+          "lat": 49.26862833671385,
+          "lng": -123.10449479655576
+        }
+      },
+      "tags": [
+        "brewpub",
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt",
+        "kombucharnia",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "BREWHALL",
+      "visited": "2025-05-25",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "97 E 2nd Ave",
+        "coordinates": {
+          "lat": 49.2694379525439,
+          "lng": -123.1035319117955
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Red Truck Beer Company",
+      "visited": "2025-05-25",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "295 E 1st Ave",
+        "coordinates": {
+          "lat": 49.268888216121304,
+          "lng": -123.09649436647337
+        }
+      },
+      "tags": [
+        "browar regionalny",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Brassneck Brewery",
+      "visited": "2025-05-25",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "2148 Main St",
+        "coordinates": {
+          "lat": 49.26574971487929,
+          "lng": -123.1006262058279
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Main Street Brewing Co.",
+      "visited": "2025-05-25",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "261 E 7th Ave",
+        "coordinates": {
+          "lat": 49.26470065721508,
+          "lng": -123.09914620102921
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Stanley Park Brewing",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "8901 Stanley Park Dr",
+        "coordinates": {
+          "lat": 49.29231231250254,
+          "lng": -123.14648675373469
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "browar w parku",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Steamworks Brewing Company",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "375 Water St",
+        "coordinates": {
+          "lat": 49.28501451235118,
+          "lng": -123.11075037561842
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Granville Island Brewing",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1441 Cartwright St",
+        "coordinates": {
+          "lat": 49.27051832818494,
+          "lng": -123.13564877317876
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Artisan SakeMaker",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1339 Railspur Alley",
+        "coordinates": {
+          "lat": 49.27021124863509,
+          "lng": -123.13378058548787
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "spotkanie z piwowarem",
+        "sakagura",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Strathcona Beer Company",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "895 E Hastings St",
+        "coordinates": {
+          "lat": 49.281267941719655,
+          "lng": -123.08514750275098
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Container Brewing",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1216 Franklin St",
+        "coordinates": {
+          "lat": 49.28216281351532,
+          "lng": -123.07875904299206
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "CowDog Brew Company",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1338 Franklin St",
+        "coordinates": {
+          "lat": 49.28189015956775,
+          "lng": -123.07627139512928
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Superflux",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "505 Clark Dr",
+        "coordinates": {
+          "lat": 49.2801513862548,
+          "lng": -123.07754711595078
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Off The Rail Brewing",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1351 Adanac St",
+        "coordinates": {
+          "lat": 49.27781336922855,
+          "lng": -123.07600903686372
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Bomber Brewing",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1488 Adanac St",
+        "coordinates": {
+          "lat": 49.27751063744399,
+          "lng": -123.07459015660696
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "East Van Brewing Company",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1675 Venables St",
+        "coordinates": {
+          "lat": 49.27687360947521,
+          "lng": -123.0711272890615
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Luppolo Brewing Co.",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1123 Venables St",
+        "coordinates": {
+          "lat": 49.27690727400846,
+          "lng": -123.08059881235947
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Strange Fellows Brewing",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1345 Clark Dr",
+        "coordinates": {
+          "lat": 49.272491283437816,
+          "lng": -123.0777302343219
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Terminal City Brewing",
+      "visited": "2025-05-26",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1616 Clark Dr",
+        "coordinates": {
+          "lat": 49.270216184051414,
+          "lng": -123.07710259045291
+        }
+      },
+      "tags": [
+        "browar kontraktujący",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "La Cerveceria Astilleros",
+      "visited": "2025-05-27",
+      "location": {
+        "country": "ca",
+        "city": "North Vancouver",
+        "address": "226 Esplanade E",
+        "coordinates": {
+          "lat": 49.30953001145149,
+          "lng": -123.07520617310811
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Vancouver's North Shore Ale Trail"
+      ]
+    },
+    {
+      "name": "North Point Brewing Co.",
+      "visited": "2025-05-27",
+      "location": {
+        "country": "ca",
+        "city": "North Vancouver",
+        "address": "266 1st St E",
+        "coordinates": {
+          "lat": 49.30967765628696,
+          "lng": -123.0729728669605
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt",
+        "Vancouver's North Shore Ale Trail"
+      ]
+    },
+    {
+      "name": "Beere Brewing Company",
+      "visited": "2025-05-27",
+      "location": {
+        "country": "ca",
+        "city": "North Vancouver",
+        "address": "312 Esplanade E",
+        "coordinates": {
+          "lat": 49.30834226480238,
+          "lng": -123.07270935031671
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Vancouver's North Shore Ale Trail"
+      ]
+    },
+    {
+      "name": "Shaketown Brewing",
+      "visited": "2025-05-27",
+      "location": {
+        "country": "ca",
+        "city": "North Vancouver",
+        "address": "288 Esplanade E",
+        "coordinates": {
+          "lat": 49.30873947748052,
+          "lng": -123.07343341454886
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "Vancouver's North Shore Ale Trail"
+      ]
+    },
+    {
+      "name": "Braggot Brewing",
+      "visited": "2025-05-27",
+      "location": {
+        "country": "ca",
+        "city": "North Vancouver",
+        "address": "370 Esplanade E",
+        "coordinates": {
+          "lat": 49.307468497056334,
+          "lng": -123.07071713872249
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "miodosytnia",
+        "Vancouver's North Shore Ale Trail"
+      ]
+    },
+    {
+      "name": "House of Pandemonium",
+      "visited": "2025-05-27",
+      "location": {
+        "country": "ca",
+        "city": "North Vancouver",
+        "address": "350 Esplanade E",
+        "coordinates": {
+          "lat": 49.30771376536554,
+          "lng": -123.07132868233718
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Streetcar Brewing",
+      "visited": "2025-05-27",
+      "location": {
+        "country": "ca",
+        "city": "North Vancouver",
+        "address": "123A 1st St E",
+        "coordinates": {
+          "lat": 49.31141731561379,
+          "lng": -123.0778663631235
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Strathcona North",
+      "visited": "2025-05-27",
+      "location": {
+        "country": "ca",
+        "city": "North Vancouver",
+        "address": "123 Carrie Cates Ct #108",
+        "coordinates": {
+          "lat": 49.31003432753223,
+          "lng": -123.08238655415245
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Yaletown Brewing Company",
+      "visited": "2025-05-28",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1111 Mainland St",
+        "coordinates": {
+          "lat": 49.27558938420606,
+          "lng": -123.12090289877348
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Parallel 49 Brewing Company",
+      "visited": "2025-05-30",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1950 Triumph St",
+        "coordinates": {
+          "lat": 49.28377240288592,
+          "lng": -123.06438954233488
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Storm Brewing",
+      "visited": "2025-05-30",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "310 Commercial Dr",
+        "coordinates": {
+          "lat": 49.28200860251579,
+          "lng": -123.07013486661161
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Slow Hand Beer Company",
+      "visited": "2025-05-30",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1507 Powell St",
+        "coordinates": {
+          "lat": 49.283422311154325,
+          "lng": -123.0736570679289
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "browar kolektywny",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Powell Street Craft Brewery",
+      "visited": "2025-05-30",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1357 Powell St",
+        "coordinates": {
+          "lat": 49.28336535314519,
+          "lng": -123.07575790298226
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Yeast Vancouver Ale Trail"
+      ]
+    },
+    {
+      "name": "Brewing August",
+      "visited": "2025-05-31",
+      "location": {
+        "country": "ca",
+        "city": "Vancouver",
+        "address": "1614 W 3rd Ave",
+        "coordinates": {
+          "lat": 49.2686704930698,
+          "lng": -123.14131152881245
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "Brewery Creek Vancouver Ale Trail"
+      ]
+    }
+  ]
+}
