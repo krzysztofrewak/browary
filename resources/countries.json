@@ -302,6 +302,14 @@
       "tags": [
         "Azja"
       ]
+    },
+    {
+      "symbol": "ca",
+      "name": "Kanada",
+      "original": "Canada",
+      "tags": [
+        "Ameryka Północna"
+      ]
     }
   ]
 }
