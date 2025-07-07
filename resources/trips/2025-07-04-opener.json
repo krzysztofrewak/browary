@@ -1,0 +1,27 @@
+{
+  "name": "Open'er 2025",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Nowy Browar Gdański",
+      "visited": "2025-07-04",
+      "location": {
+        "country": "pl",
+        "city": "Gdańsk",
+        "address": "Jana Kilińskiego 7E",
+        "coordinates": {
+          "lat": 54.383247988857306,
+          "lng": 18.60782279426347
+        }
+      },
+      "tags": [
+        "brewpub",
+        "województwo pomorskie",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "sieć Nowy Browar",
+        "browar na terenie zabytkowego browaru"
+      ]
+    }
+  ]
+}
