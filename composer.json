@@ -28,6 +28,7 @@
 			"rm -rf ./public/api",
 			"sh -c 'cd backend && php index.php'"
 		],
+		"compare": "sh -c 'php ./backend/compare.php'",
 		"test": "./vendor/bin/phpunit testing",
 		"cs": "./vendor/bin/php-cs-fixer fix --dry-run --diff --config codestyle.php",
 		"csf":  "./vendor/bin/php-cs-fixer fix --diff --config codestyle.php"

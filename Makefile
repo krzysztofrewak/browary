@@ -25,4 +25,7 @@ build:
 import:
 	@docker compose --file ${DOCKER_COMPOSE_FILE} exec --user "${CURRENT_USER_ID}:${CURRENT_USER_GROUP_ID}" php composer build
 
-.PHONY: run stop restart shell dev build import
+compare:
+	@docker compose --file ${DOCKER_COMPOSE_FILE} exec --user "${CURRENT_USER_ID}:${CURRENT_USER_GROUP_ID}" php composer compare
+
+.PHONY: run stop restart shell dev build import compare
