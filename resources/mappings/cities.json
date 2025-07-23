@@ -401,6 +401,15 @@
           "value": "Nowe Tajpej"
         }
       ]
+    },
+    {
+      "name": "Vilnius",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Wilno"
+        }
+      ]
     }
   ]
 }
