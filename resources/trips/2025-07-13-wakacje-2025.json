@@ -1,0 +1,305 @@
+{
+  "name": "wakacje 2025",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Browar Restauracyjny Sami Swoi",
+      "visited": "2025-07-13",
+      "location": {
+        "country": "pl",
+        "city": "Główno",
+        "address": "plac Wolności 11/13",
+        "coordinates": {
+          "lat": 51.96487629319635,
+          "lng": 19.720910040281446
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "instalacja Minibrowary.pl",
+        "województwo łódzkie",
+        "browar z pizzerią"
+      ]
+    },
+    {
+      "name": "Browar Bednary",
+      "visited": "2025-07-14",
+      "location": {
+        "country": "pl",
+        "city": "Bednary",
+        "address": "Zachodnia 6",
+        "coordinates": {
+          "lat": 52.11278337923233,
+          "lng": 20.047980474726053
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "województwo łódzkie",
+        "członek Polskiego Stowarzyszenia Browarów Rzemieślniczych"
+      ]
+    },
+    {
+      "name": "Browar Socho",
+      "visited": "2025-07-14",
+      "location": {
+        "country": "pl",
+        "city": "Sochaczew",
+        "address": "Kożuszki-Parcel 61F",
+        "coordinates": {
+          "lat": 52.231509615525205,
+          "lng": 20.302561755848615
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "piwo spróbowane poza browarem",
+        "województwo mazowieckie"
+      ]
+    },
+    {
+      "name": "Browar Mikołajki",
+      "visited": "2025-07-16",
+      "location": {
+        "country": "pl",
+        "city": "Stare Sady",
+        "address": "Stare Sady 12",
+        "coordinates": {
+          "lat": 53.84737819760478,
+          "lng": 21.54016043483787
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na miejscu",
+        "województwo warmińsko-mazurskie"
+      ]
+    },
+    {
+      "name": "Browar Kormoran",
+      "visited": "2025-07-17",
+      "location": {
+        "country": "pl",
+        "city": "Olsztyn",
+        "address": "Aleja Generała Władysława Sikorskiego 2",
+        "coordinates": {
+          "lat": 53.76224121320002,
+          "lng": 20.4850689528765
+        }
+      },
+      "tags": [
+        "browar regionalny",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "województwo warmińsko-mazurskie",
+        "członek Stowarzyszenia Regionalnych Browarów Polskich"
+      ]
+    },
+    {
+      "name": "Browar Miejski Olsztyn",
+      "visited": "2025-07-17",
+      "location": {
+        "country": "pl",
+        "city": "Olsztyn",
+        "address": "Stare Miasto 29/32",
+        "coordinates": {
+          "lat": 53.77675303013525,
+          "lng": 20.475602549905602
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "województwo warmińsko-mazurskie",
+        "browar na rynku"
+      ]
+    },
+    {
+      "name": "Browar Warmia",
+      "visited": "2025-07-17",
+      "location": {
+        "country": "pl",
+        "city": "Olsztyn",
+        "address": "Feliksa Nowowiejskiego 15",
+        "coordinates": {
+          "lat": 53.778708942551155,
+          "lng": 20.474452162750598
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "województwo warmińsko-mazurskie"
+      ]
+    },
+    {
+      "name": "Browar Ukiel",
+      "visited": "2025-07-17",
+      "location": {
+        "country": "pl",
+        "city": "Olsztyn",
+        "address": "Żurawia 81",
+        "coordinates": {
+          "lat": 53.80330166681635,
+          "lng": 20.401617990668782
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "województwo warmińsko-mazurskie"
+      ]
+    },
+    {
+      "name": "Mazurski Browar",
+      "visited": "2025-07-18",
+      "location": {
+        "country": "pl",
+        "city": "Ełk",
+        "address": "Okrężna 4A",
+        "coordinates": {
+          "lat": 53.81650039794601,
+          "lng": 22.380275528833828
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "przybrowarniany sklep",
+        "województwo warmińsko-mazurskie"
+      ]
+    },
+    {
+      "name": "Browar Północny",
+      "visited": "2025-07-18",
+      "location": {
+        "country": "pl",
+        "city": "Suwałki",
+        "address": "Teofila Noniewicza 42/lok. 1",
+        "coordinates": {
+          "lat": 54.10406501671137,
+          "lng": 22.932235673057217
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "województwo podlaskie"
+      ]
+    },
+    {
+      "name": "Būsi trečias",
+      "visited": "2025-07-19",
+      "location": {
+        "country": "lt",
+        "city": "Vilnius",
+        "address": "Totorių g. 18",
+        "coordinates": {
+          "lat": 54.6845605211143,
+          "lng": 25.2825445296357
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Craft & Draft Brewpub",
+      "visited": "2025-07-19",
+      "location": {
+        "country": "lt",
+        "city": "Vilnius",
+        "address": "Gedimino pr. 5",
+        "coordinates": {
+          "lat": 54.686579591819,
+          "lng": 25.283349997401068
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar w podziemiu",
+        "browar stołeczny"
+      ]
+    },
+    {
+      "name": "Browar Łomża",
+      "visited": "2025-07-21",
+      "location": {
+        "country": "pl",
+        "city": "Łomża",
+        "address": "Poznańska 121",
+        "coordinates": {
+          "lat": 53.16218278184081,
+          "lng": 22.035235239032556
+        }
+      },
+      "tags": [
+        "browar regionalny",
+        "obejrzany sprzęt",
+        "piwo spróbowane poza browarem",
+        "województwo podlaskie",
+        "grupa Van Pur"
+      ]
+    },
+    {
+      "name": "Browar Podborze",
+      "visited": "2025-07-21",
+      "location": {
+        "country": "pl",
+        "city": "Podborze",
+        "address": "Zambrowska 43",
+        "coordinates": {
+          "lat": 52.82142816075769,
+          "lng": 21.929214646652916
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
+        "województwo mazowieckie"
+      ]
+    },
+    {
+      "name": "Browar Jabeerwocky",
+      "visited": "2025-07-23",
+      "location": {
+        "country": "pl",
+        "city": "Domaniewek",
+        "address": "Starego Browarnika 2",
+        "coordinates": {
+          "lat": 52.191307388307955,
+          "lng": 20.741371708124497
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "województwo mazowieckie"
+      ]
+    }
+  ]
+}

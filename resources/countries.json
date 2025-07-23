@@ -310,6 +310,16 @@
       "tags": [
         "Ameryka Północna"
       ]
+    },
+    {
+      "symbol": "lt",
+      "name": "Litwa",
+      "original": "Lietuva",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa byłego ZSRR"
+      ]
     }
   ]
 }
