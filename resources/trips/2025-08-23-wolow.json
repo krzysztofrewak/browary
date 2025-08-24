@@ -1,0 +1,29 @@
+{
+  "name": "dni otwarte Browaru Wołów",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Browar Wołów",
+      "visited": "2025-08-23",
+      "location": {
+        "country": "pl",
+        "city": "Wołów",
+        "address": "Leśna 2",
+        "coordinates": {
+          "lat": 51.33250108652448,
+          "lng": 16.633418542348167
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na miejscu",
+        "zorganizowana wycieczka",
+        "instalacja Eurolux",
+        "instalacja Letina",
+        "województwo dolnoślaśkie"
+      ]
+    }
+  ]
+}
