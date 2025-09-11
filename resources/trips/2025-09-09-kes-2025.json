@@ -1,0 +1,140 @@
+{
+  "name": "KES 2025",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "을지맥옥",
+      "altName": "Euljiro Brewing",
+      "visited": "2025-09-08",
+      "location": {
+        "country": "kr",
+        "city": "서울",
+        "address": "48-16 Supyo-ro, Euljiro 3(sam)-ga, Jung District",
+        "coordinates": {
+          "lat": 37.56545297923752,
+          "lng": 126.99071662930325
+        }
+      },
+      "tags": []
+    },
+    {
+      "name": "느린마을양조장 홍대점 요리주점",
+      "altName": "Hongdae Pub Hong’s Makgeolli Brewery",
+      "visited": "2025-09-08",
+      "location": {
+        "country": "kr",
+        "city": "서울",
+        "address": "14 Hongik-ro 5an-gil, Mapo-gu",
+        "coordinates": {
+          "lat": 37.55401648637035,
+          "lng": 126.9218319332024
+        }
+      },
+      "tags": []
+    },
+    {
+      "name": "서울브루어리 합정",
+      "altName": "Seoul Brewery",
+      "visited": "2025-09-08",
+      "location": {
+        "country": "kr",
+        "city": "서울",
+        "address": "10 Tojeong-ro 3an-gil, Mapo-gu",
+        "coordinates": {
+          "lat": 37.545925114882536,
+          "lng": 126.91460398559184
+        }
+      },
+      "tags": []
+    },
+    {
+      "name": "Ape Brewing",
+      "visited": "2025-09-09",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "Chuo Ward, Kawaramachi, 2 Chome−1−15 瓦町大都ビル １F",
+        "coordinates": {
+          "lat": 34.68642004020939,
+          "lng": 135.50573899551992
+        }
+      },
+      "tags": []
+    },
+    {
+      "name": "ブリューパブ テタールヴァレ",
+      "altName": "Brewpub Têtard Vallée",
+      "visited": "2025-09-09",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "Chuo Ward, Otedori, 1 Chome−1−2 アトランティス２１ 1F",
+        "coordinates": {
+          "lat": 34.685998920824126,
+          "lng": 135.51669646550337
+        }
+      },
+      "tags": []
+    },
+    {
+      "name": "Craftman Umami",
+      "visited": "2025-09-10",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "2 Chome-4-25 Nakazakinishi, Kita Ward",
+        "coordinates": {
+          "lat": 34.70636433373618,
+          "lng": 135.50139638658433
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym"
+      ]
+    },
+    {
+      "name": "Craft Beer Base Mother Tree",
+      "visited": "2025-09-10",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "1 Chome-13-13 Oyodonaka, Kita Ward",
+        "coordinates": {
+          "lat": 34.70497159862782,
+          "lng": 135.48790118396494
+        }
+      },
+      "tags": []
+    },
+    {
+      "name": "道頓堀ビール",
+      "altName": "Dōtonbori Beer",
+      "visited": "2025-09-10",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "Chuo Ward, Dotonbori, 1 Chome−9−19 大阪松竹座 B2階",
+        "coordinates": {
+          "lat": 34.66848232263093,
+          "lng": 135.50099860619363
+        }
+      },
+      "tags": []
+    },
+    {
+      "name": "「バク 堀江醸造局＆タップルーム」",
+      "altName": "Bak Horie Brewing Studio",
+      "visited": "2025-09-10",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "2 Chome-7-1 Kitahorie, Nishi Ward",
+        "coordinates": {
+          "lat": 34.67411764415408,
+          "lng": 135.49218391217963
+        }
+      },
+      "tags": []
+    }
+  ]
+}

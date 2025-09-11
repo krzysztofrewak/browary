@@ -410,6 +410,32 @@
           "value": "Wilno"
         }
       ]
+    },
+    {
+      "name": "서울",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "seoul"
+        },
+        {
+          "mapping": "translation",
+          "value": "Seul"
+        }
+      ]
+    },
+    {
+      "name": "大阪市",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "osaka"
+        },
+        {
+          "mapping": "translation",
+          "value": "Osaka"
+        }
+      ]
     }
   ]
 }
