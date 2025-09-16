@@ -82,7 +82,7 @@ class Brewery implements JsonSerializable, Sluggable
     {
         $name = $this->name;
 
-        if($this->altName) {
+        if ($this->altName) {
             $name = "$name | {$this->altName}";
         }
 
