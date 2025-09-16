@@ -14,7 +14,7 @@
       <main class="flex-1 flex overflow-hidden">
         <div class="flex-1 flex flex-col-reverse lg:flex-row lg:overflow-hidden">
           <brewmap class="flex-1 h-1/2 lg:flex-auto lg:flex-grow lg:h-full"></brewmap>
-          <div class=" flex-1 h-1/2 lg:h-full lg:flex-none block order-first z-10 shadow-lg">
+          <div class="flex-1 h-1/2 lg:h-full lg:flex-none block order-first z-10 shadow-lg">
             <div class="h-full relative flex flex-col w-full lg:w-120 bg-white overflow-hidden overflow-y-auto">
               <router-view></router-view>
               <div class="w-full">&nbsp;</div>

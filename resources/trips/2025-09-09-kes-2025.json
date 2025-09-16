@@ -1,0 +1,433 @@
+{
+  "name": "KES 2025",
+  "tags": [
+    "odwiedzone podczas wyjazdu na konferencję"
+  ],
+  "breweries": [
+    {
+      "name": "을지맥옥",
+      "altName": "Euljiro Brewing",
+      "visited": "2025-09-08",
+      "location": {
+        "country": "kr",
+        "city": "서울",
+        "address": "48-16 Supyo-ro, Euljiro 3(sam)-ga, Jung District",
+        "coordinates": {
+          "lat": 37.56545297923752,
+          "lng": 126.99071662930325
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar stołeczny",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "느린마을양조장 홍대점 요리주점",
+      "altName": "Hongdae Pub Hong’s Makgeolli Brewery",
+      "visited": "2025-09-08",
+      "location": {
+        "country": "kr",
+        "city": "서울",
+        "address": "14 Hongik-ro 5an-gil, Mapo-gu",
+        "coordinates": {
+          "lat": 37.55401648637035,
+          "lng": 126.9218319332024
+        }
+      },
+      "tags": [
+        "sakagura",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny",
+        "spotkanie z piwowarem",
+        "browar na piętrze",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "서울브루어리 합정",
+      "altName": "Seoul Brewery",
+      "visited": "2025-09-08",
+      "location": {
+        "country": "kr",
+        "city": "서울",
+        "address": "10 Tojeong-ro 3an-gil, Mapo-gu",
+        "coordinates": {
+          "lat": 37.545925114882536,
+          "lng": 126.91460398559184
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Ape Brewing",
+      "visited": "2025-09-09",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "Chuo Ward, Kawaramachi, 2 Chome−1−15 瓦町大都ビル １F",
+        "coordinates": {
+          "lat": 34.68642004020939,
+          "lng": 135.50573899551992
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "ブリューパブ テタールヴァレ",
+      "altName": "Brewpub Têtard Vallée",
+      "visited": "2025-09-09",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "Chuo Ward, Otedori, 1 Chome−1−2 アトランティス２１ 1F",
+        "coordinates": {
+          "lat": 34.685998920824126,
+          "lng": 135.51669646550337
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Craftman Umami",
+      "visited": "2025-09-10",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "2 Chome-4-25 Nakazakinishi, Kita Ward",
+        "coordinates": {
+          "lat": 34.70636433373618,
+          "lng": 135.50139638658433
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Craft Beer Base Mother Tree",
+      "visited": "2025-09-10",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "1 Chome-13-13 Oyodonaka, Kita Ward",
+        "coordinates": {
+          "lat": 34.70497159862782,
+          "lng": 135.48790118396494
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "道頓堀ビール",
+      "altName": "Dōtonbori Beer",
+      "visited": "2025-09-10",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "Chuo Ward, Dotonbori, 1 Chome−9−19 大阪松竹座 B2階",
+        "coordinates": {
+          "lat": 34.66848232263093,
+          "lng": 135.50099860619363
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "「バク 堀江醸造局＆タップルーム」",
+      "altName": "Bak Horie Brewing Studio",
+      "visited": "2025-09-10",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "2 Chome-7-1 Kitahorie, Nishi Ward",
+        "coordinates": {
+          "lat": 34.67411764415408,
+          "lng": 135.49218391217963
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "今西清兵衛商店",
+      "altName": "Harushika Sake Brewery",
+      "visited": "2025-09-11",
+      "location": {
+        "country": "jp",
+        "city": "奈良市",
+        "address": "24-1 Fukuchiincho",
+        "coordinates": {
+          "lat": 34.67701346405831,
+          "lng": 135.83433968499247
+        }
+      },
+      "tags": [
+        "sakagura",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "なら麦酒ならまち醸造所",
+      "altName": "Naramachi Brewery",
+      "visited": "2025-09-11",
+      "location": {
+        "country": "jp",
+        "city": "奈良市",
+        "address": "956-2 Kideracho",
+        "coordinates": {
+          "lat": 34.67554658827496,
+          "lng": 135.83362094662678
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "大和醸造",
+      "altName": "Yamato Brewery",
+      "visited": "2025-09-11",
+      "location": {
+        "country": "jp",
+        "city": "奈良市",
+        "address": "Higashimuki Nakamachi, 6 奈良県経済倶楽部ビル 1F",
+        "coordinates": {
+          "lat": 34.68386169668045,
+          "lng": 135.82884275001084
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "ニューミュンヘン",
+      "altName": "Nyū Myunhen/New München",
+      "visited": "2025-09-11",
+      "location": {
+        "country": "jp",
+        "city": "神戸市",
+        "address": "2 Chome-5-18 Sannomiyacho, Chuo Ward",
+        "coordinates": {
+          "lat": 34.69061356720716,
+          "lng": 135.19186337901093
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar historyczny"
+      ]
+    },
+    {
+      "name": "ブリューパブ センターポイント",
+      "altName": "Centerpoint",
+      "visited": "2025-09-11",
+      "location": {
+        "country": "jp",
+        "city": "大阪市",
+        "address": "2 Chome-5-8 Ukida, Kita Ward",
+        "coordinates": {
+          "lat": 34.70950531551737,
+          "lng": 135.50717481035682
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Hiroshima Neighborly Brewing",
+      "visited": "2025-09-12",
+      "location": {
+        "country": "jp",
+        "city": "広島市",
+        "address": "1 Chome-5-10 Otemachi, Naka Ward",
+        "coordinates": {
+          "lat": 34.39414882691053,
+          "lng": 132.4556272826768
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "ケンビーズブリューパブ",
+      "altName": "KeMBY'S Brew Pub",
+      "visited": "2025-09-12",
+      "location": {
+        "country": "jp",
+        "city": "広島市",
+        "address": "2 Chome-9-13 Otemachi, Naka Ward",
+        "coordinates": {
+          "lat": 34.39148517077807,
+          "lng": 132.45517508997213
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "京都醸造",
+      "altName": "Kyoto Brewing Co.",
+      "visited": "2025-09-13",
+      "location": {
+        "country": "jp",
+        "city": "京都市",
+        "address": "25-1 Nishikujo Takahatacho, Minami Ward",
+        "coordinates": {
+          "lat": 34.9748092576773,
+          "lng": 135.74375505756893
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "KBL THE GARAGE",
+      "visited": "2025-09-13",
+      "location": {
+        "country": "jp",
+        "city": "京都市",
+        "address": "27-2 Sujakuhozocho, Shimogyo Ward",
+        "coordinates": {
+          "lat": 34.99065368062016,
+          "lng": 135.73990741952008
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "sieć Kyoto Beer Lab"
+      ]
+    },
+    {
+      "name": "京都ビアラボ",
+      "altName": "Kyoto Beer Lab",
+      "visited": "2025-09-13",
+      "location": {
+        "country": "jp",
+        "city": "京都市",
+        "address": "201-3 Juzenjicho, Shimogyo Ward",
+        "coordinates": {
+          "lat": 34.99066746614179,
+          "lng": 135.7656937185425
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "sieć Kyoto Beer Lab"
+      ]
+    },
+    {
+      "name": "スプリングバレーブルワリー 京都",
+      "altName": "Spring Valley Brewery Kyoto",
+      "visited": "2025-09-13",
+      "location": {
+        "country": "jp",
+        "city": "京都市",
+        "address": "Nakagyo Ward, 富小路通587-2",
+        "coordinates": {
+          "lat": 35.00549687557659,
+          "lng": 135.76481564400106
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "koncern Kirin",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "京都嵐山ブルワリー 三条醸造所",
+      "altName": "Kyoto Arashiyama Brewery Sanjō",
+      "visited": "2025-09-13",
+      "location": {
+        "country": "jp",
+        "city": "京都市",
+        "address": "Nakagyo Ward, Ebisucho, 534-33 ＡＩＲＰＯＲＴ ＢＬＤ． 1階",
+        "coordinates": {
+          "lat": 35.00936536744663,
+          "lng": 135.76939480159248
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "미스터리브루잉컴퍼니",
+      "altName": "MysterLee Brewing Co.",
+      "visited": "2025-09-14",
+      "location": {
+        "country": "kr",
+        "city": "서울",
+        "address": "311 Dongmak-ro, Mapo-gu",
+        "coordinates": {
+          "lat": 37.54415067135854,
+          "lng": 126.9473139021353
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar stołeczny",
+        "brewpub",
+        "browar z pizzerią"
+      ]
+    }
+  ]
+}

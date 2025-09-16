@@ -410,6 +410,84 @@
           "value": "Wilno"
         }
       ]
+    },
+    {
+      "name": "서울",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "seoul"
+        },
+        {
+          "mapping": "translation",
+          "value": "Seul"
+        }
+      ]
+    },
+    {
+      "name": "大阪市",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "osaka"
+        },
+        {
+          "mapping": "translation",
+          "value": "Osaka"
+        }
+      ]
+    },
+    {
+      "name": "奈良市",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "nara"
+        },
+        {
+          "mapping": "translation",
+          "value": "Nara"
+        }
+      ]
+    },
+    {
+      "name": "神戸市",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "kobe"
+        },
+        {
+          "mapping": "translation",
+          "value": "Kobe"
+        }
+      ]
+    },
+    {
+      "name": "広島市",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "hiroszima"
+        },
+        {
+          "mapping": "translation",
+          "value": "Hiroszima"
+        }
+      ]
+    },
+    {
+      "name": "京都市",
+      "mappings": [
+        {
+          "mapping": "slug",
+          "value": "kioto"
+        },
+        {
+          "mapping": "translation",
+          "value": "Kioto"
+        }
+      ]
     }
   ]
 }

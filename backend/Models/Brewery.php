@@ -80,7 +80,13 @@ class Brewery implements JsonSerializable, Sluggable
 
     public function getLabel(): string
     {
-        return "{$this->name}, {$this->location->getCity()->getName()}";
+        $name = $this->name;
+
+        if ($this->altName) {
+            $name = "$name | {$this->altName}";
+        }
+
+        return "$name, {$this->location->getCity()->getName()}";
     }
 
     public function getDate(): Carbon

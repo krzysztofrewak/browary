@@ -320,6 +320,22 @@
         "państwa Unii Europejskiej",
         "państwa byłego ZSRR"
       ]
+    },
+    {
+      "symbol": "kr",
+      "name": "Korea Południowa",
+      "original": "대한민국",
+      "tags": [
+        "Azja"
+      ]
+    },
+    {
+      "symbol": "jp",
+      "name": "Japonia",
+      "original": "日本国",
+      "tags": [
+        "Azja"
+      ]
     }
   ]
 }
