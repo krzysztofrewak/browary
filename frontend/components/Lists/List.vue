@@ -10,12 +10,12 @@
         <i class="large flat flag shadow-lg" :class="flag(entry)" v-if="flag"></i>
       </div>
       <div class="mx-2 w-full text-xs flex items-center">
-        <div class="text-gray-900 flex-1">
+        <div class="text-gray-900 flex-1 truncate w-32">
           {{ name(entry) }}
           <span class="text-gray-500" v-if="additional && additional(entry)">| {{ additional(entry) }}</span>
           <div class="text-gray-500" v-if="alt">{{ alt(entry) }}</div>
         </div>
-        <div class="text-gray-500 text-right">
+        <div class="text-gray-500 text-right pl-2">
           <div v-for="(label, i) in labels" :key="i">{{ label(entry) }}</div>
         </div>
       </div>
