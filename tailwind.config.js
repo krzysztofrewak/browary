@@ -1,6 +1,6 @@
 module.exports = {
   purge: {
-    content: ['./frontend/**/*.{vue,html}']
+    content: ['./frontend/**/*.{vue,html,js}']
   },
   darkMode: false,
   theme: {

@@ -23,7 +23,9 @@
         "sieć BrewDog",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar stołeczny"
+        "browar stołeczny",
+        "London Brewers Alliance",
+        "wielokrotnie odwiedzony"
       ]
     },
     {
@@ -44,7 +46,8 @@
         "brewpub",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar stołeczny"
+        "browar stołeczny",
+        "London Brewers Alliance"
       ]
     },
     {
@@ -87,7 +90,8 @@
         "browar restauracyjny",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar stołeczny"
+        "browar stołeczny",
+        "London Brewers Alliance"
       ]
     },
     {
@@ -108,7 +112,8 @@
         "browar restauracyjny",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar stołeczny"
+        "browar stołeczny",
+        "London Brewers Alliance"
       ]
     },
     {
@@ -130,7 +135,8 @@
         "spotkanie z piwowarem",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar stołeczny"
+        "browar stołeczny",
+        "London Brewers Alliance"
       ]
     },
     {
@@ -151,7 +157,8 @@
         "browar z pizzerią",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar stołeczny"
+        "browar stołeczny",
+        "London Brewers Alliance"
       ]
     },
     {
@@ -171,7 +178,8 @@
         "mikrobrowar",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar stołeczny"
+        "browar stołeczny",
+        "London Brewers Alliance"
       ]
     },
     {
@@ -211,7 +219,8 @@
         "sieć German Kraft",
         "obejrzany sprzęt",
         "browar stołeczny",
-        "browar hotelowy"
+        "browar hotelowy",
+        "London Brewers Alliance"
       ]
     },
     {
@@ -231,7 +240,8 @@
         "brewpub",
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
-        "browar stołeczny"
+        "browar stołeczny",
+        "London Brewers Alliance"
       ]
     },
     {
@@ -253,7 +263,8 @@
         "piwo spróbowane na miejscu",
         "piwo spróbowane z tanka",
         "browar stołeczny",
-        "spotkanie z piwowarem"
+        "spotkanie z piwowarem",
+        "London Brewers Alliance"
       ]
     },
     {
@@ -296,7 +307,8 @@
         "obejrzany sprzęt",
         "piwo spróbowane na miejscu",
         "browar stołeczny",
-        "browar w galerii handlowej"
+        "browar w galerii handlowej",
+        "London Brewers Alliance"
       ]
     }
   ]
