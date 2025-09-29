@@ -1,0 +1,275 @@
+{
+  "name": "Londyn, wrzesień 2025",
+  "tags": [
+    "Anglia",
+    "browar stołeczny"
+  ],
+  "breweries": [
+    {
+      "name": "Kanpai London Sake Brewery",
+      "visited": "2025-09-25",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "48 Druid St",
+        "coordinates": {
+          "lat": 51.500566032983826,
+          "lng": -0.07697250445865515
+        }
+      },
+      "tags": [
+        "brewpub",
+        "sakagura",
+        "browar pod nasypem kolejowym",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "londyńska piwna mila"
+      ]
+    },
+    {
+      "name": "Against The Grain",
+      "visited": "2025-09-25",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "76 Enid St",
+        "coordinates": {
+          "lat": 51.49761531428224,
+          "lng": -0.07232029081894159
+        }
+      },
+      "tags": [
+        "brewpub",
+        "cydrownia",
+        "browar pod nasypem kolejowym",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "spotkanie z piwowarem",
+        "londyńska piwna mila"
+      ]
+    },
+    {
+      "name": "Mash Paddle Brewery",
+      "visited": "2025-09-25",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Railway Arch, 92 Enid St",
+        "coordinates": {
+          "lat": 51.49694238452757,
+          "lng": -0.07098313123567272
+        }
+      },
+      "tags": [
+        "brewpub",
+        "browar pod nasypem kolejowym",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "spotkanie z piwowarem",
+        "browar z pizzerią",
+        "warsztat dla piwowarów domowych",
+        "londyńska piwna mila",
+        "London Brewers Alliance"
+      ]
+    },
+    {
+      "name": "German Kraft Mayfair",
+      "visited": "2025-09-26",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "St. Mark's Church, N Audley St",
+        "coordinates": {
+          "lat": 51.51316954909371,
+          "lng": -0.15287512136495274
+        }
+      },
+      "tags": [
+        "sieć German Kraft",
+        "browar w kościele",
+        "piwo spróbowane na miejscu",
+        "browar w hali targowej",
+        "brewpub",
+        "London Brewers Alliance"
+      ]
+    },
+    {
+      "name": "Battersea Brewery",
+      "visited": "2025-09-26",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "St. Mark's Church, N Audley St",
+        "coordinates": {
+          "lat": 51.482760574269314,
+          "lng": -0.14688301015401978
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "London Brewers Alliance"
+      ]
+    },
+    {
+      "name": "Mondo Brewing Company",
+      "visited": "2025-09-26",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "86 Stewart's Rd, Nine Elms",
+        "coordinates": {
+          "lat": 51.47465550050464,
+          "lng": -0.14029747905399687
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "London Brewers Alliance"
+      ]
+    },
+    {
+      "name": "Distortion Brewing Company",
+      "visited": "2025-09-26",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "647 Portslade Rd, Nine Elms",
+        "coordinates": {
+          "lat": 51.47070964117886,
+          "lng": -0.13927450888000328
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "London Brewers Alliance"
+      ]
+    },
+    {
+      "name": "Bullfinch Brewery",
+      "visited": "2025-09-27",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Rosendale Rd, Norwood",
+        "coordinates": {
+          "lat": 51.448195836531376,
+          "lng": -0.10154678374580026
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "London Brewers Alliance"
+      ]
+    },
+    {
+      "name": "Bird House Brewery",
+      "visited": "2025-09-27",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Arch 1127, Bath Factory Estate, 41 Norwood Rd",
+        "coordinates": {
+          "lat": 51.45205720810679,
+          "lng": -0.1010232914935371
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym",
+        "obejrzany sprzęt",
+        "brewpub",
+        "London Brewers Alliance"
+      ]
+    },
+    {
+      "name": "Clarkshaws Brewery & Taproom",
+      "visited": "2025-09-27",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "497 Ridgway Rd",
+        "coordinates": {
+          "lat": 51.465652646667735,
+          "lng": -0.10346725532792198
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym",
+        "piwo spróbowane na miejscu",
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Supercute Brewhouse",
+      "visited": "2025-09-27",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Unit G1, Coldharbour Works, 245a Coldharbour Ln",
+        "coordinates": {
+          "lat": 51.464748429052456,
+          "lng": -0.10308793855246018
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym",
+        "piwo spróbowane na miejscu",
+        "obejrzany sprzęt",
+        "brewpub",
+        "London Brewers Alliance"
+      ]
+    },
+    {
+      "name": "Brixton Brewery Tap Room",
+      "visited": "2025-09-27",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Arch 548 Brixton Station Rd",
+        "coordinates": {
+          "lat": 51.463511727497966,
+          "lng": -0.10934079306202138
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym",
+        "piwo spróbowane na miejscu",
+        "eksperymentalna warzelnia przy taproomie",
+        "brewpub",
+        "London Brewers Alliance"
+      ]
+    },
+    {
+      "name": "London Beer Lab Nano Brewery",
+      "visited": "2025-09-27",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "Arch 41, Railway Arches, Nursery Rd",
+        "coordinates": {
+          "lat": 51.463378568221124,
+          "lng": -0.11624976844782255
+        }
+      },
+      "tags": [
+        "browar pod nasypem kolejowym",
+        "piwo spróbowane na miejscu",
+        "eksperymentalna warzelnia przy taproomie",
+        "brewpub",
+        "London Brewers Alliance"
+      ]
+    }
+  ]
+}
