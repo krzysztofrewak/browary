@@ -1,0 +1,72 @@
+{
+  "name": "Wielkopolska, wrzesień 2025",
+  "tags": [
+    "województwo wielkopolskie"
+  ],
+  "breweries": [
+    {
+      "name": "Browar Fortuna",
+      "visited": "2025-10-16",
+      "location": {
+        "country": "pl",
+        "city": "Miłosław",
+        "address": "Wrzesińska 24",
+        "coordinates": {
+          "lat": 52.205399202208824,
+          "lng": 17.489147498691135
+        }
+      },
+      "tags": [
+        "browar regionalny",
+        "obejrzany sprzęt",
+        "grupa Fortuna",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "spotkanie z piwowarem",
+        "browar przedwojenny"
+      ]
+    },
+    {
+      "name": "Browar Gzub",
+      "visited": "2025-10-16",
+      "location": {
+        "country": "pl",
+        "city": "Annopole",
+        "address": "Annopole 9a",
+        "coordinates": {
+          "lat": 52.20834667435004,
+          "lng": 17.20050737590516
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep"
+      ]
+    },
+    {
+      "name": "Browar Bojanowo",
+      "visited": "2025-10-16",
+      "location": {
+        "country": "pl",
+        "city": "Bojanowo",
+        "address": "Browarowa 2",
+        "coordinates": {
+          "lat": 51.709076099575135,
+          "lng": 16.747032914018963
+        }
+      },
+      "tags": [
+        "browar regionalny",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem",
+        "spotkanie z piwowarem",
+        "przybrowarniany sklep",
+        "browar przedwojenny"
+      ]
+    }
+  ]
+}
