@@ -336,6 +336,14 @@
       "tags": [
         "Azja"
       ]
+    },
+    {
+      "symbol": "us",
+      "name": "Stany Zjednoczone",
+      "original": "United States of America",
+      "tags": [
+        "Ameryka Północna"
+      ]
     }
   ]
 }

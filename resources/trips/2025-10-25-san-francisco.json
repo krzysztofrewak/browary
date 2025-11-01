@@ -1,0 +1,170 @@
+{
+  "name": "TechCrunch Disrupt 2025, październik 2025",
+  "tags": [
+    "stan Kalifornia",
+    "odwiedzone podczas wyjazdu na targi"
+  ],
+  "breweries": [
+    {
+      "name": "San Francisco Brewing Co.",
+      "visited": "2025-10-25",
+      "location": {
+        "country": "us",
+        "city": "San Francisco",
+        "address": "3150 Polk St",
+        "coordinates": {
+          "lat": 37.80557464015884,
+          "lng": -122.42358944141476
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Bartlett Hall",
+      "visited": "2025-10-26",
+      "location": {
+        "country": "us",
+        "city": "San Francisco",
+        "address": "242 O'Farrell St",
+        "coordinates": {
+          "lat": 37.786611960604766,
+          "lng": -122.40877787208844
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Black Hammer Brewing Company",
+      "visited": "2025-10-26",
+      "location": {
+        "country": "us",
+        "city": "San Francisco",
+        "address": "544 Bryant St",
+        "coordinates": {
+          "lat": 37.78066143585867,
+          "lng": -122.39700566268287
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Otherwise Brewing",
+      "visited": "2025-10-27",
+      "location": {
+        "country": "us",
+        "city": "San Francisco",
+        "address": "1402 Grant Ave",
+        "coordinates": {
+          "lat": 37.79990520514613,
+          "lng": -122.40734066185333
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Beach Chalet Brewery",
+      "visited": "2025-10-27",
+      "location": {
+        "country": "us",
+        "city": "San Francisco",
+        "address": "1000 Great Hwy",
+        "coordinates": {
+          "lat": 37.769454477720046,
+          "lng": -122.51021739272439
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Enterprise Brewing Co",
+      "visited": "2025-10-29",
+      "location": {
+        "country": "us",
+        "city": "San Francisco",
+        "address": "1150 Howard St",
+        "coordinates": {
+          "lat": 37.7772223464814,
+          "lng": -122.41080718630938
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Standard Deviant Brewing",
+      "visited": "2025-10-29",
+      "location": {
+        "country": "us",
+        "city": "San Francisco",
+        "address": "280 14th St",
+        "coordinates": {
+          "lat": 37.76843934114979,
+          "lng": -122.41948502431005
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Woods Cervecería",
+      "visited": "2025-10-29",
+      "location": {
+        "country": "us",
+        "city": "San Francisco",
+        "address": "3801 18th St",
+        "coordinates": {
+          "lat": 37.76110364902912,
+          "lng": -122.42854183902404
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Southern Pacific Brewing",
+      "visited": "2025-10-29",
+      "location": {
+        "country": "us",
+        "city": "San Francisco",
+        "address": "620 Treat Ave",
+        "coordinates": {
+          "lat": 37.76010388405271,
+          "lng": -122.41421759613252
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    }
+  ]
+}
