@@ -1,0 +1,47 @@
+{
+  "name": "Web Summit 2025",
+  "tags": [
+    "odwiedzone podczas wyjazdu na targi",
+    "browar stołeczny"
+  ],
+  "breweries": [
+    {
+      "name": "Fermentage",
+      "visited": "2025-11-12",
+      "location": {
+        "country": "pt",
+        "city": "Lisboa",
+        "address": "R. Cap. Leitão 1B",
+        "coordinates": {
+          "lat": 38.738918859214344,
+          "lng": -9.104292067982083
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane z tanka",
+        "spotkanie z piwowarem",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "LX Brewery",
+      "visited": "2025-11-13",
+      "location": {
+        "country": "pt",
+        "city": "Lisboa",
+        "address": "R. do Funchal n5",
+        "coordinates": {
+          "lat": 38.734023303139935,
+          "lng": -9.140486339153123
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    }
+  ]
+}
