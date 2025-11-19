@@ -488,6 +488,15 @@
           "value": "Kioto"
         }
       ]
+    },
+    {
+      "name": "Lisboa",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Lizbona"
+        }
+      ]
     }
   ]
 }

@@ -308,7 +308,8 @@
       "name": "Kanada",
       "original": "Canada",
       "tags": [
-        "Ameryka Północna"
+        "Ameryka Północna",
+        "państwa anglojęzyczne"
       ]
     },
     {
@@ -342,7 +343,17 @@
       "name": "Stany Zjednoczone",
       "original": "United States of America",
       "tags": [
-        "Ameryka Północna"
+        "Ameryka Północna",
+        "państwa anglojęzyczne"
+      ]
+    },
+    {
+      "symbol": "pt",
+      "name": "Portugalia",
+      "original": "Portugal",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej"
       ]
     }
   ]
