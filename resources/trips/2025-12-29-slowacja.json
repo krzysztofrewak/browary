@@ -1,0 +1,25 @@
+{
+  "name": "Tatralandia 2025",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Nealkoholický pivovar Nilio",
+      "visited": "2025-12-29",
+      "location": {
+        "country": "sk",
+        "city": "Liptovský Mikuláš",
+        "address": "Družstevná 5",
+        "coordinates": {
+          "lat": 49.081826684939145,
+          "lng": 19.627133354148924
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na wynos",
+        "browar bezalkoholowy",
+        "mikrobrowar"
+      ]
+    }
+  ]
+}
