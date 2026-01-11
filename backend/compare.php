@@ -13,6 +13,13 @@ $data = json_decode($raw, associative: true);
 foreach (["breweries", "countries", "cities", "trips", "tags"] as $section) {
     if ($data["counters"][$section] > $publishedData["counters"][$section]) {
         $number = $data["counters"][$section] - $publishedData["counters"][$section];
-        echo "new $section: $number" . PHP_EOL;
+        echo "> new $section: $number" . PHP_EOL;
     }
+}
+
+echo "> " . PHP_EOL;
+
+foreach (["breweries", "countries", "cities", "trips", "tags"] as $section) {
+    $number = $data["counters"][$section];
+    echo "> $section: $number" . PHP_EOL;
 }

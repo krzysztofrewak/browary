@@ -355,6 +355,57 @@
         "Europa",
         "państwa Unii Europejskiej"
       ]
+    },
+    {
+      "symbol": "eg",
+      "name": "Egipt",
+      "original": "مصر\u200E",
+      "tags": [
+        "Afryka"
+      ]
+    },
+    {
+      "symbol": "lu",
+      "name": "Luksemburg",
+      "original": "Lëtzebuerg",
+      "tags": [
+        "Europa",
+        "państwa Unii Europejskiej",
+        "państwa Beneluksu"
+      ]
+    },
+    {
+      "symbol": "me",
+      "name": "Czarnogóra",
+      "original": "Crna Gora",
+      "tags": [
+        "Europa",
+        "państwa byłej Jugosławii"
+      ]
+    },
+    {
+      "symbol": "ps",
+      "name": "Palestyna",
+      "original": "\u200Fدولة فلسطين\u200E",
+      "tags": [
+        "Azja"
+      ]
+    },
+    {
+      "symbol": "il",
+      "name": "Izrael",
+      "original": "מְדִינַת יִשְׂרָאֵל",
+      "tags": [
+        "Azja"
+      ]
+    },
+    {
+      "symbol": "jo",
+      "name": "Jordania",
+      "original": "الأردن",
+      "tags": [
+        "Azja"
+      ]
     }
   ]
 }

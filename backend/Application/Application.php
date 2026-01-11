@@ -85,10 +85,11 @@ class Application
         $breweries = Breweries::buildFromTrips($trips);
         $notes = Notes::buildFromBreweries($breweries);
 
+        $this->prepareBreweriesDetails($breweries);
+
         $generalData = GeneralDataBuilder::build($breweries, $countries);
         $calendar = CalendarBuilder::build($breweries);
 
-        $this->prepareBreweriesDetails($breweries);
         $this->prepareBounds($countries, $trips, $tags, $calendar, $cities);
         $statistics = $this->prepareStatistics($breweries, $countries, $cities, $trips, $tags);
 

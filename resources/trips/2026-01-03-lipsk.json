@@ -1,0 +1,175 @@
+{
+  "name": "Lipsk 2026",
+  "tags": [
+    "kraj związkowy Saksonia"
+  ],
+  "breweries": [
+    {
+      "name": "Plagwitzer Brauerei",
+      "visited": "2026-01-03",
+      "location": {
+        "country": "de",
+        "city": "Leipzig",
+        "address": "Klingenstraße 22",
+        "coordinates": {
+          "lat": 51.32275422937791,
+          "lng": 12.324173769554577
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "KOKILLE Braukombinat Leipzig",
+      "visited": "2026-01-03",
+      "location": {
+        "country": "de",
+        "city": "Leipzig",
+        "address": "Karl-Heine-Straße 85c",
+        "coordinates": {
+          "lat": 51.32993829346709,
+          "lng": 12.331637667698388
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Kasten Brauerei",
+      "visited": "2026-01-03",
+      "location": {
+        "country": "de",
+        "city": "Leipzig",
+        "address": "Wolfgang-Heinze-Straße 38b",
+        "coordinates": {
+          "lat": 51.30591602128512,
+          "lng": 12.373433656125417
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Brauhaus Napoleon",
+      "visited": "2026-01-04",
+      "location": {
+        "country": "de",
+        "city": "Leipzig",
+        "address": "Prager Straße 233",
+        "coordinates": {
+          "lat": 51.306778937563486,
+          "lng": 12.422993490632392
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Ratskeller der Stadt Leipzig",
+      "visited": "2026-01-04",
+      "location": {
+        "country": "de",
+        "city": "Leipzig",
+        "address": "Lotterstraße 1",
+        "coordinates": {
+          "lat": 51.33668259165881,
+          "lng": 12.372847964064965
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "destylarnia",
+        "browar w ratuszu",
+        "browar w piwnicy"
+      ]
+    },
+    {
+      "name": "Gosebrauerei Bayerischer Bahnhof",
+      "visited": "2026-01-04",
+      "location": {
+        "country": "de",
+        "city": "Leipzig",
+        "address": "Bayrischer Platz 1",
+        "coordinates": {
+          "lat": 51.328800748042276,
+          "lng": 12.381455171163303
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "browar na dworcu"
+      ]
+    },
+    {
+      "name": "Gosenschenke Ohne Bedenken",
+      "visited": "2026-01-04",
+      "location": {
+        "country": "de",
+        "city": "Leipzig",
+        "address": "Menckestraße 5",
+        "coordinates": {
+          "lat": 51.3577153436257,
+          "lng": 12.367609528022514
+        }
+      },
+      "tags": [
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    },
+    {
+      "name": "Cliff's Brauwerk",
+      "visited": "2026-01-04",
+      "location": {
+        "country": "de",
+        "city": "Leipzig",
+        "address": "Leibnizstraße 17",
+        "coordinates": {
+          "lat": 51.3450225528878,
+          "lng": 12.363759801802157
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "piwo spróbowane na miejscu",
+        "brewpub",
+        "browar w piwnicy"
+      ]
+    },
+    {
+      "name": "Brauhaus an der Thomaskirche",
+      "visited": "2026-01-05",
+      "location": {
+        "country": "de",
+        "city": "Leipzig",
+        "address": "Thomaskirchhof 3–5",
+        "coordinates": {
+          "lat": 51.33928454115672,
+          "lng": 12.373727699162707
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}

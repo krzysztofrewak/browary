@@ -13,7 +13,7 @@ class GeneralDataBuilder
     public static function build(Breweries $breweries, Countries $countries): GeneralData
     {
         $data = new GeneralData();
-        $data->setCounters($breweries->getAll()->count(), $countries->getAll()->count());
+        $data->setCounters($breweries->getAll()->count(), $countries->getAllVisited()->count());
         $data->setExtremes(ExtremesBuilder::build($breweries->getAll()));
 
         return $data;

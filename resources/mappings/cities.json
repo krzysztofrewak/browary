@@ -497,6 +497,15 @@
           "value": "Lizbona"
         }
       ]
+    },
+    {
+      "name": "Leipzig",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Lipsk"
+        }
+      ]
     }
   ]
 }

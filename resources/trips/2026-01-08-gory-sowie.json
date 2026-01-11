@@ -1,0 +1,48 @@
+{
+  "name": "Góry Sowie 2026",
+  "tags": [
+    "województwo dolnośląskie",
+    "odwiedzone z Goworowa"
+  ],
+  "breweries": [
+    {
+      "name": "Browar Podolin",
+      "visited": "2026-01-08",
+      "location": {
+        "country": "pl",
+        "city": "Pieszyce",
+        "address": "Podolin 3a",
+        "coordinates": {
+          "lat": 50.7180635905485,
+          "lng": 16.510921088709928
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "przybrowarniany sklep",
+        "piwo spróbowane na wynos",
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Browar Wielka Sowa",
+      "visited": "2026-01-08",
+      "location": {
+        "country": "pl",
+        "city": "Bielawa",
+        "address": "Stefana Żeromskiego 9",
+        "coordinates": {
+          "lat": 50.6970288639932,
+          "lng": 16.636568914069848
+        }
+      },
+      "tags": [
+        "mikrobrowar",
+        "przybrowarniany sklep",
+        "piwo spróbowane na wynos",
+        "piwo spróbowane poza browarem"
+      ]
+    }
+  ]
+}
