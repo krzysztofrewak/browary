@@ -36,9 +36,16 @@ class Countries implements JsonSerializable, HavingAll
         return $this->countries;
     }
 
+    public function getAllVisited(): Collection
+    {
+        return $this->countries->filter(fn(Country $country): bool => $country->getBreweriesCount() > 0);
+    }
+
     public function getHash(): string
     {
-        return $this->countries->map(fn(Country $country) => $country->getSymbol())->join(":");
+        return $this->countries->sort(fn(Country $a, Country $b): int => $a->getSymbol() <=> $b->getSymbol())
+            ->map(fn(Country $country) => $country->getSymbol())
+            ->join(":");
     }
 
     public function jsonSerialize(): Collection
@@ -48,7 +55,6 @@ class Countries implements JsonSerializable, HavingAll
                 ? $a->getName() <=> $b->getName()
                 : $b->getBreweriesCount() <=> $a->getBreweriesCount(),
         )
-            ->filter(fn(Country $country): bool => $country->getBreweriesCount() > 0)
             ->mapInto(GeneralCountry::class);
     }
 }

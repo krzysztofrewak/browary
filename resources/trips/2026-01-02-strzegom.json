@@ -1,0 +1,26 @@
+{
+  "name": "Strzegom 2026",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Browar Strigovia",
+      "visited": "2026-01-02",
+      "location": {
+        "country": "pl",
+        "city": "Strzegom",
+        "address": "al. Wojska Polskiego 49",
+        "coordinates": {
+          "lat": 50.968330921312585,
+          "lng": 16.351072629834118
+        }
+      },
+      "tags": [
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny",
+        "województwo dolnośląskie",
+        "instalacja Minibrowary.pl"
+      ]
+    }
+  ]
+}

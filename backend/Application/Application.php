@@ -85,10 +85,11 @@ class Application
         $breweries = Breweries::buildFromTrips($trips);
         $notes = Notes::buildFromBreweries($breweries);
 
+        $this->prepareBreweriesDetails($breweries);
+
         $generalData = GeneralDataBuilder::build($breweries, $countries);
         $calendar = CalendarBuilder::build($breweries);
 
-        $this->prepareBreweriesDetails($breweries);
         $this->prepareBounds($countries, $trips, $tags, $calendar, $cities);
         $statistics = $this->prepareStatistics($breweries, $countries, $cities, $trips, $tags);
 
@@ -161,7 +162,7 @@ class Application
         $statistics->setWeekdays(WeekdaysCounter::count($breweries->getAll()));
         $statistics->setMonths(MonthsCounter::count($breweries->getAll()));
         $statistics->setCounter("breweries", $breweries->getAll()->count());
-        $statistics->setCounter("countries", $countries->getAll()->count());
+        $statistics->setCounter("countries", $countries->getAllVisited()->count());
         $statistics->setCounter("cities", $cities->getAll()->count());
         $statistics->setCounter("trips", $trips->getAll()->count());
         $statistics->setCounter("tags", $tags->getAll()->count());
