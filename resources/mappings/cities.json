@@ -506,6 +506,15 @@
           "value": "Lipsk"
         }
       ]
+    },
+    {
+      "name": "München",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Monachium"
+        }
+      ]
     }
   ]
 }

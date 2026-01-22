@@ -1,0 +1,196 @@
+{
+  "name": "Monachium 2026",
+  "tags": [
+    "kraj związkowy Bawaria"
+  ],
+  "breweries": [
+    {
+      "name": "BrewsLi - Der Biermacher",
+      "visited": "2026-01-20",
+      "location": {
+        "country": "de",
+        "city": "München",
+        "address": "Taubenstraße 2",
+        "coordinates": {
+          "lat": 48.12149877172804,
+          "lng": 11.579297122345267
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Paulaner am Nockherberg",
+      "visited": "2026-01-20",
+      "location": {
+        "country": "de",
+        "city": "München",
+        "address": "Hochstraße 77",
+        "coordinates": {
+          "lat": 48.12151640869273,
+          "lng": 11.583248707838411
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "sieć Paulaner"
+      ]
+    },
+    {
+      "name": "Giesinger Bräu",
+      "visited": "2026-01-20",
+      "location": {
+        "country": "de",
+        "city": "München",
+        "address": "Martin-Luther-Straße 2",
+        "coordinates": {
+          "lat": 48.115600976184666,
+          "lng": 11.576745468302587
+        }
+      },
+      "tags": [
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Schiller Bräu",
+      "visited": "2026-01-20",
+      "location": {
+        "country": "de",
+        "city": "München",
+        "address": "Schillerstraße 23",
+        "coordinates": {
+          "lat": 48.136734209790724,
+          "lng": 11.561122321544323
+        }
+      },
+      "tags": [
+        "brewpub",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "die Hopsteiner Experimentalbrauerei",
+      "visited": "2026-01-21",
+      "location": {
+        "country": "de",
+        "city": "Mainburg",
+        "address": "Auhofstraße 16",
+        "coordinates": {
+          "lat": 48.63152064365416,
+          "lng": 11.78062793038622
+        }
+      },
+      "tags": [
+        "browar eksperymentalny",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem"
+      ]
+    },
+    {
+      "name": "Spaten-Franziskaner-Bräu",
+      "visited": "2026-01-21",
+      "location": {
+        "country": "de",
+        "city": "München",
+        "address": "Marsstraße 46-48",
+        "coordinates": {
+          "lat": 48.145430807037314,
+          "lng": 11.552276462114861
+        }
+      },
+      "tags": [
+        "browar koncernowy",
+        "koncern Anheuser-Busch InBev",
+        "obejrzany sprzęt",
+        "piwo spróbowane poza browarem",
+        "browar tworzący Oktoberfest"
+      ]
+    },
+    {
+      "name": "Higgins Ale Works",
+      "visited": "2026-01-21",
+      "location": {
+        "country": "de",
+        "city": "München",
+        "address": "Karlstraße 122",
+        "coordinates": {
+          "lat": 48.14735416578224,
+          "lng": 11.552387967989974
+        }
+      },
+      "tags": [
+        "brewpub",
+        "piwo spróbowane na miejscu"
+      ]
+    },
+    {
+      "name": "Löwenbräu",
+      "visited": "2026-01-21",
+      "location": {
+        "country": "de",
+        "city": "München",
+        "address": "Nymphenburger Str. 7",
+        "coordinates": {
+          "lat": 48.1475476833258,
+          "lng": 11.555584799546567
+        }
+      },
+      "tags": [
+        "browar koncernowy",
+        "koncern Anheuser-Busch InBev",
+        "obejrzany sprzęt",
+        "piwo spróbowane poza browarem",
+        "browar tworzący Oktoberfest"
+      ]
+    },
+    {
+      "name": "Augustiner-Bräu",
+      "visited": "2026-01-21",
+      "location": {
+        "country": "de",
+        "city": "München",
+        "address": "Landsberger Str. 31-35",
+        "coordinates": {
+          "lat": 48.1394239346891,
+          "lng": 11.542320800820788
+        }
+      },
+      "tags": [
+        "browar regionalny",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "piwo spróbowane poza browarem",
+        "browar tworzący Oktoberfest",
+        "przybrowarniana restauracja"
+      ]
+    },
+    {
+      "name": "Airbräu",
+      "visited": "2026-01-21",
+      "location": {
+        "country": "de",
+        "city": "München-Flughafen",
+        "address": "München Airport Center - Ebene 03",
+        "coordinates": {
+          "lat": 48.354088386371586,
+          "lng": 11.787339521158929
+        }
+      },
+      "tags": [
+        "browar na lotnisku",
+        "obejrzany sprzęt",
+        "piwo spróbowane na miejscu",
+        "browar restauracyjny"
+      ]
+    }
+  ]
+}
