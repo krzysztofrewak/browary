@@ -11,6 +11,7 @@ class TripsTest extends TestCase
     public function testTripsFilesIntegrity(): void
     {
         $tripFiles = new Collection(glob(__DIR__ . "/../../resources/trips/*.json"));
+        $knownCoordinates = [];
 
         foreach ($tripFiles as $filename) {
             $trip = json_decode(file_get_contents($filename), true);
@@ -22,6 +23,8 @@ class TripsTest extends TestCase
             $this->assertIsArray($trip["breweries"]);
 
             foreach ($trip["breweries"] as $brewery) {
+                $location = $brewery["location"]["coordinates"]["lat"] . "||" . $brewery["location"]["coordinates"]["lng"];
+
                 $this->assertArrayHasKey("name", $brewery);
                 $this->assertArrayHasKey("visited", $brewery);
                 $this->assertTrue(Carbon::parse($brewery["visited"])->isValid());
@@ -34,6 +37,11 @@ class TripsTest extends TestCase
                 $this->assertArrayHasKey("lng", $brewery["location"]["coordinates"]);
                 $this->assertIsFloat($brewery["location"]["coordinates"]["lat"]);
                 $this->assertIsFloat($brewery["location"]["coordinates"]["lng"]);
+                $this->assertNotContains(
+                    needle: $location,
+                    haystack: $knownCoordinates,
+                    message: "Overlapping coordinates for " . $brewery["name"],
+                );
 
                 $this->assertArrayHasKey("tags", $brewery);
                 $this->assertIsArray($brewery["tags"]);
@@ -47,6 +55,8 @@ class TripsTest extends TestCase
                     haystack: [4, 5],
                     message: "There's a wrong number of fields for " . $brewery["name"],
                 );
+
+                $knownCoordinates[] = $location;
             }
         }
     }
