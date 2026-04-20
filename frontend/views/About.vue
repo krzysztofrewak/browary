@@ -7,6 +7,9 @@
     <p class="my-4 px-6 text-sm text-gray-900">
       Głównym celem niniejszej strony jest archiwizacja naszych podróży oraz budowanie ładnie namalowanych statystyk. Kod aplikacji jest otwartoźródłowy, więc każdy chętny może zbudować podobną mapę przy odrobinie dobrych chęci i wiedzy programistycznej.
     </p>
+    <p class="my-4 px-6 text-sm text-gray-900">
+      Gwiazdka przy słowie "browar" na stronie głównej oznacza, że najpierw zapisywałem tylko browary. Z czasem na mapie pojawiły się też cydrownie, destylarnie i sakagury.
+    </p>
   </div>
 </template>
 

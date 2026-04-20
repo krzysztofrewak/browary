@@ -15,8 +15,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar stołeczny"
       ]
     },
@@ -33,9 +34,10 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar stołeczny",
         "browar w galerii handlowej"
       ]
@@ -54,9 +56,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar stołeczny"
       ]
     },
@@ -73,9 +76,10 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar stołeczny"
       ]
     },
@@ -93,9 +97,10 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar stołeczny"
       ]
     },
@@ -112,9 +117,10 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -131,9 +137,10 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -150,9 +157,10 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "cydrownia",
         "miodosytnia"
       ]
@@ -171,9 +179,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "browar w galerii handlowej",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "sieć GB",
         "browar stołeczny"
       ]
@@ -192,10 +201,11 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -212,9 +222,10 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane poza browarem"
+        "degustacja poza odwiedzinami"
       ]
     },
     {
@@ -230,10 +241,11 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "browar na piętrze"
       ]
     },
@@ -251,10 +263,11 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "browar na piętrze"
       ]
     }

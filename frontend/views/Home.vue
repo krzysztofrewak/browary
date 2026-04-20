@@ -20,7 +20,7 @@ export default {
       if (this.$store.getters.counters) {
         const breweries = this.$store.getters.counters.breweries
         const countries = this.$store.getters.counters.countries
-        return this.inflectBrewery(breweries) + ' w ' + this.inflectCountries(countries)
+        return this.inflectBrewery(breweries) + '* w ' + this.inflectCountries(countries)
       }
 
       return '...'

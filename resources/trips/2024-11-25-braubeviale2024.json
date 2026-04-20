@@ -17,8 +17,9 @@
         }
       },
       "tags": [
+        "browar",
         "kraj związkowy Bawaria",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar restauracyjny"
       ]
     },
@@ -35,8 +36,9 @@
         }
       },
       "tags": [
+        "browar",
         "kraj związkowy Bawaria",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar regionalny"
       ]
     },
@@ -53,6 +55,7 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
         "kraj związkowy Bawaria",
         "browar restauracyjny",
@@ -72,9 +75,10 @@
         }
       },
       "tags": [
+        "browar",
         "kraj związkowy Bawaria",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "destylarnia"
       ]
     },
@@ -91,9 +95,10 @@
         }
       },
       "tags": [
+        "browar",
         "kraj związkowy Bawaria",
-        "piwo spróbowane poza browarem",
-        "przybrowarniany sklep"
+        "degustacja poza odwiedzinami",
+        "sklep"
       ]
     }
   ]

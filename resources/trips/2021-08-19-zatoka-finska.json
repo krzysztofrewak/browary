@@ -14,11 +14,12 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "spotkanie z piwowarem",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane na wynos",
+        "degustacja na miejscu",
+        "degustacja na wynos",
         "piwo spróbowane z tanka",
         "instalacja autorska",
         "browar stołeczny"
@@ -37,8 +38,9 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar w galerii handlowej",
         "browar stołeczny"
@@ -57,8 +59,9 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar stołeczny"
       ]
     },
@@ -75,8 +78,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar stołeczny"
       ]
@@ -94,8 +98,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar stołeczny"
       ]
@@ -113,8 +118,9 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar na wyspie",
         "browar stołeczny"
@@ -133,11 +139,12 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
-        "przybrowarniany sklep",
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "sklep",
+        "degustacja na miejscu",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "obejrzany sprzęt"
       ]
     }

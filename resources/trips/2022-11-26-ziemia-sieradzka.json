@@ -14,11 +14,13 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
         "województwo łódzkie",
-        "piwo spróbowane na wynos",
-        "przybrowarniany sklep"
+        "degustacja na wynos",
+        "sklep",
+        "obecnie zamknięty"
       ]
     },
     {
@@ -34,10 +36,11 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
         "województwo łódzkie",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "instalacja S-Brewery"
       ]
     }

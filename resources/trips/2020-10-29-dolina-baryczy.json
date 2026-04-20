@@ -14,12 +14,13 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
-        "piwo spróbowane poza browarem",
-        "piwo spróbowane na wynos",
+        "degustacja poza odwiedzinami",
+        "degustacja na wynos",
         "województwo dolnośląskie",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep"
+        "sklep"
       ]
     },
     {
@@ -35,12 +36,13 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep",
+        "sklep",
         "województwo wielkopolskie",
         "członek Polskiego Stowarzyszenia Browarów Rzemieślniczych"
       ]
@@ -58,12 +60,13 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
         "województwo dolnośląskie",
-        "przybrowarniany sklep",
-        "piwo spróbowane na wynos",
+        "sklep",
+        "degustacja na wynos",
         "instalacja SK Group"
       ]
     }

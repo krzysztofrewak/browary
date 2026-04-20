@@ -1,0 +1,415 @@
+{
+  "name": "Szkocja 2026",
+  "tags": [
+    "Szkocja",
+    "odwiedzone podczas dziadotripu"
+  ],
+  "breweries": [
+    {
+      "name": "71 Brewing",
+      "visited": "2026-04-16",
+      "location": {
+        "country": "gb",
+        "city": "Dundee",
+        "address": "36-40 Bellfield St",
+        "coordinates": {
+          "lat": 56.45946580805356,
+          "lng": -2.9891669644170715
+        }
+      },
+      "tags": [
+        "browar",
+        "degustacja na miejscu",
+        "obejrzany sprzęt",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "Angus Alchemy",
+      "visited": "2026-04-16",
+      "location": {
+        "country": "gb",
+        "city": "Carnoustie",
+        "address": "Woodhill By",
+        "coordinates": {
+          "lat": 56.50586977747582,
+          "lng": -2.7886347355855867
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "sklep"
+      ]
+    },
+    {
+      "name": "Arbikie Highland Estate Distillery",
+      "visited": "2026-04-16",
+      "location": {
+        "country": "gb",
+        "city": "Montrose",
+        "address": "Arbikie Distillery",
+        "coordinates": {
+          "lat": 56.66378465593296,
+          "lng": -2.5280460644168192
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "degustacja na miejscu",
+        "sklep"
+      ]
+    },
+    {
+      "name": "BrewDog DogTap Ellon",
+      "visited": "2026-04-16",
+      "location": {
+        "country": "gb",
+        "city": "Ellon",
+        "address": "Unit Balmacassie Industrial Estate",
+        "coordinates": {
+          "lat": 57.369613566729186,
+          "lng": -2.050470606757623
+        }
+      },
+      "tags": [
+        "browar",
+        "destylarnia",
+        "sieć BrewDog",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
+        "obejrzany sprzęt",
+        "browar regionalny",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Fierce Beer",
+      "visited": "2026-04-17",
+      "location": {
+        "country": "gb",
+        "city": "Aberdeen",
+        "address": "Unit 60 Howe Moss Terrace, Dyce",
+        "coordinates": {
+          "lat": 57.210304370328814,
+          "lng": -2.217064133230287
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "degustacja poza odwiedzinami"
+      ]
+    },
+    {
+      "name": "Glen Garioch",
+      "visited": "2026-04-17",
+      "location": {
+        "country": "gb",
+        "city": "Inverurie",
+        "address": "Distillery Rd, Oldmeldrum",
+        "coordinates": {
+          "lat": 57.33822086304173,
+          "lng": -2.3195477110254483
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "degustacja na miejscu",
+        "degustacja na wynos",
+        "zorganizowana wycieczka",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Glenfiddich Distillery",
+      "visited": "2026-04-17",
+      "location": {
+        "country": "gb",
+        "city": "Dufftown",
+        "address": "Glenfiddich Distillery",
+        "coordinates": {
+          "lat": 57.45477064109276,
+          "lng": -3.128654074412582
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "degustacja na miejscu",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
+        "zorganizowana wycieczka",
+        "obejrzany sprzęt",
+        "grupa William Grant & Sons"
+      ]
+    },
+    {
+      "name": "The Balvenie Distillery",
+      "visited": "2026-04-17",
+      "location": {
+        "country": "gb",
+        "city": "Dufftown",
+        "address": "Balvenie Distillery",
+        "coordinates": {
+          "lat": 57.458488462564915,
+          "lng": -3.127852287230773
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "sklep",
+        "degustacja poza odwiedzinami",
+        "obejrzany sprzęt",
+        "grupa William Grant & Sons"
+      ]
+    },
+    {
+      "name": "Mortlach Distillery",
+      "visited": "2026-04-17",
+      "location": {
+        "country": "gb",
+        "city": "Dufftown",
+        "address": "CVVH+92 Keith",
+        "coordinates": {
+          "lat": 57.443074863343426,
+          "lng": -3.1226829059890515
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "koncern Diageo",
+        "degustacja poza odwiedzinami"
+      ]
+    },
+    {
+      "name": "Craigellachie Distillery",
+      "altName": "John Dewar & Sons Distillers",
+      "visited": "2026-04-17",
+      "location": {
+        "country": "gb",
+        "city": "Aberlour",
+        "address": "Hill St, Craigellachie",
+        "coordinates": {
+          "lat": 57.488424172274144,
+          "lng": -3.18468387459553
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "koncern Bacardi",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "The Macallan",
+      "visited": "2026-04-17",
+      "location": {
+        "country": "gb",
+        "city": "Aberlour",
+        "address": "Easter Elchies",
+        "coordinates": {
+          "lat": 57.484765782492936,
+          "lng": -3.206760506751993
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "degustacja na miejscu",
+        "sklep",
+        "zorganizowana wycieczka",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Speyburn Distillery",
+      "visited": "2026-04-18",
+      "location": {
+        "country": "gb",
+        "city": "Rothes",
+        "address": "North St",
+        "coordinates": {
+          "lat": 57.53642215513884,
+          "lng": -3.2159668210111416
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "zorganizowana wycieczka",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
+        "sklep"
+      ]
+    },
+    {
+      "name": "Benriach Distillery",
+      "visited": "2026-04-18",
+      "location": {
+        "country": "gb",
+        "city": "Elgin",
+        "address": "Benriach Distillery",
+        "coordinates": {
+          "lat": 57.61142076222362,
+          "lng": -3.292429168220406
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "degustacja na miejscu",
+        "sklep"
+      ]
+    },
+    {
+      "name": "Glen Moray Distillery",
+      "visited": "2026-04-18",
+      "location": {
+        "country": "gb",
+        "city": "Elgin",
+        "address": "Glen Moray Distillery",
+        "coordinates": {
+          "lat": 57.6445615728179,
+          "lng": -3.340752579979118
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "obejrzany sprzęt",
+        "degustacja poza odwiedzinami"
+      ]
+    },
+    {
+      "name": "Black Isle Brewing Co",
+      "visited": "2026-04-18",
+      "location": {
+        "country": "gb",
+        "city": "Munlochy",
+        "address": "Old Allangrange",
+        "coordinates": {
+          "lat": 57.53253635014208,
+          "lng": -4.302518122503925
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
+        "sklep"
+      ]
+    },
+    {
+      "name": "The Singleton of Glen Ord Distillery",
+      "visited": "2026-04-18",
+      "location": {
+        "country": "gb",
+        "city": "Muir of Ord",
+        "address": "A832",
+        "coordinates": {
+          "lat": 57.52222128054228,
+          "lng": -4.4747619355821255
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "zorganizowana wycieczka",
+        "koncern Diageo",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
+        "sklep"
+      ]
+    },
+    {
+      "name": "Uilebheist Distillery & Brewery",
+      "visited": "2026-04-18",
+      "location": {
+        "country": "gb",
+        "city": "Inverness",
+        "address": "Ness Bank",
+        "coordinates": {
+          "lat": 57.47381081562482,
+          "lng": -4.22621289325187
+        }
+      },
+      "tags": [
+        "browar",
+        "destylarnia",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Tomatin Distillery",
+      "visited": "2026-04-19",
+      "location": {
+        "country": "gb",
+        "city": "Tomatin",
+        "address": "Distillery House",
+        "coordinates": {
+          "lat": 57.33910457214368,
+          "lng": -4.009610056402567
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
+        "sklep"
+      ]
+    },
+    {
+      "name": "The Cairngorm Brewery",
+      "altName": "Loch Ness Brewery",
+      "visited": "2026-04-19",
+      "location": {
+        "country": "gb",
+        "city": "Aviemore",
+        "address": "Dalfaber Dr",
+        "coordinates": {
+          "lat": 57.2009427666788,
+          "lng": -3.8201928456338545
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "degustacja poza odwiedzinami"
+      ]
+    },
+    {
+      "name": "Dalwhinnie Distillery",
+      "visited": "2026-04-19",
+      "location": {
+        "country": "gb",
+        "city": "Dalwhinnie",
+        "address": "General Wade's Military Rd",
+        "coordinates": {
+          "lat": 56.93964927357583,
+          "lng": -4.2384802490756215
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "sklep",
+        "koncern Diageo"
+      ]
+    }
+  ]
+}

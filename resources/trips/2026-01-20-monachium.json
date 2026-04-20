@@ -17,9 +17,10 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -35,9 +36,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "sieć Paulaner"
       ]
     },
@@ -54,9 +56,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -72,9 +75,10 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -90,6 +94,7 @@
         }
       },
       "tags": [
+        "browar",
         "browar eksperymentalny",
         "obejrzany sprzęt",
         "spotkanie z piwowarem"
@@ -108,10 +113,11 @@
         }
       },
       "tags": [
+        "browar",
         "browar koncernowy",
         "koncern Anheuser-Busch InBev",
         "obejrzany sprzęt",
-        "piwo spróbowane poza browarem",
+        "degustacja poza odwiedzinami",
         "browar tworzący Oktoberfest"
       ]
     },
@@ -128,8 +134,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -145,10 +152,11 @@
         }
       },
       "tags": [
+        "browar",
         "browar koncernowy",
         "koncern Anheuser-Busch InBev",
         "obejrzany sprzęt",
-        "piwo spróbowane poza browarem",
+        "degustacja poza odwiedzinami",
         "browar tworzący Oktoberfest"
       ]
     },
@@ -165,10 +173,11 @@
         }
       },
       "tags": [
+        "browar",
         "browar regionalny",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane poza browarem",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
         "browar tworzący Oktoberfest",
         "przybrowarniana restauracja"
       ]
@@ -186,9 +195,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar na lotnisku",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar restauracyjny"
       ]
     }

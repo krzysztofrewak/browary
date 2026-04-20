@@ -1,7 +1,8 @@
 {
   "name": "hrabstwo Tyne and Wear, marzec 2022",
   "tags": [
-    "odwiedzone podczas dziadotripu"
+    "odwiedzone podczas dziadotripu",
+    "Anglia"
   ],
   "breweries": [
     {
@@ -17,11 +18,11 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
         "browar nad rzeką",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "wielokrotnie odwiedzony",
         "instalacja SSV Limited",
         "obecnie zamknięty"
@@ -40,7 +41,7 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
         "obejrzany sprzęt"
       ]
@@ -58,9 +59,9 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "obecnie zamknięty"
       ]
@@ -78,9 +79,9 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -96,9 +97,9 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -115,9 +116,9 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -134,11 +135,11 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "mikrobrowar",
         "spotkanie z piwowarem",
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane na wynos",
+        "degustacja na miejscu",
+        "degustacja na wynos",
         "obejrzany sprzęt",
         "obecnie przeniesiony"
       ]
@@ -156,9 +157,28 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
+        "obejrzany sprzęt"
+      ]
+    },
+    {
+      "name": "Poetic License Distillery",
+      "visited": "2022-03-25",
+      "location": {
+        "country": "gb",
+        "city": "Sunderland",
+        "address": "21-24 Roker Terrace, Roker",
+        "coordinates": {
+          "lat": 54.9240067826536,
+          "lng": -1.3666242895383443
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia ginu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -175,10 +195,10 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "mikrobrowar",
         "spotkanie z piwowarem",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "obecnie zamknięty"
       ]
@@ -196,9 +216,9 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "mikrobrowar",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -214,11 +234,29 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "mikrobrowar",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar w parku",
         "instalacja SSV Limited"
+      ]
+    },
+    {
+      "name": "The Newcastle Gin Company",
+      "visited": "2022-03-25",
+      "location": {
+        "country": "gb",
+        "city": "Newcastle upon Tyne",
+        "address": "Bealim House, 17-25 Gallowgate",
+        "coordinates": {
+          "lat": 54.97395767890748,
+          "lng": -1.6184200220921012
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia ginu",
+        "degustacja na miejscu"
       ]
     },
     {
@@ -234,10 +272,10 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -253,10 +291,10 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obecnie zamknięty"
       ]
     },
@@ -273,11 +311,11 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
         "browar z pizzerią",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -293,9 +331,9 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -311,7 +349,7 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
         "obejrzany sprzęt"
       ]
@@ -329,9 +367,9 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -347,9 +385,9 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -366,9 +404,9 @@
         }
       },
       "tags": [
-        "Anglia",
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     }

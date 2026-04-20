@@ -18,8 +18,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar w hali targowej"
       ]
@@ -37,8 +38,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -55,8 +57,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -72,8 +75,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -90,8 +94,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -108,6 +113,7 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt"
       ]
@@ -125,8 +131,9 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar nad rzeką"
       ]
@@ -144,8 +151,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "spotkanie z piwowarem",
         "obejrzany sprzęt"
       ]
@@ -163,8 +171,9 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -181,9 +190,10 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane poza browarem",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
         "obejrzany sprzęt"
       ]
     }

@@ -14,9 +14,10 @@
         }
       },
       "tags": [
-        "przybrowarniany sklep",
+        "browar",
+        "sklep",
         "browar regionalny",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "kraj związkowy Saksonia"
       ]
     },
@@ -33,7 +34,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "browar restauracyjny",
         "instalacja Kaspar Schulz",
         "kraj związkowy Bawaria"
@@ -52,7 +54,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "browar restauracyjny",
         "obejrzany sprzęt",
         "kraj związkowy Bawaria"
@@ -71,8 +74,9 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane poza browarem",
+        "browar",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
         "browar restauracyjny",
         "browar historyczny",
         "kraj związkowy Bawaria"
@@ -91,9 +95,10 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
-        "przybrowarniany sklep",
+        "sklep",
         "instalacja Kaspar Schulz",
         "kraj związkowy Bawaria"
       ]
@@ -111,9 +116,10 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
-        "przybrowarniany sklep",
+        "sklep",
         "kraj związkowy Bawaria"
       ]
     },
@@ -130,7 +136,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
         "instalacja Caspary",
@@ -150,7 +157,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
         "kraj związkowy Badenia-Wirtembergia"
@@ -169,7 +177,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "browar restauracyjny",
         "obejrzany sprzęt",
         "instalacja CoEnCo"
@@ -188,6 +197,7 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
         "instalacja CoEnCo"
@@ -206,7 +216,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "brewpub"
       ]
@@ -224,8 +235,9 @@
         }
       },
       "tags": [
-        "przybrowarniany sklep",
-        "piwo spróbowane na wynos",
+        "browar",
+        "sklep",
+        "degustacja na wynos",
         "obejrzany sprzęt",
         "mikrobrowar",
         "instalacja BrauKon"
@@ -244,7 +256,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
         "kraj pilzneński",
@@ -264,6 +277,7 @@
         }
       },
       "tags": [
+        "browar",
         "koncern Asahi",
         "obejrzany sprzęt",
         "zorganizowana wycieczka",
@@ -286,8 +300,9 @@
         }
       },
       "tags": [
+        "browar",
         "koncern Asahi",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "zorganizowana wycieczka",
         "piwo spróbowane z tanka",
@@ -309,7 +324,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
         "kraj pilzneński"

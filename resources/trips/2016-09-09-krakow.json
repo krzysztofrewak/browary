@@ -14,10 +14,11 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane poza browarem",
+        "browar",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
         "obejrzany sprzęt",
-        "przybrowarniany sklep",
+        "sklep",
         "spotkanie z piwowarem",
         "mikrobrowar",
         "obecnie zamknięty",
@@ -37,15 +38,17 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "piwo spróbowane z tanka",
-        "piwo spróbowane poza browarem",
+        "degustacja poza odwiedzinami",
         "obejrzany sprzęt",
         "zorganizowana wycieczka",
         "spotkanie z piwowarem",
         "browar regionalny",
         "województwo małopolskie",
-        "browar przedwojenny"
+        "browar przedwojenny",
+        "obecnie zamknięty"
       ]
     },
     {
@@ -61,7 +64,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
         "województwo małopolskie"
@@ -80,11 +84,13 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
         "województwo małopolskie",
-        "instalacja Joh. Albrecht Brautechnik"
+        "instalacja Joh. Albrecht Brautechnik",
+        "obecnie zamknięty"
       ]
     },
     {
@@ -100,7 +106,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "brewpub",
         "województwo małopolskie"
@@ -119,7 +126,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "browar restauracyjny",
         "województwo małopolskie",

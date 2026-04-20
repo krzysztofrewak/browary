@@ -17,10 +17,11 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "województwo małopolskie",
-        "piwo spróbowane na wynos",
-        "przybrowarniany sklep"
+        "degustacja na wynos",
+        "sklep"
       ]
     },
     {
@@ -36,9 +37,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "województwo małopolskie",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -55,9 +57,10 @@
         }
       },
       "tags": [
+        "browar",
         "sieć Malting-Pot",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -74,8 +77,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -92,6 +96,7 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt"
       ]
@@ -109,8 +114,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -127,8 +133,9 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt",
         "warsztat dla piwowarów domowych",
         "spotkanie z piwowarem"
@@ -147,8 +154,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
       ]
     },
@@ -165,11 +173,11 @@
         }
       },
       "tags": [
+        "browar",
         "sieć Malting-Pot",
         "brewpub",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "obejrzany sprzęt"
-
       ]
     }
   ]

@@ -12,7 +12,7 @@
     </div>
 
     <hr class="my-4">
-    <page-header title="Podsumowanie" header="Zaliczone browary, państwa, wycieczki i miasta"></page-header>
+    <page-sub-header title="Podsumowanie" header="Zaliczone browary, państwa, wycieczki i miasta"></page-sub-header>
 
     <div class="m-4">
       <table class="w-full text-xs leading-loose divide-y divide-gray-100 text-left">
@@ -45,13 +45,14 @@
 
 <script>
 import PageHeader from '../components/PageHeader'
+import PageSubHeader from '../components/PageSubHeader'
 import YearRow from '../components/Calendar/YearRow'
 import { useRouter } from 'vue-router'
 import { onMounted, ref } from 'vue'
 import api from '../api'
 
 export default {
-  components: { YearRow, PageHeader },
+  components: { YearRow, PageHeader, PageSubHeader },
   setup () {
     const router = useRouter()
 

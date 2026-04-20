@@ -14,11 +14,12 @@
         }
       },
       "tags": [
+        "browar",
         "województwo śląskie",
         "browar restauracyjny",
         "destylarnia",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "instalacja Wachsmann"
       ]
     },
@@ -35,11 +36,12 @@
         }
       },
       "tags": [
+        "browar",
         "województwo śląskie",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
-        "przybrowarniany sklep",
-        "piwo spróbowane poza browarem",
+        "degustacja na wynos",
+        "sklep",
+        "degustacja poza odwiedzinami",
         "instalacja Joh. Albrecht Brautechnik",
         "spotkanie z piwowarem",
         "członek Polskiego Stowarzyszenia Browarów Rzemieślniczych"
@@ -58,11 +60,12 @@
         }
       },
       "tags": [
+        "browar",
         "województwo śląskie",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
-        "przybrowarniany sklep",
-        "piwo spróbowane poza browarem"
+        "degustacja na wynos",
+        "sklep",
+        "degustacja poza odwiedzinami"
       ]
     },
     {
@@ -78,6 +81,7 @@
         }
       },
       "tags": [
+        "browar",
         "województwo śląskie",
         "browar koncernowy",
         "koncern Grupa Żywiec",
@@ -85,8 +89,8 @@
         "obejrzany sprzęt",
         "muzeum",
         "zorganizowana wycieczka",
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane poza browarem",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
         "browar przedwojenny"
       ]
     },
@@ -103,10 +107,11 @@
         }
       },
       "tags": [
+        "browar",
         "województwo śląskie",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "instalacja Minibrowary.pl"
       ]
     },
@@ -123,14 +128,15 @@
         }
       },
       "tags": [
+        "browar",
         "województwo śląskie",
         "browar regionalny",
         "obejrzany sprzęt",
         "muzeum",
         "zorganizowana wycieczka",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
-        "przybrowarniany sklep",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
+        "sklep",
         "browar przedwojenny"
       ]
     },
@@ -147,10 +153,11 @@
         }
       },
       "tags": [
+        "browar",
         "województwo śląskie",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar na dworcu"
       ]
     }

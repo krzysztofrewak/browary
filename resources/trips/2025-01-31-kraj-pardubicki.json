@@ -18,8 +18,9 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar hotelowy",
         "browar restauracyjny"
       ]
@@ -37,8 +38,9 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar restauracyjny"
       ]
     },
@@ -55,7 +57,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "browar restauracyjny"
       ]
     }

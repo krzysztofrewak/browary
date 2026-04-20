@@ -17,11 +17,12 @@
         }
       },
       "tags": [
+        "browar",
         "browar regionalny",
         "obejrzany sprzęt",
         "grupa Fortuna",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "spotkanie z piwowarem",
         "browar przedwojenny"
       ]
@@ -39,12 +40,13 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep"
+        "sklep"
       ]
     },
     {
@@ -60,11 +62,12 @@
         }
       },
       "tags": [
+        "browar",
         "browar regionalny",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep",
+        "sklep",
         "browar przedwojenny"
       ]
     }

@@ -1,6 +1,6 @@
 <template>
   <div class="extremes">
-    <page-header title="Róża wiatrów" header="Najbardziej wysunięte w każdym kierunku browary"></page-header>
+    <page-sub-header title="Róża wiatrów" header="Najbardziej wysunięte w każdym kierunku browary"></page-sub-header>
 
     <div class="compass relative mt-8 pb-4">
       <div class="w-full absolute text-xs">
@@ -31,11 +31,11 @@
 </template>
 
 <script>
-import PageHeader from '../PageHeader'
+import PageSubHeader from '../PageSubHeader'
 import { ArrowsExpandIcon } from '@heroicons/vue/outline/esm'
 
 export default {
-  components: { PageHeader, ArrowsExpandIcon },
+  components: { PageSubHeader, ArrowsExpandIcon },
   props: {
     extremes: Object
   }

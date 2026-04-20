@@ -1,6 +1,8 @@
 <template>
   <div class="statistics">
-    <page-header title="Liczniki" header="Ogólne podsumowanie danych"></page-header>
+    <page-header title="Statystyki" header="Ogólne podsumowanie danych"></page-header>
+
+    <page-sub-header title="Liczniki" header="Ile i czego od początku zwiedzania"></page-sub-header>
     <counters>
       <counter :value="counters.breweries" :label="inflectBrewery(counters.breweries, false)"></counter>
       <counter :value="counters.countries" :label="inflectCountry(counters.countries, false)"></counter>
@@ -10,13 +12,20 @@
     </counters>
     <hr class="my-4">
 
+    <page-sub-header title="Rekordy" header="Najwięcej i najmocniej"></page-sub-header>
+    <counters>
+      <counter :value="records.mostBreweriesInOneDay?.counter" label="browarów jednego dnia" :sublabel="records.mostBreweriesInOneDay?.description"></counter>
+      <counter :value="records.longestStreak?.counter" label="najdłuższy ciąg" :sublabel="records.longestStreak?.description"></counter>
+    </counters>
+    <hr class="my-4">
+
     <extremes :extremes="extremes"></extremes>
     <hr class="mt-12 my-4">
 
-    <chart :values="weekdays" title="Zwiedzanie a dni tygodnia" subtitle="Dni tygodnia z największą liczbą odwiedzonych browarów"></chart>
+    <chart :values="weekdays" title="Zwiedzanie a dni tygodnia" subtitle="Liczba odwiedzonych browarów per dzień tygodnia"></chart>
     <hr class="mt-8 my-4">
 
-    <chart :values="months" title="Zwiedzanie a miesiące" subtitle="Miesiące z największą liczbą odwiedzonych browarów"></chart>
+    <chart :values="months" title="Zwiedzanie a miesiące" subtitle="Liczbą odwiedzonych browarów per miesiąc"></chart>
   </div>
 </template>
 
@@ -29,9 +38,10 @@ import Chart from '../components/Statistics/Chart'
 import Counters from '../components/Counters'
 import Counter from '../components/Counter'
 import PageHeader from '../components/PageHeader'
+import PageSubHeader from '../components/PageSubHeader'
 
 export default {
-  components: { PageHeader, Counter, Counters, Chart, Extremes },
+  components: { PageHeader, PageSubHeader, Counter, Counters, Chart, Extremes },
   setup () {
     const router = useRouter()
 
@@ -39,6 +49,7 @@ export default {
     const months = ref({})
     const weekdays = ref({})
     const counters = ref({})
+    const records = ref({})
 
     onMounted(() => {
       api.fetch(router, 'statistics', (data) => {
@@ -46,6 +57,7 @@ export default {
         months.value = data.months
         weekdays.value = data.weekdays
         counters.value = data.counters
+        records.value = data.records
       })
     })
 
@@ -53,7 +65,8 @@ export default {
       extremes,
       weekdays,
       months,
-      counters
+      counters,
+      records
     }
   }
 }

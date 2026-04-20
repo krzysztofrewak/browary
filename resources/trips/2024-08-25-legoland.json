@@ -14,9 +14,10 @@
         }
       },
       "tags": [
+        "browar",
         "sieć BrewDog",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar z kręgielnią",
         "muzeum",
         "browar stołeczny",
@@ -36,9 +37,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "kraj związkowy Meklemburgia-Pomorze Przednie"
       ]
     },
@@ -55,10 +57,11 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "browar nad rzeką",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "instalacja BrauKon",
         "kraj związkowy Hamburg"
       ]
@@ -76,9 +79,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar w podziemiu",
         "instalacja Caspary",
         "instalacja Kaspar Schulz",
@@ -98,9 +102,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "kraj związkowy Szlezwik-Holsztyn"
       ]
     },
@@ -117,9 +122,10 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "destylarnia"
       ]
     },
@@ -136,6 +142,7 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt"
       ]
@@ -153,10 +160,11 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "piwo spróbowane na wynos"
+        "degustacja na wynos"
       ]
     },
     {
@@ -172,10 +180,11 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "piwo spróbowane na wynos"
+        "degustacja na wynos"
       ]
     },
     {
@@ -191,10 +200,11 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "piwo spróbowane na wynos"
+        "degustacja na wynos"
       ]
     },
     {
@@ -210,6 +220,7 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
         "browar stołeczny"
@@ -228,10 +239,11 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
         "browar w parku",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar stołeczny"
       ]
     },
@@ -248,10 +260,11 @@
         }
       },
       "tags": [
+        "browar",
         "sieć Mikkeller",
         "browar w parku",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar nad stawem",
         "browar stołeczny"
       ]
@@ -269,10 +282,11 @@
         }
       },
       "tags": [
+        "browar",
         "sieć Mikkeller",
         "brewpub",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar stołeczny"
       ]
     },
@@ -289,9 +303,10 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "instalacja BrauKon",
         "browar stołeczny"
       ]
@@ -309,10 +324,11 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem"
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami"
       ]
     },
     {
@@ -328,9 +344,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar kolektywny",
         "wyspiarski pub",
-        "piwo spróbowane na miejscu"
+        "degustacja na miejscu"
       ]
     },
     {
@@ -346,9 +363,10 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos"
+        "degustacja na wynos"
       ]
     },
     {
@@ -364,8 +382,9 @@
         }
       },
       "tags": [
+        "browar",
         "browar regionalny",
-        "przybrowarniany sklep",
+        "sklep",
         "przybrowarniana restauracja",
         "muzeum",
         "członek Stowarzyszenia Regionalnych Browarów Polskich",

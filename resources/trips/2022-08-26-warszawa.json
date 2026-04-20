@@ -14,13 +14,14 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "przybrowarniany sklep",
+        "sklep",
         "województwo mazowieckie",
         "spotkanie z piwowarem",
-        "piwo spróbowane poza browarem",
-        "piwo spróbowane na wynos",
+        "degustacja poza odwiedzinami",
+        "degustacja na wynos",
         "instalacja BrauKon"
       ]
     },
@@ -37,10 +38,11 @@
         }
       },
       "tags": [
+        "browar",
         "browar regionalny",
         "obejrzany sprzęt",
         "województwo mazowieckie",
-        "piwo spróbowane poza browarem"
+        "degustacja poza odwiedzinami"
       ]
     },
     {
@@ -56,7 +58,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "browar restauracyjny",
         "obejrzany sprzęt",
         "województwo mazowieckie",
