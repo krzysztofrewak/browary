@@ -1,52 +1,57 @@
-function buildLayer (result, layer, image) {
-  return {
-    id: layer,
-    type: 'symbol',
-    source: {
-      type: 'geojson',
-      data: result
-    },
-    layout: {
-      'icon-image': image,
-      'icon-allow-overlap': true,
-      'icon-ignore-placement': true,
-      'icon-anchor': 'bottom'
-    }
-  }
-}
+const SOURCE = 'breweries-data'
 
 const layers = [
   { name: 'ghosts', icon: 'ghost', offset: [8, -8] },
   { name: 'breweries', icon: 'marker', offset: [12, -16] }
 ]
 
+function loadImage (map, url) {
+  return new Promise((resolve, reject) => {
+    map.loadImage(url, (error, image) => {
+      if (error) reject(error)
+      else resolve(image)
+    })
+  })
+}
+
 export default {
   methods: {
     buildMarkers () {
       this.map.on('load', async () => {
-        await this.map.loadImage(require('@/assets/marker.png'), (error, image) => {
-          if (error) {
-            console.log('Image not loaded.')
-          }
-          this.map.addImage('marker', image)
-        })
-        await this.map.loadImage(require('@/assets/ghost.png'), (error, image) => {
-          if (error) {
-            console.log('Image not loaded.')
-          }
-          this.map.addImage('ghost', image)
-        })
+        try {
+          const [markerImage, ghostImage] = await Promise.all([
+            loadImage(this.map, require('@/assets/marker.png')),
+            loadImage(this.map, require('@/assets/ghost.png'))
+          ])
+          this.map.addImage('marker', markerImage)
+          this.map.addImage('ghost', ghostImage)
+        } catch (error) {
+          console.log('Images not loaded.', error)
+        }
 
-        await fetch('/api/map.json' + '?cache=' + (new Date().getTime())).then(response => response.json()).then(result => {
-          for (const layer of layers) {
-            this.map.addLayer(buildLayer(result, layer.name, layer.icon))
-            this.buildPopups(layer)
-            this.linkMarkers(layer.name)
-          }
-          this.adjustMap()
-          this.buildRoute()
-          this.loading = false
-        })
+        const result = await fetch('/api/map.json').then(r => r.json())
+
+        this.map.addSource(SOURCE, { type: 'geojson', data: result })
+
+        for (const layer of layers) {
+          this.map.addLayer({
+            id: layer.name,
+            type: 'symbol',
+            source: SOURCE,
+            layout: {
+              'icon-image': layer.icon,
+              'icon-allow-overlap': true,
+              'icon-ignore-placement': true,
+              'icon-anchor': 'bottom'
+            }
+          })
+          this.buildPopups(layer)
+          this.linkMarkers(layer.name)
+        }
+
+        this.adjustMap()
+        this.buildRoute()
+        this.loading = false
       })
     },
     linkMarkers (layer) {

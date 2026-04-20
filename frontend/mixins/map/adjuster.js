@@ -30,6 +30,7 @@ export default {
     },
     setFilters (filter) {
       if (filter && filter.key && filter.value) {
+        this.map.setLayoutProperty('ghosts', 'visibility', 'visible')
         if (filter.key === 'tag') {
           this.map.setFilter('breweries', ['has', 'tag_' + filter.value])
           this.map.setFilter('ghosts', ['!has', 'tag_' + filter.value])
@@ -50,19 +51,21 @@ export default {
     },
     resetMarkers () {
       this.map.setFilter('breweries', null)
-      this.map.setFilter('ghosts', ['==', 'key', 'value'])
+      this.map.setFilter('ghosts', null)
+      this.map.setLayoutProperty('ghosts', 'visibility', 'none')
     }
   },
   watch: {
     '$store.getters.mapFilters': {
       deep: true,
       handler () {
-        if (this.map.isStyleLoaded()) {
+        if (!this.loading) {
           this.adjustMap()
         }
       }
     },
     '$store.getters.ghosts' (ghosts) {
+      if (this.loading) return
       if (!ghosts) {
         this.resetMarkers()
       } else {
