@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-header title="Miasta" header="Z przynajmniej dwoma odwiedzonymi browarami"></page-header>
+    <page-header title="Miasta" :header="subtitle"></page-header>
     <sorting-header :entries="cities"
         :left="[{ label: 'państwo', method: sortByCountry }, { label: 'miasto', method: sortByName }]"
         :right="[{ label: 'liczba browarów', method: sortByBreweries }, { label: 'wycieczek', method: sortByTrips }]"
@@ -27,6 +27,11 @@ import api from '../api'
 
 export default {
   components: { SortingHeader, List, PageHeader },
+  computed: {
+    subtitle () {
+      return this.inflectCity(this.cities.length)
+    }
+  },
   setup () {
     const router = useRouter()
     const cities = ref([])

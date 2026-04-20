@@ -1,8 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: {
-    content: ['./frontend/**/*.{vue,html,js}']
-  },
-  darkMode: false,
+  content: ['./frontend/**/*.{vue,html,js}'],
   theme: {
     extend: {
       margin: {
@@ -11,12 +9,6 @@ module.exports = {
       width: {
         '120': '30rem'
       }
-    }
-  },
-  variants: {
-    extend: {
-      backgroundColor: ['odd'],
-      margin: ['hover']
     }
   },
   plugins: []

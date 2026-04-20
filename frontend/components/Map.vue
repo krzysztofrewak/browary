@@ -32,7 +32,7 @@ export default {
     search
   ],
   mounted () {
-    mapboxgl.accessToken = process.env.VUE_APP_MAPBOX_TOKEN
+    mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
     this.buildMap()
   },
   data () {
@@ -46,7 +46,7 @@ export default {
     buildMap () {
       this.map = new mapboxgl.Map({
         container: 'map',
-        style: process.env.VUE_APP_MAPBOX_STYLE_URL
+        style: import.meta.env.VITE_MAPBOX_STYLE_URL
       })
 
       if (window.innerWidth >= 1024) {

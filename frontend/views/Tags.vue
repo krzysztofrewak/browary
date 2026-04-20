@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-header title="Tagi" header="Z przynajmniej dwoma odwiedzonymi browarami"></page-header>
+    <page-header title="Tagi" :header="subtitle"></page-header>
     <sorting-header :entries="tags"
         :left="[{ label: 'tag', method: sortByName }]"
         :right="[{ label: 'liczba', method: sortByBreweries }]"
@@ -24,6 +24,11 @@ import api from '../api'
 
 export default {
   components: { SortingHeader, List, PageHeader },
+  computed: {
+    subtitle () {
+      return this.inflectTag(this.tags.length)
+    }
+  },
   setup () {
     const router = useRouter()
     const tags = ref([])

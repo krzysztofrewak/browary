@@ -1,8 +1,11 @@
+import markerImageUrl from '@/assets/marker.png'
+import ghostImageUrl from '@/assets/ghost.png'
+
 const SOURCE = 'breweries-data'
 
 const layers = [
-  { name: 'ghosts', icon: 'ghost', offset: [8, -8] },
-  { name: 'breweries', icon: 'marker', offset: [12, -16] }
+  { name: 'ghosts', icon: 'brew-ghost', offset: [8, -8] },
+  { name: 'breweries', icon: 'brew-marker', offset: [12, -16] }
 ]
 
 function loadImage (map, url) {
@@ -20,11 +23,11 @@ export default {
       this.map.on('load', async () => {
         try {
           const [markerImage, ghostImage] = await Promise.all([
-            loadImage(this.map, require('@/assets/marker.png')),
-            loadImage(this.map, require('@/assets/ghost.png'))
+            loadImage(this.map, markerImageUrl),
+            loadImage(this.map, ghostImageUrl)
           ])
-          this.map.addImage('marker', markerImage)
-          this.map.addImage('ghost', ghostImage)
+          this.map.addImage('brew-marker', markerImage)
+          this.map.addImage('brew-ghost', ghostImage)
         } catch (error) {
           console.log('Images not loaded.', error)
         }

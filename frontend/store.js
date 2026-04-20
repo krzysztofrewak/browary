@@ -53,10 +53,12 @@ const mutations = {
   },
   setFilter (state, payload) {
     state.mapFilters.center = null
-    state.mapFilters.bounds = [
-      [payload.item.extremes.west, payload.item.extremes.south],
-      [payload.item.extremes.east, payload.item.extremes.north]
-    ]
+    state.mapFilters.bounds = payload.item.extremes
+      ? [
+          [payload.item.extremes.west, payload.item.extremes.south],
+          [payload.item.extremes.east, payload.item.extremes.north]
+        ]
+      : state.defaultBounds
     state.mapFilters.filter.key = payload.type
     state.mapFilters.filter.value = payload.item.slug
   },

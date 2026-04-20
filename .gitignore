@@ -11,3 +11,5 @@ testing/backend/fixtures/public/*
 .env
 .php-cs-fixer.cache
 .countries.cache.json
+
+.claude

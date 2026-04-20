@@ -22,8 +22,8 @@ jobs:
 
       - name: Install and build frontend
         env:
-          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
-          VUE_APP_MAPBOX_STYLE_URL: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
+          VITE_MAPBOX_TOKEN: "${{ secrets.VITE_MAPBOX_TOKEN }}"
+          VITE_MAPBOX_STYLE_URL: "${{ secrets.VITE_MAPBOX_STYLE_URL }}"
         run: |
           npm install
           npm run-script build
@@ -37,7 +37,7 @@ jobs:
       - name: Install and build backend
         run: |
           composer install
-          echo 'VUE_APP_MAPBOX_TOKEN="${{ secrets.VUE_APP_MAPBOX_TOKEN }}"' > .env
+          echo 'VITE_MAPBOX_TOKEN="${{ secrets.VITE_MAPBOX_TOKEN }}"' > .env
           composer build
 
       - name: Handle 404 for GitHub Pages
