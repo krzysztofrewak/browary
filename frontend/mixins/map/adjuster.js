@@ -11,6 +11,7 @@ export default {
       const padding = window.innerWidth > 1024 ? 120 : 30
 
       this.setFilters(filter)
+      this.updateRoute(this.$store.getters.tripRoute)
 
       if (bounds) {
         if (areBoundsPoint(bounds)) {

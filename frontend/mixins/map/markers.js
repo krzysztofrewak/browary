@@ -44,6 +44,7 @@ export default {
             this.linkMarkers(layer.name)
           }
           this.adjustMap()
+          this.buildRoute()
           this.loading = false
         })
       })

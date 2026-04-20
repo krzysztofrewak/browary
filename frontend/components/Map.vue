@@ -14,6 +14,7 @@ import controls from '../mixins/map/controls'
 import countries from '../mixins/map/countries'
 import markers from '../mixins/map/markers'
 import popups from '../mixins/map/popups'
+import route from '../mixins/map/route'
 import search from '../mixins/map/search'
 import { LocationMarkerIcon } from '@heroicons/vue/outline'
 
@@ -27,6 +28,7 @@ export default {
     countries,
     markers,
     popups,
+    route,
     search
   ],
   mounted () {

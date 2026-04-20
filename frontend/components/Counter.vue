@@ -5,7 +5,7 @@
       <slot v-else></slot>
     </div>
     <div class="text-sm lowercase leading-tight text-gray-500" v-html="label"></div>
-    <div class="text-sm lowercase leading-tight text-gray-500" v-if="sublabel" v-html="sublabel"></div>
+    <div class="text-sm lowercase leading-tight text-gray-400" v-if="sublabel" v-html="sublabel"></div>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
   props: {
     label: String,
     sublabel: String,
-    value: String
+    value: [String, Number]
   }
 }
 </script>
