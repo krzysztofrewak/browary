@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-header title="Odwiedzone państwa" :header="subtitle"></page-header>
+    <page-header title="Państwa" :header="subtitle"></page-header>
     <sorting-header :entries="countries"
         :left="[
             { label: 'nazwa', method: sortByName },

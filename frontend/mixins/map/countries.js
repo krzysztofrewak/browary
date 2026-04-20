@@ -15,7 +15,7 @@ export default {
             'source-layer': 'country_boundaries',
             paint: {
               'fill-color': '#CCCCCC',
-              'fill-opacity': 0.66
+              'fill-opacity': 0.33
             },
             filter: [
               'all',

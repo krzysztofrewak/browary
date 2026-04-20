@@ -62,8 +62,8 @@ export default {
         ]
       })
 
-      this.map.addControl(controls, 'top-left')
-      this.map.addControl(new mapbox.NavigationControl(), 'top-left')
+      this.map.addControl(new mapbox.NavigationControl(), 'bottom-right')
+      this.map.addControl(controls, 'bottom-right')
       this.map.addControl(new mapbox.ScaleControl(), 'bottom-left')
     }
   }

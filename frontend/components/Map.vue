@@ -49,6 +49,10 @@ export default {
         style: process.env.VUE_APP_MAPBOX_STYLE_URL
       })
 
+      if (window.innerWidth >= 1024) {
+        this.map.setPadding({ top: 16, bottom: 16, left: 496, right: 0 })
+      }
+
       this.addControls()
       this.addSearch()
       this.buildCountries()
