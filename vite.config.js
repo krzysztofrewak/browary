@@ -16,6 +16,12 @@ export default defineConfig({
           }
           next()
         })
+      },
+      generateBundle (_, bundle) {
+        const htmlFile = bundle['frontend/templates/index.html']
+        if (htmlFile) {
+          htmlFile.fileName = 'index.html'
+        }
       }
     }
   ],

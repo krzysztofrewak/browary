@@ -6,7 +6,7 @@
     "serve": "vite",
     "prebuild": "rm -rf ./public",
     "build": "vite build",
-    "postbuild": "cp -rT ./frontend/static ./public && echo 'Please remember to run `composer build` too.'",
+    "postbuild": "cp -rT ./frontend/static ./public && mv ./public/frontend/templates/index.html ./public/index.html && rm -rf ./public/frontend && echo 'Please remember to run `composer build` too.'",
     "lint": "eslint frontend --no-fix"
   },
   "dependencies": {
