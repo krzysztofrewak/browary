@@ -30,13 +30,13 @@ export default {
     },
     setFilters (filter) {
       if (filter && filter.key && filter.value) {
-        this.map.setLayoutProperty('ghosts', 'visibility', 'visible')
+        this.map.setLayoutProperty('inactives', 'visibility', 'visible')
         if (filter.key === 'tag') {
           this.map.setFilter('breweries', ['has', 'tag_' + filter.value])
-          this.map.setFilter('ghosts', ['!has', 'tag_' + filter.value])
+          this.map.setFilter('inactives', ['!has', 'tag_' + filter.value])
         } else {
           this.map.setFilter('breweries', ['==', filter.key, filter.value])
-          this.map.setFilter('ghosts', ['!=', filter.key, filter.value])
+          this.map.setFilter('inactives', ['!=', filter.key, filter.value])
         }
       } else {
         this.resetMarkers()
@@ -51,8 +51,8 @@ export default {
     },
     resetMarkers () {
       this.map.setFilter('breweries', null)
-      this.map.setFilter('ghosts', null)
-      this.map.setLayoutProperty('ghosts', 'visibility', 'none')
+      this.map.setFilter('inactives', null)
+      this.map.setLayoutProperty('inactives', 'visibility', 'none')
     }
   },
   watch: {
@@ -64,9 +64,9 @@ export default {
         }
       }
     },
-    '$store.getters.ghosts' (ghosts) {
+    '$store.getters.inactives' (inactives) {
       if (this.loading) return
-      if (!ghosts) {
+      if (!inactives) {
         this.resetMarkers()
       } else {
         this.setFilters(this.$store.getters.mapFilterValue)

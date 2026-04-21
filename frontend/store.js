@@ -10,7 +10,7 @@ const state = {
       value: null
     }
   },
-  ghosts: true,
+  inactives: true,
   counters: null,
   defaultBounds: null,
   tripRoute: null
@@ -22,7 +22,7 @@ const getters = {
   mapFilterBounds: state => state.mapFilters.bounds,
   mapFilterValue: state => state.mapFilters.filter,
   counters: state => state.counters,
-  ghosts: state => state.ghosts,
+  inactives: state => state.inactives,
   defaultBounds: state => state.defaultBounds,
   tripRoute: state => state.tripRoute
 }
@@ -68,8 +68,8 @@ const mutations = {
   clearTripRoute (state) {
     state.tripRoute = null
   },
-  toggleGhosts (state) {
-    state.ghosts = !state.ghosts
+  toggleInactives (state) {
+    state.inactives = !state.inactives
   }
 }
 

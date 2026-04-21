@@ -1,10 +1,10 @@
 import markerImageUrl from '@/assets/marker.png'
-import ghostImageUrl from '@/assets/ghost.png'
+import inactiveImageUrl from '@/assets/inactive.png'
 
 const SOURCE = 'breweries-data'
 
 const layers = [
-  { name: 'ghosts', icon: 'brew-ghost', offset: [8, -8] },
+  { name: 'inactives', icon: 'inactive', offset: [8, -8] },
   { name: 'breweries', icon: 'brew-marker', offset: [12, -16] }
 ]
 
@@ -22,12 +22,12 @@ export default {
     buildMarkers () {
       this.map.on('load', async () => {
         try {
-          const [markerImage, ghostImage] = await Promise.all([
+          const [markerImage, inactiveImage] = await Promise.all([
             loadImage(this.map, markerImageUrl),
-            loadImage(this.map, ghostImageUrl)
+            loadImage(this.map, inactiveImageUrl)
           ])
           this.map.addImage('brew-marker', markerImage)
-          this.map.addImage('brew-ghost', ghostImage)
+          this.map.addImage('inactive', inactiveImage)
         } catch (error) {
           console.log('Images not loaded.', error)
         }
