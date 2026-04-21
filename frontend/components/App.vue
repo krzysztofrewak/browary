@@ -9,7 +9,7 @@
       <div class="absolute top-0 right-0 z-30 lg:hidden m-3">
         <button type="button" class="h-12 w-12 inline-flex items-center justify-center bg-gray-700 hover:bg-gray-800 rounded-md text-white" @click="mobileMenuOpen = true">
           <span class="sr-only">Otwórz menu</span>
-          <menu-icon class="h-6 w-6" aria-hidden="true"/>
+          <icon-menu2 class="h-6 w-6" aria-hidden="true"/>
         </button>
       </div>
 
@@ -32,7 +32,7 @@
 <script>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useStore } from 'vuex'
-import { MenuIcon } from '@heroicons/vue/outline'
+import { IconMenu2 } from '@tabler/icons-vue'
 
 import Map from './Map'
 import MobileWidthSidebar from './Layout/MobileWidthSidebar'
@@ -44,7 +44,7 @@ export default {
     brewmap: Map,
     FullWidthSidebar,
     MobileWidthSidebar,
-    MenuIcon
+    IconMenu2
   },
   setup () {
     const store = useStore()

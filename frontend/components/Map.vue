@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="loading" class="flex justify-center items-center w-full h-full bg-gray-300 text-gray-400">
-      <location-marker-icon class="h-36 w-36 animate-pulse" aria-hidden="true"/>
+      <icon-map-pin class="h-36 w-36 animate-pulse" aria-hidden="true"/>
     </div>
     <div id="map" class="w-full h-full"></div>
   </div>
@@ -16,11 +16,11 @@ import markers from '../mixins/map/markers'
 import popups from '../mixins/map/popups'
 import route from '../mixins/map/route'
 import search from '../mixins/map/search'
-import { LocationMarkerIcon } from '@heroicons/vue/outline'
+import { IconMapPin } from '@tabler/icons-vue'
 
 export default {
   components: {
-    LocationMarkerIcon
+    IconMapPin
   },
   mixins: [
     adjuster,

@@ -33,17 +33,17 @@
           </div>
         </div>
       </div>
-      <arrows-expand-icon class="mx-auto w-48 text-gray-300 transform rotate-45"></arrows-expand-icon>
+      <icon-arrows-maximize class="mx-auto w-48 text-gray-300 transform rotate-45"/>
     </div>
   </div>
 </template>
 
 <script>
 import PageSubHeader from '../PageSubHeader'
-import { ArrowsExpandIcon } from '@heroicons/vue/outline/esm'
+import { IconArrowsMaximize } from '@tabler/icons-vue'
 
 export default {
-  components: { PageSubHeader, ArrowsExpandIcon },
+  components: { PageSubHeader, IconArrowsMaximize },
   props: {
     extremes: Object
   }
