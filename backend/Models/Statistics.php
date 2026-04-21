@@ -12,6 +12,7 @@ class Statistics implements JsonSerializable
     protected array $weekdays = [];
     protected array $months = [];
     protected array $counters = [];
+    protected array $records = [];
 
     public function setExtremes(array $extremes): static
     {
@@ -41,6 +42,16 @@ class Statistics implements JsonSerializable
         return $this;
     }
 
+    public function setRecord(string $label, int $counter, string $description): static
+    {
+        $this->records[$label] = [
+            "counter" => $counter,
+            "description" => $description,
+        ];
+
+        return $this;
+    }
+
     public function jsonSerialize(): array
     {
         return [
@@ -53,6 +64,11 @@ class Statistics implements JsonSerializable
                 "cities" => $this->counters["cities"] ?? 0,
                 "trips" => $this->counters["trips"] ?? 0,
                 "tags" => $this->counters["tags"] ?? 0,
+            ],
+            "records" => [
+                "mostBreweriesInOneDay" => $this->records["mostBreweriesInOneDay"] ?? ["counter" => 0, "description" => ""],
+                "longestStreak" => $this->records["longestStreak"] ?? ["counter" => 0, "description" => ""],
+                "longestTrip" => $this->records["longestTrip"] ?? ["counter" => 0, "description" => ""],
             ],
         ];
     }

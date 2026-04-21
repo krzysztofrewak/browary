@@ -11,12 +11,16 @@
 ![](./screenshot03.png)
 > Statistics page
 
+![](./screenshot04.png)
+> Trip page
+
 ## Usage
-Clone this repository and set up environment configuration in `.env` file:
+Clone this repository and set up environment configuration (your Mapbox token and style URL if needed) in `.env` file:
 ```
 git clone https://github.com/krzysztofrewak/browary
 cd browary
 cp .env.example .env
+# add VITE_MAPBOX_TOKEN in .env file 
 ```
 
 Run containerized environment:

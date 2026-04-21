@@ -3,14 +3,17 @@ import mapbox from 'mapbox-gl'
 export default {
   methods: {
     buildPopups (layer) {
-      const popup = new mapbox.Popup({
-        closeButton: false,
-        closeOnClick: false,
-        anchor: 'left',
-        maxWidth: 'none',
-        offset: layer.offset,
-        className: 'map-marker-popup text-gray-700'
-      })
+      if (!this._popup) {
+        this._popup = new mapbox.Popup({
+          closeButton: false,
+          closeOnClick: false,
+          anchor: 'left',
+          maxWidth: 'none',
+          className: 'map-marker-popup text-gray-700'
+        })
+      }
+
+      const popup = this._popup
 
       this.map.on('mousemove', layer.name, event => {
         const label = event.features[0].properties.label
@@ -21,7 +24,11 @@ export default {
           coordinates[0] += event.lngLat.lng > coordinates[0] ? 360 : -360
         }
 
-        popup.setLngLat(coordinates).setHTML('<div class=\'flex items-center gap-1.5\'>' + flag + ' ' + label + '</div>').addTo(this.map)
+        popup
+          .setOffset(layer.offset)
+          .setLngLat(coordinates)
+          .setHTML('<div class=\'flex items-center gap-1.5\'>' + flag + ' ' + label + '</div>')
+          .addTo(this.map)
       })
 
       this.map.on('mouseleave', layer.name, () => {

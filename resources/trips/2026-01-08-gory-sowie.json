@@ -1,5 +1,5 @@
 {
-  "name": "Góry Sowie 2026",
+  "name": "Góry Sowie, styczeń 2026",
   "tags": [
     "województwo dolnośląskie",
     "odwiedzone z Goworowa"
@@ -18,9 +18,10 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
-        "przybrowarniany sklep",
-        "piwo spróbowane na wynos",
+        "sklep",
+        "degustacja na wynos",
         "spotkanie z piwowarem",
         "obejrzany sprzęt"
       ]
@@ -38,10 +39,11 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
-        "przybrowarniany sklep",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem"
+        "sklep",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami"
       ]
     }
   ]

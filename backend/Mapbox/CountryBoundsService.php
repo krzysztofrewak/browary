@@ -18,7 +18,7 @@ class CountryBoundsService
     public static function setBounds(Countries $countries, string $rootPath): void
     {
         $api = new Client();
-        $token = $_ENV["VUE_APP_MAPBOX_TOKEN"] ?? getenv("VUE_APP_MAPBOX_TOKEN");
+        $token = $_ENV["VITE_MAPBOX_TOKEN"] ?? getenv("VITE_MAPBOX_TOKEN");
 
         if (empty($token)) {
             return;

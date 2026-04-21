@@ -1,7 +1,7 @@
 <template>
   <div class="w-full chart">
-    <page-header :title="title" :header="subtitle"></page-header>
-    <div class="flex w-full px-8" v-if="max > 0">
+    <page-sub-header :title="title" :header="subtitle"></page-sub-header>
+    <div class="flex w-full mt-2 px-8" v-if="max > 0">
       <div class="flex-1 flex flex-col justify-end" v-for="value in values" :key="value.label">
         <div class="text-gray-800 text-center text-xs">
           {{ value.value }}
@@ -19,11 +19,11 @@
 </template>
 
 <script>
-import PageHeader from '../PageHeader'
+import PageSubHeader from '../PageSubHeader'
 import { ref, watch } from 'vue'
 
 export default {
-  components: { PageHeader },
+  components: { PageSubHeader },
   props: {
     values: Array,
     title: String,

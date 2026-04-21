@@ -14,6 +14,7 @@
         }
       },
       "tags": [
+        "browar",
         "kraj Wysoczyna",
         "obejrzany sprzęt",
         "browar restauracyjny",
@@ -34,8 +35,9 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar restauracyjny",
         "browar w parku",
         "browar stołeczny"
@@ -54,8 +56,9 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar restauracyjny",
         "browar stołeczny"
       ]
@@ -73,10 +76,11 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "brewpub",
-        "przybrowarniany sklep",
+        "sklep",
         "browar stołeczny"
       ]
     },
@@ -93,8 +97,9 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "mikrobrowar",
         "spotkanie z piwowarem"
       ]
@@ -112,8 +117,9 @@
         }
       },
       "tags": [
-        "piwo spróbowane poza browarem",
-        "przybrowarniany sklep",
+        "browar",
+        "degustacja poza odwiedzinami",
+        "sklep",
         "browar koncernowy",
         "koncern Brau Union"
       ]
@@ -131,6 +137,7 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
         "mikrobrowar"
       ]
@@ -148,9 +155,10 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
         "browar restauracyjny",
-        "piwo spróbowane na wynos"
+        "degustacja na wynos"
       ]
     },
     {
@@ -166,9 +174,10 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
         "mikrobrowar",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "spotkanie z piwowarem"
       ]
     },
@@ -185,8 +194,9 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar restauracyjny",
         "spotkanie z piwowarem"
       ]
@@ -204,8 +214,9 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "spotkanie z piwowarem"
       ]
     },
@@ -222,9 +233,10 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "mikrobrowar",
-        "piwo spróbowane poza browarem",
+        "degustacja poza odwiedzinami",
         "browar z pizzerią"
       ]
     },
@@ -241,9 +253,10 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
         "mikrobrowar",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "spotkanie z piwowarem"
       ]
     },
@@ -260,7 +273,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "browar restauracyjny"
       ]
     },
@@ -277,7 +291,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "browar restauracyjny"
       ]
     },
@@ -294,8 +309,9 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar restauracyjny"
       ]
     },
@@ -312,11 +328,12 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
         "mikrobrowar",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "spotkanie z piwowarem",
-        "piwo spróbowane poza browarem"
+        "degustacja poza odwiedzinami"
       ]
     },
     {
@@ -332,7 +349,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "mikrobrowar"
       ]
     },
@@ -349,7 +367,8 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
+        "browar",
+        "degustacja na miejscu",
         "browar restauracyjny",
         "browar z pizzerią"
       ]
@@ -367,11 +386,12 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "mikrobrowar",
-        "piwo spróbowane poza browarem",
-        "przybrowarniany sklep"
+        "degustacja poza odwiedzinami",
+        "sklep"
       ]
     },
     {
@@ -387,9 +407,10 @@
         }
       },
       "tags": [
+        "browar",
         "kraj południowomorawski",
         "browar restauracyjny",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "browar hotelowy"
       ]
     },
@@ -406,10 +427,11 @@
         }
       },
       "tags": [
+        "browar",
         "kraj południowomorawski",
         "obejrzany sprzęt",
         "mikrobrowar",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "spotkanie z piwowarem"
       ]
     },
@@ -426,9 +448,10 @@
         }
       },
       "tags": [
+        "browar",
         "kraj Wysoczyna",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "brewpub"
       ]
     }

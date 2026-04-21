@@ -35,6 +35,8 @@ class MapboxGLButtonControls {
 export default {
   methods: {
     addControls () {
+      let isGlobe = false
+
       const controls = new MapboxGLButtonControls({
         id: 'map-controls',
         controls: [
@@ -49,7 +51,15 @@ export default {
             title: 'Przełącz markery',
             icon: 'marker icon',
             eventHandler: () => {
-              this.$store.commit('toggleGhosts')
+              this.$store.commit('toggleInactives')
+            }
+          },
+          {
+            title: 'Przełącz projekcję mapy',
+            icon: 'globe icon',
+            eventHandler: () => {
+              isGlobe = !isGlobe
+              this.map.setProjection(isGlobe ? 'globe' : 'mercator')
             }
           },
           {
@@ -62,8 +72,8 @@ export default {
         ]
       })
 
-      this.map.addControl(controls, 'top-left')
-      this.map.addControl(new mapbox.NavigationControl(), 'top-left')
+      this.map.addControl(new mapbox.NavigationControl(), 'bottom-right')
+      this.map.addControl(controls, 'bottom-right')
       this.map.addControl(new mapbox.ScaleControl(), 'bottom-left')
     }
   }

@@ -35,16 +35,14 @@
 
     <infobox>
       <template v-slot:general>
-        <div class="flex flex-col items-center justify-center w-32 text-center text-2xl leading-tight">
-          <router-link :to="{ name: 'calendar.month', params: { year: brewery.date.year, month: brewery.date.month } }" class="z-10 mt-2 mr-12 bg-gray-100 p-1 rounded-md shadow">
+        <div class="flex flex-col items-center justify-center w-32 text-center text-2xl leading-tight relative">
+          <router-link :to="{ name: 'calendar.month', params: { year: brewery.date.year, month: brewery.date.month } }" class="z-10 mt-2 mr-12 bg-gray-100 p-2 rounded-md shadow">
             {{ brewery.date.month }}
           </router-link>
-          <router-link :to="{ name: 'calendar.year', params: { year: brewery.date.year } }" class="z-10 -mt-4 ml-12 bg-gray-100 p-1 rounded-md shadow">
+          <router-link :to="{ name: 'calendar.year', params: { year: brewery.date.year } }" class="z-10 -mt-4 ml-12 bg-gray-100 p-2 rounded-md shadow">
             {{ brewery.date.year.substr(2) }}
           </router-link>
-          <span class="opacity-75 absolute text-4xl">
-          /
-        </span>
+          <span class="opacity-75 absolute text-4xl z-20">/</span>
         </div>
       </template>
       <template v-slot:list>

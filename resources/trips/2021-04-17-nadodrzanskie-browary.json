@@ -14,13 +14,14 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
         "województwo dolnośląskie",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep",
+        "sklep",
         "obecnie zamknięty"
       ]
     },
@@ -37,9 +38,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "województwo opolskie",
         "browar hotelowy",
         "odwiedzony przedpremierowo"

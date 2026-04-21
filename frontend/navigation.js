@@ -1,21 +1,21 @@
 import {
-  CalendarIcon,
-  GlobeIcon,
-  HomeIcon,
-  OfficeBuildingIcon,
-  PresentationChartLineIcon,
-  QuestionMarkCircleIcon,
-  TagIcon,
-  TicketIcon
-} from '@heroicons/vue/outline/esm'
+  IconCalendarWeek,
+  IconBuildings,
+  IconChartPie3,
+  IconWorldMap,
+  IconInfoCircle,
+  IconHome,
+  IconTag,
+  IconPlane
+} from '@tabler/icons-vue'
 
 export default [
-  { name: 'Str. główna', route: 'home', icon: HomeIcon, section: 'home' },
-  { name: 'Kalendarz', route: 'calendar', icon: CalendarIcon, section: 'calendar' },
-  { name: 'Odwiedzone państwa', route: 'countries', icon: GlobeIcon, section: 'countries' },
-  { name: 'Miasta', route: 'cities', icon: OfficeBuildingIcon, section: 'cities' },
-  { name: 'Wycieczki', route: 'trips', icon: TicketIcon, section: 'trips' },
-  { name: 'Tagi browarów', route: 'tags', icon: TagIcon, section: 'tags' },
-  { name: 'Statystyki', route: 'statistics', icon: PresentationChartLineIcon, section: 'statistics' },
-  { name: 'O nas', route: 'about', icon: QuestionMarkCircleIcon, section: 'about' }
+  { name: 'Str. główna', route: 'home', icon: IconHome, section: 'home' },
+  { name: 'Kalendarz', route: 'calendar', icon: IconCalendarWeek, section: 'calendar' },
+  { name: 'Państwa', route: 'countries', icon: IconWorldMap, section: 'countries' },
+  { name: 'Miasta', route: 'cities', icon: IconBuildings, section: 'cities' },
+  { name: 'Wycieczki', route: 'trips', icon: IconPlane, section: 'trips' },
+  { name: 'Tagi', route: 'tags', icon: IconTag, section: 'tags' },
+  { name: 'Statystyki', route: 'statistics', icon: IconChartPie3, section: 'statistics' },
+  { name: 'O nas', route: 'about', icon: IconInfoCircle, section: 'about' }
 ]

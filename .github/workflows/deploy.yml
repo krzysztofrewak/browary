@@ -3,7 +3,7 @@ name: Build and deploy
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: "0 8 1 * *"
 
@@ -18,12 +18,12 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 22
 
       - name: Install and build frontend
         env:
-          VUE_APP_MAPBOX_TOKEN: "${{ secrets.VUE_APP_MAPBOX_TOKEN }}"
-          VUE_APP_MAPBOX_STYLE_URL: "${{ secrets.VUE_APP_MAPBOX_STYLE_URL }}"
+          VITE_MAPBOX_TOKEN: "${{ secrets.VITE_MAPBOX_TOKEN }}"
+          VITE_MAPBOX_STYLE_URL: "${{ secrets.VITE_MAPBOX_STYLE_URL }}"
         run: |
           npm install
           npm run-script build
@@ -31,13 +31,13 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: 8.1
+          php-version: 8.4
           coverage: none
 
       - name: Install and build backend
         run: |
           composer install
-          echo 'VUE_APP_MAPBOX_TOKEN="${{ secrets.VUE_APP_MAPBOX_TOKEN }}"' > .env
+          echo 'VITE_MAPBOX_TOKEN="${{ secrets.VITE_MAPBOX_TOKEN }}"' > .env
           composer build
 
       - name: Handle 404 for GitHub Pages

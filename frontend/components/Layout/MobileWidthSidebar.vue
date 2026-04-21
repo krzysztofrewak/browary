@@ -10,7 +10,7 @@
             <div class="absolute top-0 right-0 -mr-12 pt-4">
               <button type="button" class="ml-1 flex items-center justify-center h-10 w-10 rounded-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" @click="$emit('hide')">
                 <span class="sr-only">Close sidebar</span>
-                <x-icon class="h-6 w-6 text-white" aria-hidden="true"></x-icon>
+                <icon-x class="h-6 w-6 text-white" aria-hidden="true"/>
               </button>
             </div>
           </transition-child>
@@ -35,7 +35,7 @@
 
 <script>
 import { Dialog, DialogOverlay, TransitionChild, TransitionRoot } from '@headlessui/vue'
-import { XIcon } from '@heroicons/vue/outline'
+import { IconX } from '@tabler/icons-vue'
 
 export default {
   components: {
@@ -43,7 +43,7 @@ export default {
     'dialog-overlay': DialogOverlay,
     'transition-child': TransitionChild,
     'transition-root': TransitionRoot,
-    'x-icon': XIcon
+    IconX
   },
   props: {
     mobileMenuOpen: Boolean,

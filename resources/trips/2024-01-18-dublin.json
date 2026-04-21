@@ -1,5 +1,8 @@
 {
   "name": "Dublin, styczeń 2024",
+  "tags": [
+    "browar stołeczny"
+  ],
   "breweries": [
     {
       "name": "St. James's Gate Brewery",
@@ -14,14 +17,14 @@
         }
       },
       "tags": [
+        "browar",
         "koncern Diageo",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane poza browarem",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
         "muzeum",
         "zorganizowana wycieczka",
-        "browar koncernowy",
-        "browar stołeczny"
+        "browar koncernowy"
       ]
     },
     {
@@ -37,12 +40,32 @@
         }
       },
       "tags": [
+        "browar",
         "koncern Diageo",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "eksperymentalny browar wewnątrz większego browaru",
         "browar eksperymentalny",
-        "brewpub",
-        "browar stołeczny"
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Roe & Co Distillery",
+      "visited": "2024-01-18",
+      "location": {
+        "country": "ie",
+        "city": "Dublin",
+        "address": "53 James St, St. James's Gate",
+        "coordinates": {
+          "lat": 53.34384925606047,
+          "lng": -6.285823618932769
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "destylarnia whisky",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "spotkanie z piwowarem"
       ]
     },
     {
@@ -58,12 +81,34 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "brewpub",
         "sieć BrewDog",
-        "wielokrotnie odwiedzony",
-        "browar stołeczny"
+        "wielokrotnie odwiedzony"
+      ]
+    },
+    {
+      "name": "Jameson Distillery Bow St.",
+      "visited": "2024-01-19",
+      "location": {
+        "country": "ie",
+        "city": "Dublin",
+        "address": "Bow St, Smithfield, Dublin 7",
+        "coordinates": {
+          "lat": 53.348175493120124,
+          "lng": -6.2770235355824004
+        }
+      },
+      "tags": [
+        "browar historyczny",
+        "destylarnia",
+        "destylarnia whisky",
+        "degustacja na miejscu",
+        "zorganizowana wycieczka",
+        "browar koncernowy",
+        "muzeum"
       ]
     },
     {
@@ -79,9 +124,9 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
-        "brewpub",
-        "browar stołeczny"
+        "browar",
+        "degustacja na miejscu",
+        "brewpub"
       ]
     },
     {
@@ -97,10 +142,10 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
-        "brewpub",
-        "browar stołeczny"
+        "degustacja na miejscu",
+        "brewpub"
       ]
     },
     {
@@ -116,13 +161,13 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
         "zorganizowana wycieczka",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "brewpub",
-        "mikrobrowar",
-        "browar stołeczny"
+        "mikrobrowar"
       ]
     },
     {
@@ -138,9 +183,9 @@
         }
       },
       "tags": [
-        "piwo spróbowane na miejscu",
-        "brewpub",
-        "browar stołeczny"
+        "browar",
+        "degustacja na miejscu",
+        "brewpub"
       ]
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "name": "wakacje 2025",
+  "name": "Warmia i Litwa, wakacje 2025",
   "tags": [],
   "breweries": [
     {
@@ -15,9 +15,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "instalacja Minibrowary.pl",
         "województwo łódzkie",
         "browar z pizzerią"
@@ -36,11 +37,12 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "spotkanie z piwowarem",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "województwo łódzkie",
         "członek Polskiego Stowarzyszenia Browarów Rzemieślniczych"
       ]
@@ -58,8 +60,9 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
-        "piwo spróbowane poza browarem",
+        "degustacja poza odwiedzinami",
         "województwo mazowieckie"
       ]
     },
@@ -76,10 +79,11 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "województwo warmińsko-mazurskie"
       ]
     },
@@ -96,12 +100,13 @@
         }
       },
       "tags": [
+        "browar",
         "browar regionalny",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "sklep",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "województwo warmińsko-mazurskie",
         "członek Stowarzyszenia Regionalnych Browarów Polskich"
       ]
@@ -119,8 +124,9 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "województwo warmińsko-mazurskie",
         "browar na rynku"
       ]
@@ -138,9 +144,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "województwo warmińsko-mazurskie"
       ]
     },
@@ -157,9 +164,10 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "województwo warmińsko-mazurskie"
       ]
     },
@@ -176,9 +184,10 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
-        "przybrowarniany sklep",
+        "sklep",
         "województwo warmińsko-mazurskie"
       ]
     },
@@ -195,9 +204,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "województwo podlaskie"
       ]
     },
@@ -214,8 +224,9 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar stołeczny"
       ]
     },
@@ -232,9 +243,10 @@
         }
       },
       "tags": [
+        "browar",
         "brewpub",
         "obejrzany sprzęt",
-        "piwo spróbowane na miejscu",
+        "degustacja na miejscu",
         "browar w podziemiu",
         "browar stołeczny"
       ]
@@ -252,9 +264,10 @@
         }
       },
       "tags": [
+        "browar",
         "browar regionalny",
         "obejrzany sprzęt",
-        "piwo spróbowane poza browarem",
+        "degustacja poza odwiedzinami",
         "województwo podlaskie",
         "grupa Van Pur"
       ]
@@ -272,11 +285,12 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "piwo spróbowane na miejscu",
-        "piwo spróbowane poza browarem",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
         "województwo mazowieckie"
       ]
     },
@@ -293,11 +307,12 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "obejrzany sprzęt",
         "spotkanie z piwowarem",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "województwo mazowieckie"
       ]
     }

@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { onMounted, ref } from 'vue'
+import { onMounted, onUnmounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useStore } from 'vuex'
 import api from '../api'
@@ -33,9 +33,15 @@ export default {
 
     onMounted(() => {
       api.fetch(router, 'trips/' + route.params.slug, (data) => {
+        const breweries = Object.values(data.breweries)
         store.commit('setFilter', { type: 'trip', item: data })
-        trip.value = data
+        store.commit('setTripRoute', breweries.slice().reverse().map(b => b.location.coordinates))
+        trip.value = { ...data, breweries }
       })
+    })
+
+    onUnmounted(() => {
+      store.commit('clearTripRoute')
     })
 
     return {

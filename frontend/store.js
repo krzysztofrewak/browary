@@ -10,9 +10,11 @@ const state = {
       value: null
     }
   },
-  ghosts: true,
+  inactives: true,
+  contentOpen: false,
   counters: null,
-  defaultBounds: null
+  defaultBounds: null,
+  tripRoute: null
 }
 
 const getters = {
@@ -21,8 +23,10 @@ const getters = {
   mapFilterBounds: state => state.mapFilters.bounds,
   mapFilterValue: state => state.mapFilters.filter,
   counters: state => state.counters,
-  ghosts: state => state.ghosts,
-  defaultBounds: state => state.defaultBounds
+  inactives: state => state.inactives,
+  contentOpen: state => state.contentOpen,
+  defaultBounds: state => state.defaultBounds,
+  tripRoute: state => state.tripRoute
 }
 
 const mutations = {
@@ -41,6 +45,7 @@ const mutations = {
     state.mapFilters.bounds = state.defaultBounds
     state.mapFilters.filter.key = null
     state.mapFilters.filter.value = null
+    state.tripRoute = null
   },
   selectBrewery (state, brewery) {
     state.mapFilters.center = brewery.location.coordinates
@@ -50,15 +55,26 @@ const mutations = {
   },
   setFilter (state, payload) {
     state.mapFilters.center = null
-    state.mapFilters.bounds = [
-      [payload.item.extremes.west, payload.item.extremes.south],
-      [payload.item.extremes.east, payload.item.extremes.north]
-    ]
+    state.mapFilters.bounds = payload.item.extremes
+      ? [
+          [payload.item.extremes.west, payload.item.extremes.south],
+          [payload.item.extremes.east, payload.item.extremes.north]
+        ]
+      : state.defaultBounds
     state.mapFilters.filter.key = payload.type
     state.mapFilters.filter.value = payload.item.slug
   },
-  toggleGhosts (state) {
-    state.ghosts = !state.ghosts
+  setTripRoute (state, coordinates) {
+    state.tripRoute = coordinates
+  },
+  clearTripRoute (state) {
+    state.tripRoute = null
+  },
+  toggleInactives (state) {
+    state.inactives = !state.inactives
+  },
+  setContentOpen (state, value) {
+    state.contentOpen = value
   }
 }
 

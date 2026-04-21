@@ -14,12 +14,13 @@
         }
       },
       "tags": [
+        "browar",
         "obejrzany sprzęt",
-        "piwo spróbowane poza browarem",
-        "piwo spróbowane na wynos",
+        "degustacja poza odwiedzinami",
+        "degustacja na wynos",
         "browar regionalny",
         "województwo dolnośląskie",
-        "przybrowarniany sklep",
+        "sklep",
         "browar przedwojenny"
       ]
     },
@@ -36,11 +37,12 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
-        "przybrowarniany sklep",
+        "sklep",
         "województwo dolnośląskie",
-        "piwo spróbowane poza browarem",
-        "piwo spróbowane na wynos",
+        "degustacja poza odwiedzinami",
+        "degustacja na wynos",
         "obecnie przeniesiony"
       ]
     }

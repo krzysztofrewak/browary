@@ -161,11 +161,16 @@ class Application
         $statistics->setExtremes(ExtremesFinder::find($breweries->getAll()));
         $statistics->setWeekdays(WeekdaysCounter::count($breweries->getAll()));
         $statistics->setMonths(MonthsCounter::count($breweries->getAll()));
+
         $statistics->setCounter("breweries", $breweries->getAll()->count());
         $statistics->setCounter("countries", $countries->getAllVisited()->count());
         $statistics->setCounter("cities", $cities->getAll()->count());
         $statistics->setCounter("trips", $trips->getAll()->count());
         $statistics->setCounter("tags", $tags->getAll()->count());
+
+        $statistics->setRecord("mostBreweriesInOneDay", ...$breweries->getMostBreweriesInOneDay());
+        $statistics->setRecord("longestStreak", ...$breweries->getLongestStreak());
+        $statistics->setRecord("longestTrip", ...$trips->getLongestTrip());
 
         return $statistics;
     }

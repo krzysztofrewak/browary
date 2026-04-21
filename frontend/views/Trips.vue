@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-header title="Wycieczki" header="Z przynajmniej dwoma odwiedzonymi browarami"></page-header>
+    <page-header title="Wycieczki" :header="subtitle"></page-header>
     <sorting-header :entries="trips"
         :left="[{ label: 'data', method: sortByDate }, { label: 'wycieczka', method: sortByName }]"
         :right="[{ label: 'liczba browarów', method: sortByBreweries }]"
@@ -27,6 +27,11 @@ import api from '../api'
 
 export default {
   components: { List, PageHeader, SortingHeader },
+  computed: {
+    subtitle () {
+      return this.inflectTrip(this.trips.length)
+    }
+  },
   setup () {
     const router = useRouter()
     const trips = ref([])

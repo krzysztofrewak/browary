@@ -14,10 +14,11 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "obejrzany sprzęt",
-        "przybrowarniany sklep",
-        "piwo spróbowane na wynos",
+        "sklep",
+        "degustacja na wynos",
         "instalacja Kaspar Schulz",
         "województwo śląskie"
       ]
@@ -35,11 +36,12 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep",
+        "sklep",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "województwo śląskie",
         "obecnie zamknięty"
       ]
@@ -57,11 +59,12 @@
         }
       },
       "tags": [
+        "browar",
         "mikrobrowar",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "sklep",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "województwo małopolskie"
       ]
     },
@@ -78,11 +81,12 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep",
+        "sklep",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
+        "degustacja na wynos",
         "województwo śląskie",
         "instalacja Salm"
       ]
@@ -100,12 +104,13 @@
         }
       },
       "tags": [
+        "browar",
         "browar restauracyjny",
         "spotkanie z piwowarem",
-        "przybrowarniany sklep",
+        "sklep",
         "obejrzany sprzęt",
-        "piwo spróbowane na wynos",
-        "piwo spróbowane poza browarem",
+        "degustacja na wynos",
+        "degustacja poza odwiedzinami",
         "województwo śląskie",
         "obecnie zamknięty"
       ]

@@ -2,13 +2,16 @@ import mapbox from 'mapbox-gl'
 import slugify from 'slugify'
 import Geocoder from '@mapbox/mapbox-gl-geocoder'
 
+let searchData = null
+
 async function forwardGeocoder (query) {
+  if (!searchData) {
+    searchData = await fetch('/api/search.json').then(r => r.json())
+  }
+
   const matchingFeatures = []
 
-  const response = await fetch('/api/search.json')
-  const json = await response.json()
-
-  for (const brewery of json) {
+  for (const brewery of searchData) {
     if (brewery.searchable.includes(slugify(query))) {
       const feature = []
       feature.custom = true

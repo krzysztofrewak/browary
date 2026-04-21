@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import { onMounted, ref } from 'vue'
+import { onMounted, onUnmounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useStore } from 'vuex'
 import Breweries from '../components/Lists/Breweries'
@@ -45,11 +45,16 @@ export default {
           store.commit('resetMap')
         } else {
           store.commit('setFilter', { type: 'month', item: data })
+          store.commit('setTripRoute', data.breweries.slice().reverse().map(b => b.location.coordinates))
         }
 
         month.value = data
         title.value = data.label.charAt(0).toUpperCase() + data.label.slice(1)
       })
+    })
+
+    onUnmounted(() => {
+      store.commit('clearTripRoute')
     })
 
     return {
