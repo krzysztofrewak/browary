@@ -68,6 +68,7 @@ class Statistics implements JsonSerializable
             "records" => [
                 "mostBreweriesInOneDay" => $this->records["mostBreweriesInOneDay"] ?? ["counter" => 0, "description" => ""],
                 "longestStreak" => $this->records["longestStreak"] ?? ["counter" => 0, "description" => ""],
+                "longestTrip" => $this->records["longestTrip"] ?? ["counter" => 0, "description" => ""],
             ],
         ];
     }

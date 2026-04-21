@@ -4,8 +4,8 @@ import inactiveImageUrl from '@/assets/inactive.png'
 const SOURCE = 'breweries-data'
 
 const layers = [
-  { name: 'inactives', icon: 'inactive', offset: [8, -8] },
-  { name: 'breweries', icon: 'brew-marker', offset: [12, -16] }
+  { name: 'breweries', icon: 'brew-marker', offset: [12, -16], size: 1 },
+  { name: 'inactives', icon: 'inactive', offset: [8, -8], size: 0.66 }
 ]
 
 function loadImage (map, url) {
@@ -43,6 +43,7 @@ export default {
             source: SOURCE,
             layout: {
               'icon-image': layer.icon,
+              'icon-size': layer.size,
               'icon-allow-overlap': true,
               'icon-ignore-placement': true,
               'icon-anchor': 'bottom'

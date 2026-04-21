@@ -14,8 +14,9 @@
 
     <page-sub-header title="Rekordy" header="Najwięcej i najmocniej"></page-sub-header>
     <counters>
-      <counter :value="records.mostBreweriesInOneDay?.counter" label="browarów jednego dnia" :sublabel="records.mostBreweriesInOneDay?.description"></counter>
+      <counter :value="records.mostBreweriesInOneDay?.counter" label="browarów w dzień" :sublabel="records.mostBreweriesInOneDay?.description"></counter>
       <counter :value="records.longestStreak?.counter" label="najdłuższy ciąg" :sublabel="records.longestStreak?.description"></counter>
+      <counter :value="records.longestTrip?.counter" label="najdł. wycieczka" :sublabel="records.longestTrip?.description"></counter>
     </counters>
     <hr class="my-4">
 

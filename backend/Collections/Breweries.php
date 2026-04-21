@@ -52,7 +52,7 @@ class Breweries implements JsonSerializable, HavingAll
         $dates = $this->getAll()
             ->groupBy(fn(Brewery $brewery) => $brewery->getDate()->toDateString())
             ->keys()
-            ->map(fn(string $date): Carbon => Carbon::createFromFormat('Y-m-d', $date))
+            ->map(fn(string $date): Carbon => Carbon::createFromFormat("Y-m-d", $date))
             ->sort()
             ->values();
 
@@ -82,7 +82,7 @@ class Breweries implements JsonSerializable, HavingAll
             $previousDate = $date;
         }
 
-        return [$longestStreak, $longestStreakStartDate?->locale('pl')->translatedFormat('F Y')];
+        return [$longestStreak, $longestStreakStartDate?->locale("pl")->translatedFormat("F Y")];
     }
 
     public function jsonSerialize(): Collection

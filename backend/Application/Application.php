@@ -21,7 +21,6 @@ use Brewmap\Filesystem\FileManager;
 use Brewmap\Filesystem\FilesManager;
 use Brewmap\Mapbox\CountryBoundsService;
 use Brewmap\Mappings\Cities as CitiesMapping;
-use Brewmap\Models\Brewery;
 use Brewmap\Models\Calendar\Calendar;
 use Brewmap\Models\Calendar\Group;
 use Brewmap\Models\Calendar\MonthDetailed;
@@ -43,7 +42,6 @@ use Brewmap\Services\GeneralDataBuilder;
 use Brewmap\Services\Statistics\ExtremesFinder;
 use Brewmap\Services\Statistics\MonthsCounter;
 use Brewmap\Services\Statistics\WeekdaysCounter;
-use Carbon\Carbon;
 use Dotenv\Dotenv;
 use GuzzleHttp\Exception\GuzzleException;
 use Illuminate\Support\Collection;
@@ -172,6 +170,7 @@ class Application
 
         $statistics->setRecord("mostBreweriesInOneDay", ...$breweries->getMostBreweriesInOneDay());
         $statistics->setRecord("longestStreak", ...$breweries->getLongestStreak());
+        $statistics->setRecord("longestTrip", ...$trips->getLongestTrip());
 
         return $statistics;
     }

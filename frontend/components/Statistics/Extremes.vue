@@ -2,7 +2,7 @@
   <div class="extremes">
     <page-sub-header title="Róża wiatrów" header="Najbardziej wysunięte w każdym kierunku browary"></page-sub-header>
 
-    <div class="compass relative mt-8 pb-4">
+    <div class="compass relative mt-8 pb-4 h-56">
       <div class="w-full absolute text-xs">
         <div class="absolute top-0 right-0 w-1/2 -mt-4 p-4 pl-24 mr-10 bg-gray-100" v-if="extremes.north">
           <div class="opacity-75 py-1">północ:</div>
@@ -32,8 +32,8 @@
             <router-link class="truncate" :to="{ name: 'brewery', params: { slug: extremes.west.slug }}">{{ extremes.west.name }}</router-link>
           </div>
         </div>
+        <icon-arrows-maximize size="192" class="aboslute mx-auto text-gray-300 transform rotate-45"/>
       </div>
-      <icon-arrows-maximize class="mx-auto w-48 text-gray-300 transform rotate-45"/>
     </div>
   </div>
 </template>

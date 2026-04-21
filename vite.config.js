@@ -2,13 +2,29 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import path from 'path'
 
+const htmlTemplate = path.resolve(__dirname, 'frontend/templates/index.html')
+
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [
+    vue(),
+    {
+      name: 'html-template',
+      configureServer (server) {
+        server.middlewares.use((req, res, next) => {
+          if (!req.url.includes('.') && !req.url.startsWith('/api')) {
+            req.url = '/frontend/templates/index.html'
+          }
+          next()
+        })
+      }
+    }
+  ],
   root: '.',
   build: {
-    outDir: './public',
+    outDir: path.resolve(__dirname, 'public'),
     emptyOutDir: true,
     rollupOptions: {
+      input: htmlTemplate,
       output: {
         entryFileNames: 'js/application.[hash].js',
         chunkFileNames: 'js/[name].[hash].js',
