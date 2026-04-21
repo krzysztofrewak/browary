@@ -1,11 +1,20 @@
+const BREATHE = 80
+const PANEL_LEFT = 496
+const PANEL_BOTTOM_OPEN = () => Math.round(window.innerHeight * 0.75)
+const PANEL_BOTTOM_PEEK = 64
+
 function areBoundsPoint (bounds) {
   return bounds[0][0] === bounds[1][0] && bounds[0][1] === bounds[1][1]
 }
 
-function getMapPadding (contentOpen) {
-  if (window.innerWidth >= 1024) return { top: 16, bottom: 16, left: 496, right: 16 }
-  if (contentOpen) return { top: 16, bottom: Math.round(window.innerHeight * 0.75) + 16, left: 16, right: 16 }
-  return { top: 16, bottom: 80, left: 16, right: 16 }
+function getPadding (contentOpen) {
+  if (window.innerWidth >= 1024) {
+    return { top: BREATHE, bottom: BREATHE, left: PANEL_LEFT + BREATHE, right: BREATHE }
+  }
+  if (contentOpen) {
+    return { top: BREATHE, bottom: PANEL_BOTTOM_OPEN() + BREATHE, left: BREATHE, right: BREATHE }
+  }
+  return { top: BREATHE, bottom: PANEL_BOTTOM_PEEK + BREATHE, left: BREATHE, right: BREATHE }
 }
 
 export default {
@@ -14,7 +23,7 @@ export default {
       const bounds = this.$store.getters.mapFilterBounds
       const center = this.$store.getters.mapFilterCenter
       const filter = this.$store.getters.mapFilterValue
-      const padding = window.innerWidth >= 1024 ? 120 : 30
+      const padding = getPadding(this.$store.getters.contentOpen)
 
       this.setFilters(filter)
       this.updateRoute(this.$store.getters.tripRoute)
@@ -52,6 +61,7 @@ export default {
       this.map.jumpTo({
         center: point,
         zoom: 13,
+        padding: getPadding(this.$store.getters.contentOpen),
         essential: true
       })
     },
@@ -72,7 +82,7 @@ export default {
     },
     '$store.getters.contentOpen' (contentOpen) {
       if (this.loading) return
-      this.map.easeTo({ padding: getMapPadding(contentOpen), duration: 300 })
+      this.map.easeTo({ padding: getPadding(contentOpen), duration: 300 })
     },
     '$store.getters.inactives' (inactives) {
       if (this.loading) return
