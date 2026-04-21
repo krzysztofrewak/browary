@@ -20,7 +20,7 @@
         <div class="lg:hidden h-16 flex flex-col items-center justify-center cursor-pointer shrink-0" @click="toggle">
           <div class="w-12 h-1.5 bg-gray-200 rounded-full"/>
         </div>
-        <div class="overflow-y-auto" :class="contentOpen ? 'h-[calc(100%-4rem)]' : 'h-0 overflow-hidden'">
+        <div class="overflow-y-auto lg:h-full" :class="contentOpen ? 'h-[calc(100%-4rem)]' : 'h-0 overflow-hidden'">
           <router-view/>
           <div class="w-full">&nbsp;</div>
         </div>

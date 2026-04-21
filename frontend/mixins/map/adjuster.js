@@ -14,7 +14,7 @@ export default {
       const bounds = this.$store.getters.mapFilterBounds
       const center = this.$store.getters.mapFilterCenter
       const filter = this.$store.getters.mapFilterValue
-      const padding = getMapPadding(this.$store.getters.contentOpen)
+      const padding = window.innerWidth >= 1024 ? 120 : 30
 
       this.setFilters(filter)
       this.updateRoute(this.$store.getters.tripRoute)
