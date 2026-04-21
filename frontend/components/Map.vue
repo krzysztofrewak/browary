@@ -49,9 +49,10 @@ export default {
         style: import.meta.env.VITE_MAPBOX_STYLE_URL
       })
 
-      if (window.innerWidth >= 1024) {
-        this.map.setPadding({ top: 16, bottom: 16, left: 496, right: 0 })
-      }
+      this.map.setPadding(window.innerWidth >= 1024
+        ? { top: 16, bottom: 16, left: 496, right: 16 }
+        : { top: 16, bottom: 16, left: 16, right: 16 }
+      )
 
       this.addControls()
       this.addSearch()

@@ -11,6 +11,7 @@ const state = {
     }
   },
   inactives: true,
+  contentOpen: false,
   counters: null,
   defaultBounds: null,
   tripRoute: null
@@ -23,6 +24,7 @@ const getters = {
   mapFilterValue: state => state.mapFilters.filter,
   counters: state => state.counters,
   inactives: state => state.inactives,
+  contentOpen: state => state.contentOpen,
   defaultBounds: state => state.defaultBounds,
   tripRoute: state => state.tripRoute
 }
@@ -70,6 +72,9 @@ const mutations = {
   },
   toggleInactives (state) {
     state.inactives = !state.inactives
+  },
+  setContentOpen (state, value) {
+    state.contentOpen = value
   }
 }
 
