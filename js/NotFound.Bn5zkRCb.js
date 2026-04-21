@@ -1,1 +1,0 @@
-import{_ as o,P as a,c as t,b as n,h as s,o as c}from"./application.BZNj_XBz.js";const r={components:{PageHeader:a}},d={class:"404"};function _(p,i,l,m,f,h){const e=s("page-header");return c(),t("div",d,[n(e,{title:"Błąd 404",header:"Nie znaleziono żądanego zasobu"})])}const g=o(r,[["render",_]]);export{g as default};
