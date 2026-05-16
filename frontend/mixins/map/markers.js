@@ -4,8 +4,8 @@ import inactiveImageUrl from '@/assets/inactive.png'
 const SOURCE = 'breweries-data'
 
 const layers = [
-  { name: 'breweries', icon: 'brew-marker', offset: [12, -16], size: 1 },
-  { name: 'inactives', icon: 'inactive', offset: [8, -8], size: 0.66 }
+  { name: 'inactives', icon: 'inactive', offset: [8, -8], size: 0.66 },
+  { name: 'breweries', icon: 'brew-marker', offset: [12, -16], size: 1 }
 ]
 
 function loadImage (map, url) {
@@ -32,7 +32,7 @@ export default {
           console.log('Images not loaded.', error)
         }
 
-        const result = await fetch('/api/map.json').then(r => r.json())
+        const result = await fetch('/api/map.json?cache=' + Date.now()).then(r => r.json())
 
         this.map.addSource(SOURCE, { type: 'geojson', data: result })
 

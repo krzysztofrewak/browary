@@ -11,7 +11,7 @@ export default defineConfig({
       name: 'html-template',
       configureServer (server) {
         server.middlewares.use((req, res, next) => {
-          if (!req.url.includes('.') && !req.url.startsWith('/api')) {
+          if (!req.url.includes('.') && !req.url.startsWith('/api') && !req.url.startsWith('/@')) {
             req.url = '/frontend/templates/index.html'
           }
           next()

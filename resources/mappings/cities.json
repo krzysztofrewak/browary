@@ -515,6 +515,15 @@
           "value": "Monachium"
         }
       ]
+    },
+    {
+      "name": "Bruxelles",
+      "mappings": [
+        {
+          "mapping": "translation",
+          "value": "Bruksela"
+        }
+      ]
     }
   ]
 }

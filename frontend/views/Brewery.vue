@@ -4,28 +4,23 @@
 
     <infobox>
       <template v-slot:general>
-        <router-link :to="{ name: 'country', params: { slug: brewery.location.country.slug } }">
+        <router-link class="flex flex-col items-center gap-2" :to="{ name: 'country', params: { slug: brewery.location.country.slug } }">
           <i class="shadow-lg giant flat flag" :class="brewery.location.country.symbol"></i>
+          {{ brewery.location.country.name }}
         </router-link>
       </template>
       <template v-slot:list>
-        <infobox-item label="państwo">
-          <router-link :to="{ name: 'country', params: { slug: brewery.location.country.slug } }">
-            {{ brewery.location.country.name }}
-          </router-link>
-        </infobox-item>
-        <infobox-item label="miasto">
-          <router-link :to="{ name: 'city', params: { slug: brewery.location.city.slug } }">
-            {{ brewery.location.city.name }}
-            <span class="text-gray-500" v-if="brewery.location.city.translation">| {{ brewery.location.city.translation }}</span>
-          </router-link>
-        </infobox-item>
         <infobox-item label="adres" :value="brewery.location.address"></infobox-item>
+        <infobox-item label="miasto">
+          <router-link :to="{ name: 'city', params: { slug: brewery.location.city.slug } }" class="px-3 py-1.5 border rounded hover:bg-zinc-50">
+            {{ brewery.location.city.name }}
+            <span class="text-gray-500" v-if="brewery.location.city.translation">{{ brewery.location.city.translation }}</span>
+          </router-link>
+        </infobox-item>
         <infobox-item label="GPS">
-          <a :href="getGoogleMapsUrl(brewery.location.coordinates)" target="_blank">
-            <i class="external link icon"></i>
-            {{ brewery.location.coordinates[1] }},
-            {{ brewery.location.coordinates[0] }}
+          <a :href="getGoogleMapsUrl(brewery.location.coordinates)" target="_blank" class="px-3 py-1.5 border rounded hover:bg-zinc-50">
+            <i class="marker icon"></i>
+            <span>{{ brewery.location.coordinates[1] }}, {{ brewery.location.coordinates[0] }}</span>
           </a>
         </infobox-item>
       </template>
@@ -35,21 +30,20 @@
 
     <infobox>
       <template v-slot:general>
-        <div class="flex flex-col items-center justify-center w-32 text-center text-2xl leading-tight relative">
-          <router-link :to="{ name: 'calendar.month', params: { year: brewery.date.year, month: brewery.date.month } }" class="z-10 mt-2 mr-12 bg-gray-100 p-2 rounded-md shadow">
+        <div class="flex flex-col items-center gap-2 justify-center mx-4 text-center text-2xl leading-tight">
+          <router-link :to="{ name: 'calendar.month', params: { year: brewery.date.year, month: brewery.date.month } }" class="w-full bg-gray-100 hover:bg-gray-200 p-2 rounded-md shadow">
             {{ brewery.date.month }}
           </router-link>
-          <router-link :to="{ name: 'calendar.year', params: { year: brewery.date.year } }" class="z-10 -mt-4 ml-12 bg-gray-100 p-2 rounded-md shadow">
-            {{ brewery.date.year.substr(2) }}
+          <router-link :to="{ name: 'calendar.year', params: { year: brewery.date.year } }" class="w-full bg-gray-100 hover:bg-gray-200 p-2 rounded-md shadow">
+            {{ brewery.date.year }}
           </router-link>
-          <span class="opacity-75 absolute text-4xl z-20">/</span>
         </div>
       </template>
       <template v-slot:list>
-        <infobox-item label="odwiedzony browar" :value="'#' + brewery.id"></infobox-item>
+        <infobox-item label="numer" :value="'#' + brewery.id"></infobox-item>
         <infobox-item label="data" :value="brewery.date.label"></infobox-item>
         <infobox-item label="wycieczka">
-          <router-link :to="{ name: 'trip', params: { slug: brewery.trip.slug } }">
+          <router-link :to="{ name: 'trip', params: { slug: brewery.trip.slug } }" class="inline-block px-3 py-1.5 border rounded hover:bg-zinc-50">
             {{ brewery.trip.name }}
           </router-link>
         </infobox-item>
@@ -63,9 +57,8 @@
       <hr class="py-4">
     </div>
 
-    <div class="px-4 flex flex-wrap">
-      <router-link :to="{ name: 'tag', params: { slug: tag.slug } }" class="py-1 px-2 m-0.5 items-center rounded-md text-sm bg-gray-100 shadow" v-for="tag in brewery.tags" :key="tag.slug">
-        <i class="hashtag icon"></i>
+    <div class="px-4 flex flex-wrap gap-x-2 gap-y-1">
+      <router-link :to="{ name: 'tag', params: { slug: tag.slug } }" class="py-1.5 px-3 flex gap-2 items-center rounded-md border hover:bg-zinc-50" v-for="tag in brewery.tags" :key="tag.slug">
         {{ tag.name }}
       </router-link>
     </div>

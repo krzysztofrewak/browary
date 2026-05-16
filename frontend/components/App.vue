@@ -14,7 +14,7 @@
       </div>
 
       <div
-        class="absolute bottom-0 inset-x-0 h-3/4 bg-white z-10 shadow-2xl rounded-t-xl transition-transform duration-300 lg:transition-none lg:inset-x-auto lg:top-4 lg:bottom-4 lg:left-4 lg:w-120 lg:rounded-xl lg:translate-y-0"
+        class="absolute bottom-0 inset-x-0 h-4/5 bg-white z-10 shadow-2xl rounded-t-xl transition-transform duration-300 lg:transition-none lg:inset-x-auto lg:top-4 lg:bottom-4 lg:left-4 lg:w-[36em] lg:rounded-xl lg:translate-y-0"
         :class="contentOpen ? 'translate-y-0' : 'translate-y-[calc(100%-4rem)]'"
       >
         <div class="lg:hidden h-16 flex flex-col items-center justify-center cursor-pointer shrink-0" @click="toggle">

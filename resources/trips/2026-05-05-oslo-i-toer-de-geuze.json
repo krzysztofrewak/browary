@@ -1,0 +1,481 @@
+{
+  "name": "Oslo Tech Show + Toer de Geuze 2026",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Amundsen Bryggeri & Spiseri",
+      "visited": "2026-05-05",
+      "location": {
+        "country": "no",
+        "city": "Oslo",
+        "address": "Stortingsgata 20",
+        "coordinates": {
+          "lat": 59.91356601078038,
+          "lng": 10.734957120243184
+        }
+      },
+      "tags": [
+        "browar",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "odwiedzone podczas wyjazdu na targi"
+      ]
+    },
+    {
+      "name": "Grünerløkka Bryggeri",
+      "visited": "2026-05-06",
+      "location": {
+        "country": "no",
+        "city": "Oslo",
+        "address": "Københavngata 4",
+        "coordinates": {
+          "lat": 59.925031285436006,
+          "lng": 10.762464478995664
+        }
+      },
+      "tags": [
+        "browar",
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "degustacja poza odwiedzinami",
+        "odwiedzone podczas wyjazdu na targi"
+      ]
+    },
+    {
+      "name": "Schouskjelleren Mikrobryggeri",
+      "visited": "2026-05-06",
+      "location": {
+        "country": "no",
+        "city": "Oslo",
+        "address": "Trondheimsveien 2",
+        "coordinates": {
+          "lat": 59.91841106873886,
+          "lng": 10.76032741363854
+        }
+      },
+      "tags": [
+        "browar",
+        "mikrobrowar",
+        "browar na zamku",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "browar w piwnicy",
+        "odwiedzone podczas wyjazdu na targi"
+      ]
+    },
+    {
+      "name": "Crow Bar & Brewery",
+      "visited": "2026-05-06",
+      "location": {
+        "country": "no",
+        "city": "Oslo",
+        "address": "Torggata 32",
+        "coordinates": {
+          "lat": 59.91720866859438,
+          "lng": 10.753426513558143
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "odwiedzone podczas wyjazdu na targi"
+      ]
+    },
+    {
+      "name": "Beer Flag Bryggeri",
+      "visited": "2026-05-06",
+      "location": {
+        "country": "no",
+        "city": "Oslo",
+        "address": "Møllergata 32 b",
+        "coordinates": {
+          "lat": 59.91700206046946,
+          "lng": 10.749794291279548
+        }
+      },
+      "tags": [
+        "browar",
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "odwiedzone podczas wyjazdu na targi"
+      ]
+    },
+    {
+      "name": "Oslo Mikrobryggeri",
+      "visited": "2026-05-07",
+      "location": {
+        "country": "no",
+        "city": "Oslo",
+        "address": "Bogstadveien 6",
+        "coordinates": {
+          "lat": 59.92434244997852,
+          "lng": 10.724199356166256
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "obejrzany sprzęt",
+        "odwiedzone podczas wyjazdu na targi"
+      ]
+    },
+    {
+      "name": "Brasserie Cantillon",
+      "visited": "2026-05-08",
+      "location": {
+        "country": "be",
+        "city": "Anderlecht",
+        "address": "Rue Gheude 56",
+        "coordinates": {
+          "lat": 50.841594306347446,
+          "lng": 4.3357458296921
+        }
+      },
+      "tags": [
+        "browar",
+        "mikrobrowar",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "zorganizowana wycieczka",
+        "spotkanie z piwowarem",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami"
+      ]
+    },
+    {
+      "name": "La Source Beer Co.",
+      "visited": "2026-05-08",
+      "location": {
+        "country": "be",
+        "city": "Bruxelles",
+        "address": "Anna Bochdreef 19/21",
+        "coordinates": {
+          "lat": 50.87059272846047,
+          "lng": 4.348079207081731
+        }
+      },
+      "tags": [
+        "browar",
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "browar w food hallu"
+      ]
+    },
+    {
+      "name": "L'Annexe Brasserie Fermenterie de Bruxelles",
+      "visited": "2026-05-08",
+      "location": {
+        "country": "be",
+        "city": "Saint-Gilles",
+        "address": "Rue du Métal 19",
+        "coordinates": {
+          "lat": 50.83045880329294,
+          "lng": 4.349171952073821
+        }
+      },
+      "tags": [
+        "browar",
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "degustacja na wynos"
+      ]
+    },
+    {
+      "name": "Brasserie de l'Ermitage",
+      "visited": "2026-05-08",
+      "location": {
+        "country": "be",
+        "city": "Bruxelles",
+        "address": "Rue Lambert Crickx 26",
+        "coordinates": {
+          "lat": 50.840754637566384,
+          "lng": 4.337223493260331
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "obejrzany sprzęt",
+        "degustacja na miejscu"
+      ]
+    },
+    {
+      "name": "Mazette",
+      "visited": "2026-05-08",
+      "location": {
+        "country": "be",
+        "city": "Bruxelles",
+        "address": "Pl. du Jeu de Balle 50",
+        "coordinates": {
+          "lat": 50.83643838782799,
+          "lng": 4.345891906743428
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "obejrzany sprzęt",
+        "degustacja na miejscu"
+      ]
+    },
+    {
+      "name": "Hanssens Artisanaal",
+      "visited": "2026-05-09",
+      "location": {
+        "country": "be",
+        "city": "Beersel",
+        "address": "Vroenenbosstraat 15",
+        "coordinates": {
+          "lat": 50.72879447779236,
+          "lng": 4.297229645216508
+        }
+      },
+      "tags": [
+        "Toer de Geuze",
+        "blendownia lambików",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "zorganizowana wycieczka",
+        "degustacja na miejscu",
+        "degustacja na wynos"
+      ]
+    },
+    {
+      "name": "Ambreus",
+      "visited": "2026-05-09",
+      "location": {
+        "country": "be",
+        "city": "Halle",
+        "address": "Frans Daystraat 10",
+        "coordinates": {
+          "lat": 50.73674107499385,
+          "lng": 4.265971602797827
+        }
+      },
+      "tags": [
+        "blendownia lambików",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "degustacja na miejscu"
+      ]
+    },
+    {
+      "name": "Boerenerf",
+      "visited": "2026-05-09",
+      "location": {
+        "country": "be",
+        "city": "Beersel",
+        "address": "Sollenberg 3",
+        "coordinates": {
+          "lat": 50.7536461678448,
+          "lng": 4.275708323862262
+        }
+      },
+      "tags": [
+        "Toer de Geuze",
+        "browar",
+        "mikrobrowar",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "degustacja na miejscu"
+      ]
+    },
+    {
+      "name": "Sako Brewery",
+      "visited": "2026-05-09",
+      "location": {
+        "country": "be",
+        "city": "Pajottegem",
+        "address": "Koekoekstraat 33",
+        "coordinates": {
+          "lat": 50.793910065421194,
+          "lng": 4.112517879642999
+        }
+      },
+      "tags": [
+        "Toer de Geuze",
+        "browar",
+        "mikrobrowar",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "spotkanie z piwowarem",
+        "degustacja na miejscu"
+      ]
+    },
+    {
+      "name": "Oude Geuzestekerij De Cam",
+      "visited": "2026-05-09",
+      "location": {
+        "country": "be",
+        "city": "Pajottegem",
+        "address": "Dorpsstraat 67",
+        "coordinates": {
+          "lat": 50.79592036072928,
+          "lng": 4.114358218273976
+        }
+      },
+      "tags": [
+        "Toer de Geuze",
+        "browar",
+        "mikrobrowar",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "degustacja na miejscu"
+      ]
+    },
+    {
+      "name": "Lambiek Fabriek",
+      "visited": "2026-05-09",
+      "location": {
+        "country": "be",
+        "city": "Sint-Pieters-Leeuw",
+        "address": "Eugène Ghijsstraat 71",
+        "coordinates": {
+          "lat": 50.80085850958164,
+          "lng": 4.293876608594021
+        }
+      },
+      "tags": [
+        "Toer de Geuze",
+        "browar",
+        "mikrobrowar",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "degustacja na wynos"
+      ]
+    },
+    {
+      "name": "Brasserie Surréaliste",
+      "visited": "2026-05-09",
+      "location": {
+        "country": "be",
+        "city": "Bruxelles",
+        "address": "Pl. du Nouveau Marché aux Grains 23",
+        "coordinates": {
+          "lat": 50.85042346361175,
+          "lng": 4.343943857105162
+        }
+      },
+      "tags": [
+        "browar",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "degustacja na miejscu"
+      ]
+    },
+    {
+      "name": "Brussels Beer Project Dansaert",
+      "visited": "2026-05-09",
+      "location": {
+        "country": "be",
+        "city": "Bruxelles",
+        "address": "Rue Antoine Dansaert 188",
+        "coordinates": {
+          "lat": 50.852794463080926,
+          "lng": 4.341878403867617
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "sieć Brussels Beer Project"
+      ]
+    },
+    {
+      "name": "Brouwerij Lindemans",
+      "visited": "2026-05-10",
+      "location": {
+        "country": "be",
+        "city": "Sint-Pieters-Leeuw",
+        "address": "Lenniksebaan 1479",
+        "coordinates": {
+          "lat": 50.815966306046406,
+          "lng": 4.212541157818927
+        }
+      },
+      "tags": [
+        "Toer de Geuze",
+        "browar",
+        "destylarnia",
+        "browar regionalny",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "zorganizowana wycieczka",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami"
+      ]
+    },
+    {
+      "name": "Brouwerij Kestemont",
+      "visited": "2026-05-10",
+      "location": {
+        "country": "be",
+        "city": "Dilbeek",
+        "address": "Isabellastraat 16",
+        "coordinates": {
+          "lat": 50.82617175143817,
+          "lng": 4.20838894903806
+        }
+      },
+      "tags": [
+        "Toer de Geuze",
+        "browar",
+        "mikrobrowar",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "zorganizowana wycieczka",
+        "spotkanie z piwowarem",
+        "degustacja na miejscu"
+      ]
+    },
+    {
+      "name": "Brouwerij Timmermans",
+      "visited": "2026-05-10",
+      "location": {
+        "country": "be",
+        "city": "Dilbeek",
+        "address": "Kerkstraat 11",
+        "coordinates": {
+          "lat": 50.83989156212899,
+          "lng": 4.247342949088519
+        }
+      },
+      "tags": [
+        "Toer de Geuze",
+        "browar",
+        "browar regionalny",
+        "producent lambików",
+        "obejrzany sprzęt",
+        "degustacja na miejscu"
+      ]
+    },
+    {
+      "name": "Wolf micro-brasserie",
+      "visited": "2026-05-10",
+      "location": {
+        "country": "be",
+        "city": "Bruxelles",
+        "address": "Rue du Fossé aux Loups 50",
+        "coordinates": {
+          "lat": 50.84991721315069,
+          "lng": 4.356285993251128
+        }
+      },
+      "tags": [
+        "browar",
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "browar w food hallu"
+      ]
+    }
+  ]
+}
