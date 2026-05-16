@@ -1,5 +1,5 @@
 const BREATHE = 80
-const PANEL_LEFT = 496
+const PANEL_LEFT = 580
 const PANEL_BOTTOM_OPEN = () => Math.round(window.innerHeight * 0.75)
 const PANEL_BOTTOM_PEEK = 64
 
