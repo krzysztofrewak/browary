@@ -1,0 +1,27 @@
+{
+  "name": "Koło, maj 2026",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Browar Koło",
+      "visited": "2026-05-17",
+      "location": {
+        "country": "pl",
+        "city": "Koło",
+        "address": "Rondo Henryka Sienkiewicza 35",
+        "coordinates": {
+          "lat": 52.20097376092377,
+          "lng": 18.64211877791927
+        }
+      },
+      "tags": [
+        "browar",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "województwo wielkopolskie",
+        "instalacja Salm"
+      ]
+    }
+  ]
+}
