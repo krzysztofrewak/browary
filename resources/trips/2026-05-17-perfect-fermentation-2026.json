@@ -1,0 +1,138 @@
+{
+  "name": "Perfect Fermentation 2026",
+  "tags": [
+    "odwiedzone podczas wyjazdu na konferencję"
+  ],
+  "breweries": [
+    {
+      "name": "Pivovaria",
+      "visited": "2026-05-17",
+      "location": {
+        "country": "pl",
+        "city": "Radom",
+        "address": "Stanisława Moniuszki 26",
+        "coordinates": {
+          "lat": 51.40067923187698,
+          "lng": 21.155626624778602
+        }
+      },
+      "tags": [
+        "browar",
+        "browar restauracyjny",
+        "degustacja na wynos",
+        "obejrzany sprzęt",
+        "instalacja Kaspar Schulz",
+        "województwo mazowieckie"
+      ]
+    },
+    {
+      "name": "Browar Bałtów",
+      "visited": "2026-05-17",
+      "location": {
+        "country": "pl",
+        "city": "Bałtów",
+        "address": "Bałtów 170a",
+        "coordinates": {
+          "lat": 51.014660273656276,
+          "lng": 21.550244035494746
+        }
+      },
+      "tags": [
+        "browar",
+        "mikrobrowar",
+        "instalacja Kaspar Schulz",
+        "browar na terenie parku rozrywki",
+        "spotkanie z piwowarem",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "zorganizowana wycieczka",
+        "województwo świętokrzyskie"
+      ]
+    },
+    {
+      "name": "Browar bez Kultury",
+      "visited": "2026-05-19",
+      "location": {
+        "country": "pl",
+        "city": "Ostrowiec Świętokrzyski",
+        "address": "Młyńska 7",
+        "coordinates": {
+          "lat": 50.93773814290831,
+          "lng": 21.386580228398085
+        }
+      },
+      "tags": [
+        "browar",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "degustacja na wynos",
+        "województwo świętokrzyskie"
+      ]
+    },
+    {
+      "name": "Browar Korona",
+      "visited": "2026-05-19",
+      "location": {
+        "country": "pl",
+        "city": "Kielce",
+        "address": "Zagnańska 94",
+        "coordinates": {
+          "lat": 50.88644747717904,
+          "lng": 20.630272122190384
+        }
+      },
+      "tags": [
+        "browar",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "województwo świętokrzyskie",
+        "spotkanie z piwowarem",
+        "degustacja z tanka",
+        "instalacja Joh. Albrecht Brautechnik"
+      ]
+    },
+    {
+      "name": "Browar Resursa",
+      "visited": "2026-05-19",
+      "location": {
+        "country": "pl",
+        "city": "Chęciny",
+        "address": "Ogrodowa 1A",
+        "coordinates": {
+          "lat": 50.80065312873231,
+          "lng": 20.458219464417827
+        }
+      },
+      "tags": [
+        "browar",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "degustacja na wynos",
+        "województwo świętokrzyskie"
+      ]
+    },
+    {
+      "name": "Browar Podklasztorze",
+      "visited": "2026-05-19",
+      "location": {
+        "country": "pl",
+        "city": "Sulejów",
+        "address": "Władysława Jagiełły 1",
+        "coordinates": {
+          "lat": 51.36508993594518,
+          "lng": 19.87942757907502
+        }
+      },
+      "tags": [
+        "browar",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "degustacja na wynos",
+        "browar klasztorny",
+        "browar na zamku",
+        "województwo łódzkie"
+      ]
+    }
+  ]
+}
