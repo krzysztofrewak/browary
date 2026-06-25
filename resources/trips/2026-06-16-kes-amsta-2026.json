@@ -1,0 +1,121 @@
+{
+  "name": "KES-AMSTA 2026",
+  "tags": [
+    "odwiedzone podczas wyjazdu na konferencję"
+  ],
+  "breweries": [
+    {
+      "name": "La Cervesera del Poblenou",
+      "visited": "2026-06-16",
+      "location": {
+        "country": "es",
+        "city": "Barcelona",
+        "address": "Passatge de Ratés, 13, Sant Martí",
+        "coordinates": {
+          "lat": 41.39899347725635,
+          "lng": 2.18910654431451
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "spotkanie z piwowarem",
+        "sklep"
+      ]
+    },
+    {
+      "name": "Ogham Cerveza Artesana",
+      "visited": "2026-06-18",
+      "location": {
+        "country": "es",
+        "city": "Barcelona",
+        "address": "Carrer de Llull, 62, Sant Martí",
+        "coordinates": {
+          "lat": 41.39416367571896,
+          "lng": 2.1930634220879126
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "mikrobrowar"
+      ]
+    },
+    {
+      "name": "la textil collective",
+      "visited": "2026-06-18",
+      "location": {
+        "country": "es",
+        "city": "Barcelona",
+        "address": "Carrer de Casp, 33B, Eixample",
+        "coordinates": {
+          "lat": 41.39124812233822,
+          "lng": 2.1727716121611804
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Garage Beer Co",
+      "visited": "2026-06-18",
+      "location": {
+        "country": "es",
+        "city": "Barcelona",
+        "address": "Carrer de Casp, 33B, Eixample",
+        "coordinates": {
+          "lat": 41.38706550067055,
+          "lng": 2.160044246523616
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Fàbrica Moritz Barcelona",
+      "visited": "2026-06-18",
+      "location": {
+        "country": "es",
+        "city": "Barcelona",
+        "address": "Rda. de Sant Antoni, 41, Eixample",
+        "coordinates": {
+          "lat": 41.38266215626754,
+          "lng": 2.163353427891703
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "brewpub"
+      ]
+    },
+    {
+      "name": "Ølgod Barcelona",
+      "visited": "2026-06-18",
+      "location": {
+        "country": "es",
+        "city": "Barcelona",
+        "address": "Carrer de l'Hospital, 74, Ciutat Vella",
+        "coordinates": {
+          "lat": 41.380160835108185,
+          "lng": 2.169143480286074
+        }
+      },
+      "tags": [
+        "browar",
+        "degustacja na miejscu",
+        "brewpub"
+      ]
+    }
+  ]
+}
