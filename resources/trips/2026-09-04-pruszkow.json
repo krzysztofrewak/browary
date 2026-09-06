@@ -1,0 +1,28 @@
+{
+  "name": "Pruszków, wrzesień 2026",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Browar Otwarte Bramy",
+      "visited": "2026-09-04",
+      "location": {
+        "country": "pl",
+        "city": "Pruszków",
+        "address": "Obrońców Pokoju 8",
+        "coordinates": {
+          "lat": 52.165609210032656,
+          "lng": 20.79845429754308
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "degustacja na wynos",
+        "województwo mazowieckie",
+        "instalacja Inomero"
+      ]
+    }
+  ]
+}
