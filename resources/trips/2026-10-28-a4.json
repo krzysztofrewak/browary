@@ -1,0 +1,25 @@
+{
+  "name": "Ostsächsische Maschinenbautage 2026",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Brauhaus Nieder Seifersdorf",
+      "visited": "2026-10-28",
+      "location": {
+        "country": "de",
+        "city": "Waldhufen-Nieder Seifersdorf",
+        "address": "Hauptstraße 49",
+        "coordinates": {
+          "lat": 51.21765066326842,
+          "lng": 14.77090559521463
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "kraj związkowy Saksonia",
+        "odwiedzone podczas wyjazdu na konferencję"
+      ]
+    }
+  ]
+}
