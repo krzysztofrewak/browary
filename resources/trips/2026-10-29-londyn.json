@@ -1,0 +1,26 @@
+{
+  "name": "Wicked, październik 2026",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Guinness Open Gate Brewery London",
+      "visited": "2026-10-29",
+      "location": {
+        "country": "gb",
+        "city": "London",
+        "address": "1 Mercer Walk",
+        "coordinates": {
+          "lat": 51.51321621833746,
+          "lng": -0.12536463837831757
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "obejrzany sprzęt",
+        "spróbowane na miejsce",
+        "koncern Diageo"
+      ]
+    }
+  ]
+}
