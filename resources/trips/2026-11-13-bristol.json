@@ -1,0 +1,385 @@
+{
+  "name": "Bristol i Cardiff, listopad 2026",
+  "tags": [
+    "odwiedzone podczas dziadotripu"
+  ],
+  "breweries": [
+    {
+      "name": "Psychopomp Microdistillery",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "145 St Michael's Hill",
+        "coordinates": {
+          "lat": 51.4608568715433,
+          "lng": -2.6020241483889452
+        }
+      },
+      "tags": [
+        "destylarnia",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "degustacja na wynos",
+        "sklep",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "The Merchant of Cotham",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "31-35 Cotham Hill, Redland",
+        "coordinates": {
+          "lat": 51.46401737954673,
+          "lng": -2.608291345307559
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "browar restauracyjny",
+        "degustacja na miejscu",
+        "spotkanie z piwowarem",
+        "sieć Brewhouse & Kitchen",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Zerodegrees Microbrewery",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "53 Colston St, Bristol BS1 5BA",
+        "coordinates": {
+          "lat": 51.45628282181716,
+          "lng": -2.5979979002818663
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "brewpub",
+        "degustacja na miejscu",
+        "spotkanie z piwowarem",
+        "sieć Brewhouse & Kitchen",
+        "wielokrotnie odwiedzony",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "King Street Brew House",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "13 Welsh Back",
+        "coordinates": {
+          "lat": 51.452206911623776,
+          "lng": -2.592752464438596
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "brewpub",
+        "degustacja na miejscu",
+        "wielokrotnie odwiedzony",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Left Handed Giant Brewpub",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "Hawkins Ln, Redcliffe",
+        "coordinates": {
+          "lat": 51.454385771033124,
+          "lng": -2.5893805961415386
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "brewpub",
+        "degustacja na miejscu",
+        "brewpub większego browaru",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Bruhaha",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "156-158 Wells Rd, Totterdown",
+        "coordinates": {
+          "lat": 51.44079398572881,
+          "lng": -2.574799140812037
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "degustacja na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Hop Union Brewery",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "20 Bonville Rd, Brislington",
+        "coordinates": {
+          "lat": 51.4357643244461,
+          "lng": -2.5372384695119288
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "degustacja na miejscu",
+        "browar w strefie przemysłowej",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Basement Beer Ltd",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "32 Upper York St, St Paul's",
+        "coordinates": {
+          "lat": 51.46183123910539,
+          "lng": -2.58945262784032
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "brewpub",
+        "degustacja na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "New Bristol Brewery Taproom",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "20A Wilson St, St Paul's",
+        "coordinates": {
+          "lat": 51.46107792594145,
+          "lng": -2.582642069102255
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "degustacja na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Wiper and True Brewery",
+      "visited": "2026-11-13",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "Unit 11, City Business Park, St Jude's",
+        "coordinates": {
+          "lat": 51.458934250617034,
+          "lng": -2.574736936813864
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "mikrobrowar",
+        "degustacja na miejscu",
+        "East Bristol Brewery Trail",
+        "browar w strefie przemysłowej",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Little Martha Brewing",
+      "visited": "2026-11-14",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "23 Oxford St",
+        "coordinates": {
+          "lat": 51.45127319331184,
+          "lng": -2.5777379751369813
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "brewpub",
+        "degustacja na miejscu",
+        "browar pod nasypem kolejowym",
+        "East Bristol Brewery Trail",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Unwins Brewery",
+      "visited": "2026-11-14",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "25 Oxford St",
+        "coordinates": {
+          "lat": 51.45135368133874,
+          "lng": -2.57742548616759
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "brewpub",
+        "degustacja na miejscu",
+        "browar pod nasypem kolejowym",
+        "East Bristol Brewery Trail",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Moor Beer",
+      "visited": "2026-11-14",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "Days Rd",
+        "coordinates": {
+          "lat": 51.45237407863973,
+          "lng": -2.573738114097355
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "degustacja poza odwiedzinami",
+        "East Bristol Brewery Trail",
+        "browar w strefie przemysłowej",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Left Handed Giant Brewery",
+      "visited": "2026-11-14",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "Wadehurst Industrial Park, Unit 3 St Philips Rd",
+        "coordinates": {
+          "lat": 51.456053304079774,
+          "lng": -2.5720173553103987
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "browar z pizzerią",
+        "East Bristol Brewery Trail",
+        "browar w strefie przemysłowej",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Lost And Grounded Brewers",
+      "visited": "2026-11-14",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "91 Whitby Rd, Brislington",
+        "coordinates": {
+          "lat": 51.45013533006953,
+          "lng": -2.555010859320528
+        }
+      },
+      "tags": [
+        "browar",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Arbor Ales Brewery",
+      "visited": "2026-11-14",
+      "location": {
+        "country": "gb",
+        "city": "Bristol",
+        "address": "91 Whitby Rd, Brislington",
+        "coordinates": {
+          "lat": 51.46209098029011,
+          "lng": -2.5660666741962146
+        }
+      },
+      "tags": [
+        "browar",
+        "mikrobrowar",
+        "obejrzany sprzęt",
+        "degustacja poza odwiedzinami",
+        "Anglia"
+      ]
+    },
+    {
+      "name": "Y Mochyn Du",
+      "visited": "2026-11-15",
+      "location": {
+        "country": "gb",
+        "city": "Cardiff",
+        "address": "Sophia Cl, Pontcanna",
+        "coordinates": {
+          "lat": 51.485133101058985,
+          "lng": -3.191489045818454
+        }
+      },
+      "tags": [
+        "browar",
+        "browar restauracyjny",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "Walia"
+      ]
+    },
+    {
+      "name": "PIPES Brewery",
+      "visited": "2026-11-15",
+      "location": {
+        "country": "gb",
+        "city": "Cardiff",
+        "address": "183A Kings Rd, Pontcanna",
+        "coordinates": {
+          "lat": 51.485528995443495,
+          "lng": -3.19998344074749
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "obejrzany sprzęt",
+        "degustacja na miejscu",
+        "Walia"
+      ]
+    }
+  ]
+}

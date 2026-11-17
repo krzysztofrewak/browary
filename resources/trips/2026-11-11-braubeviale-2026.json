@@ -1,0 +1,25 @@
+{
+  "name": "BrauBeviale 2026",
+  "tags": [],
+  "breweries": [
+    {
+      "name": "Bruderherz",
+      "visited": "2026-11-11",
+      "location": {
+        "country": "de",
+        "city": "Nürnberg",
+        "address": "Luitpoldstraße 15",
+        "coordinates": {
+          "lat": 49.44799004601438,
+          "lng": 11.078714517060588
+        }
+      },
+      "tags": [
+        "browar",
+        "brewpub",
+        "obejrzany sprzęt",
+        "spróbowane na miejscu"
+      ]
+    }
+  ]
+}
